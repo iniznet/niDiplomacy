@@ -1,22 +1,17 @@
-# DIPLADO (DIPLomacy desperADO) 
+# niDiplomacy (niznet Diplomacy) 
 
-Yet another clone of the Diplomacy Mod for Mount and Blade - Warband.
+An Experiment to make the WRECK & modSys work in python 3 with diplomacy mod based on Diplado.
 
 ## SOURCE
 
 Forked from 
-[1.174 Updates](https://steamcommunity.com/workshop/filedetails/discussion/285119009/451850849180281143/).
-Note that the base version has not been released from the author yet (Somebody). 
+[Diplado](https://github.com/diegoami/Diplado).
 
 __There might be serious issues in this mod, so use at your own risk.__
 
 ## Installation
 
-As described [here](https://steamcommunity.com/sharedfiles/filedetails/?id=285119009), make a copy of Modules\Native and name it Diplado or as you wish. 
-
-Then download one of the latest release from **https://github.com/diegoami/Diplado/releases/** and extract it into said directory.
-
-**minimal** just contains fixes. **master** releases contain changes which do not break compatibility with future releases of 4.3+ Steam for 1.174, while **develop** releases contain features that might end up have incompatible saves with future releases of the base version **develop**, however, contains more features and life improvements.  I advise you choose a **develop** release.
+I don't recommend to install this mod if you don't know what you are doing. It is not stable and might cause serious issues in your game.
 
 ## KNOWN ISSUES
 
@@ -63,18 +58,14 @@ Also on the **development** branch
 
 Many to keep track of
 
-* the Diplomacy mod maintainers (Waihti, hessuu, fisheye, rubik, jrider, Mjollnir, Akmar Nibelung, Parsifal, Somebody) 
+* the Diplomacy mod maintainers (Waihti, hessuu, fisheye, rubik, jrider, Mjollnir, Akmar Nibelung, Parsifal, Somebody, diegoami) 
 * and other Taleworlds  forum users: Dj_FRedy, Jinnai, lazeras, Caba`dr, Glabrezu, Efe Karaca
 
 
 ## COMPILING
 
 1. Install a release from **https://github.com/diegoami/Diplado/releases/** as described above.
-2. Set up Python 2.7 
-* Edit `source/build_module_lav.bat` to point to the location of your Python 2
-* Execute `source/build_module_lav.bat`
+2. Set up Python 3.9
+* Edit `source/compile.bat` to point to the location of your Python 3 (Unless python 3 is your default python)
+* Execute `source/compile.bat`
 * Copy the full content of the directory into the Mod's module directorzy
-
-## LEGACY
-
-A stabler (and more boring) mod, with fewer features, can be found [here](https://github.com/diegoami/diplomacy-plus-for-warband/).
