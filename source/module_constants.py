@@ -2472,7 +2472,7 @@ DPLMC_NUM_PREFERENCE_OPTIONS = 12 #for prsnt_adv_diplomacy_preferences
         # to_key = from_key[:-len("_begin")]+"_end"
         # if not to_key in d:
             # if verbose:
-                # print "%s has no matching %s" % (from_key, to_key)
+                # print("%s has no matching %s" % (from_key, to_key))
             # continue
         # from_value = d[from_key]
         # to_value = d[to_key]
@@ -2481,7 +2481,7 @@ DPLMC_NUM_PREFERENCE_OPTIONS = 12 #for prsnt_adv_diplomacy_preferences
         # if not from_value <= to_value:
             # raise Exception("ERROR, condition %s <= %s failed [not true that %s <= %s]" % (from_key, to_key, str(from_value), str(to_value)))
         # elif verbose:
-            # print "%s <= %s [%s <= %s]" % (from_key, to_key, str(from_value), str(to_value))
+            # print("%s <= %s [%s <= %s]" % (from_key, to_key, str(from_value), str(to_value)))
 
 # #Automatically run this on module import, so errors are detected
 # #during building.

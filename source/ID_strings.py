@@ -1,3816 +1,2979 @@
-str_no_string = 0
-str_empty_string = 1
-str_yes = 2
-str_no = 3
-str_blank_string = 4
-str_error_string = 5
-str_noone = 6
-str_s0 = 7
-str_blank_s1 = 8
-str_reg1 = 9
-str_s50_comma_s51 = 10
-str_s50_and_s51 = 11
-str_s52_comma_s51 = 12
-str_s52_and_s51 = 13
-str_s5_s_party = 14
-str_given_by_s1_at_s2 = 15
-str_given_by_s1_in_wilderness = 16
-str_s7_raiders = 17
-str_bandits_eliminated_by_another = 18
-str_msg_battle_won = 19
-str_tutorial_map1 = 20
-str_change_color_1 = 21
-str_change_color_2 = 22
-str_change_background = 23
-str_change_flag_type = 24
-str_change_map_flag_type = 25
-str_randomize = 26
-str_sample_banner = 27
-str_sample_map_banner = 28
-str_number_of_charges = 29
-str_change_charge_1 = 30
-str_change_charge_1_color = 31
-str_change_charge_2 = 32
-str_change_charge_2_color = 33
-str_change_charge_3 = 34
-str_change_charge_3_color = 35
-str_change_charge_4 = 36
-str_change_charge_4_color = 37
-str_change_charge_position = 38
-str_choose_position = 39
-str_choose_charge = 40
-str_choose_background = 41
-str_choose_flag_type = 42
-str_choose_map_flag_type = 43
-str_choose_color = 44
-str_accept = 45
-str_charge_no_1 = 46
-str_charge_no_2 = 47
-str_charge_no_3 = 48
-str_charge_no_4 = 49
-str_change = 50
-str_color_no_1 = 51
-str_color_no_2 = 52
-str_charge = 53
-str_color = 54
-str_flip_horizontal = 55
-str_flip_vertical = 56
-str_hold_fire = 57
-str_blunt_hold_fire = 58
-str_tutorial_ammo_refilled = 59
-str_tutorial_failed = 60
-str_tutorial_1_msg_1 = 61
-str_tutorial_1_msg_2 = 62
-str_tutorial_1_msg_3 = 63
-str_tutorial_1_msg_4 = 64
-str_tutorial_1_msg_5 = 65
-str_tutorial_1_msg_6 = 66
-str_tutorial_2_msg_1 = 67
-str_tutorial_2_msg_2 = 68
-str_tutorial_2_msg_3 = 69
-str_tutorial_2_msg_4 = 70
-str_tutorial_2_msg_5 = 71
-str_tutorial_2_msg_6 = 72
-str_tutorial_2_msg_7 = 73
-str_tutorial_2_msg_8 = 74
-str_tutorial_2_msg_9 = 75
-str_tutorial_3_msg_1 = 76
-str_tutorial_3_msg_2 = 77
-str_tutorial_3_msg_3 = 78
-str_tutorial_3_msg_4 = 79
-str_tutorial_3_msg_5 = 80
-str_tutorial_3_msg_6 = 81
-str_tutorial_3_2_msg_1 = 82
-str_tutorial_3_2_msg_2 = 83
-str_tutorial_3_2_msg_3 = 84
-str_tutorial_3_2_msg_4 = 85
-str_tutorial_3_2_msg_5 = 86
-str_tutorial_4_msg_1 = 87
-str_tutorial_4_msg_2 = 88
-str_tutorial_4_msg_3 = 89
-str_tutorial_4_msg_4 = 90
-str_tutorial_4_msg_5 = 91
-str_tutorial_4_msg_6 = 92
-str_tutorial_4_msg_7 = 93
-str_tutorial_5_msg_1 = 94
-str_tutorial_5_msg_2 = 95
-str_tutorial_5_msg_3 = 96
-str_tutorial_5_msg_4 = 97
-str_tutorial_5_msg_5 = 98
-str_tutorial_5_msg_6 = 99
-str_trainer_help_1 = 100
-str_trainer_help_2 = 101
-str_custom_battle_1 = 102
-str_custom_battle_2 = 103
-str_custom_battle_3 = 104
-str_custom_battle_4 = 105
-str_custom_battle_5 = 106
-str_finished = 107
-str_delivered_damage = 108
-str_archery_target_hit = 109
-str_use_baggage_for_inventory = 110
-str_cant_use_inventory_now = 111
-str_cant_use_inventory_arena = 112
-str_cant_use_inventory_disguised = 113
-str_cant_use_inventory_tutorial = 114
-str_1_denar = 115
-str_reg1_denars = 116
-str_january_reg1_reg2 = 117
-str_february_reg1_reg2 = 118
-str_march_reg1_reg2 = 119
-str_april_reg1_reg2 = 120
-str_may_reg1_reg2 = 121
-str_june_reg1_reg2 = 122
-str_july_reg1_reg2 = 123
-str_august_reg1_reg2 = 124
-str_september_reg1_reg2 = 125
-str_october_reg1_reg2 = 126
-str_november_reg1_reg2 = 127
-str_december_reg1_reg2 = 128
-str_town_nighttime = 129
-str_door_locked = 130
-str_castle_is_abondened = 131
-str_town_is_abondened = 132
-str_place_is_occupied_by_player = 133
-str_place_is_occupied_by_enemy = 134
-str_place_is_occupied_by_friendly = 135
-str_do_you_want_to_retreat = 136
-str_give_up_fight = 137
-str_do_you_wish_to_leave_tutorial = 138
-str_do_you_wish_to_surrender = 139
-str_can_not_retreat = 140
-str_s1_joined_battle_enemy = 141
-str_s1_joined_battle_friend = 142
-str_entrance_to_town_forbidden = 143
-str_sneaking_to_town_impossible = 144
-str_battle_won = 145
-str_battle_lost = 146
-str_attack_walls_success = 147
-str_attack_walls_failure = 148
-str_attack_walls_continue = 149
-str_order_attack_success = 150
-str_order_attack_failure = 151
-str_order_attack_continue = 152
-str_join_order_attack_success = 153
-str_join_order_attack_failure = 154
-str_join_order_attack_continue = 155
-str_siege_defender_order_attack_success = 156
-str_siege_defender_order_attack_failure = 157
-str_siege_defender_order_attack_continue = 158
-str_hero_taken_prisoner = 159
-str_hero_freed = 160
-str_center_captured = 161
-str_troop_relation_increased = 162
-str_troop_relation_detoriated = 163
-str_faction_relation_increased = 164
-str_faction_relation_detoriated = 165
-str_party_gained_morale = 166
-str_party_lost_morale = 167
-str_other_party_gained_morale = 168
-str_other_party_lost_morale = 169
-str_qst_follow_spy_noticed_you = 170
-str_father = 171
-str_husband = 172
-str_wife = 173
-str_daughter = 174
-str_mother = 175
-str_son = 176
-str_brother = 177
-str_sister = 178
-str_he = 179
-str_she = 180
-str_s3s_s2 = 181
-str_s5_is_s51 = 182
-str_s5_is_the_ruler_of_s51 = 183
-str_s5_is_a_nobleman_of_s6 = 184
-str_relation_mnus_100 = 185
-str_relation_mnus_90 = 186
-str_relation_mnus_80 = 187
-str_relation_mnus_70 = 188
-str_relation_mnus_60 = 189
-str_relation_mnus_50 = 190
-str_relation_mnus_40 = 191
-str_relation_mnus_30 = 192
-str_relation_mnus_20 = 193
-str_relation_mnus_10 = 194
-str_relation_plus_0 = 195
-str_relation_plus_10 = 196
-str_relation_plus_20 = 197
-str_relation_plus_30 = 198
-str_relation_plus_40 = 199
-str_relation_plus_50 = 200
-str_relation_plus_60 = 201
-str_relation_plus_70 = 202
-str_relation_plus_80 = 203
-str_relation_plus_90 = 204
-str_relation_mnus_100_ns = 205
-str_relation_mnus_90_ns = 206
-str_relation_mnus_80_ns = 207
-str_relation_mnus_70_ns = 208
-str_relation_mnus_60_ns = 209
-str_relation_mnus_50_ns = 210
-str_relation_mnus_40_ns = 211
-str_relation_mnus_30_ns = 212
-str_relation_mnus_20_ns = 213
-str_relation_mnus_10_ns = 214
-str_relation_plus_0_ns = 215
-str_relation_plus_10_ns = 216
-str_relation_plus_20_ns = 217
-str_relation_plus_30_ns = 218
-str_relation_plus_40_ns = 219
-str_relation_plus_50_ns = 220
-str_relation_plus_60_ns = 221
-str_relation_plus_70_ns = 222
-str_relation_plus_80_ns = 223
-str_relation_plus_90_ns = 224
-str_relation_reg1 = 225
-str_center_relation_mnus_100 = 226
-str_center_relation_mnus_90 = 227
-str_center_relation_mnus_80 = 228
-str_center_relation_mnus_70 = 229
-str_center_relation_mnus_60 = 230
-str_center_relation_mnus_50 = 231
-str_center_relation_mnus_40 = 232
-str_center_relation_mnus_30 = 233
-str_center_relation_mnus_20 = 234
-str_center_relation_mnus_10 = 235
-str_center_relation_plus_0 = 236
-str_center_relation_plus_10 = 237
-str_center_relation_plus_20 = 238
-str_center_relation_plus_30 = 239
-str_center_relation_plus_40 = 240
-str_center_relation_plus_50 = 241
-str_center_relation_plus_60 = 242
-str_center_relation_plus_70 = 243
-str_center_relation_plus_80 = 244
-str_center_relation_plus_90 = 245
-str_town_prosperity_0 = 246
-str_town_prosperity_10 = 247
-str_town_prosperity_20 = 248
-str_town_prosperity_30 = 249
-str_town_prosperity_40 = 250
-str_town_prosperity_50 = 251
-str_town_prosperity_60 = 252
-str_town_prosperity_70 = 253
-str_town_prosperity_80 = 254
-str_town_prosperity_90 = 255
-str_town_prosperity_100 = 256
-str_village_prosperity_0 = 257
-str_village_prosperity_10 = 258
-str_village_prosperity_20 = 259
-str_village_prosperity_30 = 260
-str_village_prosperity_40 = 261
-str_village_prosperity_50 = 262
-str_village_prosperity_60 = 263
-str_village_prosperity_70 = 264
-str_village_prosperity_80 = 265
-str_village_prosperity_90 = 266
-str_village_prosperity_100 = 267
-str_town_alt_prosperity_0 = 268
-str_town_alt_prosperity_20 = 269
-str_town_alt_prosperity_40 = 270
-str_town_alt_prosperity_60 = 271
-str_town_alt_prosperity_80 = 272
-str_village_alt_prosperity_0 = 273
-str_village_alt_prosperity_20 = 274
-str_village_alt_prosperity_40 = 275
-str_village_alt_prosperity_60 = 276
-str_village_alt_prosperity_80 = 277
-str_oasis_village_alt_prosperity_0 = 278
-str_oasis_village_alt_prosperity_20 = 279
-str_oasis_village_alt_prosperity_40 = 280
-str_oasis_village_alt_prosperity_60 = 281
-str_oasis_village_alt_prosperity_80 = 282
-str_acres_grain = 283
-str_acres_orchard = 284
-str_acres_oasis = 285
-str_looms = 286
-str_boats = 287
-str_head_cattle = 288
-str_head_sheep = 289
-str_mills = 290
-str_kilns = 291
-str_pans = 292
-str_deposits = 293
-str_hives = 294
-str_breweries = 295
-str_presses = 296
-str_smithies = 297
-str_caravans = 298
-str_traps = 299
-str_gardens = 300
-str_tanneries = 301
-str_master_miller = 302
-str_master_brewer = 303
-str_master_presser = 304
-str_master_smith = 305
-str_master_tanner = 306
-str_master_weaver = 307
-str_master_dyer = 308
-str_war_report_minus_4 = 309
-str_war_report_minus_3 = 310
-str_war_report_minus_2 = 311
-str_war_report_minus_1 = 312
-str_war_report_0 = 313
-str_war_report_plus_1 = 314
-str_war_report_plus_2 = 315
-str_war_report_plus_3 = 316
-str_war_report_plus_4 = 317
-str_persuasion_summary_very_bad = 318
-str_persuasion_summary_bad = 319
-str_persuasion_summary_average = 320
-str_persuasion_summary_good = 321
-str_persuasion_summary_very_good = 322
-str_secret_sign_1 = 323
-str_secret_sign_2 = 324
-str_secret_sign_3 = 325
-str_secret_sign_4 = 326
-str_countersign_1 = 327
-str_countersign_2 = 328
-str_countersign_3 = 329
-str_countersign_4 = 330
-str_name_1 = 331
-str_name_2 = 332
-str_name_3 = 333
-str_name_4 = 334
-str_name_5 = 335
-str_name_6 = 336
-str_name_7 = 337
-str_name_8 = 338
-str_name_9 = 339
-str_name_10 = 340
-str_name_11 = 341
-str_name_12 = 342
-str_name_13 = 343
-str_name_14 = 344
-str_name_15 = 345
-str_name_16 = 346
-str_name_17 = 347
-str_name_18 = 348
-str_name_19 = 349
-str_name_20 = 350
-str_name_21 = 351
-str_name_22 = 352
-str_name_23 = 353
-str_name_24 = 354
-str_name_25 = 355
-str_surname_1 = 356
-str_surname_2 = 357
-str_surname_3 = 358
-str_surname_4 = 359
-str_surname_5 = 360
-str_surname_6 = 361
-str_surname_7 = 362
-str_surname_8 = 363
-str_surname_9 = 364
-str_surname_10 = 365
-str_surname_11 = 366
-str_surname_12 = 367
-str_surname_13 = 368
-str_surname_14 = 369
-str_surname_15 = 370
-str_surname_16 = 371
-str_surname_17 = 372
-str_surname_18 = 373
-str_surname_19 = 374
-str_surname_20 = 375
-str_surname_21 = 376
-str_surname_22 = 377
-str_surname_23 = 378
-str_surname_24 = 379
-str_surname_25 = 380
-str_surname_26 = 381
-str_surname_27 = 382
-str_surname_28 = 383
-str_surname_29 = 384
-str_surname_30 = 385
-str_surname_31 = 386
-str_surname_32 = 387
-str_surname_33 = 388
-str_surname_34 = 389
-str_surname_35 = 390
-str_surname_36 = 391
-str_surname_37 = 392
-str_surname_38 = 393
-str_surname_39 = 394
-str_surname_40 = 395
-str_surname_41 = 396
-str_surnames_end = 397
-str_number_of_troops_killed_reg1 = 398
-str_number_of_troops_wounded_reg1 = 399
-str_number_of_own_troops_killed_reg1 = 400
-str_number_of_own_troops_wounded_reg1 = 401
-str_retreat = 402
-str_siege_continues = 403
-str_casualty_display = 404
-str_casualty_display_hp = 405
-str_quest_log_updated = 406
-str_banner_selection_text = 407
-str_retirement_text_1 = 408
-str_retirement_text_2 = 409
-str_retirement_text_3 = 410
-str_retirement_text_4 = 411
-str_retirement_text_5 = 412
-str_retirement_text_6 = 413
-str_retirement_text_7 = 414
-str_retirement_text_8 = 415
-str_retirement_text_9 = 416
-str_retirement_text_10 = 417
-str_loot_village = 418
-str_steal_from_villagers = 419
-str_rob_caravan = 420
-str_sell_slavery = 421
-str_men_hungry = 422
-str_men_unpaid = 423
-str_excessive_casualties = 424
-str_surrender = 425
-str_flee_battle = 426
-str_pay_bandits = 427
-str_fail_quest = 428
-str_squander_money = 429
-str_murder_merchant = 430
-str_round_up_serfs = 431
-str_battle_fate_1 = 432
-str_battle_fate_2 = 433
-str_battle_fate_3 = 434
-str_battle_fate_4 = 435
-str_battle_fate_5 = 436
-str_npc_morale_report = 437
-str_happy = 438
-str_content = 439
-str_concerned = 440
-str_not_happy = 441
-str_miserable = 442
-str_morale_reg1 = 443
-str_bar_enthusiastic = 444
-str_bar_content = 445
-str_bar_weary = 446
-str_bar_disgruntled = 447
-str_bar_miserable = 448
-str_here_plus_space = 449
-str_npc1_intro = 450
-str_npc2_intro = 451
-str_npc3_intro = 452
-str_npc4_intro = 453
-str_npc5_intro = 454
-str_npc6_intro = 455
-str_npc7_intro = 456
-str_npc8_intro = 457
-str_npc9_intro = 458
-str_npc10_intro = 459
-str_npc11_intro = 460
-str_npc12_intro = 461
-str_npc13_intro = 462
-str_npc14_intro = 463
-str_npc15_intro = 464
-str_npc16_intro = 465
-str_npc1_intro_response_1 = 466
-str_npc2_intro_response_1 = 467
-str_npc3_intro_response_1 = 468
-str_npc4_intro_response_1 = 469
-str_npc5_intro_response_1 = 470
-str_npc6_intro_response_1 = 471
-str_npc7_intro_response_1 = 472
-str_npc8_intro_response_1 = 473
-str_npc9_intro_response_1 = 474
-str_npc10_intro_response_1 = 475
-str_npc11_intro_response_1 = 476
-str_npc12_intro_response_1 = 477
-str_npc13_intro_response_1 = 478
-str_npc14_intro_response_1 = 479
-str_npc15_intro_response_1 = 480
-str_npc16_intro_response_1 = 481
-str_npc1_intro_response_2 = 482
-str_npc2_intro_response_2 = 483
-str_npc3_intro_response_2 = 484
-str_npc4_intro_response_2 = 485
-str_npc5_intro_response_2 = 486
-str_npc6_intro_response_2 = 487
-str_npc7_intro_response_2 = 488
-str_npc8_intro_response_2 = 489
-str_npc9_intro_response_2 = 490
-str_npc10_intro_response_2 = 491
-str_npc11_intro_response_2 = 492
-str_npc12_intro_response_2 = 493
-str_npc13_intro_response_2 = 494
-str_npc14_intro_response_2 = 495
-str_npc15_intro_response_2 = 496
-str_npc16_intro_response_2 = 497
-str_npc1_backstory_a = 498
-str_npc2_backstory_a = 499
-str_npc3_backstory_a = 500
-str_npc4_backstory_a = 501
-str_npc5_backstory_a = 502
-str_npc6_backstory_a = 503
-str_npc7_backstory_a = 504
-str_npc8_backstory_a = 505
-str_npc9_backstory_a = 506
-str_npc10_backstory_a = 507
-str_npc11_backstory_a = 508
-str_npc12_backstory_a = 509
-str_npc13_backstory_a = 510
-str_npc14_backstory_a = 511
-str_npc15_backstory_a = 512
-str_npc16_backstory_a = 513
-str_npc1_backstory_b = 514
-str_npc2_backstory_b = 515
-str_npc3_backstory_b = 516
-str_npc4_backstory_b = 517
-str_npc5_backstory_b = 518
-str_npc6_backstory_b = 519
-str_npc7_backstory_b = 520
-str_npc8_backstory_b = 521
-str_npc9_backstory_b = 522
-str_npc10_backstory_b = 523
-str_npc11_backstory_b = 524
-str_npc12_backstory_b = 525
-str_npc13_backstory_b = 526
-str_npc14_backstory_b = 527
-str_npc15_backstory_b = 528
-str_npc16_backstory_b = 529
-str_npc1_backstory_c = 530
-str_npc2_backstory_c = 531
-str_npc3_backstory_c = 532
-str_npc4_backstory_c = 533
-str_npc5_backstory_c = 534
-str_npc6_backstory_c = 535
-str_npc7_backstory_c = 536
-str_npc8_backstory_c = 537
-str_npc9_backstory_c = 538
-str_npc10_backstory_c = 539
-str_npc11_backstory_c = 540
-str_npc12_backstory_c = 541
-str_npc13_backstory_c = 542
-str_npc14_backstory_c = 543
-str_npc15_backstory_c = 544
-str_npc16_backstory_c = 545
-str_npc1_backstory_later = 546
-str_npc2_backstory_later = 547
-str_npc3_backstory_later = 548
-str_npc4_backstory_later = 549
-str_npc5_backstory_later = 550
-str_npc6_backstory_later = 551
-str_npc7_backstory_later = 552
-str_npc8_backstory_later = 553
-str_npc9_backstory_later = 554
-str_npc10_backstory_later = 555
-str_npc11_backstory_later = 556
-str_npc12_backstory_later = 557
-str_npc13_backstory_later = 558
-str_npc14_backstory_later = 559
-str_npc15_backstory_later = 560
-str_npc16_backstory_later = 561
-str_npc1_backstory_response_1 = 562
-str_npc2_backstory_response_1 = 563
-str_npc3_backstory_response_1 = 564
-str_npc4_backstory_response_1 = 565
-str_npc5_backstory_response_1 = 566
-str_npc6_backstory_response_1 = 567
-str_npc7_backstory_response_1 = 568
-str_npc8_backstory_response_1 = 569
-str_npc9_backstory_response_1 = 570
-str_npc10_backstory_response_1 = 571
-str_npc11_backstory_response_1 = 572
-str_npc12_backstory_response_1 = 573
-str_npc13_backstory_response_1 = 574
-str_npc14_backstory_response_1 = 575
-str_npc15_backstory_response_1 = 576
-str_npc16_backstory_response_1 = 577
-str_npc1_backstory_response_2 = 578
-str_npc2_backstory_response_2 = 579
-str_npc3_backstory_response_2 = 580
-str_npc4_backstory_response_2 = 581
-str_npc5_backstory_response_2 = 582
-str_npc6_backstory_response_2 = 583
-str_npc7_backstory_response_2 = 584
-str_npc8_backstory_response_2 = 585
-str_npc9_backstory_response_2 = 586
-str_npc10_backstory_response_2 = 587
-str_npc11_backstory_response_2 = 588
-str_npc12_backstory_response_2 = 589
-str_npc13_backstory_response_2 = 590
-str_npc14_backstory_response_2 = 591
-str_npc15_backstory_response_2 = 592
-str_npc16_backstory_response_2 = 593
-str_npc1_signup = 594
-str_npc2_signup = 595
-str_npc3_signup = 596
-str_npc4_signup = 597
-str_npc5_signup = 598
-str_npc6_signup = 599
-str_npc7_signup = 600
-str_npc8_signup = 601
-str_npc9_signup = 602
-str_npc10_signup = 603
-str_npc11_signup = 604
-str_npc12_signup = 605
-str_npc13_signup = 606
-str_npc14_signup = 607
-str_npc15_signup = 608
-str_npc16_signup = 609
-str_npc1_signup_2 = 610
-str_npc2_signup_2 = 611
-str_npc3_signup_2 = 612
-str_npc4_signup_2 = 613
-str_npc5_signup_2 = 614
-str_npc6_signup_2 = 615
-str_npc7_signup_2 = 616
-str_npc8_signup_2 = 617
-str_npc9_signup_2 = 618
-str_npc10_signup_2 = 619
-str_npc11_signup_2 = 620
-str_npc12_signup_2 = 621
-str_npc13_signup_2 = 622
-str_npc14_signup_2 = 623
-str_npc15_signup_2 = 624
-str_npc16_signup_2 = 625
-str_npc1_signup_response_1 = 626
-str_npc2_signup_response_1 = 627
-str_npc3_signup_response_1 = 628
-str_npc4_signup_response_1 = 629
-str_npc5_signup_response_1 = 630
-str_npc6_signup_response_1 = 631
-str_npc7_signup_response_1 = 632
-str_npc8_signup_response_1 = 633
-str_npc9_signup_response_1 = 634
-str_npc10_signup_response_1 = 635
-str_npc11_signup_response_1 = 636
-str_npc12_signup_response_1 = 637
-str_npc13_signup_response_1 = 638
-str_npc14_signup_response_1 = 639
-str_npc15_signup_response_1 = 640
-str_npc16_signup_response_1 = 641
-str_npc1_signup_response_2 = 642
-str_npc2_signup_response_2 = 643
-str_npc3_signup_response_2 = 644
-str_npc4_signup_response_2 = 645
-str_npc5_signup_response_2 = 646
-str_npc6_signup_response_2 = 647
-str_npc7_signup_response_2 = 648
-str_npc8_signup_response_2 = 649
-str_npc9_signup_response_2 = 650
-str_npc10_signup_response_2 = 651
-str_npc11_signup_response_2 = 652
-str_npc12_signup_response_2 = 653
-str_npc13_signup_response_2 = 654
-str_npc14_signup_response_2 = 655
-str_npc15_signup_response_2 = 656
-str_npc16_signup_response_2 = 657
-str_npc1_payment = 658
-str_npc2_payment = 659
-str_npc3_payment = 660
-str_npc4_payment = 661
-str_npc5_payment = 662
-str_npc6_payment = 663
-str_npc7_payment = 664
-str_npc8_payment = 665
-str_npc9_payment = 666
-str_npc10_payment = 667
-str_npc11_payment = 668
-str_npc12_payment = 669
-str_npc13_payment = 670
-str_npc14_payment = 671
-str_npc15_payment = 672
-str_npc16_payment = 673
-str_npc1_payment_response = 674
-str_npc2_payment_response = 675
-str_npc3_payment_response = 676
-str_npc4_payment_response = 677
-str_npc5_payment_response = 678
-str_npc6_payment_response = 679
-str_npc7_payment_response = 680
-str_npc8_payment_response = 681
-str_npc9_payment_response = 682
-str_npc10_payment_response = 683
-str_npc11_payment_response = 684
-str_npc12_payment_response = 685
-str_npc13_payment_response = 686
-str_npc14_payment_response = 687
-str_npc15_payment_response = 688
-str_npc16_payment_response = 689
-str_npc1_morality_speech = 690
-str_npc2_morality_speech = 691
-str_npc3_morality_speech = 692
-str_npc4_morality_speech = 693
-str_npc5_morality_speech = 694
-str_npc6_morality_speech = 695
-str_npc7_morality_speech = 696
-str_npc8_morality_speech = 697
-str_npc9_morality_speech = 698
-str_npc10_morality_speech = 699
-str_npc11_morality_speech = 700
-str_npc12_morality_speech = 701
-str_npc13_morality_speech = 702
-str_npc14_morality_speech = 703
-str_npc15_morality_speech = 704
-str_npc16_morality_speech = 705
-str_npc1_2ary_morality_speech = 706
-str_npc2_2ary_morality_speech = 707
-str_npc3_2ary_morality_speech = 708
-str_npc4_2ary_morality_speech = 709
-str_npc5_2ary_morality_speech = 710
-str_npc6_2ary_morality_speech = 711
-str_npc7_2ary_morality_speech = 712
-str_npc8_2ary_morality_speech = 713
-str_npc9_2ary_morality_speech = 714
-str_npc10_2ary_morality_speech = 715
-str_npc11_2ary_morality_speech = 716
-str_npc12_2ary_morality_speech = 717
-str_npc13_2ary_morality_speech = 718
-str_npc14_2ary_morality_speech = 719
-str_npc15_2ary_morality_speech = 720
-str_npc16_2ary_morality_speech = 721
-str_npc1_personalityclash_speech = 722
-str_npc2_personalityclash_speech = 723
-str_npc3_personalityclash_speech = 724
-str_npc4_personalityclash_speech = 725
-str_npc5_personalityclash_speech = 726
-str_npc6_personalityclash_speech = 727
-str_npc7_personalityclash_speech = 728
-str_npc8_personalityclash_speech = 729
-str_npc9_personalityclash_speech = 730
-str_npc10_personalityclash_speech = 731
-str_npc11_personalityclash_speech = 732
-str_npc12_personalityclash_speech = 733
-str_npc13_personalityclash_speech = 734
-str_npc14_personalityclash_speech = 735
-str_npc15_personalityclash_speech = 736
-str_npc16_personalityclash_speech = 737
-str_npc1_personalityclash_speech_b = 738
-str_npc2_personalityclash_speech_b = 739
-str_npc3_personalityclash_speech_b = 740
-str_npc4_personalityclash_speech_b = 741
-str_npc5_personalityclash_speech_b = 742
-str_npc6_personalityclash_speech_b = 743
-str_npc7_personalityclash_speech_b = 744
-str_npc8_personalityclash_speech_b = 745
-str_npc9_personalityclash_speech_b = 746
-str_npc10_personalityclash_speech_b = 747
-str_npc11_personalityclash_speech_b = 748
-str_npc12_personalityclash_speech_b = 749
-str_npc13_personalityclash_speech_b = 750
-str_npc14_personalityclash_speech_b = 751
-str_npc15_personalityclash_speech_b = 752
-str_npc16_personalityclash_speech_b = 753
-str_npc1_personalityclash2_speech = 754
-str_npc2_personalityclash2_speech = 755
-str_npc3_personalityclash2_speech = 756
-str_npc4_personalityclash2_speech = 757
-str_npc5_personalityclash2_speech = 758
-str_npc6_personalityclash2_speech = 759
-str_npc7_personalityclash2_speech = 760
-str_npc8_personalityclash2_speech = 761
-str_npc9_personalityclash2_speech = 762
-str_npc10_personalityclash2_speech = 763
-str_npc11_personalityclash2_speech = 764
-str_npc12_personalityclash2_speech = 765
-str_npc13_personalityclash2_speech = 766
-str_npc14_personalityclash2_speech = 767
-str_npc15_personalityclash2_speech = 768
-str_npc16_personalityclash2_speech = 769
-str_npc1_personalityclash2_speech_b = 770
-str_npc2_personalityclash2_speech_b = 771
-str_npc3_personalityclash2_speech_b = 772
-str_npc4_personalityclash2_speech_b = 773
-str_npc5_personalityclash2_speech_b = 774
-str_npc6_personalityclash2_speech_b = 775
-str_npc7_personalityclash2_speech_b = 776
-str_npc8_personalityclash2_speech_b = 777
-str_npc9_personalityclash2_speech_b = 778
-str_npc10_personalityclash2_speech_b = 779
-str_npc11_personalityclash2_speech_b = 780
-str_npc12_personalityclash2_speech_b = 781
-str_npc13_personalityclash2_speech_b = 782
-str_npc14_personalityclash2_speech_b = 783
-str_npc15_personalityclash2_speech_b = 784
-str_npc16_personalityclash2_speech_b = 785
-str_npc1_personalitymatch_speech = 786
-str_npc2_personalitymatch_speech = 787
-str_npc3_personalitymatch_speech = 788
-str_npc4_personalitymatch_speech = 789
-str_npc5_personalitymatch_speech = 790
-str_npc6_personalitymatch_speech = 791
-str_npc7_personalitymatch_speech = 792
-str_npc8_personalitymatch_speech = 793
-str_npc9_personalitymatch_speech = 794
-str_npc10_personalitymatch_speech = 795
-str_npc11_personalitymatch_speech = 796
-str_npc12_personalitymatch_speech = 797
-str_npc13_personalitymatch_speech = 798
-str_npc14_personalitymatch_speech = 799
-str_npc15_personalitymatch_speech = 800
-str_npc16_personalitymatch_speech = 801
-str_npc1_personalitymatch_speech_b = 802
-str_npc2_personalitymatch_speech_b = 803
-str_npc3_personalitymatch_speech_b = 804
-str_npc4_personalitymatch_speech_b = 805
-str_npc5_personalitymatch_speech_b = 806
-str_npc6_personalitymatch_speech_b = 807
-str_npc7_personalitymatch_speech_b = 808
-str_npc8_personalitymatch_speech_b = 809
-str_npc9_personalitymatch_speech_b = 810
-str_npc10_personalitymatch_speech_b = 811
-str_npc11_personalitymatch_speech_b = 812
-str_npc12_personalitymatch_speech_b = 813
-str_npc13_personalitymatch_speech_b = 814
-str_npc14_personalitymatch_speech_b = 815
-str_npc15_personalitymatch_speech_b = 816
-str_npc16_personalitymatch_speech_b = 817
-str_npc1_retirement_speech = 818
-str_npc2_retirement_speech = 819
-str_npc3_retirement_speech = 820
-str_npc4_retirement_speech = 821
-str_npc5_retirement_speech = 822
-str_npc6_retirement_speech = 823
-str_npc7_retirement_speech = 824
-str_npc8_retirement_speech = 825
-str_npc9_retirement_speech = 826
-str_npc10_retirement_speech = 827
-str_npc11_retirement_speech = 828
-str_npc12_retirement_speech = 829
-str_npc13_retirement_speech = 830
-str_npc14_retirement_speech = 831
-str_npc15_retirement_speech = 832
-str_npc16_retirement_speech = 833
-str_npc1_rehire_speech = 834
-str_npc2_rehire_speech = 835
-str_npc3_rehire_speech = 836
-str_npc4_rehire_speech = 837
-str_npc5_rehire_speech = 838
-str_npc6_rehire_speech = 839
-str_npc7_rehire_speech = 840
-str_npc8_rehire_speech = 841
-str_npc9_rehire_speech = 842
-str_npc10_rehire_speech = 843
-str_npc11_rehire_speech = 844
-str_npc12_rehire_speech = 845
-str_npc13_rehire_speech = 846
-str_npc14_rehire_speech = 847
-str_npc15_rehire_speech = 848
-str_npc16_rehire_speech = 849
-str_npc1_home_intro = 850
-str_npc2_home_intro = 851
-str_npc3_home_intro = 852
-str_npc4_home_intro = 853
-str_npc5_home_intro = 854
-str_npc6_home_intro = 855
-str_npc7_home_intro = 856
-str_npc8_home_intro = 857
-str_npc9_home_intro = 858
-str_npc10_home_intro = 859
-str_npc11_home_intro = 860
-str_npc12_home_intro = 861
-str_npc13_home_intro = 862
-str_npc14_home_intro = 863
-str_npc15_home_intro = 864
-str_npc16_home_intro = 865
-str_npc1_home_description = 866
-str_npc2_home_description = 867
-str_npc3_home_description = 868
-str_npc4_home_description = 869
-str_npc5_home_description = 870
-str_npc6_home_description = 871
-str_npc7_home_description = 872
-str_npc8_home_description = 873
-str_npc9_home_description = 874
-str_npc10_home_description = 875
-str_npc11_home_description = 876
-str_npc12_home_description = 877
-str_npc13_home_description = 878
-str_npc14_home_description = 879
-str_npc15_home_description = 880
-str_npc16_home_description = 881
-str_npc1_home_description_2 = 882
-str_npc2_home_description_2 = 883
-str_npc3_home_description_2 = 884
-str_npc4_home_description_2 = 885
-str_npc5_home_description_2 = 886
-str_npc6_home_description_2 = 887
-str_npc7_home_description_2 = 888
-str_npc8_home_description_2 = 889
-str_npc9_home_description_2 = 890
-str_npc10_home_description_2 = 891
-str_npc11_home_description_2 = 892
-str_npc12_home_description_2 = 893
-str_npc13_home_description_2 = 894
-str_npc14_home_description_2 = 895
-str_npc15_home_description_2 = 896
-str_npc16_home_description_2 = 897
-str_npc1_home_recap = 898
-str_npc2_home_recap = 899
-str_npc3_home_recap = 900
-str_npc4_home_recap = 901
-str_npc5_home_recap = 902
-str_npc6_home_recap = 903
-str_npc7_home_recap = 904
-str_npc8_home_recap = 905
-str_npc9_home_recap = 906
-str_npc10_home_recap = 907
-str_npc11_home_recap = 908
-str_npc12_home_recap = 909
-str_npc13_home_recap = 910
-str_npc14_home_recap = 911
-str_npc15_home_recap = 912
-str_npc16_home_recap = 913
-str_npc1_honorific = 914
-str_npc2_honorific = 915
-str_npc3_honorific = 916
-str_npc4_honorific = 917
-str_npc5_honorific = 918
-str_npc6_honorific = 919
-str_npc7_honorific = 920
-str_npc8_honorific = 921
-str_npc9_honorific = 922
-str_npc10_honorific = 923
-str_npc11_honorific = 924
-str_npc12_honorific = 925
-str_npc13_honorific = 926
-str_npc14_honorific = 927
-str_npc15_honorific = 928
-str_npc16_honorific = 929
-str_npc1_kingsupport_1 = 930
-str_npc2_kingsupport_1 = 931
-str_npc3_kingsupport_1 = 932
-str_npc4_kingsupport_1 = 933
-str_npc5_kingsupport_1 = 934
-str_npc6_kingsupport_1 = 935
-str_npc7_kingsupport_1 = 936
-str_npc8_kingsupport_1 = 937
-str_npc9_kingsupport_1 = 938
-str_npc10_kingsupport_1 = 939
-str_npc11_kingsupport_1 = 940
-str_npc12_kingsupport_1 = 941
-str_npc13_kingsupport_1 = 942
-str_npc14_kingsupport_1 = 943
-str_npc15_kingsupport_1 = 944
-str_npc16_kingsupport_1 = 945
-str_npc1_kingsupport_2 = 946
-str_npc2_kingsupport_2 = 947
-str_npc3_kingsupport_2 = 948
-str_npc4_kingsupport_2 = 949
-str_npc5_kingsupport_2 = 950
-str_npc6_kingsupport_2 = 951
-str_npc7_kingsupport_2 = 952
-str_npc8_kingsupport_2 = 953
-str_npc9_kingsupport_2 = 954
-str_npc10_kingsupport_2 = 955
-str_npc11_kingsupport_2 = 956
-str_npc12_kingsupport_2 = 957
-str_npc13_kingsupport_2 = 958
-str_npc14_kingsupport_2 = 959
-str_npc15_kingsupport_2 = 960
-str_npc16_kingsupport_2 = 961
-str_npc1_kingsupport_2a = 962
-str_npc2_kingsupport_2a = 963
-str_npc3_kingsupport_2a = 964
-str_npc4_kingsupport_2a = 965
-str_npc5_kingsupport_2a = 966
-str_npc6_kingsupport_2a = 967
-str_npc7_kingsupport_2a = 968
-str_npc8_kingsupport_2a = 969
-str_npc9_kingsupport_2a = 970
-str_npc10_kingsupport_2a = 971
-str_npc11_kingsupport_2a = 972
-str_npc12_kingsupport_2a = 973
-str_npc13_kingsupport_2a = 974
-str_npc14_kingsupport_2a = 975
-str_npc15_kingsupport_2a = 976
-str_npc16_kingsupport_2a = 977
-str_npc1_kingsupport_2b = 978
-str_npc2_kingsupport_2b = 979
-str_npc3_kingsupport_2b = 980
-str_npc4_kingsupport_2b = 981
-str_npc5_kingsupport_2b = 982
-str_npc6_kingsupport_2b = 983
-str_npc7_kingsupport_2b = 984
-str_npc8_kingsupport_2b = 985
-str_npc9_kingsupport_2b = 986
-str_npc10_kingsupport_2b = 987
-str_npc11_kingsupport_2b = 988
-str_npc12_kingsupport_2b = 989
-str_npc13_kingsupport_2b = 990
-str_npc14_kingsupport_2b = 991
-str_npc15_kingsupport_2b = 992
-str_npc16_kingsupport_2b = 993
-str_npc1_kingsupport_3 = 994
-str_npc2_kingsupport_3 = 995
-str_npc3_kingsupport_3 = 996
-str_npc4_kingsupport_3 = 997
-str_npc5_kingsupport_3 = 998
-str_npc6_kingsupport_3 = 999
-str_npc7_kingsupport_3 = 1000
-str_npc8_kingsupport_3 = 1001
-str_npc9_kingsupport_3 = 1002
-str_npc10_kingsupport_3 = 1003
-str_npc11_kingsupport_3 = 1004
-str_npc12_kingsupport_3 = 1005
-str_npc13_kingsupport_3 = 1006
-str_npc14_kingsupport_3 = 1007
-str_npc15_kingsupport_3 = 1008
-str_npc16_kingsupport_3 = 1009
-str_npc1_kingsupport_objection = 1010
-str_npc2_kingsupport_objection = 1011
-str_npc3_kingsupport_objection = 1012
-str_npc4_kingsupport_objection = 1013
-str_npc5_kingsupport_objection = 1014
-str_npc6_kingsupport_objection = 1015
-str_npc7_kingsupport_objection = 1016
-str_npc8_kingsupport_objection = 1017
-str_npc9_kingsupport_objection = 1018
-str_npc10_kingsupport_objection = 1019
-str_npc11_kingsupport_objection = 1020
-str_npc12_kingsupport_objection = 1021
-str_npc13_kingsupport_objection = 1022
-str_npc14_kingsupport_objection = 1023
-str_npc15_kingsupport_objection = 1024
-str_npc16_kingsupport_objection = 1025
-str_npc1_intel_mission = 1026
-str_npc2_intel_mission = 1027
-str_npc3_intel_mission = 1028
-str_npc4_intel_mission = 1029
-str_npc5_intel_mission = 1030
-str_npc6_intel_mission = 1031
-str_npc7_intel_mission = 1032
-str_npc8_intel_mission = 1033
-str_npc9_intel_mission = 1034
-str_npc10_intel_mission = 1035
-str_npc11_intel_mission = 1036
-str_npc12_intel_mission = 1037
-str_npc13_intel_mission = 1038
-str_npc14_intel_mission = 1039
-str_npc15_intel_mission = 1040
-str_npc16_intel_mission = 1041
-str_npc1_fief_acceptance = 1042
-str_npc2_fief_acceptance = 1043
-str_npc3_fief_acceptance = 1044
-str_npc4_fief_acceptance = 1045
-str_npc5_fief_acceptance = 1046
-str_npc6_fief_acceptance = 1047
-str_npc7_fief_acceptance = 1048
-str_npc8_fief_acceptance = 1049
-str_npc9_fief_acceptance = 1050
-str_npc10_fief_acceptance = 1051
-str_npc11_fief_acceptance = 1052
-str_npc12_fief_acceptance = 1053
-str_npc13_fief_acceptance = 1054
-str_npc14_fief_acceptance = 1055
-str_npc15_fief_acceptance = 1056
-str_npc16_fief_acceptance = 1057
-str_npc1_woman_to_woman = 1058
-str_npc2_woman_to_woman = 1059
-str_npc3_woman_to_woman = 1060
-str_npc4_woman_to_woman = 1061
-str_npc5_woman_to_woman = 1062
-str_npc6_woman_to_woman = 1063
-str_npc7_woman_to_woman = 1064
-str_npc8_woman_to_woman = 1065
-str_npc9_woman_to_woman = 1066
-str_npc10_woman_to_woman = 1067
-str_npc11_woman_to_woman = 1068
-str_npc12_woman_to_woman = 1069
-str_npc13_woman_to_woman = 1070
-str_npc14_woman_to_woman = 1071
-str_npc15_woman_to_woman = 1072
-str_npc16_woman_to_woman = 1073
-str_npc1_turn_against = 1074
-str_npc2_turn_against = 1075
-str_npc3_turn_against = 1076
-str_npc4_turn_against = 1077
-str_npc5_turn_against = 1078
-str_npc6_turn_against = 1079
-str_npc7_turn_against = 1080
-str_npc8_turn_against = 1081
-str_npc9_turn_against = 1082
-str_npc10_turn_against = 1083
-str_npc11_turn_against = 1084
-str_npc12_turn_against = 1085
-str_npc13_turn_against = 1086
-str_npc14_turn_against = 1087
-str_npc15_turn_against = 1088
-str_npc16_turn_against = 1089
-str_comment_intro_liege_affiliated = 1090
-str_comment_intro_famous_liege = 1091
-str_comment_intro_famous_martial = 1092
-str_comment_intro_famous_badtempered = 1093
-str_comment_intro_famous_pitiless = 1094
-str_comment_intro_famous_cunning = 1095
-str_comment_intro_famous_sadistic = 1096
-str_comment_intro_famous_goodnatured = 1097
-str_comment_intro_famous_upstanding = 1098
-str_comment_intro_noble_liege = 1099
-str_comment_intro_noble_martial = 1100
-str_comment_intro_noble_badtempered = 1101
-str_comment_intro_noble_pitiless = 1102
-str_comment_intro_noble_cunning = 1103
-str_comment_intro_noble_sadistic = 1104
-str_comment_intro_noble_goodnatured = 1105
-str_comment_intro_noble_upstanding = 1106
-str_comment_intro_common_liege = 1107
-str_comment_intro_common_martial = 1108
-str_comment_intro_common_badtempered = 1109
-str_comment_intro_common_pitiless = 1110
-str_comment_intro_common_cunning = 1111
-str_comment_intro_common_sadistic = 1112
-str_comment_intro_common_goodnatured = 1113
-str_comment_intro_common_upstanding = 1114
-str_comment_intro_female_famous_liege = 1115
-str_comment_intro_female_famous_martial = 1116
-str_comment_intro_female_famous_badtempered = 1117
-str_comment_intro_female_famous_pitiless = 1118
-str_comment_intro_female_famous_cunning = 1119
-str_comment_intro_female_famous_sadistic = 1120
-str_comment_intro_female_famous_goodnatured = 1121
-str_comment_intro_female_famous_upstanding = 1122
-str_comment_intro_female_noble_liege = 1123
-str_comment_intro_female_noble_martial = 1124
-str_comment_intro_female_noble_badtempered = 1125
-str_comment_intro_female_noble_pitiless = 1126
-str_comment_intro_female_noble_cunning = 1127
-str_comment_intro_female_noble_sadistic = 1128
-str_comment_intro_female_noble_goodnatured = 1129
-str_comment_intro_female_noble_upstanding = 1130
-str_comment_intro_female_admiring_liege = 1131
-str_comment_intro_female_admiring_martial = 1132
-str_comment_intro_female_badtempered_admiring = 1133
-str_comment_intro_female_pitiless_admiring = 1134
-str_comment_intro_female_cunning_admiring = 1135
-str_comment_intro_female_sadistic_admiring = 1136
-str_comment_intro_female_admiring_goodnatured = 1137
-str_comment_intro_female_admiring_upstanding = 1138
-str_comment_intro_female_common_liege = 1139
-str_comment_intro_female_common_martial = 1140
-str_comment_intro_female_common_badtempered = 1141
-str_comment_intro_female_common_pitiless = 1142
-str_comment_intro_female_common_cunning = 1143
-str_comment_intro_female_common_sadistic = 1144
-str_comment_intro_female_common_goodnatured = 1145
-str_comment_intro_female_common_upstanding = 1146
-str_rejoinder_intro_female_common_badtempered = 1147
-str_rejoinder_intro_female_noble_sadistic = 1148
-str_rejoinder_intro_female_common_sadistic = 1149
-str_rejoinder_intro_female_noble_pitiless = 1150
-str_rejoinder_intro_female_common_pitiless = 1151
-str_rejoinder_intro_noble_sadistic = 1152
-str_rejoinder_intro_female_pitiless_admiring = 1153
-str_rejoinder_intro_female_common_upstanding = 1154
-str_rejoinder_intro_female_noble_upstanding = 1155
-str_rejoinder_intro_female_common_martial = 1156
-str_rejoinder_intro_female_sadistic_admiring = 1157
-str_rejoinder_intro_female_badtempered_admiring = 1158
-str_comment_you_raided_my_village_enemy_benevolent = 1159
-str_comment_you_raided_my_village_enemy_spiteful = 1160
-str_comment_you_raided_my_village_enemy_coldblooded = 1161
-str_comment_you_raided_my_village_enemy = 1162
-str_comment_you_raided_my_village_unfriendly_spiteful = 1163
-str_comment_you_raided_my_village_friendly = 1164
-str_comment_you_raided_my_village_default = 1165
-str_comment_you_stole_cattles_from_my_village_enemy_benevolent = 1166
-str_comment_you_stole_cattles_from_my_village_enemy_spiteful = 1167
-str_comment_you_stole_cattles_from_my_village_enemy_coldblooded = 1168
-str_comment_you_stole_cattles_from_my_village_enemy = 1169
-str_comment_you_stole_cattles_from_my_village_unfriendly_spiteful = 1170
-str_comment_you_stole_cattles_from_my_village_friendly = 1171
-str_comment_you_stole_cattles_from_my_village_default = 1172
-str_comment_you_robbed_my_village_enemy_coldblooded = 1173
-str_comment_you_robbed_my_village_enemy = 1174
-str_comment_you_robbed_my_village_friendly_spiteful = 1175
-str_comment_you_robbed_my_village_friendly = 1176
-str_comment_you_robbed_my_village_default = 1177
-str_comment_you_accosted_my_caravan_enemy = 1178
-str_comment_you_accosted_my_caravan_default = 1179
-str_comment_you_helped_villagers_benevolent = 1180
-str_comment_you_helped_villagers_friendly_cruel = 1181
-str_comment_you_helped_villagers_friendly = 1182
-str_comment_you_helped_villagers_unfriendly_spiteful = 1183
-str_comment_you_helped_villagers_cruel = 1184
-str_comment_you_helped_villagers_default = 1185
-str_comment_you_give_castle_in_my_control = 1186
-str_comment_you_captured_a_castle_allied_friendly = 1187
-str_comment_you_captured_a_castle_allied_spiteful = 1188
-str_comment_you_captured_a_castle_allied_unfriendly_spiteful = 1189
-str_comment_you_captured_a_castle_allied_unfriendly = 1190
-str_comment_you_captured_a_castle_allied = 1191
-str_comment_you_captured_my_castle_enemy_spiteful = 1192
-str_comment_you_captured_my_castle_enemy_chivalrous = 1193
-str_comment_you_captured_my_castle_enemy = 1194
-str_comment_we_defeated_a_lord_unfriendly_spiteful = 1195
-str_comment_we_defeated_a_lord_unfriendly = 1196
-str_comment_we_defeated_a_lord_cruel = 1197
-str_comment_we_defeated_a_lord_quarrelsome = 1198
-str_comment_we_defeated_a_lord_upstanding = 1199
-str_comment_we_defeated_a_lord_default = 1200
-str_comment_we_fought_in_siege_unfriendly_spiteful = 1201
-str_comment_we_fought_in_siege_unfriendly = 1202
-str_comment_we_fought_in_siege_cruel = 1203
-str_comment_we_fought_in_siege_quarrelsome = 1204
-str_comment_we_fought_in_siege_upstanding = 1205
-str_comment_we_fought_in_siege_default = 1206
-str_comment_we_fought_in_major_battle_unfriendly_spiteful = 1207
-str_comment_we_fought_in_major_battle_unfriendly = 1208
-str_comment_we_fought_in_major_battle_cruel = 1209
-str_comment_we_fought_in_major_battle_quarrelsome = 1210
-str_comment_we_fought_in_major_battle_upstanding = 1211
-str_comment_we_fought_in_major_battle_default = 1212
-str_comment_you_defeated_a_lord_allied_liege = 1213
-str_comment_you_defeated_a_lord_allied_unfriendly_spiteful = 1214
-str_comment_you_defeated_a_lord_allied_spiteful = 1215
-str_comment_you_defeated_a_lord_allied_unfriendly_chivalrous = 1216
-str_comment_you_defeated_a_lord_allied = 1217
-str_comment_you_defeated_me_enemy_chivalrous = 1218
-str_comment_you_defeated_me_enemy_spiteful = 1219
-str_comment_you_defeated_me_enemy = 1220
-str_comment_i_defeated_you_enemy_spiteful = 1221
-str_comment_i_defeated_you_enemy_chivalrous = 1222
-str_comment_i_defeated_you_enemy_benevolent = 1223
-str_comment_i_defeated_you_enemy_coldblooded = 1224
-str_comment_i_defeated_you_enemy = 1225
-str_comment_we_were_defeated_unfriendly_spiteful = 1226
-str_comment_we_were_defeated_unfriendly = 1227
-str_comment_we_were_defeated_cruel = 1228
-str_comment_we_were_defeated_default = 1229
-str_comment_you_were_defeated_allied_friendly_spiteful = 1230
-str_comment_you_were_defeated_allied_unfriendly_cruel = 1231
-str_comment_you_were_defeated_allied_spiteful = 1232
-str_comment_you_were_defeated_allied_pitiless = 1233
-str_comment_you_were_defeated_allied_unfriendly_upstanding = 1234
-str_comment_you_were_defeated_allied_unfriendly = 1235
-str_comment_you_were_defeated_allied = 1236
-str_comment_you_helped_my_ally_unfriendly_chivalrous = 1237
-str_comment_you_helped_my_ally_unfriendly = 1238
-str_comment_you_helped_my_ally_liege = 1239
-str_comment_you_helped_my_ally_unfriendly_spiteful = 1240
-str_comment_you_helped_my_ally_spiteful = 1241
-str_comment_you_helped_my_ally_chivalrous = 1242
-str_comment_you_helped_my_ally_default = 1243
-str_comment_you_were_defeated_allied_unfriendly_dupe = 1244
-str_comment_you_were_defeated_allied_dupe = 1245
-str_comment_you_abandoned_us_unfriendly_spiteful = 1246
-str_comment_you_abandoned_us_unfriendly_pitiless = 1247
-str_comment_you_abandoned_us_spiteful = 1248
-str_comment_you_abandoned_us_chivalrous = 1249
-str_comment_you_abandoned_us_benefitofdoubt = 1250
-str_comment_you_abandoned_us_default = 1251
-str_comment_you_ran_from_me_enemy_spiteful = 1252
-str_comment_you_ran_from_me_enemy_chivalrous = 1253
-str_comment_you_ran_from_me_enemy_benevolent = 1254
-str_comment_you_ran_from_me_enemy_coldblooded = 1255
-str_comment_you_ran_from_me_enemy = 1256
-str_comment_you_ran_from_foe_allied_chivalrous = 1257
-str_comment_you_ran_from_foe_allied_upstanding = 1258
-str_comment_you_ran_from_foe_allied_spiteful = 1259
-str_comment_you_defeated_my_friend_enemy_pragmatic = 1260
-str_comment_you_defeated_my_friend_enemy_chivalrous = 1261
-str_comment_you_defeated_my_friend_enemy_spiteful = 1262
-str_comment_you_defeated_my_friend_enemy = 1263
-str_comment_you_captured_a_lord_allied_friendly_spiteful = 1264
-str_comment_you_captured_a_lord_allied_unfriendly_spiteful = 1265
-str_comment_you_captured_a_lord_allied_chivalrous = 1266
-str_comment_you_captured_a_lord_allied = 1267
-str_comment_you_let_go_a_lord_allied_chivalrous = 1268
-str_comment_you_let_go_a_lord_allied_upstanding = 1269
-str_comment_you_let_go_a_lord_allied_coldblooded = 1270
-str_comment_you_let_go_a_lord_allied_unfriendly_spiteful = 1271
-str_comment_you_let_go_a_lord_allied = 1272
-str_comment_you_let_me_go_spiteful = 1273
-str_comment_you_let_me_go_enemy_chivalrous = 1274
-str_comment_you_let_me_go_enemy_coldblooded = 1275
-str_comment_you_let_me_go_enemy = 1276
-str_comment_you_let_me_go_default = 1277
-str_comment_pledged_allegiance_allied_martial_unfriendly = 1278
-str_comment_pledged_allegiance_allied_martial = 1279
-str_comment_pledged_allegiance_allied_quarrelsome_unfriendly = 1280
-str_comment_pledged_allegiance_allied_quarrelsome = 1281
-str_comment_pledged_allegiance_allied_selfrighteous_unfriendly = 1282
-str_comment_pledged_allegiance_allied_selfrighteous = 1283
-str_comment_pledged_allegiance_allied_cunning_unfriendly = 1284
-str_comment_pledged_allegiance_allied_cunning = 1285
-str_comment_pledged_allegiance_allied_debauched_unfriendly = 1286
-str_comment_pledged_allegiance_allied_debauched = 1287
-str_comment_pledged_allegiance_allied_goodnatured_unfriendly = 1288
-str_comment_pledged_allegiance_allied_goodnatured = 1289
-str_comment_pledged_allegiance_allied_upstanding_unfriendly = 1290
-str_comment_pledged_allegiance_allied_upstanding = 1291
-str_comment_our_king_granted_you_a_fief_allied_friendly_cruel = 1292
-str_comment_our_king_granted_you_a_fief_allied_friendly_cynical = 1293
-str_comment_our_king_granted_you_a_fief_allied_friendly = 1294
-str_comment_our_king_granted_you_a_fief_allied_unfriendly_upstanding = 1295
-str_comment_our_king_granted_you_a_fief_allied_unfriendly_spiteful = 1296
-str_comment_our_king_granted_you_a_fief_allied_spiteful = 1297
-str_comment_our_king_granted_you_a_fief_allied = 1298
-str_comment_you_renounced_your_alliegance_enemy_friendly = 1299
-str_comment_you_renounced_your_alliegance_friendly = 1300
-str_comment_you_renounced_your_alliegance_unfriendly_spiteful = 1301
-str_comment_you_renounced_your_alliegance_unfriendly_moralizing = 1302
-str_comment_you_renounced_your_alliegance_enemy = 1303
-str_comment_you_renounced_your_alliegance_default = 1304
-str_comment_you_claimed_the_throne_1_player_liege = 1305
-str_comment_you_claimed_the_throne_2_player_liege = 1306
-str_comment_lord_intervened_against_me = 1307
-str_comment_i_protested_marshall_appointment = 1308
-str_comment_i_blamed_defeat = 1309
-str_comment_i_was_entitled_to_fief = 1310
-str_comment_i_quarreled_with_troop_over_woman = 1311
-str_comment_i_quarreled_with_you_over_woman_default = 1312
-str_comment_i_quarreled_with_you_over_woman_derisive = 1313
-str_comment_player_suggestion_succeeded = 1314
-str_comment_player_suggestion_failed = 1315
-str_comment_you_enfiefed_a_commoner_hesitant = 1316
-str_comment_you_enfiefed_a_commoner_derisive = 1317
-str_comment_you_enfiefed_a_commoner_nasty = 1318
-str_comment_marriage_normal_family = 1319
-str_comment_marriage_normal = 1320
-str_comment_marriage_normal_nasty = 1321
-str_comment_marriage_elopement_family = 1322
-str_comment_marriage_elopement_liege = 1323
-str_comment_you_broke_truce_as_my_vassal = 1324
-str_comment_you_attacked_neutral_as_my_vassal = 1325
-str_personality_archetypes = 1326
-str_martial = 1327
-str_quarrelsome = 1328
-str_selfrighteous = 1329
-str_cunning = 1330
-str_debauched = 1331
-str_goodnatured = 1332
-str_upstanding = 1333
-str_roguish = 1334
-str_benevolent = 1335
-str_mercantile = 1336
-str_surrender_demand_default = 1337
-str_surrender_demand_martial = 1338
-str_surrender_demand_quarrelsome = 1339
-str_surrender_demand_pitiless = 1340
-str_surrender_demand_cunning = 1341
-str_surrender_demand_sadistic = 1342
-str_surrender_demand_goodnatured = 1343
-str_surrender_demand_upstanding = 1344
-str_surrender_offer_default = 1345
-str_surrender_offer_martial = 1346
-str_surrender_offer_quarrelsome = 1347
-str_surrender_offer_pitiless = 1348
-str_surrender_offer_cunning = 1349
-str_surrender_offer_sadistic = 1350
-str_surrender_offer_goodnatured = 1351
-str_surrender_offer_upstanding = 1352
-str_lord_declines_negotiation_offer_default = 1353
-str_lord_declines_negotiation_offer_martial = 1354
-str_lord_declines_negotiation_offer_quarrelsome = 1355
-str_lord_declines_negotiation_offer_pitiless = 1356
-str_lord_declines_negotiation_offer_cunning = 1357
-str_lord_declines_negotiation_offer_sadistic = 1358
-str_lord_declines_negotiation_offer_goodnatured = 1359
-str_lord_declines_negotiation_offer_upstanding = 1360
-str_prisoner_released_default = 1361
-str_prisoner_released_martial = 1362
-str_prisoner_released_quarrelsome = 1363
-str_prisoner_released_pitiless = 1364
-str_prisoner_released_cunning = 1365
-str_prisoner_released_sadistic = 1366
-str_prisoner_released_goodnatured = 1367
-str_prisoner_released_upstanding = 1368
-str_enemy_meet_default = 1369
-str_enemy_meet_martial = 1370
-str_enemy_meet_quarrelsome = 1371
-str_enemy_meet_pitiless = 1372
-str_enemy_meet_cunning = 1373
-str_enemy_meet_sadistic = 1374
-str_enemy_meet_goodnatured = 1375
-str_enemy_meet_upstanding = 1376
-str_battle_won_default = 1377
-str_battle_won_martial = 1378
-str_battle_won_quarrelsome = 1379
-str_battle_won_pitiless = 1380
-str_battle_won_cunning = 1381
-str_battle_won_sadistic = 1382
-str_battle_won_goodnatured = 1383
-str_battle_won_upstanding = 1384
-str_battle_won_grudging_default = 1385
-str_battle_won_grudging_martial = 1386
-str_battle_won_grudging_quarrelsome = 1387
-str_battle_won_grudging_pitiless = 1388
-str_battle_won_grudging_cunning = 1389
-str_battle_won_grudging_sadistic = 1390
-str_battle_won_grudging_goodnatured = 1391
-str_battle_won_grudging_upstanding = 1392
-str_battle_won_unfriendly_default = 1393
-str_battle_won_unfriendly_martial = 1394
-str_battle_won_unfriendly_quarrelsome = 1395
-str_battle_won_unfriendly_pitiless = 1396
-str_battle_won_unfriendly_cunning = 1397
-str_battle_won_unfriendly_sadistic = 1398
-str_battle_won_unfriendly_goodnatured = 1399
-str_battle_won_unfriendly_upstanding = 1400
-str_troop_train_request_default = 1401
-str_troop_train_request_martial = 1402
-str_troop_train_request_quarrelsome = 1403
-str_troop_train_request_pitiless = 1404
-str_troop_train_request_cunning = 1405
-str_troop_train_request_sadistic = 1406
-str_troop_train_request_goodnatured = 1407
-str_troop_train_request_upstanding = 1408
-str_unprovoked_attack_default = 1409
-str_unprovoked_attack_martial = 1410
-str_unprovoked_attack_quarrelsome = 1411
-str_unprovoked_attack_pitiless = 1412
-str_unprovoked_attack_cunning = 1413
-str_unprovoked_attack_sadistic = 1414
-str_unprovoked_attack_goodnatured = 1415
-str_unprovoked_attack_upstanding = 1416
-str_unnecessary_attack_default = 1417
-str_unnecessary_attack_martial = 1418
-str_unnecessary_attack_quarrelsome = 1419
-str_unnecessary_attack_pitiless = 1420
-str_unnecessary_attack_cunning = 1421
-str_unnecessary_attack_sadistic = 1422
-str_unnecessary_attack_goodnatured = 1423
-str_unnecessary_attack_upstanding = 1424
-str_lord_challenged_default = 1425
-str_lord_challenged_martial = 1426
-str_lord_challenged_quarrelsome = 1427
-str_lord_challenged_pitiless = 1428
-str_lord_challenged_cunning = 1429
-str_lord_challenged_sadistic = 1430
-str_lord_challenged_goodnatured = 1431
-str_lord_challenged_upstanding = 1432
-str_lord_mission_failed_default = 1433
-str_lord_mission_failed_martial = 1434
-str_lord_mission_failed_quarrelsome = 1435
-str_lord_mission_failed_pitiless = 1436
-str_lord_mission_failed_cunning = 1437
-str_lord_mission_failed_sadistic = 1438
-str_lord_mission_failed_goodnatured = 1439
-str_lord_mission_failed_upstanding = 1440
-str_lord_follow_refusal_default = 1441
-str_lord_follow_refusal_martial = 1442
-str_lord_follow_refusal_quarrelsome = 1443
-str_lord_follow_refusal_pitiless = 1444
-str_lord_follow_refusal_cunning = 1445
-str_lord_follow_refusal_sadistic = 1446
-str_lord_follow_refusal_goodnatured = 1447
-str_lord_follow_refusal_upstanding = 1448
-str_lord_insult_default = 1449
-str_lord_insult_martial = 1450
-str_lord_insult_quarrelsome = 1451
-str_lord_insult_pitiless = 1452
-str_lord_insult_cunning = 1453
-str_lord_insult_sadistic = 1454
-str_lord_insult_goodnatured = 1455
-str_lord_insult_upstanding = 1456
-str_lord_derogatory_default = 1457
-str_lord_derogatory_martial = 1458
-str_lord_derogatory_quarrelsome = 1459
-str_lord_derogatory_pitiless = 1460
-str_lord_derogatory_cunning = 1461
-str_lord_derogatory_sadistic = 1462
-str_lord_derogatory_goodnatured = 1463
-str_lord_derogatory_upstanding = 1464
-str_lord_derogatory_result = 1465
-str_lord_derogatory_martial_action = 1466
-str_lord_derogatory_quarrelsome_action = 1467
-str_lord_derogatory_pitiles_action = 1468
-str_lord_derogatory_cunning_action = 1469
-str_lord_derogatory_sadistic_action = 1470
-str_lord_derogatory_goodnatured_action = 1471
-str_lord_derogatory_upstanding_action = 1472
-str_rebellion_dilemma_default = 1473
-str_rebellion_dilemma_martial = 1474
-str_rebellion_dilemma_quarrelsome = 1475
-str_rebellion_dilemma_pitiless = 1476
-str_rebellion_dilemma_cunning = 1477
-str_rebellion_dilemma_sadistic = 1478
-str_rebellion_dilemma_goodnatured = 1479
-str_rebellion_dilemma_upstanding = 1480
-str_rebellion_dilemma_2_default = 1481
-str_rebellion_dilemma_2_martial = 1482
-str_rebellion_dilemma_2_quarrelsome = 1483
-str_rebellion_dilemma_2_pitiless = 1484
-str_rebellion_dilemma_2_cunning = 1485
-str_rebellion_dilemma_2_sadistic = 1486
-str_rebellion_dilemma_2_goodnatured = 1487
-str_rebellion_dilemma_2_upstanding = 1488
-str_political_philosophy_default = 1489
-str_political_philosophy_martial = 1490
-str_political_philosophy_quarrelsome = 1491
-str_political_philosophy_pitiless = 1492
-str_political_philosophy_cunning = 1493
-str_political_philosophy_sadistic = 1494
-str_political_philosophy_goodnatured = 1495
-str_political_philosophy_upstanding = 1496
-str_political_philosophy_roguish = 1497
-str_political_philosophy_benefactor = 1498
-str_political_philosophy_custodian = 1499
-str_rebellion_prior_argument_very_favorable = 1500
-str_rebellion_prior_argument_favorable = 1501
-str_rebellion_prior_argument_unfavorable = 1502
-str_rebellion_prior_argument_very_unfavorable = 1503
-str_rebellion_rival_default = 1504
-str_rebellion_rival_martial = 1505
-str_rebellion_rival_quarrelsome = 1506
-str_rebellion_rival_pitiless = 1507
-str_rebellion_rival_cunning = 1508
-str_rebellion_rival_sadistic = 1509
-str_rebellion_rival_goodnatured = 1510
-str_rebellion_rival_upstanding = 1511
-str_rebellion_argument_favorable = 1512
-str_rebellion_argument_neutral = 1513
-str_rebellion_argument_unfavorable = 1514
-str_rebellion_persuasion_favorable = 1515
-str_rebellion_persuasion_neutral = 1516
-str_rebellion_persuasion_unfavorable = 1517
-str_rebellion_relation_very_favorable = 1518
-str_rebellion_relation_favorable = 1519
-str_rebellion_relation_neutral = 1520
-str_rebellion_relation_unfavorable = 1521
-str_and_comma_3 = 1522
-str_but_comma_3 = 1523
-str_and_comma_1 = 1524
-str_but_comma_1 = 1525
-str_and_comma_2 = 1526
-str_but_comma_2 = 1527
-str_rebellion_agree_default = 1528
-str_rebellion_agree_martial = 1529
-str_rebellion_agree_quarrelsome = 1530
-str_rebellion_agree_pitiless = 1531
-str_rebellion_agree_cunning = 1532
-str_rebellion_agree_sadistic = 1533
-str_rebellion_agree_goodnatured = 1534
-str_rebellion_agree_upstanding = 1535
-str_rebellion_refuse_default = 1536
-str_rebellion_refuse_martial = 1537
-str_rebellion_refuse_quarrelsome = 1538
-str_rebellion_refuse_pitiless = 1539
-str_rebellion_refuse_cunning = 1540
-str_rebellion_refuse_sadistic = 1541
-str_rebellion_refuse_goodnatured = 1542
-str_rebellion_refuse_upstanding = 1543
-str_talk_later_default = 1544
-str_talk_later_martial = 1545
-str_talk_later_quarrelsome = 1546
-str_talk_later_pitiless = 1547
-str_talk_later_cunning = 1548
-str_talk_later_sadistic = 1549
-str_talk_later_goodnatured = 1550
-str_talk_later_upstanding = 1551
-str_npc_claim_throne_liege = 1552
-str_npc_claim_throne_liege_martial = 1553
-str_npc_claim_throne_liege_quarrelsome = 1554
-str_npc_claim_throne_liege_pitiless = 1555
-str_npc_claim_throne_liege_cunning = 1556
-str_npc_claim_throne_liege_sadistic = 1557
-str_npc_claim_throne_liege_goodnatured = 1558
-str_npc_claim_throne_liege_upstanding = 1559
-str_gossip_about_character_default = 1560
-str_gossip_about_character_martial = 1561
-str_gossip_about_character_quarrelsome = 1562
-str_gossip_about_character_selfrighteous = 1563
-str_gossip_about_character_cunning = 1564
-str_gossip_about_character_sadistic = 1565
-str_gossip_about_character_goodnatured = 1566
-str_gossip_about_character_upstanding = 1567
-str_latest_rumor = 1568
-str_changed_my_mind_default = 1569
-str_changed_my_mind_martial = 1570
-str_changed_my_mind_quarrelsome = 1571
-str_changed_my_mind_pitiless = 1572
-str_changed_my_mind_cunning = 1573
-str_changed_my_mind_sadistic = 1574
-str_changed_my_mind_goodnatured = 1575
-str_changed_my_mind_upstanding = 1576
-str_swadian_rebellion_pretender_intro = 1577
-str_vaegir_rebellion_pretender_intro = 1578
-str_khergit_rebellion_pretender_intro = 1579
-str_nord_rebellion_pretender_intro = 1580
-str_rhodok_rebellion_pretender_intro = 1581
-str_sarranid_rebellion_pretender_intro = 1582
-str_swadian_rebellion_pretender_story_1 = 1583
-str_vaegir_rebellion_pretender_story_1 = 1584
-str_khergit_rebellion_pretender_story_1 = 1585
-str_nord_rebellion_pretender_story_1 = 1586
-str_rhodok_rebellion_pretender_story_1 = 1587
-str_sarranid_rebellion_pretender_story_1 = 1588
-str_swadian_rebellion_pretender_story_2 = 1589
-str_vaegir_rebellion_pretender_story_2 = 1590
-str_khergit_rebellion_pretender_story_2 = 1591
-str_nord_rebellion_pretender_story_2 = 1592
-str_rhodok_rebellion_pretender_story_2 = 1593
-str_sarranid_rebellion_pretender_story_2 = 1594
-str_swadian_rebellion_pretender_story_3 = 1595
-str_vaegir_rebellion_pretender_story_3 = 1596
-str_khergit_rebellion_pretender_story_3 = 1597
-str_nord_rebellion_pretender_story_3 = 1598
-str_rhodok_rebellion_pretender_story_3 = 1599
-str_sarranid_rebellion_pretender_story_3 = 1600
-str_swadian_rebellion_monarch_response_1 = 1601
-str_vaegir_rebellion_monarch_response_1 = 1602
-str_khergit_rebellion_monarch_response_1 = 1603
-str_nord_rebellion_monarch_response_1 = 1604
-str_rhodok_rebellion_monarch_response_1 = 1605
-str_sarranid_rebellion_monarch_response_1 = 1606
-str_swadian_rebellion_monarch_response_2 = 1607
-str_vaegir_rebellion_monarch_response_2 = 1608
-str_khergit_rebellion_monarch_response_2 = 1609
-str_nord_rebellion_monarch_response_2 = 1610
-str_rhodok_rebellion_monarch_response_2 = 1611
-str_sarranid_rebellion_monarch_response_2 = 1612
-str_courtship_comment_conventional_generic = 1613
-str_courtship_comment_adventurous_generic = 1614
-str_courtship_comment_otherworldly_generic = 1615
-str_courtship_comment_ambitious_generic = 1616
-str_courtship_comment_moralist_generic = 1617
-str_feast_description = 1618
-str_feast_description_2 = 1619
-str_feast_description_3 = 1620
-str_feast_description_4 = 1621
-str_feast_description_5 = 1622
-str_feast_description_6 = 1623
-str_feast_lengthy_description_1 = 1624
-str_feast_lengthy_description_2 = 1625
-str_feast_lengthy_description_3 = 1626
-str_feast_lengthy_description_4 = 1627
-str_feast_lengthy_description_5 = 1628
-str_feast_lengthy_description_6 = 1629
-str_kingdom_1_adjective = 1630
-str_kingdom_2_adjective = 1631
-str_kingdom_3_adjective = 1632
-str_kingdom_4_adjective = 1633
-str_kingdom_5_adjective = 1634
-str_kingdom_6_adjective = 1635
-str_credits_1 = 1636
-str_credits_2 = 1637
-str_credits_3 = 1638
-str_credits_4 = 1639
-str_credits_5 = 1640
-str_credits_6 = 1641
-str_credits_7 = 1642
-str_credits_8 = 1643
-str_credits_9 = 1644
-str_credits_10 = 1645
-str_credits_11 = 1646
-str_credits_12 = 1647
-str_multi_scene_1 = 1648
-str_multi_scene_2 = 1649
-str_multi_scene_3 = 1650
-str_multi_scene_4 = 1651
-str_multi_scene_5 = 1652
-str_multi_scene_6 = 1653
-str_multi_scene_7 = 1654
-str_multi_scene_8 = 1655
-str_multi_scene_9 = 1656
-str_multi_scene_10 = 1657
-str_multi_scene_11 = 1658
-str_multi_scene_16 = 1659
-str_multi_scene_17 = 1660
-str_multi_scene_18 = 1661
-str_multi_scene_19 = 1662
-str_multi_scene_20 = 1663
-str_multi_scene_21 = 1664
-str_multi_scene_22 = 1665
-str_multi_scene_23 = 1666
-str_multi_scene_24 = 1667
-str_multi_scene_12 = 1668
-str_multi_scene_13 = 1669
-str_multi_scene_14 = 1670
-str_multi_scene_15 = 1671
-str_multi_scene_end = 1672
-str_multi_game_type_1 = 1673
-str_multi_game_type_2 = 1674
-str_multi_game_type_3 = 1675
-str_multi_game_type_4 = 1676
-str_multi_game_type_5 = 1677
-str_multi_game_type_6 = 1678
-str_multi_game_type_7 = 1679
-str_multi_game_type_8 = 1680
-str_multi_game_types_end = 1681
-str_poll_kick_player_s1_by_s0 = 1682
-str_poll_ban_player_s1_by_s0 = 1683
-str_poll_change_map_to_s1_by_s0 = 1684
-str_poll_change_map_to_s1_and_factions_to_s2_and_s3_by_s0 = 1685
-str_poll_change_number_of_bots_to_reg0_and_reg1_by_s0 = 1686
-str_poll_kick_player = 1687
-str_poll_ban_player = 1688
-str_poll_change_map = 1689
-str_poll_change_map_with_faction = 1690
-str_poll_change_number_of_bots = 1691
-str_poll_time_left = 1692
-str_poll_result_yes = 1693
-str_poll_result_no = 1694
-str_total_item_cost_reg0 = 1695
-str_server_name = 1696
-str_game_password = 1697
-str_map = 1698
-str_game_type = 1699
-str_max_number_of_players = 1700
-str_number_of_bots_in_team_reg1 = 1701
-str_team_reg1_faction = 1702
-str_enable_valve_anti_cheat = 1703
-str_allow_friendly_fire = 1704
-str_allow_melee_friendly_fire = 1705
-str_friendly_fire_damage_self_ratio = 1706
-str_friendly_fire_damage_friend_ratio = 1707
-str_spectator_camera = 1708
-str_control_block_direction = 1709
-str_map_time_limit = 1710
-str_round_time_limit = 1711
-str_players_take_control_of_a_bot_after_death = 1712
-str_team_points_limit = 1713
-str_point_gained_from_flags = 1714
-str_point_gained_from_capturing_flag = 1715
-str_respawn_period = 1716
-str_add_to_official_game_servers_list = 1717
-str_combat_speed = 1718
-str_combat_speed_0 = 1719
-str_combat_speed_1 = 1720
-str_combat_speed_2 = 1721
-str_combat_speed_3 = 1722
-str_combat_speed_4 = 1723
-str_off = 1724
-str_on = 1725
-str_defender_spawn_count_limit = 1726
-str_unlimited = 1727
-str_automatic = 1728
-str_by_mouse_movement = 1729
-str_free = 1730
-str_stick_to_any_player = 1731
-str_stick_to_team_members = 1732
-str_stick_to_team_members_view = 1733
-str_make_factions_voteable = 1734
-str_make_kick_voteable = 1735
-str_make_ban_voteable = 1736
-str_bots_upper_limit_for_votes = 1737
-str_make_maps_voteable = 1738
-str_valid_vote_ratio = 1739
-str_auto_team_balance_limit = 1740
-str_welcome_message = 1741
-str_initial_gold_multiplier = 1742
-str_battle_earnings_multiplier = 1743
-str_round_earnings_multiplier = 1744
-str_allow_player_banners = 1745
-str_force_default_armor = 1746
-str_reg0 = 1747
-str_s0_reg0 = 1748
-str_s0_s1 = 1749
-str_reg0_dd_reg1reg2 = 1750
-str_s0_dd_reg0 = 1751
-str_respawning_in_reg0_seconds = 1752
-str_no_more_respawns_remained_this_round = 1753
-str_reg0_respawns_remained = 1754
-str_this_is_your_last_respawn = 1755
-str_wait_next_round = 1756
-str_yes_wo_dot = 1757
-str_no_wo_dot = 1758
-str_we_resign = 1759
-str_i_resign = 1760
-str_s1_returned_flag = 1761
-str_s1_auto_returned_flag = 1762
-str_s1_captured_flag = 1763
-str_s1_taken_flag = 1764
-str_s1_neutralized_flag_reg0 = 1765
-str_s1_captured_flag_reg0 = 1766
-str_s1_pulling_flag_reg0 = 1767
-str_s1_destroyed_target_0 = 1768
-str_s1_destroyed_target_1 = 1769
-str_s1_destroyed_catapult = 1770
-str_s1_destroyed_trebuchet = 1771
-str_s1_destroyed_all_targets = 1772
-str_s1_saved_1_target = 1773
-str_s1_saved_2_targets = 1774
-str_s1_defended_castle = 1775
-str_s1_captured_castle = 1776
-str_auto_team_balance_in_20_seconds = 1777
-str_auto_team_balance_next_round = 1778
-str_auto_team_balance_done = 1779
-str_s1_won_round = 1780
-str_round_draw = 1781
-str_round_draw_no_one_remained = 1782
-str_death_mode_started = 1783
-str_reset_to_default = 1784
-str_done = 1785
-str_player_name = 1786
-str_kills = 1787
-str_deaths = 1788
-str_ping = 1789
-str_dead = 1790
-str_reg0_dead = 1791
-str_bots_reg0_agents = 1792
-str_bot_1_agent = 1793
-str_score = 1794
-str_score_reg0 = 1795
-str_flags_reg0 = 1796
-str_reg0_players = 1797
-str_reg0_player = 1798
-str_open_gate = 1799
-str_close_gate = 1800
-str_open_door = 1801
-str_close_door = 1802
-str_raise_ladder = 1803
-str_drop_ladder = 1804
-str_back = 1805
-str_start_map = 1806
-str_choose_an_option = 1807
-str_choose_a_poll_type = 1808
-str_choose_faction = 1809
-str_choose_a_faction = 1810
-str_choose_troop = 1811
-str_choose_a_troop = 1812
-str_choose_items = 1813
-str_options = 1814
-str_redefine_keys = 1815
-str_submit_a_poll = 1816
-str_administrator_panel = 1817
-str_kick_player = 1818
-str_ban_player = 1819
-str_mute_player = 1820
-str_unmute_player = 1821
-str_quit = 1822
-str_poll_for_changing_the_map = 1823
-str_poll_for_changing_the_map_and_factions = 1824
-str_poll_for_changing_number_of_bots = 1825
-str_poll_for_kicking_a_player = 1826
-str_poll_for_banning_a_player = 1827
-str_choose_a_player = 1828
-str_choose_a_map = 1829
-str_choose_a_faction_for_team_reg0 = 1830
-str_choose_number_of_bots_for_team_reg0 = 1831
-str_spectator = 1832
-str_spectators = 1833
-str_command = 1835
-str_profile_banner_selection_text = 1836
-str_use_default_banner = 1837
-str_party_morale_is_low = 1838
-str_weekly_report = 1839
-str_has_deserted_the_party = 1840
-str_have_deserted_the_party = 1841
-str_space = 1842
-str_us_ = 1843
-str_allies_ = 1844
-str_enemies_ = 1845
-str_routed = 1846
-str_weekly_budget = 1847
-str_income_from_s0 = 1848
-str_mercenary_payment_from_s0 = 1849
-str_s0s_party = 1850
-str_loss_due_to_tax_inefficiency = 1851
-str_wages_for_s0 = 1852
-str_earlier_debts = 1853
-str_net_change = 1854
-str_earlier_wealth = 1855
-str_new_wealth = 1856
-str_new_debts = 1857
-str_completed_faction_troop_assignments_cheat_mode_reg3 = 1858
-str_completed_political_events_cheat_mode_reg3 = 1859
-str_assigned_love_interests_attraction_seed_reg3 = 1860
-str_located_kingdom_ladies_cheat_mode_reg3 = 1861
-str_team_reg0_bot_count_is_reg1 = 1862
-str_input_is_not_correct_for_the_command_type_help_for_more_information = 1863
-str_maximum_seconds_for_round_is_reg0 = 1864
-str_respawn_period_is_reg0_seconds = 1865
-str_bots_upper_limit_for_votes_is_reg0 = 1866
-str_map_is_voteable = 1867
-str_map_is_not_voteable = 1868
-str_factions_are_voteable = 1869
-str_factions_are_not_voteable = 1870
-str_players_respawn_as_bot = 1871
-str_players_do_not_respawn_as_bot = 1872
-str_kicking_a_player_is_voteable = 1873
-str_kicking_a_player_is_not_voteable = 1874
-str_banning_a_player_is_voteable = 1875
-str_banning_a_player_is_not_voteable = 1876
-str_player_banners_are_allowed = 1877
-str_player_banners_are_not_allowed = 1878
-str_default_armor_is_forced = 1879
-str_default_armor_is_not_forced = 1880
-str_percentage_of_yes_votes_required_for_a_poll_to_get_accepted_is_reg0 = 1881
-str_auto_team_balance_threshold_is_reg0 = 1882
-str_starting_gold_ratio_is_reg0 = 1883
-str_combat_gold_bonus_ratio_is_reg0 = 1884
-str_round_gold_bonus_ratio_is_reg0 = 1885
-str_point_gained_from_flags_is_reg0 = 1886
-str_point_gained_from_capturing_flag_is_reg0 = 1887
-str_map_time_limit_is_reg0 = 1888
-str_team_points_limit_is_reg0 = 1889
-str_defender_spawn_count_limit_is_s1 = 1890
-str_system_error = 1891
-str_prisoner_granted_parole = 1892
-str_prisoner_not_offered_parole = 1893
-str__age_reg1_family_ = 1894
-str_s49_s12_s11_rel_reg0 = 1895
-str_s49_s12_s11 = 1896
-str_lord_info_string = 1897
-str_updating_faction_notes_for_s14_temp___reg4 = 1898
-str_foreign_relations__ = 1899
-str_s21__the_s5_is_at_war_with_the_s14 = 1900
-str_s21_the_s5_has_had_the_upper_hand_in_the_fighting = 1901
-str_s21_the_s5_has_gotten_the_worst_of_the_fighting = 1902
-str_s21_the_fighting_has_gone_on_for_some_time_and_the_war_may_end_soon_with_a_truce = 1903
-str_s21_the_fighting_has_begun_relatively_recently_and_the_war_may_continue_for_some_time = 1904
-str_s21_reg4reg5 = 1905
-str__however_the_truce_is_no_longer_binding_on_the_s14 = 1906
-str_s21__the_s5_is_bound_by_truce_not_to_attack_the_s14s18_the_truce_will_expire_in_reg1_days = 1907
-str_s21__the_s5_has_recently_suffered_provocation_by_subjects_of_the_s14_and_there_is_a_risk_of_war = 1908
-str_s21__the_s5_has_no_outstanding_issues_with_the_s14 = 1909
-str_s21_the_s14_was_recently_provoked_by_subjects_of_the_s5_and_there_is_a_risk_of_war_ = 1910
-str_s21_cheat_mode_assessment_s14_ = 1911
-str_the_s5_is_ruled_by_s6_it_occupies_s8_its_vassals_are_s10__s21 = 1912
-str_assigned_lord_reputation_and_relations_cheat_mode_reg3 = 1913
-str_caravan_trades_in_s5_originally_from_s4_ = 1914
-str_your_hero_prisoned_at_s1 = 1915
-str_old_morale_is_reg0_new_morale_is_reg1 = 1916
-str_our_per_person__reg0_num_people__reg1_total_gain__reg2 = 1917
-str_ene_per_person__reg0_num_people__reg1_total_gain__reg2 = 1918
-str_all_per_person__reg0_num_people__reg1_total_gain__reg2 = 1919
-str_loss_ratio_is_reg1 = 1920
-str_total_enemy_morale_gain__reg6_last_total_enemy_morale_gain__reg7_remaining_enemy_population__reg5 = 1921
-str_reg4_killed_reg5_wounded_reg6_routed = 1922
-str_reg4_killed_reg5_routed = 1923
-str_reg4_killed_reg5_wounded = 1924
-str_reg4_wounded_reg5_routed = 1925
-str_caravan_in_s10_considers_s11_total_price_dif___reg3 = 1927
-str_test__caravan_in_s3_selects_for_s4_trade_score_reg3 = 1928
-str_prisoner_relative_is_reg0 = 1929
-str_test_diagnosis__traveller_attacks_for_s4 = 1930
-str_traveller_attack_found = 1931
-str_s42 = 1932
-str_test_diagnostic_quest_found_for_s4 = 1933
-str_s4_changing_sides_aborts_quest = 1934
-str_s4_awarded_to_s5 = 1935
-str_s11_reacts_to_granting_of_s12_to_s10 = 1936
-str_debug__hiring_men_to_s7_ideal_size__reg6_ideal_top_size__reg7_hiring_budget__reg8 = 1937
-str_debug__hiring_men_to_party_for_s0 = 1938
-str_calculating_sortie_for_s4_strength_of_reg3_vs_reg4_enemies = 1939
-str_s4_sorties = 1940
-str_current_wealth_reg1_taxes_last_collected_from_s4 = 1941
-str_s4_considers_going_to_s5_to_pay_court_to_s6 = 1942
-str_relation_with_1_bug_found_here__probably_because_s5_has_just_been_captured = 1943
-str_s4_has_reg4_chance_of_going_to_home_center = 1944
-str_s4_has_reg4_chance_of_recruiting_troops = 1945
-str_s4_has_reg4_chance_of_going_to_s5 = 1946
-str_s4_has_reg5_chance_of_patrolling_s6 = 1947
-str_s4_has_reg5_chance_of_raiding_s6 = 1948
-str_s4_has_reg5_chance_of_besieging_s6 = 1949
-str_sum_chances_reg6 = 1950
-str_deciding_faction_ai_for_s3 = 1951
-str_s5_decides_s14 = 1952
-str_lords_of_the_s1_gather_for_a_feast_at_s2 = 1953
-str_s5_begins_offensive = 1954
-str_renown_change_of_reg4_reduced_to_reg5_because_of_high_existing_renown = 1955
-str_s14 = 1956
-str_players_kingdom_has_had_reg3_days_of_peace = 1957
-str_s4_is_present_at_the_center_and_in_place_of_honor = 1958
-str_s4_is_present_at_the_center_as_a_refugee = 1959
-str_s4_is_present_at_the_center_and_not_attending_the_feast = 1960
-str_s4_is_present_at_the_center_and_is_married = 1961
-str_s4_is_present_at_the_center_and_is_attending_the_feast = 1962
-str_s4_is_present_at_the_center_and_is_awaiting_the_player_in_private = 1963
-str_s4_is_present_at_the_center_and_is_allowed_to_meet_the_player = 1964
-str_s4_is_present_at_the_center_and_is_not_allowed_to_meet_the_player = 1965
-str_no_relation = 1966
-str_niece = 1975
-str_nephew = 1976
-str_aunt = 1977
-str_uncle = 1978
-str_cousin = 1979
-str_daughterinlaw = 1980
-str_soninlaw = 1981
-str_motherinlaw = 1982
-str_fatherinlaw = 1983
-str_sisterinlaw = 1984
-str_brotherinlaw = 1985
-str_print_party_members_entered = 1986
-str_num_companion_stacks___reg10 = 1987
-str_someone = 1988
-str_i_take_what_work_i_can_sirmadame_i_carry_water_or_help_the_merchants_with_their_loads_or_help_build_things_if_theres_things_to_be_built = 1989
-str_dna_reg4_total_production_reg5_modula_reg7 = 1990
-str_agent_produces_s9 = 1991
-str_im_not_doing_anything_sirmadame_theres_no_work_to_be_had_around_here_these_days = 1992
-str_im_not_doing_anything_sirmadame_i_have_no_land_of_my_own_and_theres_no_work_to_be_had_around_here_these_days = 1993
-str_why_im_still_living_off_of_your_kindness_and_goodness_sirmadame_hopefully_there_will_be_work_shortly = 1994
-str_i_work_in_the_fields_just_outside_the_walls_where_they_grow_grain_we_dont_quite_grow_enough_to_meet_our_needs_though_and_have_to_import_grain_from_the_surrounding_countryside = 1995
-str_i_work_mostly_in_the_fields_growing_grain_in_the_town_they_grind_it_to_make_bread_or_ale_and_we_can_also_boil_it_as_a_porridge = 1996
-str_i_work_in_the_breweries_making_ale_the_poor_folk_drink_a_lot_of_it_as_its_cheaper_than_wine_we_make_it_with_grain_brought_in_from_the_countryside = 1997
-str_i_work_in_a_mill_grinding_flour_to_make_bread_bread_is_cheap_keeps_well_and_fills_the_stomach = 1998
-str_i_tend_cattle_we_dry_and_salt_meat_to_preserve_it_and_make_cheese_from_the_milk = 1999
-str_i_tend_cattle_we_dry_and_salt_meat_to_preserve_it_and_make_cheese_from_the_milk_so_it_doesnt_spoil = 2000
-str_i_tend_sheep_we_send_the_wool_to_the_cities_to_be_woven_into_cloth_and_make_mutton_sausage_when_we_cull_the_herds = 2001
-str_i_work_at_a_loom_spinning_cloth_from_wool_wool_is_some_of_the_cheapest_cloth_you_can_buy_but_it_will_still_keep_you_warm = 2002
-str_i_crew_a_fishing_boat_we_salt_and_smoke_the_flesh_to_sell_it_far_inland = 2003
-str_i_sift_salt_from_a_nearby_flat_they_need_salt_everywhere_to_preserve_meat_and_fish = 2004
-str_i_mine_iron_from_a_vein_in_a_nearby_cliffside_they_use_it_to_make_tools_arms_and_other_goods = 2005
-str_i_make_pottery_which_people_use_to_store_grain_and_carry_water = 2006
-str_trade_explanation_tools = 2007
-str_trade_explanation_oil = 2008
-str_trade_explanation_linen = 2009
-str_trade_explanation_velvet = 2010
-str_trade_explanation_spice = 2011
-str_trade_explanation_apples = 2012
-str_trade_explanation_grapes = 2013
-str_trade_explanation_dyes = 2014
-str_trade_explanation_leatherwork = 2015
-str_trade_explanation_flax = 2016
-str_trade_explanation_dates_village = 2017
-str_trade_explanation_dates_town = 2018
-str_trade_explanation_olives = 2019
-str_s10_has_reg4_needs_reg5 = 2020
-str_s14_i_hear_that_you_can_find_a_good_price_for_it_in_s15 = 2021
-str_s1_reg1 = 2022
-str_s1_reg2 = 2023
-str_s1_reg3 = 2024
-str_s1_reg4 = 2025
-str_s1_reg5 = 2026
-str_s1_reg6 = 2027
-str_s1_reg7 = 2028
-str_s1_reg8 = 2029
-str_s1_reg9 = 2030
-str_reg13 = 2031
-str_reg14 = 2032
-str_reg15 = 2033
-str_reg16 = 2034
-str_reg17 = 2035
-str_reg18 = 2036
-str_reg19 = 2037
-str_reg20 = 2038
-str_reg21 = 2039
-str_assigning_lords_to_empty_centers = 2040
-str_assign_lords_to_empty_centers_just_happened = 2041
-str_s4_of_the_s5_is_unassigned = 2042
-str_s4_of_the_s5_is_reserved_for_player = 2043
-str_s4_of_the_s5_has_no_fiefs = 2044
-str_s4_unassigned_centers_plus_landless_lords___reg4 = 2045
-str_s4_holds_s5_in_reserve = 2046
-str_s2s_rebellion = 2047
-str_political_suggestion = 2048
-str_updating_volunteers_for_s4_faction_is_s5 = 2049
-str_shuffling_companion_locations = 2050
-str_s4_is_at_s5 = 2051
-str_instability_reg0_of_lords_are_disgruntled_reg1_are_restless = 2052
-str_reg1shehe_is_prisoner_of_s1 = 2053
-str_s39_rival = 2054
-str_s40 = 2055
-str_s41_s39_rival = 2056
-str_reputation_cheat_mode_only_martial_ = 2057
-str_reputation_cheat_mode_only_debauched_ = 2058
-str_reputation_cheat_mode_only_pitiless_ = 2059
-str_reputation_cheat_mode_only_calculating_ = 2060
-str_reputation_cheat_mode_only_quarrelsome_ = 2061
-str_reputation_cheat_mode_only_goodnatured_ = 2062
-str_reputation_cheat_mode_only_upstanding_ = 2063
-str_reputation_cheat_mode_only_conventional_ = 2064
-str_reputation_cheat_mode_only_adventurous_ = 2065
-str_reputation_cheat_mode_only_romantic_ = 2066
-str_reputation_cheat_mode_only_moralist_ = 2067
-str_reputation_cheat_mode_only_ambitious_ = 2068
-str_reputation_cheat_mode_only_reg11_ = 2069
-str_love_interest = 2070
-str_betrothed = 2071
-str_s40_s39_s2_reg0 = 2072
-str_other_relations_s40_ = 2073
-str_relation_with_liege_reg0_ = 2074
-str_sense_of_security_military_reg1_court_position_reg3_ = 2075
-str_s46s45s44s48 = 2076
-str_political_details_s47_ = 2077
-str_checking_volunteer_availability_script = 2078
-str_center_relation_at_least_zero = 2079
-str_relationfaction_conditions_met = 2080
-str_troops_available = 2081
-str_party_has_capacity = 2082
-str_personality_clash_conversation_begins = 2083
-str_personality_match_conversation_begins = 2084
-str_the_s55 = 2085
-str_travellers_on_the_road = 2086
-str_attack_on_travellers_found_reg3_hours_ago = 2087
-str_trade_event_found_reg3_hours_ago = 2088
-str_a_short_while_ago = 2089
-str_one_day_ago = 2090
-str_two_days_day_ago = 2091
-str_earlier_this_week = 2092
-str_about_a_week_ago = 2093
-str_about_two_weeks_ago = 2094
-str_several_weeks_ago = 2095
-str_unknown_assailants = 2096
-str_swadians = 2097
-str_vaegirs = 2098
-str_khergits = 2099
-str_nords = 2100
-str_rhodoks = 2101
-str_sarranids = 2102
-str_bandits = 2103
-str_deserters = 2104
-str_your_followers = 2105
-str_we_have_heard_that_travellers_heading_to_s40_were_attacked_on_the_road_s46_by_s39 = 2106
-str_s43_s44 = 2107
-str_we_have_heard_that_travellers_coming_from_s40_were_attacked_on_the_road_s46_by_s39 = 2108
-str_travellers_coming_from_s40_traded_here_s46 = 2109
-str_s44 = 2110
-str_it_is_still_early_in_the_caravan_season_so_we_have_seen_little_tradings42 = 2111
-str_there_has_been_very_little_trading_activity_here_recentlys42 = 2112
-str_there_has_some_trading_activity_here_recently_but_not_enoughs42 = 2113
-str_there_has_some_trading_activity_here_recently_but_the_roads_are_dangerouss42 = 2114
-str_the_roads_around_here_are_very_dangerouss42 = 2115
-str_we_have_received_many_traders_in_town_here_although_there_is_some_danger_on_the_roadss42 = 2116
-str_we_have_received_many_traders_in_town_heres42 = 2117
-str_s44_s41 = 2118
-str_s41 = 2119
-str_there_is_little_news_about_the_caravan_routes_to_the_towns_of_s44_and_nearby_parts_but_no_news_is_good_news_and_those_are_therefore_considered_safe = 2120
-str_s47_also_the_roads_to_the_villages_of_s44_and_other_outlying_hamlets_are_considered_safe = 2121
-str_however_the_roads_to_the_villages_of_s44_and_other_outlying_hamlets_are_considered_safe = 2122
-str_we_have_shortages_of = 2123
-str_s33_s34_reg1 = 2124
-str_we_have_adequate_stores_of_all_commodities = 2125
-str_s33_and_some_other_commodities = 2126
-str_the_roads_are_full_of_brigands_friend_but_that_name_in_particular_does_not_sound_familiar_good_hunting_to_you_nonetheless = 2127
-str_less_than_an_hour_ago = 2128
-str_maybe_reg3_hours_ago = 2129
-str_reg3_days_ago = 2130
-str_youre_in_luck_we_sighted_those_bastards_s16_near_s17_hurry_and_you_might_be_able_to_pick_up_their_trail_while_its_still_hot = 2131
-str_you_speak_of_claims_to_the_throne_good_there_is_nothing_id_rather_do_than_fight_for_a_good_cause = 2132
-str_you_speak_of_claims_to_the_throne_well_there_is_nothing_id_rather_do_than_fight_for_a_good_cause_but_the_claim_you_make_seems_somewhat_weak = 2133
-str_i_am_pleased_that_you_speak_of_upholding_my_ancient_rights_which_are_sometimes_trod_upon_in_these_sorry_days = 2134
-str_i_am_pleased_that_you_speak_of_upholding_my_ancient_rights_but_sometimes_men_make_pledges_before_they_are_king_which_they_cannot_keep_once_they_take_the_throne = 2135
-str_you_speak_of_protecting_the_commons_well_i_supposed_thats_good_but_sometimes_the_commons_overstep_their_boundaries_im_more_concerned_that_your_claim_be_legal_so_i_can_swing_my_sword_with_a_good_conscience = 2136
-str_you_speak_of_giving_me_land_good_i_ask_for_no_more_than_my_due = 2137
-str_you_speak_of_giving_me_land_unfortunately_you_are_not_wellknown_for_rewarding_those_to_whom_you_have_made_such_offers = 2138
-str_you_speak_of_unifying_calradia_well_i_believe_that_well_always_be_fighting__its_important_that_we_fight_for_a_rightful_cause = 2139
-str_you_talk_of_claims_to_the_throne_but_i_leave_bickering_about_legalities_to_the_lawyers_and_clerks = 2140
-str_you_speak_of_ruling_justly_hah_ill_believe_theres_such_a_thing_as_a_just_king_when_i_see_one = 2141
-str_you_spoke_of_protecting_the_rights_of_the_nobles_if_you_did_youd_be_the_first_king_to_do_so_in_a_very_long_time = 2142
-str_you_speak_of_giving_me_land_ay_well_lets_see_if_you_deliver = 2143
-str_you_speak_of_giving_me_land_bah_youre_not_known_for_delivering_on_your_pledges = 2144
-str_you_speak_of_unifying_calradia_well_youve_done_a_good_job_at_making_calradia_bend_its_knee_to_you_so_maybe_thats_not_just_talk = 2145
-str_you_speak_of_unifying_calradia_id_be_impressed_if_i_thought_you_could_do_it_but_unfortunately_you_dont = 2146
-str_you_speak_of_claims_to_the_throne_well_any_peasant_can_claim_to_be_a_kings_bastard = 2147
-str_well_its_a_fine_thing_to_court_the_commons_with_promises_but_what_do_you_have_to_offer_me = 2148
-str_you_speak_of_protecting_the_rights_of_lords_that_would_make_a_fine_change_if_my_rights_as_lord_would_be_respected = 2149
-str_you_speak_of_protecting_the_rights_of_lords_that_would_make_a_fine_change_if_my_rights_as_lord_would_be_respected_however_it_is_easy_for_you_to_make_promises_while_you_are_weak_that_you_have_no_intention_of_keeping_when_you_are_strong = 2150
-str_you_speak_of_giving_me_land_well_my_family_is_of_ancient_and_noble_lineage_so_you_promise_me_no_more_than_my_due_still_your_gesture_is_appreciated = 2151
-str_you_speak_of_giving_me_land_well_you_make_that_pledge_but_i_am_not_impressed = 2152
-str_you_speak_of_unifying_calradia_well_much_of_this_land_now_bends_its_knee_to_you_so_perhaps_that_is_not_just_talk = 2153
-str_you_speak_of_unifying_calradia_but_right_now_yours_is_just_one_squabbling_faction_among_many = 2154
-str_you_speak_of_claims_well_no_offense_but_a_claim_unsupported_by_might_rarely_prospers = 2155
-str_you_speak_of_protecting_the_commons_well_i_suppose_that_will_make_for_a_more_prosperous_realm_ive_always_tried_to_treat_my_peasants_decently_saves_going_to_bed_worrying_about_whether_youll_wake_up_with_the_roof_on_fire = 2156
-str_you_speak_of_protecting_the_commons_very_well_but_remember_that_peasants_are_more_likely_to_cause_trouble_if_you_make_promises_then_dont_deliver_than_if_you_never_made_the_promise_in_the_first_place = 2157
-str_you_speak_of_protecting_the_rights_of_lords_good_youd_be_well_advised_to_do_that__men_fight_better_for_a_king_wholl_respect_their_rights = 2158
-str_you_speak_of_protecting_the_rights_of_lords_very_well_but_remember__failing_to_keep_promises_which_you_made_while_scrambling_up_the_throne_is_the_quickest_way_to_topple_off_of_it_once_you_get_there = 2159
-str_you_speak_of_giving_me_land_very_good_but_often_i_find_that_when_a_man_makes_too_many_promises_trying_to_get_to_the_top_he_has_trouble_keeping_them_once_he_reaches_it = 2160
-str_you_speak_of_unifying_calradia_well_many_have_said_that_you_might_very_well_be_the_one_to_do_it = 2161
-str_you_speak_of_unifying_calradia_well_all_the_kings_say_that_im_not_sure_that_you_will_succeed_while_they_fail = 2162
-str_you_speak_of_claims_do_you_think_i_care_for_the_nattering_of_lawyers = 2163
-str_you_speak_of_protecting_the_commons_how_kind_of_you_i_shall_tell_my_swineherd_all_about_your_sweet_promises_no_doubt_he_will_become_your_most_faithful_vassal = 2164
-str_you_speak_of_protecing_the_rights_of_lords_such_sweet_words_but_ill_tell_you_this__the_only_rights_that_are_respected_in_this_world_are_the_rights_to_dominate_whoever_is_weaker_and_to_submit_to_whoever_is_stronger = 2165
-str_you_speak_of_giving_me_land_yes_very_good__but_you_had_best_deliver = 2166
-str_you_speak_of_giving_me_land_hah_perhaps_all_those_others_to_whom_you_promised_lands_will_simply_step_aside = 2167
-str_you_speak_of_unifying_calradia_you_may_indeed_humble_the_other_kings_of_this_land_and_in_that_case_i_would_hope_that_you_would_remember_me_as_your_faithful_servant = 2168
-str_you_speak_of_unifying_calradia_but_you_are_weak_and_i_think_that_you_will_remain_weak = 2169
-str_you_speak_of_claims_its_good_for_a_king_to_have_a_strong_claim_although_admittedly_im_more_concerned_that_he_rules_just_ly_than_with_legalities_anyway_your_claim_seems_wellfounded_to_me = 2170
-str_you_speak_of_claims_but_your_claim_seems_a_bit_weak_to_me = 2171
-str_you_speak_of_protecting_the_commons_i_like_that_my_tenants_are_a_happy_lot_i_think_but_i_hear_of_others_in_other_estates_that_arent_so_fortunate = 2172
-str_you_speak_of_protecting_the_commons_im_glad_to_hear_you_say_that_but_do_me_a_favor__dont_promise_the_commons_anything_you_cant_deliver_thats_a_sure_way_to_get_them_to_rebel_and_it_breaks_my_heart_to_have_to_put_them_down = 2173
-str_you_speak_of_protecting_the_rights_of_lords_well_very_good_i_suppose_but_you_know__we_lords_can_take_of_ourselves_its_the_common_folk_who_need_a_strong_king_to_look_out_for_them_to_my_mind = 2174
-str_you_speak_of_giving_me_land_its_kind_of_you_really_though_that_is_not_necessary = 2175
-str_you_speak_of_unifying_calradia_well_maybe_you_can_unite_this_land_by_the_sword_but_im_not_sure_that_this_will_make_you_a_good_ruler = 2176
-str_you_speak_of_claims_a_king_must_have_a_strong_legal_claim_for_there_not_to_be_chaos_in_the_realm_and_yours_is_wellestablished = 2177
-str_you_speak_of_claims_a_king_must_have_a_strong_legal_claim_for_there_not_to_be_chaos_in_the_realm_but_your_claim_is_not_so_strong = 2178
-str_you_speak_of_protecting_the_rights_of_lords_it_is_of_course_important_that_a_king_respect_the_rights_of_his_vassals_although_i_worry_that_a_king_who_took_a_throne_without_proper_cause_would_not_rule_with_justice = 2179
-str_you_speak_of_protecting_the_rights_of_lords_it_is_of_course_important_that_a_king_respect_the_rights_of_his_vassals_however_i_would_like_to_know_that_you_would_indeed_deliver_on_your_promises = 2180
-str_you_speak_of_protecting_the_commons_i_would_be_pleased_to_serve_a_king_who_respected_the_rights_of_his_subjects_although_i_worry_that_a_king_who_took_a_throne_without_proper_cause_would_not_rule_with_justice = 2181
-str_you_speak_of_protecting_the_commons_i_would_be_pleased_to_serve_a_king_who_respected_the_rights_of_his_subjects_however_i_would_like_to_know_that_you_would_indeed_deliver_on_your_promises = 2182
-str_i_am_not_swayed_by_promises_of_reward = 2183
-str_you_speak_of_unifying_calradia_it_would_be_good_to_bring_peace_to_the_realm_and_i_believe_that_you_are_strong_enough_to_do_so = 2184
-str_you_speak_of_unifying_calradia_it_would_be_good_to_bring_peace_the_realm_but_with_your_kingdom_in_its_current_state_i_worry_that_you_are_just_bringing_more_discord = 2185
-str_s15 = 2186
-str_my_s11_s15 = 2187
-str_stop_gap__s15_is_the_rival_of_s16 = 2188
-str_my_s11_s18 = 2189
-str_the_socalled_s11_s18 = 2190
-str_s18_would_cheat_me_of_my_inheritance_by_heaven_i_know_my_rights_and_im_not_going_to_back_down = 2191
-str_s18_once_questioned_my_honour_and_my_bravery_i_long_for_the_day_when_i_can_meet_him_in_battle_and_make_him_retract_his_statement = 2192
-str_s18_once_questioned_my_judgment_in_battle_by_heaven_would_he_have_us_shirk_our_duty_to_smite_our_sovereigns_foes = 2193
-str_s18_seems_to_think_he_has_the_right_to_some_of_my_property_well_he_does_not = 2194
-str_s18_once_took_something_i_said_amiss_stubborn_bastard_wont_give_it_up_and_keeps_trying_to_get_me_to_recant_my_words = 2195
-str_s18_is_a_crafty_weasel_and_i_dont_trust_him_one_bit = 2196
-str_s18_i_despite_him_he_puts_on_such_a_nauseating_display_of_virtue_and_thinks_nothing_of_insulting_his_betters = 2197
-str_s18_entered_into_a_little_deal_with_me_and_is_now_trying_to_wriggle_out_of_it = 2198
-str_s18_once_ran_an_errand_for_me_and_now_thinks_i_owe_him_something_i_owe_his_ilk_nothing = 2199
-str_s18_is_soft_and_weak_and_not_fit_to_govern_a_fief_and_i_have_always_detested_him = 2200
-str_s18_is_a_quarrelsome_oaf_and_a_liability_in_my_opinion_and_ive_let_him_know_as_much = 2201
-str_s18_i_am_sorry_to_say_is_far_too_softhearted_a_man_to_be_given_any_kind_of_responsibility_his_chivalry_will_allow_the_enemy_to_flee_to_fight_another_day_and_will_cost_the_lives_of_my_own_faithful_men = 2202
-str_s18_seems_to_have_something_against_me_for_some_reason_i_dont_like_to_talk_ill_of_people_but_i_think_hes_can_be_a_bit_of_a_cad_sometimes = 2203
-str_s18_has_always_treated_me_contemptuously_although_i_have_done_him_no_wrong = 2204
-str_s18_is_thoroughly_dishonorable_and_a_compulsive_spinner_of_intrigues_which_i_fear_will_drag_us_into_wars_or_incite_rebellions = 2205
-str_s18_disappoints_me_i_once_scolded_for_his_rashness_in_battle_and_he_took_offense_i_do_not_care_to_apologize_for_my_efforts_to_save_his_life_and_the_lives_of_his_men = 2206
-str_s18_squanders_money_and_carouses_in_a_way_most_unbefitting_a_noble_by_doing_so_he_disgraces_us_all = 2207
-str_s18_has_been_speaking_ill_of_me_behind_my_back_or_so_they_say = 2208
-str_s18_is_a_disgrace_reg3shehe_consorts_with_merchants_lends_money_at_interest_uses_coarse_language_and_shows_no_attempt_to_uphold_the_dignity_of_the_honor_bestowed_upon_reg3herhim = 2209
-str_s18_has_condemned_me_for_engaging_in_commerce_what_could_possibly_be_wrong_with_that = 2210
-str_s18_i_have_heard_has_been_encouraging_seditious_ideas_among_the_peasantry__a_foolish_move_which_endangers_us_all = 2211
-str_s18_has_called_me_out_for_the_way_i_deal_with_my_tenants_well_so_be_it_if_i_teach_them_that_they_are_the_equal_of_anyone_with_socalled_gentle_blood_what_is_it_to_reg3herhim = 2212
-str_a_most_gallant_gentleman_who_knows_how_to_treat_a_lady = 2213
-str_a_base_cad = 2214
-str_a_man_who_treats_me_as_his_equal_which_is_rare = 2215
-str_appears_to_value_me_with_his_estate_and_his_horse_as_prizes_worth_having = 2216
-str_a_bit_dull_but_what_can_you_expect = 2217
-str_the_man_whom_destiny_intends_for_me = 2218
-str_is_not_right_for_me__i_cannot_say_why_but_he_makes_my_skin_crawl = 2219
-str_is_a_man_who_clearly_intends_to_make_his_mark_in_the_world = 2220
-str_is_a_layabout_a_naif_prey_for_others_who_are_cleverer_than_he = 2221
-str_is_a_man_of_stalwart_character = 2222
-str_appears_to_be_a_man_of_low_morals = 2223
-str_appears_to_be_a_man_who_lacks_selfdiscipline = 2224
-str_check_reg8_s4_reconciles_s5_and_s6_ = 2225
-str_diagnostic__player_should_receive_consultation_quest_here_if_not_already_active = 2226
-str_check_reg8_s4_rules_in_s5s_favor_in_quarrel_with_s6_ = 2227
-str_check_reg8_new_rivalry_generated_between_s5_and_s6 = 2228
-str_check_reg8_s5_attempts_to_win_over_s6 = 2229
-str_s1_has_no_lords = 2230
-str_do_political_consequences_for_s4_victory_over_s5 = 2231
-str_bandits_attacked_a_party_on_the_roads_so_a_bounty_is_probably_available = 2232
-str_travellers_attacked_on_road_from_s15_to_s16 = 2233
-str_s15_shares_joy_of_victory_with_s16 = 2234
-str_faction_marshall_s15_involved_in_defeat = 2235
-str_player_faction_marshall_involved_in_defeat = 2236
-str_s14_of_s15_defeated_in_battle_loses_one_point_relation_with_liege = 2237
-str_s14_defeated_in_battle_by_s15_loses_one_point_relation = 2238
-str_s14_blames_s15_for_defeat = 2239
-str_s32_is_undeclared_rebel = 2240
-str_small_bonus_for_no_base = 2241
-str_s15_considered_member_of_faction_s20_weight_of_reg15 = 2242
-str_checking_for_recruitment_argument_reg24 = 2243
-str_g_talk_troop_s20_evaluates_being_vassal_to_s22_of_s21 = 2244
-str_base_result_for_security_reg1 = 2245
-str_result_for_security_weighted_by_personality_reg2 = 2246
-str_base_result_for_political_connections_reg3 = 2247
-str_result_for_political_connections_weighted_by_personality_reg4 = 2248
-str_result_for_argument_strength_reg7 = 2249
-str_result_for_argument_appeal_reg17 = 2250
-str_combined_result_for_argument_modified_by_persuasion_reg8 = 2251
-str_base_changing_sides_penalty_reg9 = 2252
-str_changing_sides_penalty_weighted_by_personality_reg10 = 2253
-str_combined_bonuses_and_penalties___reg0 = 2254
-str_intrigue_test_troop_party_is_active = 2255
-str_intrigue_test_troop_party_is_not_in_battle = 2256
-str_intrigue_test_troop_is_not_prisoner = 2257
-str_intrigue_test_troop_is_nearby = 2258
-str_s20_relation_with_s15_changed_by_reg4_to_reg14 = 2259
-str_total_additions_reg4 = 2260
-str_total_subtractions_reg4 = 2261
-str_checking_lord_reactions_in_s15 = 2262
-str_s14_protests_the_appointment_of_s15_as_marshall = 2263
-str_s11_relocates_to_s10 = 2264
-str_checking_s3_at_s5_with_s11_relationship_with_s4_score_reg0 = 2265
-str_s3_feast_concludes_at_s4 = 2266
-str_attendance_reg3_nobles_out_of_reg4 = 2267
-str_romantic_chemistry_reg0 = 2268
-str_personality_modifier_reg2 = 2269
-str_renown_modifier_reg3 = 2270
-str_final_score_reg0 = 2271
-str_s4_pursues_suit_with_s5_in_s7 = 2272
-str_note__favor_event_logged = 2273
-str_result_lady_forced_to_agree_to_engagement = 2274
-str_result_lady_rejects_suitor = 2275
-str_result_happy_engagement_between_s4_and_s5 = 2276
-str_result_s4_elopes_with_s5 = 2277
-str_result_s4_reluctantly_agrees_to_engagement_with_s5 = 2278
-str_result_stalemate_patience_roll___reg3 = 2279
-str_s3_marries_s4_at_s5 = 2280
-str__i_must_attend_to_this_matter_before_i_worry_about_the_affairs_of_the_realm = 2281
-str_the_other_matter_took_precedence = 2282
-str_i_cannot_leave_this_fortress_now_as_it_is_under_siege = 2283
-str_after_all_we_are_under_siege = 2284
-str_we_are_not_strong_enough_to_face_the_enemy_out_in_the_open = 2285
-str_i_should_probably_seek_shelter_behind_some_stout_walls = 2286
-str_enemies_are_reported_to_be_nearby_and_we_should_stand_ready_to_either_man_the_walls_or_sortie_out_to_do_battle = 2287
-str_the_enemy_is_nearby = 2288
-str_as_the_marshall_i_am_assembling_the_army_of_the_realm = 2289
-str_as_the_marshall_i_am_assembling_the_army_of_the_realm_and_travel_to_lands_near_s10_to_inform_more_vassals = 2290
-str_i_intend_to_assemble_the_army_of_the_realm = 2291
-str_as_the_marshall_i_am_leading_the_siege = 2292
-str_i_intend_to_begin_the_siege = 2293
-str_as_the_marshall_i_am_leading_our_raid = 2294
-str_i_intend_to_start_our_raid = 2295
-str_as_the_marshall_i_am_leading_our_forces_in_search_of_the_enemy = 2296
-str_i_intend_to_lead_our_forces_out_to_find_the_enemy = 2297
-str_as_the_marshall_i_am_leading_our_forces_to_engage_the_enemy_in_battle = 2298
-str_i_intend_to_lead_our_forces_out_to_engage_the_enemy = 2299
-str_i_dont_have_enough_troops_and_i_need_to_get_some_more = 2300
-str_i_am_running_low_on_troops = 2301
-str_we_are_following_your_direction = 2302
-str_i_need_to_make_preparations_for_your_wedding = 2303
-str_after_all_i_need_to_make_preparations_for_your_wedding = 2304
-str_i_am_heading_to_the_site_of_our_wedding = 2305
-str_after_all_we_are_soon_to_be_wed = 2306
-str_i_am_hosting_a_feast_there = 2307
-str_i_have_a_feast_to_host = 2308
-str_i_am_to_be_the_bridegroom_there = 2309
-str_my_wedding_day_draws_near = 2310
-str_i_have_too_much_loot_and_too_many_prisoners_and_need_to_secure_them = 2311
-str_i_should_think_of_dropping_off_some_of_my_prisoners = 2312
-str_i_need_to_reinforce_it_as_it_is_poorly_garrisoned = 2313
-str_there_is_a_hole_in_our_defenses = 2314
-str_i_am_following_the_marshals_orders = 2315
-str_the_marshal_has_given_me_this_command = 2316
-str_i_am_answering_the_marshals_summons = 2317
-str_our_realm_needs_my_support_there_is_enemy_raiding_one_of_our_villages_which_is_not_to_far_from_here_i_am_going_there = 2318
-str_the_marshal_has_issued_a_summons = 2319
-str_comradeinarms = 2320
-str_i_am_supporting_my_s11_s10 = 2321
-str_i_believe_that_one_of_my_comrades_is_in_need = 2322
-str_s20_decided_to_attack_s21 = 2323
-str_a_fortress_is_vulnerable = 2324
-str_i_believe_that_the_enemy_may_be_vulnerable = 2325
-str_i_need_to_inspect_my_properties_and_collect_my_dues = 2326
-str_it_has_been_too_long_since_i_have_inspected_my_estates = 2327
-str_my_men_are_weary_so_we_are_returning_home = 2328
-str_my_men_are_becoming_weary = 2329
-str_i_have_a_score_to_settle_with_the_lord_there = 2330
-str_i_am_thinking_of_settling_an_old_score = 2331
-str_i_am_short_of_money_and_i_hear_that_there_is_much_wealth_there = 2332
-str_i_need_to_refill_my_purse_preferably_with_the_enemys_money = 2333
-str_by_striking_at_the_enemys_richest_lands_perhaps_i_can_draw_them_out_to_battle = 2334
-str_i_am_thinking_of_going_on_the_attack = 2335
-str_perhaps_if_i_strike_one_more_blow_we_may_end_this_war_on_our_terms_ = 2336
-str_we_may_be_able_to_bring_this_war_to_a_close_with_a_few_more_blows = 2337
-str_i_wish_to_attend_the_feast_there = 2338
-str_there_is_a_feast_which_i_wish_to_attend = 2339
-str_there_is_a_fair_lady_there_whom_i_wish_to_court = 2340
-str_i_have_the_inclination_to_pay_court_to_a_fair_lady = 2341
-str_we_have_heard_reports_that_the_enemy_is_in_the_area = 2342
-str_i_have_heard_reports_of_enemy_incursions_into_our_territory = 2343
-str_i_need_to_spend_some_time_with_my_household = 2344
-str_it_has_been_a_long_time_since_i_have_been_able_to_spend_time_with_my_household = 2345
-str_i_am_watching_the_borders = 2346
-str_i_may_be_needed_to_watch_the_borders = 2347
-str_i_will_guard_the_areas_near_my_home = 2348
-str_i_am_perhaps_needed_most_at_home = 2349
-str_i_cant_think_of_anything_better_to_do = 2350
-str_i_am_completing_what_i_have_already_begun = 2351
-str_i_dont_even_have_a_home_to_which_to_return = 2352
-str_debug__s10_decides_s14_faction_ai_s15 = 2353
-str__i_am_acting_independently_because_no_marshal_is_appointed = 2354
-str__i_am_acting_independently_because_our_marshal_is_currently_indisposed = 2355
-str__i_am_acting_independently_because_our_realm_is_currently_not_on_campaign = 2356
-str__i_am_not_accompanying_the_marshal_because_i_fear_that_he_may_lead_us_into_disaster = 2357
-str_i_am_not_accompanying_the_marshal_because_i_question_his_judgment = 2358
-str_i_am_not_accompanying_the_marshal_because_i_can_do_greater_deeds = 2359
-str__s16_has_kept_us_on_campaign_on_far_too_long_and_there_are_other_pressing_matters_to_which_i_must_attend = 2360
-str__i_am_not_participating_in_the_marshals_campaign_because_i_do_not_know_where_to_find_our_main_army = 2361
-str__i_am_acting_independently_although_some_enemies_have_been_spotted_within_our_borders_they_havent_come_in_force_and_the_local_troops_should_be_able_to_dispatch_them = 2362
-str__the_needs_of_the_realm_must_come_first = 2363
-str_we_are_likely_to_be_overwhelmed_by_the_s9_let_each_defend_their_own = 2364
-str_we_should_see_this_siege_through = 2365
-str_we_should_prepare_to_defend_s21_but_we_should_gather_our_forces_until_we_are_strong_enough_to_engage_them = 2366
-str_we_should_prepare_to_defend_s21_but_first_we_have_to_gather = 2367
-str_we_should_ride_to_break_the_siege_of_s21 = 2368
-str_we_should_ride_to_defeat_the_enemy_gathered_near_s21 = 2369
-str_we_have_located_s21s_army_and_we_should_engage_it = 2370
-str_this_offensive_needs_to_wind_down_soon_so_the_vassals_can_attend_to_their_own_business = 2371
-str_the_vassals_are_tired_we_let_them_rest_for_some_time = 2372
-str_the_vassals_still_need_time_to_attend_to_their_own_business = 2373
-str_it_is_time_to_go_on_the_offensive_and_we_must_first_assemble_the_army = 2374
-str_we_must_continue_to_gather_the_army_before_we_ride_forth_on_an_offensive_operation = 2375
-str_there_is_no_need_to_beat_around_the_borders__we_can_take_one_of_their_important_towns = 2376
-str_we_should_exploit_our_success_over_s21_by_seizing_one_of_their_fortresses = 2377
-str_we_shall_leave_a_fiery_trail_through_the_heart_of_the_enemys_lands_targeting_the_wealthy_settlements_if_we_can = 2378
-str_the_army_will_be_disbanded_because_we_have_been_waiting_too_long_without_a_target = 2379
-str_it_is_time_for_the_feast_to_conclude = 2380
-str_we_should_continue_the_feast_unless_there_is_an_emergency = 2381
-str_you_had_wished_to_hold_a_feast = 2382
-str_your_wedding_day_approaches_my_lady = 2383
-str_your_wedding_day_approaches = 2384
-str_s22_and_s23_wish_to_marry = 2385
-str_it_has_been_a_long_time_since_the_lords_of_the_realm_gathered_for_a_feast = 2386
-str_the_circumstances_which_led_to_this_decision_no_longer_apply_so_we_should_stop_and_reconsider_shortly = 2387
-str_we_cant_think_of_anything_to_do = 2388
-str_s15_is_at_war_with_s16_ = 2389
-str_in_the_short_term_s15_has_a_truce_with_s16_as_a_matter_of_general_policy_ = 2390
-str_in_the_short_term_s15_was_recently_provoked_by_s16_and_is_under_pressure_to_declare_war_as_a_matter_of_general_policy_ = 2391
-str_envoymodified_diplomacy_score_honor_plus_relation_plus_envoy_persuasion___reg4 = 2392
-str_s12s15_cannot_negotiate_with_s16_as_to_do_so_would_undermine_reg4herhis_own_claim_to_the_throne_this_civil_war_must_almost_certainly_end_with_the_defeat_of_one_side_or_another = 2393
-str_s12s15_considers_s16_to_be_dangerous_and_untrustworthy_and_shehe_wants_to_bring_s16_down = 2394
-str_s12s15_is_anxious_to_reclaim_old_lands_such_as_s18_now_held_by_s16 = 2395
-str_s12s15_feels_that_reg4shehe_is_winning_the_war_against_s16_and_sees_no_reason_not_to_continue = 2396
-str_s12s15_faces_too_much_internal_discontent_to_feel_comfortable_ignoring_recent_provocations_by_s16s_subjects = 2397
-str_s12even_though_reg4shehe_is_fighting_on_two_fronts_s15_is_inclined_to_continue_the_war_against_s16_for_a_little_while_longer_for_the_sake_of_honor = 2398
-str_s12s15_feels_that_reg4shehe_must_pursue_the_war_against_s16_for_a_little_while_longer_for_the_sake_of_honor = 2399
-str_s12s15_is_currently_on_the_offensive_against_s17_now_held_by_s16_and_reluctant_to_negotiate = 2400
-str_s12s15_is_alarmed_by_the_growing_power_of_s16 = 2401
-str_s12s15_distrusts_s16_and_fears_that_any_deals_struck_between_the_two_realms_will_not_be_kept = 2402
-str_s12s15_is_at_war_on_too_many_fronts_and_eager_to_make_peace_with_s16 = 2403
-str_s12s15_seems_to_think_that_s16_and_reg4shehe_have_a_common_enemy_in_the_s17 = 2404
-str_s12s15_feels_frustrated_by_reg4herhis_inability_to_strike_a_decisive_blow_against_s16 = 2405
-str_s12s15_has_suffered_enough_in_the_war_with_s16_for_too_little_gain_and_is_ready_to_pursue_a_peace = 2406
-str_s12s15_would_like_to_firm_up_a_truce_with_s16_to_respond_to_the_threat_from_the_s17 = 2407
-str_s12s15_wishes_to_be_at_peace_with_s16_so_as_to_pursue_the_war_against_the_s17 = 2408
-str_s12s15_seems_to_be_intimidated_by_s16_and_would_like_to_avoid_hostilities = 2409
-str_s12s15_has_no_particular_reason_to_continue_the_war_with_s16_and_would_probably_make_peace_if_given_the_opportunity = 2410
-str_s12s15_seems_to_be_willing_to_improve_relations_with_s16 = 2411
-str_excuse_me_how_can_you_possibly_imagine_yourself_worthy_to_marry_into_our_family = 2412
-str_em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction_fight_hard_count_your_dinars_and_perhaps_some_day_in_the_future_we_may_speak_of_such_things_my_good_man = 2413
-str_em_with_regard_to_her_ladyship_we_were_looking_specifically_for_a_groom_of_some_distinction = 2414
-str_it_is_too_early_for_you_to_be_speaking_of_such_things_you_are_still_making_your_mark_in_the_world = 2415
-str_you_dont_serve_the_s4_so_id_say_no_one_day_we_may_be_at_war_and_i_prefer_not_to_have_to_kill_my_inlaws_if_at_all_possible = 2416
-str_as_you_are_not_a_vassal_of_the_s4_i_must_decline_your_request_the_twists_of_fate_may_mean_that_we_will_one_day_cross_swords_and_i_would_hope_not_to_make_a_widow_of_a_lady_whom_i_am_obligated_to_protect = 2417
-str_as_you_are_not_a_pledged_vassal_of_our_liege_with_the_right_to_hold_land_i_must_refuse_your_request_to_marry_into_our_family = 2418
-str_look_here_lad__the_young_s14_has_been_paying_court_to_s16_and_youll_have_to_admit__hes_a_finer_catch_for_her_than_you_so_lets_have_no_more_of_this_talk_shall_we = 2419
-str_i_do_not_care_for_you_sir_and_i_consider_it_my_duty_to_protect_the_ladies_of_my_household_from_undesirable_suitors = 2420
-str_hmm_young_girls_may_easily_be_led_astray_so_out_of_a_sense_of_duty_to_the_ladies_of_my_household_i_think_i_would_like_to_get_to_know_you_a_bit_better_we_may_speak_of_this_at_a_later_date = 2421
-str_you_may_indeed_make_a_fine_match_for_the_young_mistress = 2422
-str_madame__given_our_relations_in_the_past_this_proposal_is_most_surprising_i_do_not_think_that_you_are_the_kind_of_woman_who_can_be_bent_to_a_hushands_will_and_i_would_prefer_not_to_have_our_married_life_be_a_source_of_constant_acrimony = 2423
-str_i_would_prefer_to_marry_a_proper_maiden_who_will_obey_her_husband_and_is_not_likely_to_split_his_head_with_a_sword = 2424
-str_my_lady_while_i_admire_your_valor_you_will_forgive_me_if_i_tell_you_that_a_woman_like_you_does_not_uphold_to_my_ideal_of_the_feminine_of_the_delicate_and_of_the_pure = 2425
-str_nah_i_want_a_woman_wholl_keep_quiet_and_do_what_shes_told_i_dont_think_thats_you = 2426
-str_my_lady_you_are_possessed_of_great_charms_but_no_properties_until_you_obtain_some_to_marry_you_would_be_an_act_of_ingratitude_towards_my_ancestors_and_my_lineage = 2427
-str_my_lady_you_are_a_woman_of_no_known_family_of_no_possessions__in_short_a_nobody_do_you_think_that_you_are_fit_to_marry_into_may_family = 2428
-str_my_lady__forgive_me__the_quality_of_our_bond_is_not_of_the_sort_which_the_poets_tell_us_is_necessary_to_sustain_a_happy_marriage = 2429
-str_um_i_think_that_if_i_want_to_stay_on_s4s_good_side_id_best_not_marry_you = 2430
-str_you_serve_another_realm_i_dont_see_s4_granting_reg4herhis_blessing_to_our_union = 2431
-str_madame_my_heart_currently_belongs_to_s4 = 2432
-str_my_lady_you_are_a_woman_of_great_spirit_and_bravery_possessed_of_beauty_grace_and_wit_i_shall_give_your_proposal_consideration = 2433
-str_my_lady_you_are_a_woman_of_great_spirit_and_bravery_possessed_of_beauty_grace_and_wit_i_would_be_most_honored_were_you_to_become_my_wife = 2434
-str_poem_choice_reg4_lady_rep_reg5 = 2435
-str_ah__kais_and_layali__such_a_sad_tale_many_a_time_has_it_been_recounted_for_my_family_by_the_wandering_poets_who_come_to_our_home_and_it_has_never_failed_to_bring_tears_to_our_eyes = 2436
-str_kais_and_layali_three_hundred_stanzas_of_pathetic_sniveling_if_you_ask_me_if_kais_wanted_to_escape_heartbreak_he_should_have_learned_to_live_within_his_station_and_not_yearn_for_what_he_cannot_have = 2437
-str_kais_and_layali_no_one_should_ever_have_written_such_a_sad_poem_if_it_was_the_destiny_of_kais_and_layali_to_be_together_than_their_love_should_have_conquered_all_obstacles = 2438
-str_ah_kais_and_layali_a_very_old_standby_but_moving_in_its_way = 2439
-str_the_saga_of_helgered_and_kara_such_happy_times_in_which_our_ancestors_lived_women_like_kara_could_venture_out_into_the_world_like_men_win_a_name_for_themselves_and_not_linger_in_their_husbands_shadow = 2440
-str_ah_the_saga_of_helgered_and_kara_now_there_was_a_lady_who_knew_what_she_wanted_and_was_not_afraid_to_obtain_it = 2441
-str_the_saga_of_helgered_and_kara_a_terrible_tale__but_it_speaks_of_a_very_great_love_if_she_were_willing_to_make_war_on_her_own_family = 2442
-str_the_saga_of_helgered_and_kara_as_i_recall_kara_valued_her_own_base_passions_over_duty_to_her_family_that_she_made_war_on_her_own_father_i_have_no_time_for_a_poem_which_praises_such_a_woman = 2443
-str_the_saga_of_helgered_and_kara_how_could_a_woman_don_armor_and_carry_a_sword_how_could_a_man_love_so_ungentle_a_creature = 2444
-str_a_conversation_in_the_garden_i_cannot_understand_the_lady_in_that_poem_if_she_loves_the_man_why_does_she_tease_him_so = 2445
-str_a_conversation_in_the_garden_let_us_see__it_is_morally_unedifying_it_exalts_deception_it_ends_with_a_maiden_surrendering_to_her_base_passions_and_yet_i_cannot_help_but_find_it_charming_perhaps_because_it_tells_us_that_love_need_not_be_tragic_to_be_memorable = 2446
-str_a_conversation_in_the_garden_now_that_is_a_tale_every_lady_should_know_by_heart_to_learn_the_subtleties_of_the_politics_she_must_practice = 2447
-str_a_conversation_in_the_garden_it_is_droll_i_suppose__although_there_is_nothing_there_that_truly_stirs_my_soul = 2448
-str_storming_the_fortress_of_love_ah_yes_the_lady_sits_within_doing_nothing_while_the_man_is_the_one_who_strives_and_achieves_i_have_enough_of_that_in_my_daily_life_why_listen_to_poems_about_it = 2449
-str_storming_the_fortress_of_love_ah_yes_an_uplifting_tribute_to_the_separate_virtues_of_man_and_woman = 2450
-str_storming_the_fortress_of_love_ah_yes_but_although_it_is_a_fine_tale_of_virtues_it_speaks_nothing_of_passion = 2451
-str_storming_the_fortress_of_love_ah_a_sermon_dressed_up_as_a_love_poem_if_you_ask_me = 2452
-str_a_hearts_desire_ah_such_a_beautiful_account_of_the_perfect_perfect_love_to_love_like_that_must_be_to_truly_know_rapture = 2453
-str_a_hearts_desire_silly_if_you_ask_me_if_the_poet_desires_a_lady_then_he_should_endeavor_to_win_her__and_not_dress_up_his_desire_with_a_pretense_of_piety = 2454
-str_a_hearts_desire_hmm__it_is_an_interesting_exploration_of_earthly_and_divine_love_it_does_speak_of_the_spiritual_quest_which_brings_out_the_best_in_man_but_i_wonder_if_the_poet_has_not_confused_his_yearning_for_higher_things_with_his_baser_passions = 2455
-str_a_hearts_desire_oh_yes__it_is_very_worthy_and_philosophical_but_if_i_am_to_listen_to_a_bard_strum_a_lute_for_three_hours_i_personally_prefer_there_to_be_a_bit_of_a_story = 2456
-str_result_reg4_string_s11 = 2457
-str_calculating_effect_for_policy_for_s3 = 2458
-str_reg3_units_of_s4_for_reg5_guests_and_retinue = 2459
-str_reg3_units_of_spice_of_reg5_to_be_consumed = 2460
-str_reg3_units_of_oil_of_reg5_to_be_consumed = 2461
-str_of_food_which_must_come_before_everything_else_the_amount_is_s8 = 2462
-str_s9_and_the_variety_is_s8_ = 2463
-str_s9_of_drink_which_guests_will_expect_in_great_abundance_the_amount_is_s8 = 2464
-str_s9_of_spice_which_is_essential_to_demonstrate_that_we_spare_no_expense_as_hosts_the_amount_is_s8_ = 2465
-str_s9_of_oil_which_we_shall_require_to_light_the_lamps_the_amount_is_s8 = 2466
-str_s9_overall_our_table_will_be_considered_s8 = 2467
-str_rebel = 2468
-str_bandit = 2469
-str_relation_of_prisoner_with_captor_is_reg0 = 2470
-str_s5_suffers_attrition_reg3_x_s4 = 2471
-str_s65 = 2472
-str_s10_said_on_s1_s11__ = 2473
-str_rumor_note_to_s3s_slot_reg4_s5 = 2474
-str_totalling_casualties_caused_during_mission = 2475
-str_removing_s4_from_s5 = 2476
-str_s4_joins_prison_break = 2477
-str_helper_is_spawned = 2478
-str_leaving_area_during_prison_break = 2479
-str_talk_to_the_trainer = 2480
-str_woman = 2481
-str_man = 2482
-str_noble = 2483
-str_common = 2484
-str_may_find_that_you_are_able_to_take_your_place_among_calradias_great_lords_relatively_quickly = 2485
-str_may_face_some_difficulties_establishing_yourself_as_an_equal_among_calradias_great_lords = 2486
-str_may_face_great_difficulties_establishing_yourself_as_an_equal_among_calradias_great_lords = 2487
-str_current_party_morale_is_reg5_current_party_morale_modifiers_are__base_morale__50_party_size_s2reg1_leadership_s3reg2_food_variety_s4reg3s5s6_recent_events_s7reg4_total__reg5___ = 2488
-str_s1extra_morale_for_s9_troops__reg6_ = 2489
-str_courtships_in_progress_ = 2490
-str_s1_s2_relation_reg3_last_visit_reg4_days_ago = 2491
-str_s1__poems_known = 2492
-str_s1_storming_the_castle_of_love_allegoric = 2493
-str_s1_kais_and_layali_tragic = 2494
-str_s1_a_conversation_in_the_garden_comic = 2495
-str_s1_helgered_and_kara_epic = 2496
-str_s1_a_hearts_desire_mystic = 2497
-str_no_companions_in_service = 2498
-str_gathering_support = 2499
-str_expected_back_imminently = 2500
-str_expected_back_in_approximately_reg3_days = 2501
-str_gathering_intelligence = 2502
-str_diplomatic_embassy_to_s9 = 2503
-str_serving_as_minister = 2504
-str_in_your_court_at_s9 = 2505
-str_under_arms = 2506
-str_in_your_party = 2507
-str_s4_s8_s5 = 2508
-str_s2_s3 = 2509
-str_attacking_enemy_army_near_s11 = 2510
-str_holding_feast_at_s11 = 2511
-str_sfai_reg4 = 2512
-str_s9s10_current_state_s11_hours_at_current_state_reg3_current_strategic_thinking_s14_marshall_s12_since_the_last_offensive_ended_reg4_hours_since_the_decisive_event_reg10_hours_since_the_last_rest_reg9_hours_since_the_last_feast_ended_reg5_hours_percent_disgruntled_lords_reg7_percent_restless_lords_reg8__ = 2513
-str__right_to_rule_reg12 = 2514
-str_political_arguments_made_legality_reg3_rights_of_lords_reg4_unificationpeace_reg5_rights_of_commons_reg6_fief_pledges_reg7 = 2515
-str_renown_reg2_honour_rating_reg3s12_friends_s8_enemies_s6_s9 = 2516
-str_you_lie_stunned_for_several_minutes_then_stagger_to_your_feet_to_find_your_s10_standing_over_you_you_have_lost_the_duel = 2517
-str_s10_lies_in_the_arenas_dust_for_several_minutes_then_staggers_to_his_feet_you_have_won_the_duel = 2518
-str_debug__you_fought_with_a_center_so_no_change_in_morale = 2519
-str__this_castle_is_temporarily_under_royal_control = 2520
-str__this_castle_does_not_seem_to_be_under_anyones_control = 2521
-str__this_town_is_temporarily_under_royal_control = 2522
-str__the_townspeople_seem_to_have_declared_their_independence = 2523
-str_to_your_husband_s11 = 2524
-str__you_see_the_banner_of_your_wifehusband_s7_over_the_castle_gate = 2525
-str__the_banner_of_your_wifehusband_s7_flies_over_the_town_gates = 2526
-str__the_lord_is_currently_holding_a_feast_in_his_hall = 2527
-str__join_the_feast = 2528
-str_belligerent_drunk_in_s4 = 2529
-str_belligerent_drunk_not_found = 2530
-str_roughlooking_character_in_s4 = 2531
-str_roughlooking_character_not_found = 2532
-str__however_you_have_sufficiently_distinguished_yourself_to_be_invited_to_attend_the_ongoing_feast_in_the_lords_castle = 2533
-str_s8_you_are_also_invited_to_attend_the_ongoing_feast_in_the_castle = 2534
-str___hardship_index_reg0_avg_towns_reg1_avg_villages_reg2__ = 2535
-str___s3_price___reg4_calradian_average_reg6_capital_reg11_s4_base_reg1modified_by_raw_material_reg2modified_by_prosperity_reg3_calradian_average_production_base_reg5_total_reg12_consumed_reg7used_as_raw_material_reg8modified_total_reg9_calradian_consumption_base_reg10_total_reg13s1_ = 2536
-str_s11_unfortunately_s12_was_wounded_and_had_to_be_left_behind = 2537
-str_s11_also_s12_was_wounded_and_had_to_be_left_behind = 2538
-str_trial_influences_s17s_relation_with_s18_by_reg3 = 2539
-str_with_the_s10 = 2540
-str_outside_calradia = 2541
-str_you_have_been_indicted_for_treason_to_s7_your_properties_have_been_confiscated_and_you_would_be_well_advised_to_flee_for_your_life = 2542
-str_by_order_of_s6_s4_of_the_s5_has_been_indicted_for_treason_the_lord_has_been_stripped_of_all_reg4herhis_properties_and_has_fled_for_reg4herhis_life_he_is_rumored_to_have_gone_into_exile_s11 = 2543
-str_local_notables_from_s1_a_village_claimed_by_the_s4_have_been_mistreated_by_their_overlords_from_the_s3_and_petition_s5_for_protection = 2544
-str_villagers_from_s1_stole_some_cattle_from_s2 = 2545
-str_villagers_from_s1_abducted_a_woman_from_a_prominent_family_in_s2_to_marry_one_of_their_boys = 2546
-str_villagers_from_s1_killed_some_farmers_from_s2_in_a_fight_over_the_diversion_of_a_stream = 2547
-str_your_new_minister_ = 2548
-str_s10_is_your_new_minister_and_ = 2549
-str_due_to_the_fall_of_s10_your_court_has_been_relocated_to_s12 = 2550
-str_after_to_the_fall_of_s10_your_faithful_vassal_s9_has_invited_your_court_to_s11_ = 2551
-str_after_to_the_fall_of_s11_your_court_has_nowhere_to_go = 2552
-str_s8_wishes_to_inform_you_that_the_lords_of_s9_will_be_gathering_for_a_feast_at_his_great_hall_in_s10_and_invites_you_to_be_part_of_this_august_assembly = 2553
-str_consult_with_s11_at_your_court_in_s12 = 2554
-str_as_brief_as_our_separation_has_been_the_longing_in_my_heart_to_see_you_has_made_it_seem_as_many_years = 2555
-str_although_it_has_only_been_a_short_time_since_your_departure_but_i_would_be_most_pleased_to_see_you_again = 2556
-str_although_i_have_received_no_word_from_you_for_quite_some_time_i_am_sure_that_you_must_have_been_very_busy_and_that_your_failure_to_come_see_me_in_no_way_indicates_that_your_attentions_to_me_were_insincere_ = 2557
-str_i_trust_that_you_have_comported_yourself_in_a_manner_becoming_a_gentleman_during_our_long_separation_ = 2558
-str_it_has_been_many_days_since_you_came_and_i_would_very_much_like_to_see_you_again = 2559
-str__you_should_ask_my_s11_s16s_permission_but_i_have_no_reason_to_believe_that_he_will_prevent_you_from_coming_to_see_me = 2560
-str__you_should_first_ask_her_s11_s16s_permission = 2561
-str__alas_as_we_know_my_s11_s16_will_not_permit_me_to_see_you_however_i_believe_that_i_can_arrange_away_for_you_to_enter_undetected = 2562
-str__as_my_s11_s16_has_already_granted_permission_for_you_to_see_me_i_shall_expect_your_imminent_arrival = 2563
-str_visit_s3_who_was_last_at_s4s18 = 2564
-str_giver_troop___s2 = 2565
-str_the_guards_at_the_gate_have_been_ordered_to_allow_you_through_you_might_be_imagining_things_but_you_think_one_of_them_may_have_given_you_a_wink = 2566
-str_the_guards_glare_at_you_and_you_know_better_than_to_ask_permission_to_enter_however_as_you_walk_back_towards_your_lodgings_an_elderly_lady_dressed_in_black_approaches_you_i_am_s11s_nurse_she_whispers_urgently_don_this_dress_and_throw_the_hood_over_your_face_i_will_smuggle_you_inside_the_castle_to_meet_her_in_the_guise_of_a_skullery_maid__the_guards_will_not_look_too_carefully_but_i_beg_you_for_all_of_our_sakes_be_discrete = 2567
-str_the_guards_glare_at_you_and_you_know_better_than_to_ask_permission_to_enter_however_as_you_walk_back_towards_your_lodgings_an_elderly_lady_dressed_in_black_approaches_you_i_am_s11s_nurse_she_whispers_urgently_wait_for_a_while_by_the_spring_outside_the_walls_i_will_smuggle_her_ladyship_out_to_meet_you_dressed_in_the_guise_of_a_shepherdess_but_i_beg_you_for_all_of_our_sakes_be_discrete = 2568
-str_the_guards_glare_at_you_and_you_know_better_than_to_ask_permission_to_enter_however_as_you_walk_back_towards_your_lodgings_an_elderly_lady_dressed_in_black_approaches_you_i_am_s11s_nurse_she_whispers_urgently_her_ladyship_asks_me_to_say_that_yearns_to_see_you_but_that_you_should_bide_your_time_a_bit_her_ladyship_says_that_to_arrange_a_clandestine_meeting_so_soon_after_your_last_encounter_would_be_too_dangerous = 2569
-str_the_guards_glare_at_you_and_you_know_better_than_to_ask_permission_to_enter = 2570
-str_s3_commander_of_party_reg4_which_is_not_his_troop_leaded_party_reg5 = 2571
-str_party_with_commander_mismatch__check_log_for_details_ = 2572
-str_s4_adds_wealth_has_reg4_wealth_accumulated = 2573
-str_doing_political_calculations_for_s9 = 2574
-str_s9_does_not_have_a_fief = 2575
-str_current_wealth_reg1 = 2576
-str_debug__attempting_to_spawn_s4 = 2577
-str_debug__s0_is_spawning_around_party__s7 = 2578
-str_no_trigger_noted = 2579
-str_triggered_by_npc_is_quitting = 2580
-str_triggered_by_npc_has_grievance = 2581
-str_triggered_by_npc_has_personality_clash = 2582
-str_triggered_by_npc_has_political_grievance = 2583
-str_triggered_by_npc_to_rejoin_party = 2584
-str_triggered_by_npc_has_sisterly_advice = 2585
-str_triggered_by_local_histories = 2586
-str_s1_reg0_s2 = 2587
-str_s3_reg0_s2 = 2588
-str_s1_s2 = 2589
-str_wanted_bandits_spotted_by_s4 = 2590
-str_s4_ready_to_voice_objection_to_s3s_mission_if_in_party = 2591
-str_test_effective_relation___reg3 = 2592
-str_g_talk_troop___reg0__g_encountered_party___reg1__slot_value___reg2 = 2593
-str_strange_that_one_didnt_seem_like_your_ordenary_troublemaker_he_didnt_drink_all_that_much__he_just_stood_there_quietly_and_watched_the_door_you_may_wish_to_consider_whether_you_have_any_enemies_who_know_you_are_in_town_a_pity_that_blood_had_to_be_spilled_in_my_establishment = 2594
-str_wielded_item_reg3 = 2595
-str_you_never_let_him_draw_his_weapon_still_it_looked_like_he_was_going_to_kill_you_take_his_sword_and_purse_i_suppose_he_was_trouble_but_its_not_good_for_an_establishment_to_get_a_name_as_a_place_where_men_are_killed = 2596
-str_well_id_say_that_he_started_it_that_entitles_you_to_his_sword_and_purse_i_suppose_have_a_drink_on_the_house_as_i_daresay_youve_saved_a_patron_or_two_a_broken_skull_still_i_hope_he_still_has_a_pulse_its_not_good_for_an_establishment_to_get_a_name_as_a_place_where_men_are_killed = 2597
-str_stop_no_shooting_no_shooting = 2598
-str_em_ill_stay_out_of_this = 2599
-str_the_s12_is_a_labyrinth_of_rivalries_and_grudges_lords_ignore_their_lieges_summons_and_many_are_ripe_to_defect = 2600
-str_the_s12_is_shaky_many_lords_do_not_cooperate_with_each_other_and_some_might_be_tempted_to_defect_to_a_liege_that_they_consider_more_worthy = 2601
-str_the_s12_is_fairly_solid_some_lords_bear_enmities_for_each_other_but_they_tend_to_stand_together_against_outside_enemies = 2602
-str_the_s12_is_a_rock_of_stability_politically_speaking_whatever_the_lords_may_think_of_each_other_they_fight_as_one_against_the_common_foe = 2603
-str_tribune_s12 = 2604
-str_lady_s12 = 2605
-str_lord_s12 = 2606
-str_resolve_the_dispute_between_s11_and_s12 = 2607
-str_in_doing_so_you_will_be_in_violation_of_your_truce_is_that_what_you_want = 2608
-str_if_you_attack_without_provocation_some_of_your_vassals_may_consider_you_to_be_too_warlike_is_that_what_you_want = 2609
-str_our_men_are_ready_to_ride_forth_at_your_bidding_are_you_sure_this_is_what_you_want = 2610
-str_seek_recognition = 2611
-str_seek_vassalhood = 2612
-str_seek_a_truce = 2613
-str__promised_fief = 2614
-str_no_fiefss12 = 2615
-str_fiefs_s0s12 = 2616
-str_please_s65_ = 2617
-str__s15_is_also_being_held_here_and_you_may_wish_to_see_if_reg4shehe_will_join_us = 2618
-str_one_thing_in_our_favor_is_that_s12s_grip_is_very_shaky_he_rules_over_a_labyrinth_of_rivalries_and_grudges_lords_often_fail_to_cooperate_and_many_would_happily_seek_a_better_liege = 2619
-str_thankfully_s12s_grip_is_fairly_shaky_many_lords_do_not_cooperate_with_each_other_and_some_might_be_tempted_to_seek_a_better_liege = 2620
-str_unfortunately_s12s_grip_is_fairly_strong_until_we_can_shake_it_we_may_have_to_look_long_and_hard_for_allies = 2621
-str_unfortunately_s12s_grip_is_very_strong_unless_we_can_loosen_it_it_may_be_difficult_to_find_allies = 2622
-str_playername_come_to_plague_me_some_more_have_you = 2623
-str_ah_it_is_you_again = 2624
-str_well_playername = 2625
-str_comment_found_s1 = 2626
-str_rejoinder_noted = 2627
-str_s11 = 2628
-str_flagon_of_mead = 2629
-str_skin_of_kumis = 2630
-str_mug_of_kvass = 2631
-str_cup_of_wine = 2632
-str_you_intend_to_challenge_s13_to_force_him_to_retract_an_insult = 2633
-str_intrigue_impatience__reg3_must_be_less_than_100 = 2634
-str_youll_have_to_speak_to_me_at_some_other_time_then = 2635
-str_this_is_no_time_for_words = 2636
-str_lord_not_alone = 2637
-str_of_course_my_wife = 2638
-str_perhaps_not_our_marriage_has_become_a_bit_strained_dont_you_think = 2639
-str_why_is_that_my_wife_actually_our_marriage_has_become_such_that_i_prefer_to_have_a_witness_for_all_of_our_converations = 2640
-str_all_right_then_what_do_you_have_to_say_out_with_it = 2641
-str_bah__im_in_no_mood_for_whispering_in_the_corner = 2642
-str_bah_i_dont_like_you_that_much_im_not_going_to_go_plot_with_you_in_some_corner = 2643
-str_well__now_what_do_you_have_to_propose = 2644
-str_trying_our_hand_at_intrigue_are_we_i_think_not = 2645
-str_hah_i_trust_you_as_a_i_would_a_serpent_i_think_not = 2646
-str_i_do_not_like_to_conduct_my_business_in_the_shadows_but_sometimes_it_must_be_done_what_do_you_have_to_say = 2647
-str_i_would_prefer_to_conduct_our_affairs_out_in_the_open = 2648
-str_do_not_take_this_amiss_but_with_you_i_would_prefer_to_conduct_our_affairs_out_in_the_open = 2649
-str_hmm_you_have_piqued_my_interest_what_do_you_have_to_say = 2650
-str_em_lets_keep_our_affairs_out_in_the_open_for_the_time_being = 2651
-str_thats_sensible__the_world_is_full_of_churls_who_poke_their_noses_into_their_betters_business_now_tell_me_what_it_is_that_you_have_to_say = 2652
-str_what_do_you_take_me_for_a_plotter = 2653
-str_well_i_normally_like_to_keep_things_out_in_the_open_but_im_sure_someone_like_you_would_not_want_to_talk_in_private_unless_heshe_had_a_good_reason_what_is_it = 2654
-str_surely_we_can_discuss_whatever_you_want_to_discuss_out_here_in_the_open_cant_we = 2655
-str_im_a_simple__man_not_one_for_intrigue_but_id_guess_that_you_have_something_worthwhile_to_say_what_is_it = 2656
-str_forgive_me_but_im_not_one_for_going_off_in_corners_to_plot = 2657
-str_please_do_not_take_this_amiss_but_i_do_not_trust_you = 2658
-str_certainly_playername_what_is_it = 2659
-str_forgive_me_but_id_prefer_to_keep_our_conversations_in_the_open = 2660
-str_please_do_not_take_this_amiss_but_im_not_sure_you_and_i_are_still_on_those_terms = 2661
-str_persuasion__relation_less_than_5 = 2662
-str_s15_dupe = 2663
-str_persuasion__2__lord_reputation_modifier__relation_less_than_10 = 2664
-str_s13 = 2665
-str_placeholder = 2666
-str_really_well_this_is_the_first_i_have_heard_of_it_unless_you_build_up_support_for_that_claim_you_may_find_it_difficult_to_find_allies_however_whenever_you_see_fit_to_declare_yourself_publically_as_queen_i_should_be_honored_to_be_your_consort = 2667
-str_yes_i_have_heard_such_talk_while_it_is_good_that_you_are_building_up_your_support_i_do_not_think_that_you_are_quite_ready_to_proclaim_yourself_yet_however_i_will_let_you_be_the_judge_of_that_and_when_you_decide_i_should_be_honored_to_be_your_consort = 2668
-str_yes_and_many_others_in_calradia_think_so_as_well_perhaps_it_is_time_that_you_declared_yourself_and_we_shall_ride_forth_together_to_claim_your_throne_i_should_be_honored_to_be_your_consort = 2669
-str_i_am_disturbed_about_my_lord_s15s_choice_of_companions = 2670
-str_well_ill_be_honest_i_feel_that_sometimes_s15_overlooks_my_rights_and_extends_his_protection_to_the_unworthy = 2671
-str_heh_one_thing_that_ill_say_about_s15_is_that_he_has_a_ripe_batch_of_bastards_in_his_court = 2672
-str_well_sometimes_i_have_to_say_that_i_question_s15s_judgment_regarding_those_who_he_keeps_in_his_court = 2673
-str_s15_is_a_weak_man_who_too_easily_lends_his_ear_to_evil_council_and_gives_his_protection_to_some_who_have_done_me_wrong = 2674
-str_i_will_confess_that_sometimes_i_worry_about_s15s_judgment_particularly_in_the_matter_of_the_counsel_that_he_keeps = 2675
-str_what_do_i_think_i_think_that_s15_is_a_vile_pretender_a_friend_to_the_flatterer_and_the_hypocrite = 2676
-str_well_s15_is_not_like_you_ill_say_that_much = 2677
-str_s15_long_may_he_live = 2678
-str_he_is_my_liege_that_is_all_that_i_will_say_on_this_matter = 2679
-str_that_you_are_the_rightful_heir_to_the_throne_of_calradia = 2680
-str_that_s14_is_the_rightful_ruler_of_calradia = 2681
-str_that_s14_will_rule_this_land_justly = 2682
-str_that_s14_will_protect_our_rights_as_nobles = 2683
-str_that_s14_will_unify_this_land_and_end_this_war = 2684
-str_that_s14_will_reward_me_with_a_fief = 2685
-str_king = 2687
-str_queen = 2689
-str_khan = 2690
-str_i = 2691
-str_according_to_the_ancient_law_and_custom_of_the_calradians_s45_should_be_s47 = 2692
-str_because_s44_is_the_rightful_s47_of_the_s46 = 2693
-str_you_speak_of_claims_and_legalities_yet_to_others_you_talk_of_bringing_peace_by_force = 2694
-str_you_speak_of_bringing_peace_by_force_yet_to_others_you_make_legal_claims = 2695
-str_you_speak_to_some_of_upholding_the_rights_of_the_commons_yet_you_speak_to_others_of_uphold_the_rights_of_nobles_what_if_those_rights_are_in_conflict = 2696
-str_you_speak_to_me_of_upholding_my_rights_as_a_lord_but_to_others_you_talk_of_upholding_the_rights_of_all_commons_what_if_those_rights_come_into_conflict = 2697
-str_a_claim_should_be_strong_indeed_before_one_starts_talking_about_it = 2698
-str_a_king_should_prove_his_valor_beyond_any_doubt_before_he_starts_talking_about_a_claim_to_the_throne = 2699
-str_you_must_prove_yourself_a_great_warrior_before_men_will_follow_you_as_king = 2700
-str_a_claim_to_the_throne_should_be_strong_indeed_before_one_presses_it = 2701
-str_indeed_but_a_man_must_also_prove_himself_a_great_warrior_before_men_will_follow_you_as_king = 2702
-str_my_pigherd_can_declare_himself_king_if_he_takes_he_fancy_i_think_you_need_to_break_a_few_more_heads_on_tbe_battlefield_before_men_will_follow_you = 2703
-str_if_you_do_not_wish_to_die_on_a_scaffold_like_so_many_failed_pretenders_before_you_i_would_suggest_that_you_to_build_your_claim_on_stronger_foundations_so_that_men_will_follow_you = 2704
-str_if_you_do_not_wish_to_die_on_a_scaffold_like_so_many_failed_pretenders_before_you_i_would_advise_you_prove_yourself_on_the_field_of_battle_so_that_men_will_follow_you = 2705
-str_talk_is_for_heralds_and_lawyers_real_kings_prove_themselves_with_their_swords = 2706
-str_i_were_you_i_would_try_to_prove_myself_a_bit_more_before_i_went_about_pressing_my_claim = 2707
-str_trump_check_random_reg4_skill_reg3 = 2708
-str_s12_s43 = 2709
-str_indeed_please_continue = 2710
-str_me = 2711
-str_preliminary_result_for_political___reg4 = 2712
-str_i_worry_about_those_with_whom_you_have_chosen_to_surround_yourself = 2713
-str_there_are_some_outstanding_matters_between_me_and_some_of_your_vassals_ = 2714
-str_result_for_political___reg41 = 2715
-str_my_liege_has_his_faults_but_i_dont_care_for_your_toadies = 2716
-str_i_think_youre_a_good_man_but_im_worried_that_you_might_be_pushed_in_the_wrong_direction_by_some_of_those_around_you = 2717
-str_i_am_loathe_to_fight_alongside_you_so_long_as_you_take_under_your_wing_varlots_and_base_men = 2718
-str_ill_be_honest__with_some_of_those_who_follow_you_i_think_id_be_more_comfortable_fighting_against_you_than_with_you = 2719
-str_i_say_that_you_can_judge_a_man_by_the_company_he_keeps_and_you_have_surrounded_yourself_with_vipers_and_vultures = 2720
-str_you_know_that_i_have_always_had_a_problem_with_some_of_our_companions = 2721
-str_politically_i_would_be_a_better_position_in_the_court_of_my_current_liege_than_in_yours = 2722
-str_i_am_more_comfortable_with_you_and_your_companions_than_with_my_current_liege = 2723
-str_militarily_youre_in_no_position_to_protect_me_should_i_be_attacked_id_be_reluctant_to_join_you_until_you_could = 2724
-str_militarily_when_i_consider_the_lay_of_the_land_i_realize_that_to_pledge_myself_to_you_now_would_endanger_my_faithful_retainers_and_my_family = 2725
-str_militarily_youre_in_no_position_to_come_to_my_help_if_someone_attacked_me_i_dont_mind_a_good_fight_but_i_like_to_have_a_chance_of_winning = 2726
-str_militarily_you_would_have_me_join_you_only_to_find_myself_isolated_amid_a_sea_of_enemies = 2727
-str_militarily_youre_in_no_position_to_come_to_my_help_if_someone_attacked_me_youd_let_me_be_cut_down_like_a_dog_id_bet = 2728
-str_militarily_i_wouldnt_be_any_safer_if_i_joined_you = 2729
-str_militarily_i_might_be_safer_if_i_joined_you = 2730
-str_finally_there_is_a_cost_to_ones_reputation_to_change_sides_in_this_case_the_cost_would_be_very_high = 2731
-str_finally_there_is_a_cost_to_ones_reputation_to_change_sides_in_this_case_the_cost_would_be_significant = 2732
-str_finally_there_is_a_cost_to_ones_reputation_to_change_sides_in_this_case_however_many_men_would_understand = 2733
-str_chance_of_success___reg1 = 2734
-str_random___reg3 = 2735
-str_i_will_not_have_it_be_said_about_me_that_i_am_a_traitor_that_is_my_final_decision_i_have_nothing_more_to_say_on_this_matter = 2736
-str_i_am_pledged_to_defend_s14_i_am_sorry_though_we_may_meet_on_the_battlefield_i_hope_that_we_will_still_be_friends = 2737
-str_i_really_cannot_bring_myself_to_renounce_s14_i_am_sorry_please_lets_not_talk_about_this_any_more = 2738
-str_however_i_have_decided_that_i_must_remain_loyal_to_s14_i_am_sorry = 2739
-str_however_i_will_not_let_you_lead_me_into_treason_do_not_talk_to_me_of_this_again = 2740
-str_its_not_good_to_get_a_reputation_as_one_who_abandons_his_liege_that_is_my_decision_let_us_speak_no_more_of_this_matter = 2741
-str_ive_decided_to_stick_with_s14_i_dont_want_to_talk_about_this_matter_any_more = 2742
-str_lord_pledges_to_s4 = 2743
-str_lord_recruitment_provokes_home_faction = 2744
-str_error__wrong_quest_type = 2745
-str_you_are_challenging_me_to_a_duel_how_droll_as_you_wish_playername_it_will_be_good_sport_to_bash_your_head_in = 2746
-str_call_me_coward_very_well_you_leave_me_no_choice = 2747
-str_reg3_hours = 2748
-str_hour = 2749
-str_however_circumstances_have_changed_since_we_made_that_decision_and_i_may_reconsider_shortly_s16 = 2750
-str_i_wish_to_marry_your_s11_s10_i_ask_for_your_blessing = 2751
-str_i_wish_to_marry_your_s11_s10_i_ask_for_your_help = 2752
-str_you_plan_to_marry_s3_at_a_feast_hosted_by_s4_in_s5_you_should_be_notifed_of_the_feast_as_soon_as_it_is_held = 2753
-str_your_s11_ = 2754
-str_i_ask_again_may = 2755
-str_may = 2756
-str_very_well_as_far_as_im_concerned_i_suppose_she_can_see_most_anyone_she_likes__within_reason_of_course = 2757
-str_very_well_an_alliance_with_you_could_be_valuable_go_chat_with_her_and_see_if_you_can_get_her_to_take_a_fancy_to_you_if_she_doesnt_and_if_we_still_want_to_conclude_this_business_then_i_can_make_her_see_reason = 2758
-str_you_have_my_blessing_to_pay_suit_to_her__so_long_as_your_intentions_are_honorable_of_course_depending_on_how_things_proceed_between_you_two_we_may_have_more_to_discuss_at_a_later_date = 2759
-str_war_damage_inflicted_reg3_suffered_reg4_ratio_reg5 = 2760
-str_error__did_not_calculate_war_progress_string_properly = 2761
-str_the_war_has_barely_begun_so_and_it_is_too_early_to_say_who_is_winning_and_who_is_losing = 2762
-str_we_have_been_hitting_them_very_hard_and_giving_them_little_chance_to_recover = 2763
-str_the_fighting_has_been_hard_but_we_have_definitely_been_getting_the_better_of_them = 2764
-str_they_have_been_hitting_us_very_hard_and_causing_great_suffering = 2765
-str_the_fighting_has_been_hard_and_i_am_afraid_that_we_have_been_having_the_worst_of_it = 2766
-str_both_sides_have_suffered_in_the_fighting = 2767
-str_no_clear_winner_has_yet_emerged_in_the_fighting_but_i_think_we_are_getting_the_better_of_them = 2768
-str_no_clear_winner_has_yet_emerged_in_the_fighting_but_i_fear_they_may_be_getting_the_better_of_us = 2769
-str_no_clear_winner_has_yet_emerged_in_the_fighting = 2770
-str_s9_s14 = 2771
-str_there_is_no_campaign_currently_in_progress = 2772
-str_we_are_assembling_the_army = 2773
-str_we_aim_to_take_the_fortress_of_s8 = 2774
-str_we_are_on_a_raid_and_are_now_targeting_s8 = 2775
-str_we_are_trying_to_seek_out_and_defeat_s8 = 2776
-str_we_are_riding_to_the_defense_of_s8 = 2777
-str_we_are_gathering_for_a_feast_at_s8 = 2778
-str__however_that_may_change_shortly_s14 = 2779
-str_it_is_our_custom_to_seal_any_such_alliances_with_marriage_and_in_fact_we_have_been_looking_for_a_suitable_groom_for_my_s11_s14 = 2780
-str_once_again_ = 2781
-str_cheat__marriage_proposal = 2782
-str_you_plan_to_marry_s4_as_you_have_no_family_in_calradia_he_will_organize_the_wedding_feast = 2783
-str_s43_just_so_you_know_if_you_attack_me_you_will_be_in_violation_of_the_truce_you_signed_with_the_s34 = 2784
-str_very_well__you_are_now_my_liege_as_well_as_my_husband = 2785
-str_i_thank_you_reg39my_ladylord = 2786
-str_now_some_might_say_that_women_have_no_business_leading_mercenary_companies_but_i_suspect_that_you_would_prove_them_wrong_what_do_you_say = 2787
-str_what_do_you_say_to_entering_the_service_of_s9_as_a_mercenary_captain_i_have_no_doubt_that_you_would_be_up_to_the_task = 2788
-str_s9_asked_you_to_rescue_s13_who_is_prisoner_at_s24 = 2789
-str_s9_asked_you_to_attack_a_village_or_some_caravans_as_to_provoke_a_war_with_s13 = 2790
-str_s9_asked_you_to_catch_the_three_groups_of_runaway_serfs_and_bring_them_back_to_s4_alive_and_breathing_he_said_that_all_three_groups_are_heading_towards_s3 = 2791
-str_error__player_not_logged_as_groom = 2792
-str_you_intend_to_bring_goods_to_s9_in_preparation_for_the_feast_which_will_be_held_as_soon_as_conditions_permit = 2793
-str_hello_playername = 2794
-str_ah_my_gentle_playername_how_much_good_it_does_my_heart_to_see_you_again = 2795
-str_playername__i_am_so_glad_to_see_you_again_i_must_say_i_do_envy_your_freedom_to_ride_out_and_experience_the_world = 2796
-str_playername__i_am_so_glad_to_see_you_i_trust_that_you_have_been_behaving_honorably_since_last_we_met = 2797
-str_playername__i_am_so_glad_that_you_were_able_to_come = 2798
-str_i_do_enjoy_speaking_to_you_but_i_am_sure_you_understand_that_our_people_cluck_their_tongues_at_a_woman_to_spend_too_long_conversing_with_a_man_outside_her_family__although_the_heavens_know_its_never_the_man_who_is_held_to_blame_ = 2799
-str_as_much_as_i_enjoy_speaking_to_you_i_do_not_care_to_be_gossiped_about_by_others_who_might_lack_my_grace_and_beauty_ = 2800
-str_i_do_so_enjoy_speaking_to_you_but_as_a_daughter_of_one_of_the_great_families_of_this_land_i_must_set_an_example_of_propriety_ = 2801
-str_i_do_so_enjoy_speaking_to_you_but_as_a_daughter_of_good_family_i_must_protect_my_reputation_ = 2802
-str_although_it_is_kind_of_you_to_pay_me_such_attentions_i_suspect_that_you_might_find_other_ladies_who_may_be_more_inclined_to_return_your_affection = 2803
-str_as_flattered_as_i_am_by_your_attentions_perhaps_you_should_seek_out_another_lady_of_somewhat_shall_we_say_different_tastes = 2804
-str_as_flattered_as_i_am_by_your_attentions_i_am_a_daughter_of_good_family_and_must_be_aware_of_my_reputation_it_is_not_seemly_that_i_converse_too_much_at_one_time_with_one_man_i_am_sure_you_understand_now_if_you_will_excuse_me = 2805
-str_very_well__i_will_let_you_choose_the_time = 2806
-str_good_i_am_glad_that_you_have_abandoned_the_notion_of_pushing_me_into_marriage_before_i_was_ready = 2807
-str_rival_found_s4_reg0_relation = 2808
-str_i_am = 2809
-str_s12_comma = 2810
-str_s12_s11_to_s14 = 2811
-str_s12_period = 2812
-str_s12_i_am_here_for_the_feast = 2813
-str_another_tournament_dedication_oh_i_suppose_it_is_always_flattering = 2814
-str_do_you_why_what_a_most_gallant_thing_to_say = 2815
-str_hmm_i_cannot_say_that_i_altogether_approve_of_such_frivolity_but_i_must_confess_myself_a_bit_flattered = 2816
-str_why_thank_you_you_are_most_kind_to_do_so = 2817
-str_you_are_most_courteous_and_courtesy_is_a_fine_virtue_ = 2818
-str_hmm_youre_a_bold_one_but_i_like_that_ = 2819
-str_ah_well_they_all_say_that_but_no_matter_a_compliment_well_delivered_is_at_least_a_good_start_ = 2820
-str_oh_do_you_mean_that_such_a_kind_thing_to_say = 2821
-str_you_are_a_most_gallant_young_man_ = 2822
-str__do_come_and_see_me_again_soon = 2823
-str_you_intend_to_ask_s12_for_permission_to_marry_s15 = 2824
-str_you_intend_to_ask_s12_to_pressure_s10_to_marry_you = 2825
-str_do_be_careful_i_am_so_much_endebted_to_you_for_this = 2826
-str_go_then__we_shall_see_which_of_you_triumphs = 2827
-str_sigh_i_will_never_truly_understand_men_and_their_rash_actions = 2828
-str_you_intend_to_challenge_s13_to_force_him_to_relinquish_his_suit_of_s11 = 2829
-str_farewell = 2830
-str_farewell_playername = 2831
-str___we_believe_that_there_is_money_to_be_made_selling_ = 2832
-str_s14s15_ = 2833
-str__we_carry_a_selection_of_goods_although_the_difference_in_prices_for_each_is_not_so_great_we_hope_to_make_a_profit_off_of_the_whole = 2834
-str_s14and_other_goods = 2835
-str__have_you_not_signed_a_truce_with_our_lord = 2836
-str_parole = 2837
-str_normal = 2838
-str_s51 = 2839
-str__meanwhile_s51_reg2areis_being_held_in_the_castle_but_reg2havehas_made_pledges_not_to_escape_and_reg2areis_being_held_in_more_comfortable_quarters = 2840
-str_you_may_be_aware_my_lord_of_the_quarrel_between_s4_and_s5_which_is_damaging_the_unity_of_this_realm_and_sapping_your_authority_if_you_could_persuade_the_lords_to_reconcile_it_would_boost_your_own_standing_however_in_taking_this_on_you_run_the_risk_of_one_the_lords_deciding_that_you_have_taken_the_rivals_side = 2841
-str_you_may_be_aware_my_lord_of_the_quarrel_between_s4_and_s5_which_is_damaging_the_unity_of_this_realm_and_sapping_your_authority_if_you_could_persuade_the_lords_to_reconcile_i_imagine_that_s7_would_be_most_pleased_however_in_taking_this_on_you_run_the_risk_of_one_the_lords_deciding_that_you_have_taken_the_rivals_side = 2842
-str__of_course_the_land_is_currently_at_peace_so_you_may_have_better_luck_in_other_realms = 2843
-str_here = 2844
-str_over = 2845
-str_s8_in_s12 = 2846
-str__has_put_together_a_bounty_on_some_bandits_who_have_been_attacking_travellers_in_the_area = 2847
-str__is_looking_for_a_way_to_avoid_an_impending_war = 2848
-str__may_need_help_rescuing_an_imprisoned_family_member = 2849
-str__has_been_asking_around_for_someone_who_might_want_work_id_watch_yourself_with_him_though = 2850
-str_town = 2851
-str_castle = 2852
-str__but_he_is_holding_there_as_a_prisoner_at_dungeon_of_s13 = 2853
-str_log_entry_type_reg4_for_s4_total_entries_reg5 = 2854
-str_error__reputation_type_for_s9_not_within_range = 2855
-str_they_say_that_s9_is_a_most_conventional_maiden__devoted_to_her_family_of_a_kind_and_gentle_temperament_a_lady_in_all_her_way = 2856
-str_they_say_that_s9_is_a_bit_of_a_romantic_a_dreamer__of_a_gentle_temperament_yet_unpredictable_she_is_likely_to_be_led_by_her_passions_and_will_be_trouble_for_her_family_ill_wager = 2857
-str_they_say_that_s9_is_determined_to_marry_well_and_make_her_mark_in_the_world_she_may_be_a_tremendous_asset_for_her_husband__provided_he_can_satisfy_her_ambition = 2858
-str_they_say_that_s9_loves_to_hunt_and_ride_maybe_she_wishes_she_were_a_man_whoever_she_marries_will_have_a_tough_job_keeping_the_upper_hand_i_would_say = 2859
-str_they_say_that_s9_is_a_lady_of_the_highest_moral_standards_very_admirable_very_admirable__and_very_hard_to_please_ill_warrant = 2860
-str_s9_is_now_betrothed_to_s11_soon_we_believe_there_shall_be_a_wedding = 2861
-str_i_have_not_heard_any_news_about_her = 2862
-str_searching_for_rumors_for_s9 = 2863
-str_they_say_that_s9_has_shown_favor_to_s11_perhaps_it_will_not_be_long_until_they_are_betrothed__if_her_family_permits = 2864
-str_they_say_that_s9_has_been_forced_by_her_family_into_betrothal_with_s11 = 2865
-str_they_say_that_s9_has_agreed_to_s11s_suit_and_the_two_are_now_betrothed = 2866
-str_they_say_that_s9_under_pressure_from_her_family_has_agreed_to_betrothal_with_s11 = 2867
-str_they_say_that_s9_has_refused_s11s_suit = 2868
-str_they_say_that_s11_has_tired_of_pursuing_s9 = 2869
-str_they_say_that_s9s_family_has_forced_her_to_renounce_s11_whom_she_much_loved = 2870
-str_they_say_that_s9_has_run_away_with_s11_causing_her_family_much_grievance = 2871
-str_they_say_that_s9_and_s11_have_wed = 2872
-str_they_say_that_s9_was_recently_visited_by_s11_who_knows_where_that_might_lead = 2873
-str_there_is_not_much_to_tell_but_it_is_still_early_in_the_season = 2874
-str_error_lady_selected___s9 = 2875
-str_s12there_is_a_feast_of_the_s3_in_progress_at_s4_but_it_has_been_going_on_for_a_couple_of_days_and_is_about_to_end_ = 2876
-str_s12there_is_a_feast_of_the_s3_in_progress_at_s4_which_should_last_for_at_least_another_day_ = 2877
-str_s12there_is_a_feast_of_the_s3_in_progress_at_s4_which_has_only_just_begun_ = 2878
-str_not_at_this_time_no = 2879
-str_s12the_great_lords_bring_their_daughters_and_sisters_to_these_occasions_to_see_and_be_seen_so_they_represent_an_excellent_opportunity_to_make_a_ladys_acquaintance = 2880
-str_you_will_not_be_disappointed_sirmadam_you_will_not_find_better_warriors_in_all_calradia = 2881
-str_your_excellency = 2882
-str_s10_and_s11 = 2883
-str_your_loyal_subjects = 2884
-str_loyal_subjects_of_s10 = 2885
-str_the = 2886
-str_we = 2887
-str_track_down_s7_and_defeat_him_defusing_calls_for_war_within_the_s11 = 2888
-str_track_down_the_s9_who_attacked_travellers_near_s8_then_report_back_to_the_town = 2889
-str_fire_time__reg0_cur_time__reg1 = 2890
-str_fire_set_up_time_at_city_reg0_is_reg1 = 2891
-str_our_power__reg3__enemy_power__reg4 = 2892
-str_do_you_wish_to_award_it_to_one_of_your_vassals = 2893
-str_who_do_you_wish_to_give_it_to = 2894
-str_sire_my_lady_we_have_taken_s1_s2 = 2895
-str_s12i_want_to_have_s1_for_myself = 2896
-str_fiefs_s0 = 2897
-str_reserved_001 = 2898
-str_production_setting_buy_from_market = 2899
-str_production_setting_buy_from_inventory = 2900
-str_production_setting_produce_to_inventory = 2901
-str_production_setting_produce_to_market = 2902
-str_feast_quest_expired = 2903
-str_whereabouts_unknown = 2904
-str_mulberry_groves = 2905
-str_olive_groves = 2906
-str_acres_flax = 2907
-str_enterprise_enemy_realm = 2908
-str_intrigue_success_chance = 2909
-str_you_intend_to_denounce_s14_to_s13_on_behalf_of_s12 = 2910
-str_you_intend_to_denounce_s14_to_his_face_on_behalf_of_s14 = 2911
-str_you_intend_to_bring_gift_for_s14 = 2912
-str_we_will_gather_the_army_but_not_ride_until_we_have_an_objective = 2913
-str_we_shall_lay_siege_to_an_easy_fortress_to_capture = 2914
-str_we_shall_strike_at_the_heart_of_our_foe_and_seize_the_fortress_of_s14 = 2915
-str_we_shall_take_the_fortress_of_s14_which_appears_easily_defensible = 2916
-str_we_shall_cut_a_fiery_trail_through_their_richest_lands_to_draw_them_out_to_battle = 2917
-str_strategy_criticism_rash = 2918
-str_strategy_criticism_cautious = 2919
-str_tavernkeeper_invalid_quest = 2920
-str_faction_title_male_player = 2921
-str_faction_title_male_1 = 2922
-str_faction_title_male_2 = 2923
-str_faction_title_male_3 = 2924
-str_faction_title_male_4 = 2925
-str_faction_title_male_5 = 2926
-str_faction_title_male_6 = 2927
-str_faction_title_female_player = 2928
-str_faction_title_female_1 = 2929
-str_faction_title_female_2 = 2930
-str_faction_title_female_3 = 2931
-str_faction_title_female_4 = 2932
-str_faction_title_female_5 = 2933
-str_faction_title_female_6 = 2934
-str_name_kingdom_text = 2935
-str_default_kingdom_name = 2936
-str_lord_defects_ordinary = 2937
-str_lord_defects_player = 2938
-str_lord_defects_player_faction = 2939
-str_lord_indicted_player_faction = 2940
-str_lord_indicted_dialog_approach = 2941
-str_lord_indicted_dialog_approach_yes = 2942
-str_lord_indicted_dialog_approach_no = 2943
-str_lord_indicted_dialog_rejected = 2944
-str__has_been_worried_about_bandits_establishing_a_hideout_near_his_home = 2945
-str_bandit_lair_quest_description = 2946
-str_bandit_hideout_preattack = 2947
-str_bandit_hideout_failure = 2948
-str_bandit_hideout_success = 2949
-str_bandit_approach_defile = 2950
-str_bandit_approach_swamp = 2951
-str_bandit_approach_thickets = 2952
-str_bandit_approach_cliffs = 2953
-str_bandit_approach_cove = 2954
-str_political_explanation_lord_lacks_center = 2955
-str_political_explanation_lord_took_center = 2956
-str_political_explanation_most_deserving_friend = 2957
-str_political_explanation_most_deserving_in_faction = 2958
-str_political_explanation_self = 2959
-str_political_explanation_marshal = 2960
-str_prisoner_at_large = 2961
-str_quick_battle_scene_1 = 2962
-str_quick_battle_scene_2 = 2963
-str_quick_battle_scene_3 = 2964
-str_quick_battle_scene_4 = 2965
-str_quick_battle_scene_5 = 2966
-str_quick_battle_troop_1 = 2967
-str_quick_battle_troop_2 = 2968
-str_quick_battle_troop_3 = 2969
-str_quick_battle_troop_4 = 2970
-str_quick_battle_troop_5 = 2971
-str_quick_battle_troop_6 = 2972
-str_quick_battle_troop_7 = 2973
-str_quick_battle_troop_8 = 2974
-str_quick_battle_troop_9 = 2975
-str_quick_battle_troop_10 = 2976
-str_quick_battle_troop_11 = 2977
-str_quick_battle_troops_end = 2978
-str_tutorial_training_ground_intro_message = 2979
-str_map_basic = 2980
-str_game_type_basic = 2981
-str_battle = 2982
-str_siege_offense = 2983
-str_siege_defense = 2984
-str_character = 2985
-str_biography = 2986
-str_player = 2987
-str_enemy = 2988
-str_faction = 2989
-str_army_composition = 2990
-str_army_size = 2991
-str_reg0_percent = 2992
-str_reg0_men = 2993
-str_start = 2994
-str_i_need_to_raise_some_men_before_attempting_anything_else = 2995
-str_we_are_currently_at_peace = 2996
-str_the_marshalship = 2997
-str_you = 2998
-str_myself = 2999
-str_my_friend_s15 = 3000
-str_custom_battle = 3001
-str_comment_intro_liege_affiliated_to_player = 3002
-str_s21_the_s8_declared_war_out_of_personal_enmity = 3003
-str_s21_the_s8_declared_war_in_response_to_border_provocations = 3004
-str_s21_the_s8_declared_war_to_curb_the_other_realms_power = 3005
-str_s21_the_s8_declared_war_to_regain_lost_territory = 3006
-str__family_ = 3007
-str_we_are_conducting_recce = 3008
-str__family_dupe = 3009
-str_s49_s12_s11_end = 3010
-str_center_party_not_active = 3011
-str_center_is_friendly = 3012
-str_center_is_already_besieged = 3013
-str_center_is_looted_or_raided_already = 3014
-str_center_marshal_does_not_want_to_attack_innocents = 3015
-str_center_we_have_already_committed_too_much_time_to_our_present_siege_to_move_elsewhere = 3016
-str_center_we_are_already_here_we_should_at_least_loot_the_village = 3017
-str_center_far_away_we_can_reconnoiter_but_will_delay_decision_until_we_get_close = 3018
-str_center_far_away_our_cautious_marshal_does_not_wish_to_reconnoiter = 3019
-str_center_far_away_even_for_our_aggressive_marshal_to_reconnoiter = 3020
-str_center_far_away_reason = 3021
-str_center_closer_but_this_is_not_enought = 3022
-str_center_protected_by_enemy_army_aggressive = 3023
-str_center_protected_by_enemy_army_cautious = 3024
-str_center_cautious_marshal_believes_center_too_difficult_to_capture = 3025
-str_center_even_aggressive_marshal_believes_center_too_difficult_to_capture = 3026
-str_center_value_outweighed_by_difficulty_of_capture = 3027
-str_center_value_justifies_the_difficulty_of_capture = 3028
-str_center_is_indefensible = 3029
-str_we_are_waiting_for_selection_of_marshal = 3030
-str_best_to_attack_the_enemy_lands = 3031
-str_we_believe_the_fortress_will_be_worth_the_effort_to_take_it = 3032
-str_we_will_gather_to_defend_the_beleaguered_fortress = 3033
-str_the_enemy_temporarily_has_the_field = 3034
-str_center_has_not_been_scouted = 3035
-str_we_have_assembled_some_vassals = 3036
-str_we_are_waiting_here_for_vassals = 3037
-str_we_are_travelling_to_s11_for_vassals = 3038
-str_center_strength_not_scouted = 3039
-str_center_strength_strongly_defended = 3040
-str_center_strength_moderately_defended = 3041
-str_center_strength_weakly_defended = 3042
-str_center_distant_from_concentration = 3043
-str_plus = 3044
-str_minus = 3045
-str_tutorial_training_ground_warning_no_weapon = 3046
-str_tutorial_training_ground_warning_shield = 3047
-str_tutorial_training_ground_warning_melee_with_parry = 3048
-str_tutorial_training_ground_warning_melee = 3049
-str_tutorial_training_ground_attack_training = 3050
-str_tutorial_training_ground_attack_training_down = 3051
-str_tutorial_training_ground_attack_training_up = 3052
-str_tutorial_training_ground_attack_training_left = 3053
-str_tutorial_training_ground_attack_training_right = 3054
-str_tutorial_training_ground_parry_training = 3055
-str_tutorial_training_ground_chamber_training = 3056
-str_tutorial_training_ground_archer_training = 3057
-str_tutorial_training_ground_ammo_refill = 3058
-str_tutorial_training_ground_archer_text_1 = 3059
-str_tutorial_training_ground_archer_text_2 = 3060
-str_tutorial_training_ground_archer_text_3 = 3061
-str_tutorial_training_ground_archer_text_4 = 3062
-str_tutorial_training_ground_archer_text_5 = 3063
-str_tutorial_training_ground_horseman_text_1 = 3064
-str_tutorial_training_ground_horseman_text_2 = 3065
-str_tutorial_training_ground_horseman_text_3 = 3066
-str_tutorial_training_ground_horseman_text_4 = 3067
-str_tutorial_training_ground_horseman_text_5 = 3068
-str_tutorial_training_ground_horseman_text_6 = 3069
-str_the_great_lords_of_your_kingdom_plan_to_gather_at_your_hall_in_s10_for_a_feast = 3070
-str_your_previous_court_some_time_ago = 3071
-str_awaiting_the_capture_of_a_fortress_which_can_serve_as_your_court = 3072
-str_but_if_this_goes_badly = 3073
-str_i_realize_that_you_are_on_good_terms_with_s4_but_we_ask_you_to_do_this_for_the_good_of_the_realm = 3074
-str_i_realize_that_you_are_on_good_terms_with_s4_but_the_blow_will_hurt_him_more = 3075
-str_killed_bandit_at_alley_fight = 3076
-str_wounded_by_bandit_at_alley_fight = 3077
-str_cannot_leave_now = 3078
-str_press_tab_to_exit_from_town = 3079
-str_find_the_lair_near_s9_and_free_the_brother_of_the_prominent_s10_merchant = 3080
-str_please_sir_my_lady_go_find_some_volunteers_i_do_not_know_how_much_time_we_have = 3081
-str_you_need_more_men_sir_my_lady = 3082
-str_good_you_have_enough_men = 3083
-str_do_not_waste_time_go_and_learn_where_my_brother_is = 3084
-str_start_up_quest_message_1 = 3085
-str_start_up_quest_message_2 = 3086
-str_start_up_quest_message_3 = 3087
-str_start_up_first_quest = 3088
-str_reason_1 = 3089
-str_reason_2 = 3090
-str_reason_3 = 3091
-str_reason_4 = 3092
-str_reason_5 = 3093
-str_reason_6 = 3094
-str_reason_7 = 3095
-str_reason_8 = 3096
-str_reason_9 = 3097
-str_has_decided_that_an_attack_on_ = 3098
-str_this_would_be_better_worth_the_effort = 3099
-str_has_decided_to_defend_ = 3100
-str_before_going_offensive_we_should_protect_our_lands_if_there_is_any_threat_so_this_can_be_reason_marshall_choosed_defending_s4 = 3101
-str_are_you_all_right = 3102
-str_you_are_awake = 3103
-str_save_town_from_bandits = 3104
-str_you_fought_well_at_town_fight_survived = 3105
-str_you_fought_normal_at_town_fight_survived = 3106
-str_you_fought_bad_at_town_fight_survived = 3107
-str_you_fought_well_at_town_fight = 3108
-str_you_wounded_at_town_fight = 3109
-str_you_fought_well_at_town_fight_survived_answer = 3110
-str_you_fought_normal_at_town_fight_survived_answer = 3111
-str_you_fought_bad_at_town_fight_survived_answer = 3112
-str_you_fought_well_at_town_fight_answer = 3113
-str_you_wounded_at_town_fight_answer = 3114
-str_unfortunately_reg0_civilians_wounded_during_fight_more = 3115
-str_unfortunately_reg0_civilians_wounded_during_fight = 3116
-str_also_one_another_good_news_is_any_civilians_did_not_wounded_during_fight = 3117
-str_merchant_and_you_call_some_townsmen_and_guards_to_get_ready_and_you_get_out_from_tavern = 3118
-str_town_fight_ended_you_and_citizens_cleaned_town_from_bandits = 3119
-str_town_fight_ended_you_and_citizens_cleaned_town_from_bandits_you_wounded = 3120
-str_journey_to_reyvadin = 3121
-str_journey_to_praven = 3122
-str_journey_to_jelkala = 3123
-str_journey_to_sargoth = 3124
-str_journey_to_tulga = 3125
-str_journey_to_shariz = 3126
-str_lost_tavern_duel_ordinary = 3127
-str_lost_tavern_duel_assassin = 3128
-str_lost_startup_hideout_attack = 3129
-str_reg1_blank_s3 = 3130
-str_as_you_no_longer_maintain_an_independent_kingdom_you_no_longer_maintain_a_court = 3131
-str_rents_from_s0 = 3132
-str_tariffs_from_s0 = 3133
-str_general_quarrel = 3134
-str_the_steppes = 3135
-str_the_deserts = 3136
-str_the_tundra = 3137
-str_the_forests = 3138
-str_the_highlands = 3139
-str_the_coast = 3140
-str_my_lady_not_sufficient_chemistry = 3141
-str_my_lady_engaged_to_another = 3142
-str_attempting_to_rejoin_party = 3143
-str_separated_from_party = 3144
-str_none_yet_gathered = 3146
-str_betrothed_dupe = 3147
-str_leading_party = 3148
-str_court_disbanded = 3149
-str_i_am_not_accompanying_the_marshal_because_will_be_reappointment = 3150
-str_persuasion_opportunity = 3151
-str_marshal_warning = 3152
-str_follow_army_quest_brief_2 = 3153
-str_greetings_playername__it_is_good_to_see_you_i_hope_that_you_have_had_success_in_your_efforts_to_make_your_name_in_the_world = 3154
-str_minister_advice_select_fief = 3155
-str_minister_advice_select_fief_wait = 3156
-str_minister_advice_fief_leading_vassal = 3157
-str_unassigned_center = 3158
-str_s43_also_you_should_know_that_an_unprovoked_assault_is_declaration_of_war = 3159
-str_missing_after_battle = 3160
-str_retrieve_garrison_warning = 3161
-str_s12s15_declared_war_to_control_calradia = 3162
-str_offer_gift_description = 3163
-str_resolve_dispute_description = 3164
-str_feast_wedding_opportunity = 3165
-str_s21_the_s8_declared_war_as_part_of_a_bid_to_conquer_all_calradia = 3166
-str_master_vinter = 3167
-str_s54_has_left_the_realm = 3168
-str_enterprise_s5_at_s0 = 3169
-str_bread_site = 3170
-str_ale_site = 3171
-str_oil_site = 3172
-str_wine_site = 3173
-str_tool_site = 3174
-str_leather_site = 3175
-str_linen_site = 3176
-str_wool_cloth_site = 3177
-str_velvet_site = 3178
-str_under_sequestration = 3179
-str_describe_secondary_input = 3180
-str_profit = 3181
-str_loss = 3182
-str_server_name_s0 = 3183
-str_map_name_s0 = 3184
-str_game_type_s0 = 3185
-str_remaining_time_s0reg0_s1reg1 = 3186
-str_you_are_a_lord_lady_of_s8_s9 = 3187
-str_you_are_king_queen_of_s8_s9 = 3188
-str_for_s4 = 3189
-str_cancel_fiancee_quest = 3190
-str_a_duel_request_is_sent_to_s0 = 3191
-str_s0_offers_a_duel_with_you = 3192
-str_your_duel_with_s0_is_cancelled = 3193
-str_a_duel_between_you_and_s0_will_start_in_3_seconds = 3194
-str_you_have_lost_a_duel = 3195
-str_you_have_won_a_duel = 3196
-str_server_s0 = 3197
-str_disallow_ranged_weapons = 3198
-str_ranged_weapons_are_disallowed = 3199
-str_ranged_weapons_are_allowed = 3200
-str_duel_starts_in_reg0_seconds = 3201
-str_dplmc_none = 3202
-str_dplmc_item_pool_no_items = 3203
-str_dplmc_item_pool_one_item = 3204
-str_dplmc_item_pool_many_items = 3205
-str_dplmc_item_pool_abandon = 3206
-str_dplmc_item_pool_leave = 3207
-str_dplmc_hero_not_upgrading_armor = 3208
-str_dplmc_hero_upgrading_armor = 3209
-str_dplmc_hero_not_upgrading_horse = 3210
-str_dplmc_hero_upgrading_horse = 3211
-str_dplmc_hero_wpn_slot_none = 3212
-str_dplmc_hero_wpn_slot_horse = 3213
-str_dplmc_hero_wpn_slot_one_handed = 3214
-str_dplmc_hero_wpn_slot_two_handed = 3215
-str_dplmc_hero_wpn_slot_polearm_all = 3216
-str_dplmc_hero_wpn_slot_arrows = 3217
-str_dplmc_hero_wpn_slot_bolts = 3218
-str_dplmc_hero_wpn_slot_shield = 3219
-str_dplmc_hero_wpn_slot_bow = 3220
-str_dplmc_hero_wpn_slot_crossbow = 3221
-str_dplmc_hero_wpn_slot_throwing = 3222
-str_dplmc_hero_wpn_slot_goods = 3223
-str_dplmc_hero_wpn_slot_head_armor = 3224
-str_dplmc_hero_wpn_slot_body_armor = 3225
-str_dplmc_hero_wpn_slot_foot_armor = 3226
-str_dplmc_hero_wpn_slot_hand_armor = 3227
-str_dplmc_hero_wpn_slot_pistol = 3228
-str_dplmc_hero_wpn_slot_musket = 3229
-str_dplmc_hero_wpn_slot_bullets = 3230
-str_dplmc_hero_wpn_slot_animal = 3231
-str_dplmc_hero_wpn_slot_book = 3232
-str_dplmc_hero_wpn_slot_two_handed_one_handed = 3233
-str_dplmc_gather_information = 3234
-str_dplmc_conclude_non_agression = 3235
-str_dplmc_nearly_no = 3236
-str_dplmc_less_than_one_hundred = 3237
-str_dplmc_more_than_one_hundred = 3238
-str_dplmc_more_than_two_hundred = 3239
-str_dplmc_more_than_five_hundred = 3240
-str_dplmc_bring_gift = 3241
-str_dplmc_exchange_prisoner = 3242
-str_dplmc_has_been_set_free = 3243
-str_dplmc_tax_very_low = 3244
-str_dplmc_tax_low = 3245
-str_dplmc_tax_normal = 3246
-str_dplmc_tax_high = 3247
-str_dplmc_tax_very_high = 3248
-str_dplmc_place_is_occupied_by_insurgents = 3249
-str_dplmc_relation_mnus_100_ns = 3250
-str_dplmc_relation_mnus_90_ns = 3251
-str_dplmc_relation_mnus_80_ns = 3252
-str_dplmc_relation_mnus_70_ns = 3253
-str_dplmc_relation_mnus_60_ns = 3254
-str_dplmc_relation_mnus_50_ns = 3255
-str_dplmc_relation_mnus_40_ns = 3256
-str_dplmc_relation_mnus_30_ns = 3257
-str_dplmc_relation_mnus_20_ns = 3258
-str_dplmc_relation_mnus_10_ns = 3259
-str_dplmc_relation_plus_0_ns = 3260
-str_dplmc_relation_plus_10_ns = 3261
-str_dplmc_relation_plus_20_ns = 3262
-str_dplmc_relation_plus_30_ns = 3263
-str_dplmc_relation_plus_40_ns = 3264
-str_dplmc_relation_plus_50_ns = 3265
-str_dplmc_relation_plus_60_ns = 3266
-str_dplmc_relation_plus_70_ns = 3267
-str_dplmc_relation_plus_80_ns = 3268
-str_dplmc_relation_plus_90_ns = 3269
-str_dplmc_s39_rival = 3270
-str_dplmc_s41_s39_rival = 3271
-str_dplmc_s40_love_interest_s39 = 3272
-str_dplmc_s40_betrothed_s39 = 3273
-str_dplmc_reputation_martial = 3274
-str_dplmc_reputation_debauched = 3275
-str_dplmc_reputation_pitiless = 3276
-str_dplmc_reputation_calculating = 3277
-str_dplmc_reputation_quarrelsome = 3278
-str_dplmc_reputation_goodnatured = 3279
-str_dplmc_reputation_upstanding = 3280
-str_dplmc_reputation_conventional = 3281
-str_dplmc_reputation_adventurous = 3282
-str_dplmc_reputation_romantic = 3283
-str_dplmc_reputation_moralist = 3284
-str_dplmc_reputation_ambitious = 3285
-str_dplmc_reputation_unknown = 3286
-str_dplmc_s21__the_s5_is_bound_by_alliance_not_to_attack_the_s14s18_it_will_expire_in_reg1_days = 3287
-str_dplmc_s21__the_s5_is_bound_by_defensive_not_to_attack_the_s14s18_it_will_expire_in_reg1_days = 3288
-str_dplmc_s21__the_s5_is_bound_by_trade_not_to_attack_the_s14s18_it_will_expire_in_reg1_days = 3289
-str_dplmc_small = 3290
-str_dplmc_medium = 3291
-str_dplmc_big = 3292
-str_dplmc_elite = 3293
-str_dplmc_very_decentralized = 3294
-str_dplmc_quite_decentralized = 3295
-str_dplmc_little_decentralized = 3296
-str_dplmc_neither_centralize_nor_decentralized = 3297
-str_dplmc_little_centralized = 3298
-str_dplmc_quite_centralized = 3299
-str_dplmc_very_centralized = 3300
-str_dplmc_very_plutocratic = 3301
-str_dplmc_quite_plutocratic = 3302
-str_dplmc_little_plutocratic = 3303
-str_dplmc_neither_aristocratic_nor_plutocratic = 3304
-str_dplmc_little_aristocratic = 3305
-str_dplmc_quite_aristocratic = 3306
-str_dplmc_very_aristocratic = 3307
-str_dplmc_all_free = 3308
-str_dplmc_mostly_free = 3309
-str_dplmc_usually_free = 3310
-str_dplmc_mixture_serfs = 3311
-str_dplmc_usually_serfs = 3312
-str_dplmc_mostly_serfs = 3313
-str_dplmc_all_serfs = 3314
-str_dplmc_very_quantity = 3315
-str_dplmc_great_quantity = 3316
-str_dplmc_good_quantity = 3317
-str_dplmc_mediocre_quality = 3318
-str_dplmc_good_quality = 3319
-str_dplmc_great_quality = 3320
-str_dplmc_very_quality = 3321
-str_dplmc_s21_the_s8_declared_war_to_fulfil_pact = 3322
-str_dplmc_very_laissez_faire = 3323
-str_dplmc_quite_laissez_faire = 3324
-str_dplmc_little_laissez_faire = 3325
-str_dplmc_neither_mercantilist_nor_laissez_faire = 3326
-str_dplmc_little_mercantilist = 3327
-str_dplmc_quite_mercantilist = 3328
-str_dplmc_very_mercantilist = 3329
-str_dplmc_how_will_your_male_vassals_be_known = 3330
-str_dplmc_how_will_your_female_vassals_be_known = 3331
-str_dplmc_s40_married_s39 = 3332
-str_dplmc_fief_exchange_ask_interest = 3333
-str_dplmc_fief_exchange_not_interested = 3334
-str_dplmc_fief_exchange_listen = 3335
-str_dplmc_fief_exchange_listen_player_approval = 3336
-str_dplmc_fief_exchange_listen_s10_approval = 3337
-str_dplmc_fief_exchange_listen_2 = 3338
-str_dplmc_fief_exchange_refuse_home = 3339
-str_dplmc_fief_exchange_refuse_town = 3340
-str_dplmc_fief_exchange_refuse_castle = 3341
-str_dplmc_fief_exchange_refuse_rich = 3342
-str_dplmc_fief_exchange_refuse_s14_attack = 3343
-str_dplmc_fief_exchange_accept = 3344
-str_dplmc_fief_exchange_accept_reg3_denars = 3345
-str_dplmc_fief_exchange_confirm = 3346
-str_dplmc_fief_exchange_confirm_reg3_denars = 3347
-str_dplmc_your_s11_s10 = 3348
-str_dplmc_reg6my_reg7spouse = 3349
-str_dplmc_refuse_support_s43_named_s4 = 3350
-str_dplmc_comment_you_enfiefed_a_commoner_supportive = 3351
-str_dplmc_sirmadame = 3352
-str_dplmc_sirmadam = 3353
-str_dplmc_my_lordlady = 3354
-str_dplmc_your_highness = 3355
-str_dplmc_grandfather = 3356
-str_dplmc_grandmother = 3357
-str_dplmc_grandson = 3358
-str_dplmc_granddaughter = 3359
-str_dplmc_half_brother = 3360
-str_dplmc_half_sister = 3361
-str_dplmc_sister_wife = 3362
-str_dplmc_co_husband = 3363
-str_dplmc_co_spouse = 3364
-str_dplmc_friend = 3365
-str_dplmc_ally = 3366
-str_s54_is_deceased = 3367
-str_dplmc_political_explanation_original_lord = 3368
-str_dplmc_s0_comma_s1 = 3369
-str_dplmc_s0_and_s1 = 3370
-str_dplmc_s0_newline_s1 = 3371
-str_hire_deserters = 3372
-str_rotten_food = 3373
-str_repress_farmers = 3374
-str_stop_cheating = 3375
-str_dplmc_hero_wpn_slot_morningstar = 3376
-str_dplmc_hero_wpn_slot_lance = 3377
-str_dplmc_hero_wpn_slot_pikes = 3378
-str_dplmc_hero_wpn_slot_halberd = 3379
-str_dplmc_hero_wpn_slot_no_metatype = 3380
-str_camera_keyboard = 3381
-str_camera_mouse = 3382
-str_camera_follow = 3383
-str_ai_bhvr_hold = 3384
-str_ai_bhvr_travel_to_party = 3385
-str_ai_bhvr_patrol_location = 3386
-str_ai_bhvr_patrol_party = 3387
-str_ai_bhvr_track_party = 3388
-str_ai_bhvr_attack_party = 3389
-str_ai_bhvr_avoid_party = 3390
-str_ai_bhvr_travel_to_point = 3391
-str_ai_bhvr_negotiate_party = 3392
-str_ai_bhvr_in_town = 3393
-str_ai_bhvr_travel_to_ship = 3394
-str_ai_bhvr_escort_party = 3395
-str_ai_bhvr_driven_by_party = 3396
-str_s5_transfer = 3397
-str_s5_reinf = 3398
-str_s5_scout = 3399
-str_s5_patrol = 3400
-str_preparing_prison_break = 3401
-str_on_loan = 3402
-str_accompanying_s5 = 3403
-str_key_0 = 3404
-str_key_1 = 3405
-str_key_2 = 3406
-str_key_3 = 3407
-str_key_4 = 3408
-str_key_5 = 3409
-str_key_6 = 3410
-str_key_7 = 3411
-str_key_8 = 3412
-str_key_9 = 3413
-str_key_a = 3414
-str_key_b = 3415
-str_key_c = 3416
-str_key_d = 3417
-str_key_e = 3418
-str_key_f = 3419
-str_key_g = 3420
-str_key_h = 3421
-str_key_i = 3422
-str_key_j = 3423
-str_key_k = 3424
-str_key_l = 3425
-str_key_m = 3426
-str_key_n = 3427
-str_key_o = 3428
-str_key_p = 3429
-str_key_q = 3430
-str_key_r = 3431
-str_key_s = 3432
-str_key_t = 3433
-str_key_u = 3434
-str_key_v = 3435
-str_key_w = 3436
-str_key_x = 3437
-str_key_y = 3438
-str_key_z = 3439
-str_key_numpad_0 = 3440
-str_key_numpad_1 = 3441
-str_key_numpad_2 = 3442
-str_key_numpad_3 = 3443
-str_key_numpad_4 = 3444
-str_key_numpad_5 = 3445
-str_key_numpad_6 = 3446
-str_key_numpad_7 = 3447
-str_key_numpad_8 = 3448
-str_key_numpad_9 = 3449
-str_key_num_lock = 3450
-str_key_numpad_slash = 3451
-str_key_numpad_multiply = 3452
-str_key_numpad_minus = 3453
-str_key_numpad_plus = 3454
-str_key_numpad_enter = 3455
-str_key_numpad_period = 3456
-str_key_insert = 3457
-str_key_delete = 3458
-str_key_home = 3459
-str_key_end = 3460
-str_key_page_up = 3461
-str_key_page_down = 3462
-str_key_up = 3463
-str_key_down = 3464
-str_key_left = 3465
-str_key_right = 3466
-str_key_f1 = 3467
-str_key_f2 = 3468
-str_key_f3 = 3469
-str_key_f4 = 3470
-str_key_f5 = 3471
-str_key_f6 = 3472
-str_key_f7 = 3473
-str_key_f8 = 3474
-str_key_f9 = 3475
-str_key_f10 = 3476
-str_key_f11 = 3477
-str_key_f12 = 3478
-str_key_space = 3479
-str_key_escape = 3480
-str_key_enter = 3481
-str_key_tab = 3482
-str_key_back_space = 3483
-str_key_open_braces = 3484
-str_key_close_braces = 3485
-str_key_comma = 3486
-str_key_period = 3487
-str_key_slash = 3488
-str_key_back_slash = 3489
-str_key_equals = 3490
-str_key_minus = 3491
-str_key_semicolon = 3492
-str_key_apostrophe = 3493
-str_key_tilde = 3494
-str_key_caps_lock = 3495
-str_key_left_shift = 3496
-str_key_right_shift = 3497
-str_key_left_control = 3498
-str_key_right_control = 3499
-str_key_left_alt = 3500
-str_key_right_alt = 3501
-str_story_parent_noble = 3502
-str_story_parent_merchant = 3503
-str_story_parent_guard = 3504
-str_story_parent_forester = 3505
-str_story_parent_nomad = 3506
-str_story_parent_thief = 3507
-str_story_parent_priest = 3508
-str_story_childhood_page = 3509
-str_story_childhood_apprentice = 3510
-str_story_childhood_urchin = 3511
-str_story_childhood_nomad = 3512
-str_story_childhood_stockboy = 3513
-str_story_childhood_mummer = 3514
-str_story_childhood_courtier = 3515
-str_story_childhood_noble = 3516
-str_story_childhood_acolyte = 3517
-str_story_job_bravo = 3518
-str_story_job_merc = 3519
-str_story_job_poacher = 3520
-str_story_job_craftsman = 3521
-str_story_job_peddler = 3522
-str_story_job_preacher = 3523
-str_story_job_troubadour = 3524
-str_story_job_squire = 3525
-str_story_job_lady = 3526
-str_story_job_student = 3527
-str_story_reason_revenge = 3528
-str_story_reason_death = 3529
-str_story_reason_wanderlust = 3530
-str_story_reason_fervor = 3531
-str_story_reason_disown = 3532
-str_story_reason_greed = 3533
-str_story_all = 3534
-str_continue_dot = 3535
-str_chest_info = 3536
-str_mercenary_intro_1 = 3537
-str_mercenary_intro_2 = 3538
-str_mercenary_intro_3 = 3539
-str_mercenary_intro_4 = 3540
-str_bandit_intro_1 = 3541
-str_bandit_intro_2 = 3542
-str_bandit_intro_3 = 3543
-str_bandit_intro_4 = 3544
-str_bandit_outro_1 = 3545
-str_bandit_outro_2 = 3546
-str_bandit_outro_3 = 3547
-str_bandit_outro_4 = 3548
-str_bandit_outro_5 = 3549
-str_name_presentation_text = 3550
-str_default_kingdom = 3551
-str_default_town = 3552
-str_default_party = 3553
-str_default_troop = 3554
-str_tier_reg = 3555
-str_tier_vet = 3556
-str_tier_champ = 3557
-str_ctm_melee = 3558
-str_ctm_ranged = 3559
-str_ctm_mounted = 3560
-str_imod_plain = 3561
-str_imod_cracked = 3562
-str_imod_rusty = 3563
-str_imod_bent = 3564
-str_imod_chipped = 3565
-str_imod_battered = 3566
-str_imod_poor = 3567
-str_imod_crude = 3568
-str_imod_old = 3569
-str_imod_cheap = 3570
-str_imod_fine = 3571
-str_imod_well_made = 3572
-str_imod_sharp = 3573
-str_imod_balanced = 3574
-str_imod_tempered = 3575
-str_imod_deadly = 3576
-str_imod_exquisite = 3577
-str_imod_masterwork = 3578
-str_imod_heavy = 3579
-str_imod_strong = 3580
-str_imod_powerful = 3581
-str_imod_tattered = 3582
-str_imod_ragged = 3583
-str_imod_rough = 3584
-str_imod_sturdy = 3585
-str_imod_thick = 3586
-str_imod_hardened = 3587
-str_imod_reinforced = 3588
-str_imod_superb = 3589
-str_imod_lordly = 3590
-str_imod_lame = 3591
-str_imod_swaybacked = 3592
-str_imod_stubborn = 3593
-str_imod_timid = 3594
-str_imod_meek = 3595
-str_imod_spirited = 3596
-str_imod_champion = 3597
-str_imod_fresh = 3598
-str_imod_day_old = 3599
-str_imod_two_day_old = 3600
-str_imod_smelling = 3601
-str_imod_rotten = 3602
-str_imod_large_bag = 3603
-str_pilgrim_disguise = 3604
-str_farmer_disguise = 3605
-str_hunter_disguise = 3606
-str_guard_disguise = 3607
-str_merchant_disguise = 3608
-str_bard_disguise = 3609
-str_html = 3610
-str_html_color = 3611
-str_color_of = 3612
-str_color_banner = 3613
-str_color_group = 3614
-str_setting_of = 3615
-str_multi_scene_25 = 3616
-str_s1_team = 3617
-str_mp_add_troop = 3618
-str_next_wave_in_reg0_mins = 3619
-str_wave_info = 3620
-str_wave_no_reg1 = 3621
-str_veteran_wave_no_reg1 = 3622
-str_elite_wave_no_reg1 = 3623
-str_time_left_reg2_mins_reg1_secs = 3624
-str_time_left_reg1_secs = 3625
-str_enemies_reg1_total_reg2_arriving = 3626
-str_ccoop_enemy_info = 3627
-str_ccoop_wave_reg1_is_coming_in_reg0_seconds = 3628
-str_ccoop_veteran_wave_reg1_is_coming_in_reg0_seconds = 3629
-str_ccoop_elite_wave_reg1_is_coming_in_reg0_seconds = 3630
-str_prison_cart_hint = 3631
-str_wave_reg1 = 3632
-str_veteran_wave_hint = 3633
-str_elite_wave_hint = 3634
-str_ask_for_help_to_respawn_hint = 3635
-str_wait_for_next_turn_to_respawn_hint = 3636
-str_default = 3637
-str_coop_open_chest = 3638
-str_coop_already_opened = 3639
-str_ccoop_difficulty = 3640
-str_ccoop_easy = 3641
-str_ccoop_normal = 3642
-str_ccoop_endless = 3643
-str_ccoop_difficulty_s0 = 3644
-str_ccoop_victory = 3645
-str_ccoop_s0_enemy_defeated_s1 = 3646
-str_ccoop_s0_enemy_defeated_endless_reg0 = 3647
-str_ccoop_lord_s0_wave_hint = 3648
-str_ccoop_king_s0_wave_hint = 3649
-str_ccoop_assign_drop = 3650
-str_ccoop_select_companion = 3651
-str_ccoop_select_companion_class = 3652
-str_ccoop_lvl_reg0 = 3653
-str_ccoop_dropping_item_on_ground = 3654
-str_ccoop_king_name = 3655
-str_ccoop_queen_name = 3656
-str_javelin_bow = 3657
-str_knockdown_mace = 3658
-str_blood_drain_throwing_knives = 3659
-str_doom_javelins = 3660
-str_disarming_throwing_axe = 3661
-str_instakill_knife = 3662
-str_backstabber = 3663
-str_weak_beserker_dart = 3664
-str_team_change_dart = 3665
-str_awesome_spear = 3666
-str_running_boots = 3667
-str_power_gloves = 3668
-str_invulnerable_helmet = 3669
-str_kicking_boots = 3670
-str_restore_health_armour = 3671
-str_npc1_1 = 3672
-str_npc2_1 = 3673
-str_npc3_1 = 3674
-str_npc4_1 = 3675
-str_npc5_1 = 3676
-str_npc6_1 = 3677
-str_npc7_1 = 3678
-str_npc8_1 = 3679
-str_npc9_1 = 3680
-str_npc10_1 = 3681
-str_npc11_1 = 3682
-str_npc12_1 = 3683
-str_npc13_1 = 3684
-str_npc14_1 = 3685
-str_npc15_1 = 3686
-str_npc16_1 = 3687
-str_faction_leader_title_male_player = 3688
-str_faction_leader_title_male_1 = 3689
-str_faction_leader_title_male_2 = 3690
-str_faction_leader_title_male_3 = 3691
-str_faction_leader_title_male_4 = 3692
-str_faction_leader_title_male_5 = 3693
-str_faction_leader_title_male_6 = 3694
-str_faction_leader_title_female_player = 3695
-str_faction_leader_title_female_1 = 3696
-str_faction_leader_title_female_2 = 3697
-str_faction_leader_title_female_3 = 3698
-str_faction_leader_title_female_4 = 3699
-str_faction_leader_title_female_5 = 3700
-str_faction_leader_title_female_6 = 3701
-str_dplmc_setting_2 = 3702
-str_dplmc_setting_1 = 3703
-str_dplmc_setting_0 = 3704
-str_dplmc_setting_off = 3705
-str_dplmc_setting_on = 3706
-str_dplmc_setting_freq = 3707
-str_dplmc_setting_tt0 = 3708
-str_dplmc_setting_tt1 = 3709
-str_dplmc_setting_tt1a = 3710
-str_dplmc_setting_tt2 = 3711
-str_dplmc_setting_tt2a = 3712
-str_dplmc_setting_tt3 = 3713
-str_dplmc_setting_tt4 = 3714
-str_dplmc_setting_tt5 = 3715
-str_dplmc_setting_tt6 = 3716
-str_dplmc_setting_tt7 = 3717
-str_dplmc_setting_tt8 = 3718
-str_dplmc_setting_tt9 = 3719
-str_dplmc_setting_tt10 = 3720
-str_mayor_wealth_compare = 3721
-str_mayor_wealth_no_data = 3722
-str_mayor_wealth_rank_1 = 3723
-str_mayor_wealth_rank_2 = 3724
-str_mayor_wealth_rank_3 = 3725
-str_mayor_wealth_rank_4 = 3726
-str_mayor_wealth_rank_5 = 3727
-str_mayor_wealth_rank_6 = 3728
-str_mayor_wealth_compare_less_1 = 3729
-str_mayor_wealth_compare_less_2 = 3730
-str_mayor_wealth_compare_less_3 = 3731
-str_mayor_wealth_compare_less_4 = 3732
-str_mayor_wealth_compare_less_5 = 3733
-str_mayor_wealth_compare_more_1 = 3734
-str_mayor_wealth_compare_more_2 = 3735
-str_mayor_wealth_compare_more_3 = 3736
-str_mayor_wealth_compare_more_4 = 3737
-str_mayor_wealth_compare_more_5 = 3738
-str_mayor_wealth_comparison_1 = 3739
-str_mayor_wealth_comparison_2 = 3740
-str_mayor_wealth_comparison_3 = 3741
-str_mayor_wealth_comparison_4 = 3742
-str_mayor_wealth_comparison_5 = 3743
-str_npc_mission_delegate_quest = 3744
-str_dplmc_npc_qst_deliver_message = 3745
-str_dplmc_npc_qst_deliver_message_to_enemy_lord = 3746
-str_dplmc_npc_qst_raise_troops = 3747
-str_dplmc_npc_qst_escort_lady = 3748
-str_dplmc_npc_qst_deal_with_bandits_at_lords_village = 3749
-str_dplmc_npc_qst_collect_taxes = 3750
-str_dplmc_npc_qst_hunt_down_fugitive = 3751
-str_dplmc_npc_qst_kill_local_merchant = 3752
-str_dplmc_npc_qst_bring_back_runaway_serfs = 3753
-str_dplmc_npc_qst_follow_spy = 3754
-str_dplmc_npc_qst_capture_enemy_hero = 3755
-str_dplmc_npc_qst_lend_companion = 3756
-str_dplmc_npc_qst_collect_debt = 3757
-str_dplmc_npc_qst_incriminate_loyal_commander = 3758
-str_dplmc_npc_qst_meet_spy_in_enemy_town = 3759
-str_dplmc_npc_qst_capture_prisoners = 3760
-str_dplmc_npc_qst_lend_surgeon = 3761
-str_dplmc_npc_qst_follow_army = 3762
-str_dplmc_npc_qst_report_to_army = 3763
-str_dplmc_npc_qst_deliver_cattle_to_army = 3764
-str_dplmc_npc_qst_join_siege_with_army = 3765
-str_dplmc_npc_qst_screen_army = 3766
-str_dplmc_npc_qst_scout_waypoints = 3767
-str_dplmc_npc_qst_rescue_lord_by_replace = 3768
-str_dplmc_npc_qst_deliver_message_to_prisoner_lord = 3769
-str_dplmc_npc_qst_duel_for_lady = 3770
-str_dplmc_npc_qst_duel_courtship_rival = 3771
-str_dplmc_npc_qst_duel_avenge_insult = 3772
-str_dplmc_npc_qst_move_cattle_herd = 3773
-str_dplmc_npc_qst_escort_merchant_caravan = 3774
-str_dplmc_npc_qst_deliver_wine = 3775
-str_dplmc_npc_qst_troublesome_bandits = 3776
-str_dplmc_npc_qst_kidnapped_girl = 3777
-str_dplmc_npc_qst_persuade_lords_to_make_peace = 3778
-str_dplmc_npc_qst_deal_with_looters = 3779
-str_dplmc_npc_qst_deal_with_night_bandits = 3780
-str_dplmc_npc_qst_deliver_grain = 3781
-str_dplmc_npc_qst_deliver_cattle = 3782
-str_dplmc_npc_qst_train_peasants_against_bandits = 3783
-str_dplmc_reputation_roguish = 3784
-str_dplmc_reputation_benefactor = 3785
-str_dplmc_reputation_custodian = 3786
-str_skl_trade = 3787
-str_skl_leadership = 3788
-str_skl_prisoner_management = 3789
-str_skl_reserved_1 = 3790
-str_skl_reserved_2 = 3791
-str_skl_reserved_3 = 3792
-str_skl_reserved_4 = 3793
-str_skl_persuasion = 3794
-str_skl_engineer = 3795
-str_skl_first_aid = 3796
-str_skl_surgery = 3797
-str_skl_wound_treatment = 3798
-str_skl_inventory_management = 3799
-str_skl_spotting = 3800
-str_skl_pathfinding = 3801
-str_skl_tactics = 3802
-str_skl_tracking = 3803
-str_skl_trainer = 3804
-str_skl_reserved_5 = 3805
-str_skl_reserved_6 = 3806
-str_skl_reserved_7 = 3807
-str_skl_reserved_8 = 3808
-str_skl_looting = 3809
-str_skl_horse_archery = 3810
-str_skl_riding = 3811
-str_skl_athletics = 3812
-str_skl_shield = 3813
-str_skl_weapon_master = 3814
-str_skl_reserved_9 = 3815
-str_skl_reserved_10 = 3816
-str_skl_reserved_11 = 3817
-str_skl_reserved_12 = 3818
-str_skl_reserved_13 = 3819
-str_skl_power_draw = 3820
-str_skl_power_throw = 3821
-str_skl_power_strike = 3822
-str_skl_ironflesh = 3823
-str_skl_reserved_14 = 3824
-str_skl_reserved_15 = 3825
-str_skl_reserved_16 = 3826
-str_skl_reserved_17 = 3827
-str_skl_reserved_18 = 3828
+2977
+qstr_Breaking_camp... Breaking_camp...
+qstr_Removing_disguise... Removing_disguise...
+qstr_{s17}_has_{reg17}_de {s17}_has_{reg17}_denars
+qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
+qstr_{!}_Commanded_party_ {!}_Commanded_party_#{reg4}_is_{s3},_troop_leaded_party_#{reg5}_is_{s65}
+qstr_Morale_for_{s9}_troo Morale_for_{s9}_troops:_{reg6}
+qstr_{!}DEBUG____Doing_po {!}DEBUG_--_Doing_political_calculations_for_{s9}
+qstr_{!}DEBUG___{s4}_fact {!}DEBUG_-_{s4}_faction_changed_in_defection
+qstr_{s5}_has_decided_to_ {s5}_has_decided_to_grant_{s4}_to_another_lord_of_the_{s7}.
+qstr_A_livestock_epidemic A_livestock_epidemic_has_killed_{reg4}_cattle_in_{s4}.
+qstr_{!}DEBUG_:_tax_rate_ {!}DEBUG_:_tax_rate_in_{s6}:_{reg0}
+qstr_{!}DEBUG_:_accumulat {!}DEBUG_:_accumulated_rents__in_{s6}:_{reg0}
+qstr_{!}DEBUG_:_rent_chan {!}DEBUG_:_rent_change_in_{s6}:_{reg0}__in_{s6}
+qstr_{!}DEBUG_:_tax_rate_a {!}DEBUG_:_tax_rate_after_modi_in_{s6}:_{reg0}
+qstr_{!}DEBUG_:_center_re {!}DEBUG_:_center_relation:_{reg0}
+qstr_There_has_been_a_rio There_has_been_a_riot_in_{s6}!
+qstr_{!}New_tariffs_at_{s {!}New_tariffs_at_{s4}_=_{reg4},_total_=_{reg5}
+qstr_Your_party_is_spotte Your_party_is_spotted_by_{s1}.
+qstr_Party_has_nothing_to Party_has_nothing_to_eat!
+qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
+qstr_{s1}_of_{s3}_has_bee {s1}_of_{s3}_has_been_released_from_captivity.
+qstr_Building_of_{s0}_in_ Building_of_{s0}_in_{s4}_has_been_completed.
+qstr_{s1}_has_won_the_tou {s1}_has_won_the_tournament_at_{s2}.
+qstr_{!}{s1}_is_infested_ {!}{s1}_is_infested_by_{s2}_(at_night).
+qstr_{s1}_is_no_longer_in {s1}_is_no_longer_infested_by_bandits_(at_night).
+qstr_{!}{s1}_is_holding_a {!}{s1}_is_holding_a_tournament.
+qstr_You_pay_for_accommod You_pay_for_accommodation.
+qstr_You_are_unable_to_pa You_are_unable_to_pay_for_accommodation!
+qstr_Betrothal_to_{s5}_ex Betrothal_to_{s5}_expires
+qstr__Your_tactics_skill_ _Your_tactics_skill_has_increased_by_1.
+qstr__Your_persuasion_ski _Your_persuasion_skill_has_increased_by_1.
+qstr__Your_leadership_ski _Your_leadership_skill_has_increased_by_1.
+qstr__Your_intelligence_h _Your_intelligence_has_increased_by_1.
+qstr__Your_trade_skill_ha _Your_trade_skill_has_increased_by_1.
+qstr__Your_weapon_master_ _Your_weapon_master_skill_has_increased_by_1.
+qstr__Your_engineer_skill _Your_engineer_skill_has_increased_by_1.
+qstr_You_have_finished_re You_have_finished_reading_{s1}.{s2}
+qstr_Book_Read Book_Read
+qstr_You_have_{reg0}_days You_have_{reg0}_days_to_finish_this_quest.
+qstr_{s1}_is_scouted. {s1}_is_scouted.
+qstr_{!}DEBUG___{s4}_facti {!}DEBUG_-_{s4}_faction_changed_from_slot_troop_change_to_faction
+qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
+qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
+qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
+qstr_Your_recruiter_who_w Your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_to_{s13}_has_been_defeated!
+qstr_{s13}_has_been_taken {s13}_has_been_taken_by_the_enemy_and_your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_vanished__without_a_trace!
+qstr_ERROR_IN_THE_RECRUIT ERROR_IN_THE_RECRUITER_KIT_SIMPLE_TRIGGERS!
+qstr_A_recruiter_has_brou A_recruiter_has_brought_{reg10}_recruits_to_{s13}.
+qstr_Distance_between_{s1 Distance_between_{s14}_and_{s15}:_{reg0}
+qstr_Your_caravan_has_bro Your_caravan_has_brought_{s12}_to_{s13}.
+qstr_{!}_Gift_price_facto {!}_Gift_price_factor_{reg0}/100,_effective_value_{reg1}
+qstr_{s13}_is_unimpressed {s13}_is_unimpressed_by_your_paltry_gift.
+qstr_The_people_of_{s13}_ The_people_of_{s13}_are_unimpressed_by_your_paltry_gift.
+qstr_Your_caravan_has_los Your_caravan_has_lost_it's_way_and_gave_up_your_mission!
+qstr_Your_messenger_reach Your_messenger_reached_{s13}.
+qstr_{s14} {s14}
+qstr_Your_messenger_has_l Your_messenger_has_lost_it's_way_and_gave_up_your_mission!
+qstr_Not_enough_money_in_ Not_enough_money_in_treasury_to_upgrade_troops.
+qstr_Your_constable_upgra Your_constable_upgraded_{reg5}_{s6}_to_{s7}_in_{s8}
+qstr_Your_soldiers_patrol Your_soldiers_patrolling_{s6}_disbanded_because_you_can't_pay_the_wages!
+qstr_{!}DEBUG___Removed_{ {!}DEBUG_-_Removed_{s5}_because_{s4}_cannot_support_that_many_patrols
+qstr_It_is_rumoured_that_ It_is_rumoured_that_a_spy_has_been_caught_in_{s11}.
+qstr_{!}DEBUG___centraliz {!}DEBUG_-_centralization_{reg1}
+qstr_{!}DEBUG___aristocra {!}DEBUG_-_aristocracy_{reg1}
+qstr_{!}DEBUG___quality_{ {!}DEBUG_-_quality_{reg1}
+qstr_{!}DEBUG___serfdom_{ {!}DEBUG_-_serfdom_{reg1}
+qstr_{!}DEBUG___mercantil {!}DEBUG_-_mercantilism_{reg1}
+qstr_{!}DEBUG___changing_ {!}DEBUG_-_changing_{reg1}_of_{reg2}_for_{s12}
+qstr_{!}DEBUG___relation_ {!}DEBUG_-_relation_change_=__{reg1}_for_{s9}
+qstr_{!}DEBUG___no_eligib {!}DEBUG_-_no_eligible_lords_in_exile
+qstr_{!}DEBUG___{reg0}_lo {!}DEBUG_-_{reg0}_lords_found_in_exile;_randomly_decided_not_to_try_to_return_anyone.
+qstr_{!}DEBUG___{reg1}_lo {!}DEBUG_-_{reg1}_lords_found_in_exile;_{s4}_chosen_to_return,_score_was_{reg0}
+qstr_{!}DEBUG___{s4}_foun {!}DEBUG_-_{s4}_found_no_faction_to_return_to!
+qstr_{!}DEBUG___Not_retur {!}DEBUG_-_Not_returning_a_lord_to_the_player's_kingdom,_since_there_are_already_{reg0}_lords_waiting_for_their_petitions_to_be_heard.
+qstr_{s0}_is_grumbling_ag {s0}_is_grumbling_against_you.__Your_affiliation_could_be_jeopardized_if_this_continues.
+qstr_{s0}_is_grumbling_aga {s0}_is_grumbling_against_you,_but_with_{s1}'s_support_you_remain_affiliated_for_now.
+qstr_Your_last_fief_was_c Your_last_fief_was_captured_and_you_lost_{reg0}/{reg1}_of_your_treasury
+qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
+qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}
+qstr_{reg65?madame:sir} {reg65?madame:sir}
+qstr_{reg65?Madame:Sir} {reg65?Madame:Sir}
+qstr_{!}DEBUG____Talk_con {!}DEBUG_--_Talk_context:_{reg4}
+qstr_{!}DEBUG____Time_sin {!}DEBUG_--_Time_since_last_talk:_{reg4}
+qstr__no_fiefs_ (no_fiefs)
+qstr__fiefs:_{s0}_ (fiefs:_{s0})
+qstr_{!}g_talk_troop_=_{r {!}g_talk_troop_=_{reg0}_,_g_encountered_party_=_{reg1}_,_slot_value_=_{reg2}
+qstr_{!}Persuasion_attemp {!}Persuasion_attempt:_skill_{reg1}_versus_random_roll_{reg0}_(-2_through_12)
+qstr_It_s_your_money_or_y It's_your_money_or_your_life,_{mate/girlie}._No_sudden_moves_or_we'll_run_you_through.
+qstr_Lucky_for_you_you_c Lucky_for_you,_you_caught_me_in_a_good_mood._Give_us_all_your_coin_and_I_might_just_let_you_live.
+qstr_This_a_robbery_eh?_ This_a_robbery,_eh?_I_givin'_you_one_chance_to_hand_over_everythin'_you_got,_or_me_and_my_mates'll_kill_you._Understand?
+qstr_we_have_made_very_li we_have_made_very_little_progress_so_far
+qstr_we_have_suceeded_in_ we_have_suceeded_in_gaining_some_ground,_but_we_still_have_a_long_way_to_go
+qstr_we_have_become_a_sig we_have_become_a_significant_force,_and_we_have_an_even_chance_of_victory
+qstr_we_are_winning_the_w we_are_winning_the_war,_but_our_enemies_are_still_holding_on.
+qstr_we_are_on_the_verge_ we_are_on_the_verge_of_victory._The_remaining_enemies_pose_no_threat,_but_we_still_need_to_hunt_them_down.
+qstr_{!}{playername} {!}{playername}
+qstr_our_realm our_realm
+qstr_We_ve_barely_gotten_ We've_barely_gotten_to_know_one_another_and_now_you're_sending_me_away!
+qstr_I_am_certainly_not_y I_am_certainly_not_your_errant_{reg65?girl:boy}...
+qstr_How_do_I_know_there_ How_do_I_know_there_will_still_be_a_place_for_me_when_I_return_from_this_journey?
+qstr_I_believe_I_would_be I_believe_I_would_be_of_more_use_by_staying_with_the_other_soldiers.
+qstr_You_have_assigned_th You_have_assigned_this_task_to_{s1}
+qstr_{!}current_town_was_ {!}current_town_was_{reg1},_now_moved_to_{s7}
+qstr_Your_kingdom_has_no_ Your_kingdom_has_no_specified_culture
+qstr_Your_kingdom_culture Your_kingdom_culture_is:_{s11}
+qstr_Kingdom_culture:_Non Kingdom_culture:_None
+qstr_Kingdom_culture:_{s1 Kingdom_culture:_{s11}
+qstr_According__to_the_re According__to_the_report_of_our_spies
+qstr_{s10}_{reg3}_lords_s {s10}_{reg3}_lords_support_{s9}.
+qstr_Sorry_currently_I_c Sorry,_currently_I_can't_provide_any_information_about_the_lords_mood,_our_spies_haven't_reported_back_yet.
+qstr_{s1}_at_{s2} {s1}_at_{s2}
+qstr_{s11}_and_{s12} {s11}_and_{s12}
+qstr_{!}{s11}_{s12} {!}{s11},_{s12}
+qstr_We_are_not_at_war_wi We_are_not_at_war_with_anyone.
+qstr_We_are_at_war_with_{ We_are_at_war_with_{s12}.
+qstr_{!}DEBUG___prisoner_ {!}DEBUG_-_prisoner_of:_{s7}
+qstr_Our_kingdom_currentl Our_kingdom_currently_has_{reg2}_soldiers
+qstr_{s6}_{reg2}_{reg1?to {s6}_{reg2}_{reg1?towns:town}{reg3?_and:.}
+qstr_{s6}_{reg3}_{reg1?ca {s6}_{reg3}_{reg1?castles:castle}.
+qstr_{s6}_In_addition_we_ {s6}_In_addition_we_have_{reg2}_soldiers_in_the_field.
+qstr_We_currently_have_{r We_currently_have_{reg2}_soldiers
+qstr_{s6}_garrisoned_in_{ {s6}_garrisoned_in_{reg2}_towns
+qstr_{s6}_In_addition_you {s6}_In_addition_you_have_{reg2}_soldiers_in_your_convoy_and_{reg3}_soldiers_in_patrols.
+qstr_{!}{s52}_{reg2}_{s53 {!}{s52}_{reg2}_{s53}.
+qstr_{reg0?She:He}_fields {reg0?She:He}_fields_{reg2}_soldiers.
+qstr_We_currently_have_{re We_currently_have_{reg2}_soldiers_garrisoned_in_{s60}.
+qstr_Since_we_are_close_t Since_we_are_close_to_{reg11?{reg10}_training_centers:a_training_center},_you_can_talk_to_the_trainers_to_get_a_bigger_batch_trained.
+qstr__preferring_{s12}_u ,_preferring_{s12}_units.
+qstr__and_the_additional_ _and_the_additional_trainers
+qstr_{s11}_peasants {s11}_peasants
+qstr_We_currently_have_an We_currently_have_an_income_of_{reg0}_denars_and_costs_of_{reg1}_denars_from_fiefs_and_garrions.
+qstr_{s6}_We_are_losing_{ {s6}_We_are_losing_{reg0}_denars_due_to_tax_inefficiency._That_means_{reg1}_percent.
+qstr_{s6}_Overall_this_su {s6}_Overall_this_sums_up_to_{reg0}_denars.
+qstr_no_outstanding_amoun no_outstanding_amount
+qstr_{!}{reg0} {!}{reg0}
+qstr_{s60}_is_currently_o {s60}_is_currently_occupied_by_outlaws_you_should_counter_them_as_soon_as_possible.
+qstr__We_are_expecting_{r _We_are_expecting_{reg0}_denars_for_rents
+qstr__The_troop_wages_for _The_troop_wages_for_{reg0}_troops_cost_us_{reg1}_denars.
+qstr_{s61}_and_{reg0}_den {s61}_and_{reg0}_denars_for_tariffs
+qstr_Well_{s60}. Well,_{s60}.
+qstr_{s4}_{s3}._The_tax_r {s4}_{s3}._The_tax_rate_is_{s50}.{s59}{s61}._Overall_this_sums_up_to_{s62}_denars.
+qstr_{s6}__{s50}_ {s6}_({s50})
+qstr_Tax_rate_for_{s6}:_{ Tax_rate_for_{s6}:_{s11}
+qstr_village village
+qstr_town town
+qstr_castle castle
+qstr_{!}{s0} {!}{s0}
+qstr_{!}{s18}_{s0} {!}{s18},_{s0}
+qstr_The_{s17}_has_no_imp The_{s17}_has_no_improvements.
+qstr_The_{s17}_has_the_fo The_{s17}_has_the_following_improvements:_{s18}.
+qstr_{!}DEBUG_:_sum:_{reg {!}DEBUG_:_sum:_{reg0}
+qstr_{!}DEBUG_:_diplomacy {!}DEBUG_:_diplomacy_var:_{reg0}
+qstr_{!}DEBUG_:_persuasio {!}DEBUG_:_persuasion:_{reg0}
+qstr_{!}DEBUG_:_pre_treat {!}DEBUG_:_pre-treaty_diplomacy_var:_{reg0}
+qstr_{!}DEBUG_:_random:_{ {!}DEBUG_:_random:_{reg0}
+qstr_{!}DEBUG_:_final_dip {!}DEBUG_:_final_diplomacy_var:_{reg0}
+qstr_You_have_shown_great You_have_shown_great_strength_on_the_battlefield._But_why_should_I_enlist_you_within_us?
+qstr_All_of_life_is_about All_of_life_is_about_pros_and_cons._Why_would_we_allow_you_to_be_our_fellow?
+qstr_I_know_people_do_fe I_know,_people_do_fear_your_harshness._Should_we_though?
+qstr_Indeed_I_have_heard Indeed,_I_have_heard_of_your_loyalty_and_valor._But_is_it_enough_to_join_us?
+qstr_I_m_glad_you_want_to I'm_glad_you_want_to_support_us._But,_would_it_be_wise_for_you,_to_affiliate_to_our_family?
+qstr_Beside_your_wealth_ Beside_your_wealth,_how_could_you_possibly_serve_me_and_my_family?
+qstr_My_friend_I_see_you My_friend,_I_see_your_reasoning._But_would_you_really_risk_straining_our_friendship_by_entering_into_a_formal_partnership?
+qstr_Agreed!_Your_words_c Agreed!_Your_words_convice_me_as_much_as_your_blade.
+qstr_I_trust_you_my_fami I_trust_you,_my_family_could_use_your_resourcefulness._Together_we_will_spread_our_influence_all_over_Calradia.
+qstr_May_God_have_mercy_o May_God_have_mercy_on_our_enemy_souls,_because_we_won't!
+qstr_So_be_it._We_are_hon So_be_it._We_are_honored_to_accept_you_into_our_family.
+qstr__I_will_appreciate_y _I_will_appreciate_you_as_much_as_a_son.
+qstr_I_accept_your_reques I_accept_your_request._We_will_support_you_if_you_support_my_family.
+qstr_Since_you_are_worthy Since_you_are_worthy_of_our_esteem,_you_are_welcome_to_our_family.
+qstr_Your_leader_is_not_e Your_leader_is_not_even_a_king_and_I_shall_join_you?
+qstr_{s40}_I_would_never_ {s40}_I_would_never_join_someone_who_doesn't_own_a_town_or_castle.
+qstr_{s40}_I_know_too_lit {s40}_I_know_too_little_about_your_leader.
+qstr_{!}_Emissary_persuas {!}_Emissary_persuasion_attempt:_skill_factor_{reg1}_versus_random_number_{reg0}
+qstr_{s40}_I_found_your_m {s40}_I_found_your_messenger_unconvincing.
+qstr_{s40}_Next_time_I_wo {s40}_Next_time_I_would_prefer_to_talk_to_someone_who_doesn't_act_like_a_fool.
+qstr_{s40}_Next_time_I_wou {s40}_Next_time_I_would_prefer_to_talk_to_someone_more_versed_in_courtly_manners.
+qstr_{!}DEBUG___result_fo {!}DEBUG_-_result_for_security:_{reg2}_>_10
+qstr_{!}DEBUG___result_for {!}DEBUG_-_result_for_political:_{reg2}_>_0
+qstr_{!}DEBUG___change_pe {!}DEBUG_-_change_penalty:_{reg2}_<_20
+qstr_{!}DEBUG___random:_{ {!}DEBUG_-_random:_{reg2}
+qstr_{!}DEBUG___>_pledge_ {!}DEBUG_-_>_pledge_chance:_{reg2}
+qstr_{!}DEBUG___result_for_ {!}DEBUG_-_result_for_security_comparative:_{reg2}_>_0
+qstr_{!}DEBUG___result_for_p {!}DEBUG_-_result_for_political_comparative:_{reg2}_>_0
+qstr_{s40}_I__d_rather_st {s40}_I_'d_rather_stay_with_my_current_liege.
+qstr_{s31}_{s32}_{s34} {s31}_{s32}_{s34}
+qstr_{!}DEBUG_:_emissary_ {!}DEBUG_:_emissary_spotting:_{reg0}
+qstr_our_undivided our_undivided
+qstr_my_immediate my_immediate
+qstr_{reg0?her:his} {reg0?her:his}
+qstr_{!}_DEBUG___Native_c {!}_DEBUG_-_Native_checklist-peace-or-war_result_{reg0},_because_{s14}
+qstr_{!}_Recognition_refu {!}_Recognition_refused_because_player_owns_no_fortresses_not_claimed_by_target_faction
+qstr_{!}_Military_strengt {!}_Military_strength_check:_Player_faction_score_{reg0},_target_faction_score_{reg1},_benchmark_score_{reg2}
+qstr_{!}_Player_faction_s {!}_Player_faction_score_for_recognition_is_{reg0},_needs_to_be_at_least_{reg1}
+qstr_Find_and_speak_with_ Find_and_speak_with_{s3}_of_{s4}_to_give_him_your_oath_of_homage.
+qstr__We_will_of_course_n _We_will_of_course_need_to_wait_until_the_realm_is_no_longer_on_campaign.
+qstr_{!}Party_at_address_ {!}Party_at_address_{reg0}_named_{s0}_has_slot_party_type_{reg1}_(not_castle_or_town)
+qstr_{s1}_has_been_accept {s1}_has_been_accepted_as_a_vassal_of_{s2}.
+qstr_I_see._Perhaps_circu I_see._Perhaps_circumstances_will_change_a_few_days_from_now,_but_until_then_I_appreciate_your_generous_hospitality.
+qstr_{s6}_has_joined_your {s6}_has_joined_your_party.
+qstr_{s1}_Rebels {s1}_Rebels
+qstr_I_am_{s4}_the_ruler I_am_{s4},_the_ruler_of_{s6}
+qstr_I_am_{s4}_{s8}_of_{ I_am_{s4},_{s8}_of_{s9}
+qstr_I_am_{s4}_a_vassal_ I_am_{s4},_a_vassal_of_{s6}
+qstr_{s7}_and_{s8} {s7}_and_{s8}
+qstr_{!}{s7}_{s8} {!}{s7},_{s8}
+qstr_{s9}{reg5?_and_the_l {s9}{reg5?_and_the_lord_of_{s8}.:.
+qstr_{s13}_asked_you_to_g {s13}_asked_you_to_gather_{reg3}_heads_of_cattle_and_deliver_them_back_to_him.
+qstr_{s9}_wants_you_to_fo {s9}_wants_you_to_follow_his_army_until_further_notice.
+qstr_{s9}_asked_you_to_sc {s9}_asked_you_to_scout_{s13},_{s14}_and_{s15},_then_report_back.
+qstr_pupil pupil
+qstr_{!}_DEBUG___current_ {!}_DEBUG_-_current_kingdom_score_{reg0}_vs_player_kingdom_score_{reg1}
+qstr_{!}DEBUG_support_che {!}DEBUG_support_check,_{s4}_{s0},_Threshold_{s1}
+qstr_{!}DEBUG_support_chec {!}DEBUG_support_check,_{s3}_{s0},_Threshold_{s1}
+qstr_{!}_DEBUG____affilia {!}_DEBUG_--_affiliated_family_member,_overriding_logic_to_continue
+qstr_{!}DEBUG___liege_sco {!}DEBUG_-_liege_score_{reg0}_vs_player_score_{reg1}
+qstr_{!}DEBUG_:_result_fo {!}DEBUG_:_result_for_political_is_{reg3}
+qstr_{!}DEBUG_:_result_for {!}DEBUG_:_result_for_new_liege_:_{reg31}
+qstr_{!}DEBUG_:_result_for_ {!}DEBUG_:_result_for_old_liege_:_{reg32}
+qstr_You_are_challenging_ You_are_challenging_me_to_a_duel?_How_droll!As_you_wish,_{playername},_it_will_be_good_sport_to_bash_your_head_in.
+qstr_{s16}_and_{s17} {s16}_and_{s17}
+qstr_{!}{s16}_{s17} {!}{s16},_{s17}
+qstr_Very_well_I_will_ac Very_well,_I_will_accept_you_back_into_my_ranks,_if_you're_ready_to_swear_your_solemn_oath_once_more.
+qstr_A_pardon_will_only_b A_pardon_will_only_be_possible_if_you_are_willing_to_cede_{s17}_to_me._Do_you_agree_my_terms?
+qstr_No._There_is_no_chan No._There_is_no_chance_of_peace_between_us,_I_am_not_interested.
+qstr_{!}DEBUG_:_Initiativ {!}DEBUG_:_Initiative_{reg4},_helpfulness_{reg5}
+qstr_{!}DEBUG____ai_behav {!}DEBUG_--_ai_behavior:_{reg0},_ai_object:_{reg1}
+qstr_{s1}_exchanged_{s2}_ {s1}_exchanged_{s2}_to_{s3}_for_{s4}.
+qstr_Our_marshal_{s1} Our_marshal,_{s1}
+qstr_Our_liege_{s1} Our_liege,_{s1}
+qstr_go_on_the_offensive_ go_on_the_offensive_now.
+qstr_act_to_defend_our_la act_to_defend_our_lands.
+qstr_take_more_time_to_ga take_more_time_to_gather_the_army.
+qstr_{!}ERROR:_Tried_to_o {!}ERROR:_Tried_to_offer_{reg1}_as_a_fief_to_the_player,_but_it_is_not_owned_by_the_leader's_faction.
+qstr_You_promised_to_help You_promised_to_help_{s13}_claim_the_throne_of_{s14}.
+qstr_What_do_you_say_to_e What_do_you_say_to_entering_the_service_of_{s9}_as_a_mercenary_captain?_I_have_no_doubt_that_you_would_be_up_to_the_task.
+qstr_{s9}_asked_you_to_ta {s9}_asked_you_to_take_a_message_to_{s13}._{s13}_was_believed_to_be_at_{s4}_when_you_were_given_this_quest.
+qstr_{s9}_asked_you_to_tak {s9}_asked_you_to_take_a_message_to_{s13}_of_{s15}._{s13}_was_believed_to_be_at_{s4}_when_you_were_given_this_quest.
+qstr_{s11}_asked_you_to_e {s11}_asked_you_to_escort_{reg65?her:his}_{s17}_{s13}_to_{s14}.
+qstr_{s13}_asked_you_to_d {s13}_asked_you_to_deal_with_the_bandits_who_are_occupying_the_village_of_{s15}_and_then_report_back_to_{reg65?her:him.
+qstr_{s9}_asked_you_to_ra {s9}_asked_you_to_raise_{reg1}_{s14}_and_bring_them_to_{reg65?her:him}.
+qstr_{s9}_asked_you_to_co {s9}_asked_you_to_collect_taxes_from_{s3}._{reg65?She:He}_offered_to_leave_you_one-fifth_of_all_the_money_you_collect_there.
+qstr_{s9}_asked_you_to_hu {s9}_asked_you_to_hunt_down_a_fugitive_named_{s4}._He_is_currently_believed_to_be_at_{s3}.
+qstr_{s9}_asked_you_to_as {s9}_asked_you_to_assassinate_a_local_merchant_at_{s3}.
+qstr_{s9}_has_asked_you_t {s9}_has_asked_you_to_meet_with_a_spy_in_{s13}.
+qstr_{s11}_asked_you_to_f {s11}_asked_you_to_follow_the_spy_that_will_leave_{s12}._Be_careful_not_to_let_the_spy_see_you_on_the_way,_or_he_may_get_suspicious_and_turn_back._Once_the_spy_meets_with_his_accomplice,_you_are_to_capture_them_and_bring_them_back_to_{s11}.
+qstr_{s11}_asked_you_to_c {s11}_asked_you_to_capture_a_lord_from_{s13},_any_lord,_and_then_drag_your_victim_back_to_{s11}_for_safekeeping.
+qstr_{s9}_asked_you_to_le {s9}_asked_you_to_lend_your_companion_{s3}_to_him_for_a_week.
+qstr_{s9}_asked_you_to_col {s9}_asked_you_to_collect_the_debt_of_{reg4}_denars_{s3}_owes_to_{reg65?her:him}._{s3}_was_at_{s4}_when_you_were_given_this_quest.
+qstr_{s11}_gave_you_a_fak {s11}_gave_you_a_fake_letter_to_fool_{s13}_into_banishing_his_vassal_{s16}._You_are_to_go_near_{s14},_give_the_letter_to_one_of_your_{s15}_and_send_him_into_the_town_as_a_messenger,_believing_his_orders_to_be_genuine.
+qstr_{s9}_has_requested_y {s9}_has_requested_you_to_bring_him_{reg1}_{s3}_as_prisoners.
+qstr_Lend_your_experience Lend_your_experienced_surgeon_{s3}_to_{s1}.
+qstr_{!}DEBUG____{reg4}_h {!}DEBUG_--_{reg4}_hours_since_last_feast_for_{s4}
+qstr_Then_take_it_with_m Then_take_it,_with_my_eternal_thanks._You_are_a_noble_{man/woman}._I_will_never_forget_that_you_helped_me_in_my_time_of_need.
+qstr_Forgive_me_{playern Forgive_me,_{playername},_but_I_must_insist_you_accept_it._The_money_means_little_to_me,_and_I_owe_you_so_much._Here,_take_it,_and_let_us_speak_no_more_of_this.
+qstr_{playername}_what_a {playername},_what_a_dear_{man/woman}_you_are,_but_I_will_not_allow_you_to_refuse_this._I_owe_you_far_more_than_I_can_say,_and_I_am_sure_you_can_put_this_money_to_far_better_use_than_I.
+qstr_{s11}_asked_you_to_r {s11}_asked_you_to_rescue_{reg65?her:his}_{s17},_{s13},_from_{s14}_by_switching_clothes_and_taking_{reg4?her:his}_place_in_prison.
+qstr_{s11}_asked_you_to_re {s11}_asked_you_to_rescue_{reg65?her:his}_{s17},_{s13},_from_{s14}.
+qstr_{s11}_asked_you_to_d {s11}_asked_you_to_deliver_a_message_to_{s13},_who_is_imprisoned_at_{s14}.
+qstr_You_agreed_to_challe You_agreed_to_challenge_{s13}_to_defend_{s11}'s_honour.
+qstr_{s5}__Persuasion_str {s5}_(Persuasion_strength:_{reg5})
+qstr_Persuasion_Attempt Persuasion_Attempt
+qstr_{s1}_at_the_behest_o {s1}_at_the_behest_of_{s2}
+qstr_{!}DEBUG:_Gossip_for {!}DEBUG:_Gossip_for_troop_{reg3}
+qstr_{!}DEBUG:_{s3} {!}DEBUG:_{s3}
+qstr_A_villager_from_{s7} A_villager_from_{s7}_begged_you_to_save_their_village_from_the_bandits_that_took_refuge_there.
+qstr_{!}There_is_a_local_ {!}There_is_a_local_supply_of_{s6}.
+qstr_{!}{s6}_must_be_impo {!}{s6}_must_be_imported,_modifying_the_price_from_{reg0}_to_{reg1}.
+qstr_{!}There_is_a_local_s {!}There_is_a_local_supply_of_{s11}.
+qstr_{!}{s9}_must_be_impo {!}{s9}_must_be_imported,_modifying_the_price_from_{reg0}_to_{reg1}.
+qstr_yet_to_be_announced yet_to_be_announced
+qstr_The_Guildmaster_of_{ The_Guildmaster_of_{s13}_has_asked_you_to_deal_with_looters_in_the_surrounding_countryside.
+qstr_{s9}_of_{s3}_asked_y {s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_tavern_in_{s4}_in_7_days.
+qstr_{s9}_of_{s3}_asked_yo {s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_merchant's_store_in_{s4}_in_7_days.
+qstr_Escort_the_merchant_ Escort_the_merchant_caravan_to_the_town_of_{s8}.
+qstr_Merchant_{s9}_of_{s4 Merchant_{s9}_of_{s4}_asked_you_to_hunt_down_the_troublesome_bandits_in_the_vicinity_of_the_town.
+qstr_Guildmaster_of_{s4}_ Guildmaster_of_{s4}_gave_you_{reg12}_denars_to_pay_the_ransom_of_a_girl_kidnapped_by_bandits._You_are_to_meet_the_bandits_near_{s3}_and_pay_them_the_ransom_fee._After_that_you_are_to_bring_the_girl_back_to_{s4}.
+qstr_Guildmaster_of_{s4}_p Guildmaster_of_{s4}_promised_you_{reg12}_denars_if_you_can_make_sure_that_{s12}_and_{s13}_no_longer_pose_a_threat_to_a_peace_settlement_between_{s15}_and_{s14}._In_order_to_do_that,_you_must_either_convince_them_or_make_sure_they_fall_captive_and_remain_so_until_a_peace_agreement_is_made.
+qstr_The_Guildmaster_of_{s The_Guildmaster_of_{s14}_has_asked_you_to_deal_with_a_group_of_bandits_terrorising_the_streets_of_{s14}._They_only_come_out_at_night,_and_only_attack_lone_travellers_on_the_streets.
+qstr_Guildmaster_of_{s10} Guildmaster_of_{s10}_asked_you_to_move_a_cattle_herd_to_{s13}._You_will_earn_{reg8}_denars_in_return.
+qstr_{reg4?She:He}_is_not {reg4?She:He}_is_not_commanding_any_men_at_the_moment.
+qstr_{reg4?She:He}_curren {reg4?She:He}_currently_commands_{reg0}_men{reg1?,_of_which_around_{reg1}_are_wounded:}.
+qstr_The_elder_of_the_vil The_elder_of_the_village_of_{s3}_asked_you_to_bring_them_{reg5}_packs_of_grain.
+qstr_The_elder_of_the_vill The_elder_of_the_village_of_{s13}_asked_you_to_train_{reg5}_peasants_to_fight_against_local_bandits.
+qstr_The_elder_of_the_villa The_elder_of_the_village_of_{s3}_asked_you_to_bring_them_{reg5}_heads_of_cattle.
+qstr_{s16}_and_{s15} {s16}_and_{s15}
+qstr_{!}{s16}_{s15} {!}{s16},_{s15}
+qstr_your_lordship your_lordship
+qstr_A_{s5}?_Well..._Yes A_{s5}?_Well..._Yes,_I_suppose_it_is._What_a_strange_thing_to_ask.
+qstr_Eh?_No_it_most_cert Eh?_No,_it_most_certainly_is_not_a_{s5}._I'd_start_questioning_my_eyesight_if_I_were_you.
+qstr_This_is_the_{reg4?to This_is_the_{reg4?town:village}_of_{s5},_{s0}.
+qstr_{s6}_Our_{reg4?town: {s6}_Our_{reg4?town:village}_and_the_surrounding_lands_belong_to_you_of_course,_my_{lord/lady}.
+qstr_{s6}_Our_{reg4?town:v {s6}_Our_{reg4?town:village}_and_the_surrounding_lands_belong_to_{s7}_of_{s8}.
+qstr_{s3}_and_{s5} {s3}_and_{s5}
+qstr_{!}{s3}_{s5} {!}{s3},_{s5}
+qstr_{reg20?We_mostly_pro {reg20?We_mostly_produce_{s5}_here:We_don't_produce_much_here_these_days}._If_you_would_like_to_learn_more,_you_can_speak_with_our_{reg4?guildmaster:village_elder}._He_is_nearby,_right_over_there.
+qstr_Current Current
+qstr_Court_Guard Court_Guard
+qstr_Prison_Guard Prison_Guard
+qstr_Castle_Guard Castle_Guard
+qstr_Dispatch_your_oppone Dispatch_your_opponents_first!
+qstr_You_got_keys_to_the_ You_got_keys_to_the_dungeon.
+qstr_You_whistle_for_your You_whistle_for_your_horse.
+qstr__Taunt_launched._{re _Taunt_launched._{reg0}_is_the_taunt_range.
+qstr_Sensitivity___25%__{ Sensitivity_-_25%_({reg8},_{reg9})
+qstr_Sensitivity_+_25%__{ Sensitivity_+_25%_({reg8},_{reg9})
+qstr_You_got_the_keys_to_ You_got_the_keys_to_the_dungeon.
+qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
+qstr_End_the_sparring_mat End_the_sparring_match?
+qstr_Tutorial Tutorial
+qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
+qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
+qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
+qstr_{!}g_multiplayer_cco {!}g_multiplayer_ccoop_spawn_alive_player_squad:_{reg0}
+qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
+qstr_{!}ERROR:_Not_enough {!}ERROR:_Not_enough_banners_for_heroes!
+qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins
+qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
+qstr_{!}DEBUG_:_Assigned_ {!}DEBUG_:_Assigned_love_interests._Attraction_seed:_{reg3}
+qstr_{!}DEBUG_:_Located_k {!}DEBUG_:_Located_kingdom_ladies,_cheat_mode:_{reg3}
+qstr_{!}DEBUG_:_SYSTEM_ER {!}DEBUG_:_SYSTEM_ERROR!
+qstr__near_{s10} _near_{s10}
+qstr_Your_recruiter_who_wa Your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_to_{s13}_has_been_defeated{s10}!
+qstr_Your_caravan_sending Your_caravan_sending_{s12}_to_{s13}_has_been_defeated{s10}!
+qstr_Your_messenger_on_th Your_messenger_on_the_way_to_{s13}_has_been_defeated{s10}!
+qstr_Your_soldiers_patroll Your_soldiers_patrolling_{s13}_have_been_defeated{s10}!
+qstr_A_scout_trying_to_ga A_scout_trying_to_gather_information_about_{s13}_has_been_slain{s10}!
+qstr_Reinforcements_from_ Reinforcements_from_{s12}_intended_for_{s13}_have_been_intercepted_{s10}!
+qstr_{!}DEBUG_:_Prisoner_ {!}DEBUG_:_Prisoner_granted_parole
+qstr_{!}DEBUG_:_Prisoner_n {!}DEBUG_:_Prisoner_not_offered_parole
+qstr_{s1}_of_{s3}_was_def {s1}_of_{s3}_was_defeated_in_battle_but_managed_to_escape.
+qstr_{!}DEBUG_:_Siege_att {!}DEBUG_:_Siege_attackers_are_running_away
+qstr_{!}DEBUG:_{s1}_no_lo {!}DEBUG:_{s1}_no_longer_leads_a_party.
+qstr_{!}DEBUG:_{s1}_is_no {!}DEBUG:_{s1}_is_no_longer_a_prisoner.
+qstr_{!}DEBUG:_{s1}_is_now {!}DEBUG:_{s1}_is_now_a_prisoner_of_player.
+qstr_{s1}_is_now_a_prison {s1}_is_now_a_prisoner_of_{s2}.
+qstr_{!}DEBUG:_{s1}_is_now_ {!}DEBUG:_{s1}_is_now_a_prisoner_of_{s2}.
+qstr_{s54}_is_a_claimant_ {s54}_is_a_claimant_to_the_throne_of_{s56}.
+qstr_nowhere nowhere
+qstr_{s57}_and_{s58} {s57}_and_{s58}
+qstr_{!}{s57}_{s58} {!}{s57},_{s58}
+qstr_{reg3?She:He} {reg3?She:He}
+qstr_{!}^{s59} {!}^{s59}
+qstr_The_town_of_{s50} The_town_of_{s50}
+qstr_The_village_of_{s50} The_village_of_{s50}_near_{s52}
+qstr_{!}{s50} {!}{s50}
+qstr_{s51}_belongs_to_{s1 {s51}_belongs_to_{s1}_of_{s2},_and_is_where_you_make_your_court.^
+qstr_{s51}_belongs_to_{s1} {s51}_belongs_to_{s1}_of_{s2},_and_is_where_{reg0?she:he}_makes_{reg0?her:his}_court.^
+qstr_{s51}_belongs_to_{s1}_ {s51}_belongs_to_{s1}_of_{s2},_and_is_where_{reg0?she:he}_makes_{reg0?her:his}_home.^
+qstr_{s51}_belongs_to_{s1}_o {s51}_belongs_to_{s1}_of_{s2}.^
+qstr_{s51}_belongs_to_{s2 {s51}_belongs_to_{s2}_but_has_not_yet_been_granted_to_a_lord.^
+qstr_{s51}_belongs_to_{s2} {s51}_belongs_to_{s2}.^
+qstr_{s2}Its_market_town_ {s2}Its_market_town_is_{s8}.^
+qstr_{s2}It_has_no_villag {s2}It_has_no_villages.^
+qstr_{s2}{reg0?Its_villag {s2}{reg0?Its_villages_are:Its_village_is}_{s8}.^
+qstr_{s2}Its_prosperity_i {s2}Its_prosperity_is:_{s50}
+qstr_noone noone
+qstr_{s9}_and_{s10} {s9}_and_{s10}
+qstr_{!}{s9}_{s10} {!}{s9},_{s10}
+qstr_Domestic_policy:_^^ Domestic_policy:_^^
+qstr_{!}DEBUG_:_{s21}.^CH {!}DEBUG_:_{s21}.^CHEAT_MODE_ASSESSMENT:_{s14}^
+qstr_{s5}_has_been_defeat {s5}_has_been_defeated!
+qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
+qstr_{s7}_opened_the_gate {s7}_opened_the_gate
+qstr_{s7}_closed_the_gate {s7}_closed_the_gate
+qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
+qstr_Deliver_{reg5}_units Deliver_{reg5}_units_to_{s5}
+qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
+qstr_Reading_Progress:_{r Reading_Progress:_{reg1}%
+qstr_wound_treament wound_treament
+qstr_trainer trainer
+qstr_surgery surgery
+qstr_+1_to_{s1}_while_in_ +1_to_{s1}_while_in_inventory
+qstr_item_score:{reg0}_v item_score:{reg0},_value:{reg1}
+qstr_Move_here Move_here
+qstr_View_notes View_notes
+qstr_Accompany Accompany
+qstr_Attach Attach
+qstr_Inspect Inspect
+qstr_Detach_{s1}_at_{reg1 Detach_{s1}_at_{reg1},{reg2}
+qstr_Detach_All Detach_All
+qstr_Win_Battle Win_Battle
+qstr_Lose_Battle Lose_Battle
+qstr_{!}_{s61} {!}_{s61}
+qstr_{!}DEBUG____ERROR:_M {!}DEBUG_--_ERROR:_More_than_15_trade_routes_are_given_for_{s1}.
+qstr_{!}DEBUG____Caravan_ {!}DEBUG_--_Caravan_trades_in_{s4},_originally_from_{s5}
+qstr_{!}_DEBUG_loot_playe {!}_DEBUG_loot_player_items:_g_player_surrenders_=_{reg0},_merciful_=_{reg1}
+qstr_{!}{s4}_is_sent_to_{ {!}{s4}_is_sent_to_{s5}_after_defeat
+qstr_{!}DEBUGS_:_enemy_lo {!}DEBUGS_:_enemy_loses_:_{reg0}
+qstr_{!}DEBUGS1_:_total_g {!}DEBUGS1_:_total_gain_:_{reg0}
+qstr_{!}DEBUGS2_:_total_g {!}DEBUGS2_:_total_gain_:_{reg0}
+qstr_{!}DEBUGS3_:_num_pla {!}DEBUGS3_:_num_player_party_shares:{reg0},_total_gain:{reg1}
+qstr_killed killed
+qstr_wounded wounded
+qstr_{!}{reg3?{reg3}:}_{s {!}{reg3?{reg3}:}_{s1}_({s2})
+qstr_{!}{s0}_{reg3?{reg3 {!}{s0},_{reg3?{reg3}:}_{s1}_({s2})
+qstr_{!}{s0}^{reg3?{reg3} {!}{s0}^{reg3?{reg3}:}_{s1}_({s2})
+qstr_{s0}^TOTAL:_{reg3}__ {s0}^TOTAL:_{reg3}_({s2})
+qstr_None None
+qstr_^None ^None
+qstr_nothing nothing
+qstr_{reg0}_village{reg1? {reg0}_village{reg1?s:}
+qstr_{reg0}_castle{reg1?s {reg0}_castle{reg1?s:}
+qstr_{reg0}_castle{reg1?s: {reg0}_castle{reg1?s:}_and_{s0}
+qstr_{reg0}_town{reg1?s:} {reg0}_town{reg1?s:}
+qstr_{reg0}_town{reg1?s:}_ {reg0}_town{reg1?s:}_and_{s0}
+qstr_{reg0}_town{reg1?s:}_{ {reg0}_town{reg1?s:},_{s0}
+qstr_{!}DEBUG____Checking {!}DEBUG_--_Checking_for_denounce_lord,_eligible_in_{reg4}_days
+qstr_{!}DEBUG____Rival_fo {!}DEBUG_--_Rival_found_in_{s4}
+qstr_{!}DEBUG____{s4}_is_ {!}DEBUG_--_{s4}_is_not_close_friend_of_player
+qstr_{!}DEBUG____{s4}_has {!}DEBUG_--_{s4}_has_{reg3}_rivals
+qstr_{!}DEBUG____Checking_ {!}DEBUG_--_Checking_for_intrigue,_eligible_in_{reg4}_days
+qstr_{!}DEBUG____Trying_f {!}DEBUG_--_Trying_for_intrigue_against_lord
+qstr_{!}DEBUG____{s4}_has_ {!}DEBUG_--_{s4}_has_sufficiently_low_relation_with_liege
+qstr_{!}DEBUG____{s4}_has_s {!}DEBUG_--_{s4}_has_sufficiently_low_relation_with_giver_troop
+qstr_{!}DEBUG____{s4}_has_su {!}DEBUG_--_{s4}_has_sufficiently_low_relation_with_player
+qstr_{!}DEBUG____Checking_f {!}DEBUG_--_Checking_for_resolve_dispute,_eligible_in_{reg4}_days
+qstr_{!}DEBUG____Checking_fo {!}DEBUG_--_Checking_for_offer_gift,_eligible_in_{reg4}_days
+qstr_Battle_Advantage_=_{ Battle_Advantage_=_{reg0}.
+qstr_{s9}_wants_you_to_re {s9}_wants_you_to_resume_following_his_army_until_further_notice.
+qstr_{!}DEBUG___{s4}_factio {!}DEBUG_-_{s4}_faction_changed_in_normal_faction_change
+qstr_{!}DEBUG___{s4}_faction {!}DEBUG_-_{s4}_faction_changed_by_guardian_moving
+qstr_Tribune Tribune
+qstr_{s5}_of_the_{s7}_has {s5}_of_the_{s7}_has_taken_ownership_of_{s4}.
+qstr_{s4}_has_been_awarde {s4}_has_been_awarded_to_{s5}_of_the_{s7}.
+qstr_{!}DEBUG____{s4}_awa {!}DEBUG_--_{s4}_awarded_to_{s5}
+qstr__Being_Raided_ (Being_Raided)
+qstr__Deserted_ (Deserted)
+qstr__Looted_ (Looted)
+qstr__Under_Siege_ (Under_Siege)
+qstr_Captured_{reg1}_vill Captured_{reg1}_villagers.
+qstr_The_village_of_{s1}_ The_village_of_{s1}_has_been_looted_by_{s2}.
+qstr_The_village_of_{s1}_h The_village_of_{s1}_has_been_sacked_by_{s2}.
+qstr_{s2}_now_has_{reg2}_ {s2}_now_has_{reg2}_denars_from_raiding
+qstr_{s2}_now_has_{reg2}_d {s2}_now_has_{reg2}_denars_from_being_raided
+qstr_{s3}_is_no_longer_un {s3}_is_no_longer_under_siege.
+qstr_{!}DEBUG_:_There_are {!}DEBUG_:_There_are_already_enemies_({s6})_inside_{s7}.
+qstr_{!}DEBUG____Calculat {!}DEBUG_--_Calculating_sortie_for_{s4}_strength_of_{reg3}_vs_{reg4}_enemies
+qstr_Small_bands_of_enemi Small_bands_of_enemies_spotted_near_{s1}.
+qstr_Enemy_patrols_spotte Enemy_patrols_spotted_near_{s1}.
+qstr_Medium_sized_group_o Medium-sized_group_of_enemies_spotted_near_{s1}.
+qstr_Significant_group_of Significant_group_of_enemies_spotted_near_{s1}.
+qstr_Army_of_enemies_spot Army_of_enemies_spotted_near_{s1}.
+qstr_Large_army_of_enemie Large_army_of_enemies_spotted_near_{s1}.
+qstr_Great_host_of_enemie Great_host_of_enemies_spotted_near_{s1}.
+qstr_{!}DEBUG_:_{s7}_is_h {!}DEBUG_:_{s7}_is_helping_his_commander_by_fighting_with_{s6}.
+qstr_{s10}_constructs_a_{ {s10}_constructs_a_{s0}_in_{s4}
+qstr_{s0}_collects_{reg0} {s0}_collects_{reg0}_denars_from_{s4},_current_wealth:_{reg1}_denars
+qstr__{s10}_of_{s13}_recr _{s10}_of_{s13}_recruits_{reg2}_{s12}_in_{s14}
+qstr_{s10}_hires_{reg2}_{ {s10}_hires_{reg2}_{s12}_in_{s4}
+qstr_{s10}_upgrades_{s3}{ {s10}_upgrades_{s3}{s11}_(costing_{s1})_in_{s4},_{reg0}_denars_remaining.
+qstr_{s1}_spends_time_in_ {s1}_spends_time_in_{s2},_{reg1}_->_{reg2}_denars
+qstr_{s1}_has_been_besieg {s1}_has_been_besieged_by_{s2}_of_{s3}.
+qstr__{s1}__{s11}:_{s14} ({s1})_{s11}:_{s14}
+qstr_{s14}__{s21}_ {s14}_({s21})
+qstr_{!}DEBUG____{s4}_dro {!}DEBUG_--_{s4}_drops_{s5}_as_issue_as_it_has_changed_hands
+qstr_{!}DEBUG____Issue_re {!}DEBUG_--_Issue_resolution_for_{s4}:_{reg4}_votes_for_a_quorum_of_{reg5},_{reg7}_hours_on_agenda
+qstr_{!}DEBUG____Faction_ {!}DEBUG_--_Faction_resolves_political_issue
+qstr_{s5}_has_the_greates {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_be_the_next_marshall.__{s0}_is_indisposed_and_cannot_overrule_their_choice.
+qstr_{s5}_has_the_greatest {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_receive_{s1}.__{s0}_is_indisposed_and_cannot_overrule_their_choice.
+qstr_{s5}_has_the_greatest_ {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_be_the_next_marshall,_but_{s0}_overrules_their_choice.
+qstr_{s5}_has_the_greatest_s {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_receive_{s1},_but_{s0}_overrules_their_choice.
+qstr_{!}DEBUG____{s4}_drop {!}DEBUG_--_{s4}_drops_{s5}_as_winner,_for_having_changed_sides
+qstr_{s1}_is_the_new_mars {s1}_is_the_new_marshal_of_{s2}.
+qstr_{!}DEBUG____{s4}_par {!}DEBUG_--_{s4}_participates_in_offensive
+qstr_{!}DEBUG____{s4}_cho {!}DEBUG_--_{s4}_chosen_as_screen
+qstr_You_gained_{reg12}_r You_gained_{reg12}_renown.
+qstr_You_lose_{reg12}_ren You_lose_{reg12}_renown.
+qstr_Your_relation_with_{ Your_relation_with_{s1}_has_improved.
+qstr_Your_relation_with_{s Your_relation_with_{s1}_has_deteriorated.
+qstr_{!}_There_is_widespr {!}_There_is_widespread_ill-will_towards_you_in_the_{s1}.
+qstr_You_gain_honour. You_gain_honour.
+qstr_You_lose_honour. You_lose_honour.
+qstr_{s1}_has_declared_wa {s1}_has_declared_war_against_{s2}.
+qstr_{!}Debug___{s5}_cara {!}Debug_-_{s5}_caravan_attacked
+qstr_{!}Debug___{s5}_vill {!}Debug_-_{s5}_villagers_attacked
+qstr_{s0}_is_laying_siege {s0}_is_laying_siege_to_{s1}.
+qstr_{s0}_is_patrolling_a {s0}_is_patrolling_around_{s1}.
+qstr_{s0}_is_raiding_arou {s0}_is_raiding_around_{s1}.
+qstr_{s0}_is_engaging_{s1 {s0}_is_engaging_{s1}.
+qstr_{s0}_is_accompanying {s0}_is_accompanying_{s1}.
+qstr_{s0}_is_screening_th {s0}_is_screening_the_advance_of_{s1}.
+qstr_{s0}_is_trading_with {s0}_is_trading_with_{s1}.
+qstr_{s0}_is_retreating_t {s0}_is_retreating_to_{s1}.
+qstr_{s0}_is_visiting_{s1 {s0}_is_visiting_{s1}.
+qstr_{s1}_and_{s2}_have_m {s1}_and_{s2}_have_made_peace_with_each_other.
+qstr_{!}DEBUG:_{s5}_has_t {!}DEBUG:_{s5}_has_truce_with_{s6}._Pact_with_{s7}_is_harder!
+qstr_{!}DEBUG____Player_s {!}DEBUG_--_Player's_kingdom_has_had_{reg3}_days_of_peace
+qstr_{s2}_{reg3?was:is_cu {s2}_{reg3?was:is_currently}_at_{s3}.
+qstr_{s2}_{reg3?was:is}_t {s2}_{reg3?was:is}_travelling_to_{s3}_and_{reg4?she:he}_{reg3?was:should_be}_close_to_{s4}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_tr {s2}_{reg3?was:is}_travelling_to_{s3}_and_{reg4?she:he}_{reg3?was:should_be}_between_{s4}_and_{s1}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_i {s2}_{reg3?was:is}_in_the_field_and_{reg4?she:he}_{reg3?was:should_be}_close_to_{s3}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_in {s2}_{reg3?was:is}_in_the_field_and_{reg4?she:he}_{reg3?was:should_be}_between_{s3}_and_{s1}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_b {s2}_{reg3?was:is}_being_held_captive_at_{s3}.
+qstr_{s2}_{reg3?was:has_b {s2}_{reg3?was:has_been}_taken_captive_by_{reg4?her:his}_enemies.
+qstr_{reg3?{s2}_s_locatio {reg3?{s2}'s_location_was_unknown:I_don't_know_where_{s2}_is}.
+qstr_{s4}_is_present_at_t {s4}_is_present_at_the_center_as_a_prisoner
+qstr_{!}DEBUG____{s4}_is_p {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_attending_the_feast
+qstr_{!}DEBUG____{s4}_is_pr {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_awaiting_the_player_in_private
+qstr_{!}DEBUG____{s4}_is_pre {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_allowed_to_meet_the_player
+qstr_{!}DEBUG____{s4}is_p {!}DEBUG_--_{s4}is_present_at_the_center_and_is_not_allowed_to_meet_the_player
+qstr_You_now_owe_{reg2}_d You_now_owe_{reg2}_denars_to_{s1}.
+qstr_{!}DEBUG___Main_part {!}DEBUG_-_Main_party_raw_strength_{reg1},_terrain_code_{reg2},_modified_strength_{reg0}
+qstr_{!}_DEBUG___Enemy_pa {!}_DEBUG_-_Enemy_party_raw_strength_{reg1},_terrain_code_{reg2},_modified_strength_{reg0}
+qstr_Renown_value_for_thi Renown_value_for_this_battle_is_{reg8}.
+qstr_You_have_run_into_a_ You_have_run_into_a_trap!
+qstr_You_are_attacked_by_ You_are_attacked_by_a_group_of_bandits!
+qstr_Holding Holding
+qstr_Following Following
+qstr_Charging Charging
+qstr_Advancing Advancing
+qstr_Falling_Back Falling_Back
+qstr_Standing_Closer Standing_Closer
+qstr_Spreading_Out Spreading_Out
+qstr_Standing Standing
+qstr_N/A N/A
+qstr_Free Free
+qstr_Mount Mount
+qstr_Dismount Dismount
+qstr_Any_Weapon Any_Weapon
+qstr_Blunt_Weapons Blunt_Weapons
+qstr_{!}{reg10} {!}{reg10}
+qstr_{!}{reg11} {!}{reg11}
+qstr_{!}{reg12} {!}{reg12}
+qstr_{!}DEBUG____Trade_fr {!}DEBUG_--_Trade_from_{s3}_to_{s4}:_rolled_random_impact_of_{reg4}
+qstr_{!}DEBUG____Trade_of {!}DEBUG_--_Trade_of_{s5}_from_{s3}_to_{s4}_brings_price_from_{reg4}_to_{reg5}
+qstr_{!}DEBUG___{s4}_faction_ {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_1
+qstr_{!}_DEBUG___{s4}_cha {!}_DEBUG_-_{s4}_changed_by_player's_defection
+qstr_{!}DEBUG___{s4}_faction_c {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_3
+qstr_Your_soldiers_patrolli Your_soldiers_patrolling_{s6}_disbanded_because_you_left_the_faction!
+qstr_{!}DEBUG___{s4}_faction_ch {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_2
+qstr_Given_by:_{s62} Given_by:_{s62}
+qstr_Given_on:_{s60} Given_on:_{s60}
+qstr_This_quest_has_been_ This_quest_has_been_concluded._Talk_to_{s59}_to_finish_it.
+qstr_This_quest_has_been_s This_quest_has_been_successfully_completed._Talk_to_{s59}_to_claim_your_reward.
+qstr_This_quest_has_faile This_quest_has_failed._Talk_to_{s59}_to_explain_the_situation.
+qstr_At_the_time_quest_wa At_the_time_quest_was_given:^{s1}
+qstr_{!}{s4}_is_in_{s5} {!}{s4}_is_in_{s5}
+qstr_{!}DEBUG___{s1}_is_i {!}DEBUG_--{s1}_is_infested_by_bandits.
+qstr_{s5}_has_a_strength_ {s5}_has_a_strength_of_{reg1}_men_in_total.
+qstr_The_last_time_you_sa The_last_time_you_saw_{reg1?her:him},_{s1}
+qstr_The_last_time_you_he The_last_time_you_heard_about_{reg1?her:him},_{s1}
+qstr_Current_garrison_con Current_garrison_consists_of_{reg5}_men.^Has_food_stock_for_{reg6}_days.
+qstr_Very_Poor Very_Poor
+qstr_Poor Poor
+qstr_Average Average
+qstr_Rich Rich
+qstr_Very_Rich Very_Rich
+qstr_{!}DEBUG_:_Doing_spa {!}DEBUG_:_Doing_spawn_bandit_script
+qstr_Manor Manor
+qstr_A_manor_lets_you_res A_manor_lets_you_rest_at_the_village_and_pay_your_troops_half_wages_while_you_rest.
+qstr_Mill Mill
+qstr_A_mill_increases_vil A_mill_increases_village_prosperity_by_5%.
+qstr_Watch_Tower Watch_Tower
+qstr_A_watch_tower_lets_t A_watch_tower_lets_the_villagers_raise_alarm_earlier._The_time_it_takes_for_enemies_to_loot_the_village_increases_by_50%.
+qstr_School School
+qstr_A_shool_increases_th A_shool_increases_the_loyality_of_the_villagers_to_you_by_+1_every_month.
+qstr_Messenger_Post Messenger_Post
+qstr_A_messenger_post_let A_messenger_post_lets_the_inhabitants_send_you_a_message_whenever_enemies_are_nearby,_even_if_you_are_far_away_from_here.
+qstr_Prison_Tower Prison_Tower
+qstr_A_prison_tower_reduc A_prison_tower_reduces_the_chance_of_captives_held_here_running_away_successfully.
+qstr_Prosperity_of_{s2}_h Prosperity_of_{s2}_has_changed_from_{s3}_to_{s4}.
+qstr_{!}DEBUG:_Total_pros {!}DEBUG:_Total_prosperity_actual_losses:_{reg11}
+qstr_{!}DEBUG:_Total_prosp {!}DEBUG:_Total_prosperity_actual_gains:_{reg12}
+qstr_{!}DEBUG:_Prosperity {!}DEBUG:_Prosperity_changes_from_random_bandits:_{reg4}
+qstr_{!}DEBUG:_Prosperity_ {!}DEBUG:_Prosperity_changes_from_caravan_trades:_{reg5}
+qstr_{!}DEBUG:_Prosperity_c {!}DEBUG:_Prosperity_changes_from_farmer_trades:_{reg9}
+qstr_{!}DEBUG:_Prosperity_ch {!}DEBUG:_Prosperity_changes_from_looted_villages:_{reg7}
+qstr_{!}DEBUG:_Prosperity_cha {!}DEBUG:_Prosperity_changes_from_sieges:_{reg8}
+qstr_{!}DEBUG:_Theoretica {!}DEBUG:_Theoretical_prosperity_changes_from_convergence:_{reg10}
+qstr_{s4}_looks_upset. {s4}_looks_upset.
+qstr_your_party your_party
+qstr_{reg0?One_of_your_pr {reg0?One_of_your_prisoners,_:}{s1}_of_{s3}_has_escaped_from_captivity!
+qstr_You_brought_{reg3}_h You_brought_{reg3}_heads_of_cattle_to_{s1}.
+qstr_{!}Village_now_has_{ {!}Village_now_has_{reg4}
+qstr_I_heard_that_there_w I_heard_that_there_will_be_a_tournament_in_{s62}_soon.
+qstr_I_heard_some_people_ I_heard_some_people_say_they_don't_believe_{s6}_is_really_dead.
+qstr_I_heard_a_traveller_ I_heard_a_traveller_say_that_he_came_across_{s6}_while_journeying_outside_these_lands.
+qstr_I_heard_that_{s6}_in I_heard_that_{s6}_intends_to_raise_an_army_and_seize_the_throne_from_{s61}.
+qstr_I_heard_that_one_can I_heard_that_one_can_buy_{s62}_very_cheap_at_{s63}.
+qstr_I_heard_that_they_pa I_heard_that_they_pay_a_very_high_price_for_{s62}_at_{s63}.
+qstr_{!}_DEBUG___random_{ {!}_DEBUG_-_random_{reg0}_(0_to_20),_used_reputation_{reg2}_instead_of_{reg1}
+qstr_{!}_DEBUG___variable {!}_DEBUG_-_variable_responses_disabled,_kept_reputation_{reg2}
+qstr_{!}_DEBUG___random_{r {!}_DEBUG_-_random_{reg0}_(0_to_20),_kept_reputation_{reg2}
+qstr_{!}Log_entry_{reg3}: {!}Log_entry_{reg3}:_type_{reg4}
+qstr_{!}Center:_{s4} {!}Center:_{s4}
+qstr_{!}Troop:_{s4} {!}Troop:_{s4}
+qstr_{!}Lord:_{s4} {!}Lord:_{s4}
+qstr_{!}Ally_party_is_pre {!}Ally_party_is_present
+qstr_{!}{s4}_is_present_a {!}{s4}_is_present_at_event
+qstr_{!}Event_#{reg5}_ty {!}Event_#{reg5},_type_{reg6},_time_{reg8}:_player's_kingdom_relation_to_troop_object_=_{reg7}
+qstr_{!}Event_#{reg5}_typ {!}Event_#{reg5},_type_{reg6},_time_{reg8}:_player's_kingdom_relation_to_center_object_faction_=_{reg7}
+qstr_{!}Event_#{reg5}_type {!}Event_#{reg5},_type_{reg6},_time_{reg8}:_player's_kingdom_relation_to_faction_object_=_{reg7}
+qstr_{!}Event_#{reg5}_type_ {!}Event_#{reg5},_type_{reg6},_time_{reg8}._No_relevant_kingdom_relation
+qstr_{!}Event_#{reg5}_type_{ {!}Event_#{reg5},_type_{reg6},_time_{reg8}._Player_unaffiliated
+qstr_{!}Elapsed_hours:_{r {!}Elapsed_hours:_{reg7}
+qstr_{!}Reputation_type:_ {!}Reputation_type:_{s15}
+qstr_{!}Entries_up_to_#{r {!}Entries_up_to_#{reg5}_skipped
+qstr_{!}DEBUG___{s4}_faction_cha {!}DEBUG_-_{s4}_faction_changed_in_subornment
+qstr_{!}{s4}_inflicts_{re {!}{s4}_inflicts_{reg4}_damage_on_{s5},_raising_total_inflicted_to_{reg3}
+qstr_{!}War_damage_raises {!}War_damage_raises_{s4}'s_controversy_by_{reg4}_to_{reg5}
+qstr_{!}War_damage_lowers {!}War_damage_lowers_{s4}'s_controversy_by_{reg4}_to_{reg5}
+qstr_{!}G_talk_troop_{s20 {!}G_talk_troop_{s20}_evaluates_being_vassal_to_{s22}_of_{s21}
+qstr_{!}DEBUG____Analyzin {!}DEBUG_--_Analyzing_lord_allegiances,_combined_bonuses_and_penalties_=_{reg0}
+qstr_{!}DEBUG____Total_co {!}DEBUG_--_Total_courtship_quarrel_changes:_{reg4}
+qstr_{!}DEBUG____Total_ra {!}DEBUG_--_Total_random_quarrel_changes:_{reg4}
+qstr_{!}DEBUG____Total_ba {!}DEBUG_--_Total_battle_changes_for_allies:_{reg4}
+qstr_{!}DEBUG____Total_bat {!}DEBUG_--_Total_battle_changes_for_enemies:_{reg4}
+qstr_{!}DEBUG____Total_pr {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
+qstr_{!}DEBUG____Total_fe {!}DEBUG_--_Total_feast_changes:_{reg4}
+qstr_{!}DEBUG____Total_po {!}DEBUG_--_Total_policy_dispute_changes:_{reg4}_from_{reg5}_decisions
+qstr_{!}DEBUG____Total_fa {!}DEBUG_--_Total_faction_switch_changes:_{reg4}
+qstr_{!}DEBUG____Total_no {!}DEBUG_--_Total_no_fief_changes:_{reg4}
+qstr_{!}DEBUG____Total_ch {!}DEBUG_--_Total_changes_through_convergence:_{reg4}
+qstr_{!}DEBUG____Total_va {!}DEBUG_--_Total_vassal_responses_to_campaign:_{reg4}
+qstr_{!}DEBUG____Total_vas {!}DEBUG_--_Total_vassal_campaign_days:_{reg4}
+qstr_{!}DEBUG____Vassal_r {!}DEBUG_--_Vassal_response_rate:_{reg4}
+qstr_{!}DEBUG___{s4}_s_fe {!}DEBUG_-_{s4}'s_feast_has_rating_of_{reg4}
+qstr_{!}_DEBUG___{s4}_fac {!}_DEBUG_-_{s4}_faction_change_in_marriage_case_5
+qstr_{!}DEBUG___{s4}_faction_chan {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_6
+qstr_{!}DEBUG___{s4}_stro {!}DEBUG_-_{s4}_strongest_kingdom_with_{reg3}_strength
+qstr_{!}DEBUG___including {!}DEBUG_-_including_offensive_and_defensive_alliances_{s4}_strongest_kingdom_with_{reg3}_strength
+qstr_{!}DEBUG___including_ {!}DEBUG_-_including_only_defensive_alliances_{s4}_strongest_kingdom_with_{reg3}_strength
+qstr_{!}Actor_centers_hel {!}Actor_centers_held_by_target_noted
+qstr_{!}War_damage_under_ {!}War_damage_under_minimum
+qstr_{!}Strength_ratio_co {!}Strength_ratio_correct
+qstr_{!}Third_party_wars {!}Third_party_wars
+qstr_{!}DEBUG____No_third {!}DEBUG_--_No_third_party_wars_for_{s15}
+qstr_{!}DEBUG____{s15}_is {!}DEBUG_--_{s15}_is_strongest_kingdom
+qstr_{!}DEBUG____{s15}_ha {!}DEBUG_--_{s15}_has_30_point_advantage_over_{s16}
+qstr_{!}DEBUG____{s15}_has {!}DEBUG_--_{s15}_has_proximity_to_{s16}
+qstr_{!}DEBUG____hardship {!}DEBUG_--_hardship_index_for_{s4}_=_{reg0}
+qstr_{!}Castle_taken_by_{ {!}Castle_taken_by_{s3}
+qstr_{!}Two_thirds_averag {!}Two-thirds_average_renown_=_{reg3}
+qstr_{!}DEBUG____Colleagu {!}DEBUG_--_Colleague_test:_score_for_{s10}_=_{reg3}
+qstr_{!}DEBUG____Open_tes {!}DEBUG_--_Open_test:_score_for_{s10}_=_{reg3}
+qstr_{!}DEBUG____{s8}_bac {!}DEBUG_--_{s8}_backs_{s9}:{s10}
+qstr_{!}DEBUG____{s4}_pro {!}DEBUG_--_{s4}_produces_a_faction_strategy_for_{s33}
+qstr_{!}Best_offensive_ta {!}Best_offensive_target_{s4}_has_value_level_of_{reg1}
+qstr_{!}No_center_found_t {!}No_center_found_to_attack
+qstr_{!}Best_threat_of_{s {!}Best_threat_of_{s4}_has_value_level_of_{reg1}
+qstr_{!}No_center_found_to {!}No_center_found_to_defend
+qstr_Best_threat_of_{s4}_ Best_threat_of_{s4}_has_value_level_of_{reg1}
+qstr_No_center_found_to_d No_center_found_to_defend
+qstr_You_gain_right_to_ru You_gain_right_to_rule.
+qstr_You_lose_right_to_ru You_lose_right_to_rule.
+qstr_{!}DEBUG___{s4}_faction_chang {!}DEBUG_-_{s4}_faction_changed_in_indictment
+qstr_{s0}^{s1} {s0}^{s1}
+qstr_equipped_{s10}{s20} equipped_{s10}{s20}
+qstr_discarded_{s10}{s20} discarded_{s10}{s20}
+qstr_{s10}{s20} {s10}{s20}
+qstr_{reg0}_denars_added_ {reg0}_denars_added_to_treasury.
+qstr_{reg0}_denars_remove {reg0}_denars_removed_from_treasury.
+qstr_{!}DEBUG_:_removing_ {!}DEBUG_:_removing_player_troops:_{reg0}%
+qstr_{s1}_and_{s2}_have_e {s1}_and_{s2}_have_entered_into_an_alliance_with_each_other.
+qstr_{s1}_and_{s2}_have_c {s1}_and_{s2}_have_concluded_a_defensive_pact_with_each_other.
+qstr_{s1}_and_{s2}_have_co {s1}_and_{s2}_have_concluded_a_trade_agreement_with_each_other.
+qstr_{s1}_and_{s2}_have_con {s1}_and_{s2}_have_concluded_a_non_aggression_pact_with_each_other.
+qstr_{!}DEBUG_:_faction_n {!}DEBUG_:_faction_no_1_value:_{reg0}
+qstr_{!}DEBUG_:_faction_no {!}DEBUG_:_faction_no_2_value:_{reg0}
+qstr_{!}DEBUG_:_peace_war {!}DEBUG_:_peace_war_result:_{reg0}
+qstr_{!}DEBUG_:_prisoner_ {!}DEBUG_:_prisoner_value:_{reg0}
+qstr_{!}DEBUG_:_peace_war_ {!}DEBUG_:_peace_war_result_after_prisoners:_{reg0}
+qstr_{!}DEBUG_:_truce_pay {!}DEBUG_:_truce_pay_amount0:_{reg0}
+qstr_{!}DEBUG_:_truce_pay_ {!}DEBUG_:_truce_pay_amount1:_{reg1}
+qstr_{!}DEBUG___Send_mess {!}DEBUG_-_Send_message_to_{s13}
+qstr_{!}DEBUG___Bring_{s1 {!}DEBUG_-_Bring_{s12}_to_{s13}
+qstr_{!}_ERROR:_Bad_gift_ {!}_ERROR:_Bad_gift_amount_{reg0}.__(Tell_the_mod_writer_he_needs_to_update_his_code.)__Using_a_safe_default.
+qstr_{!}DEBUG___Added_{re {!}DEBUG_-_Added_{reg0}.template_of_faction_{s7}_to_patrol.
+qstr_{!}DEBUG___Send_{s14 {!}DEBUG_-_Send_{s14}_patrol_from_{s15}_to_{s13}
+qstr_{!}{s6}_of_the_{s5}_ {!}{s6}_of_the_{s5}_retains_the_remaining_{reg0}_denars_(dplmc_faction_leader_splits_gold)
+qstr_{s4}_has_returned_fr {s4}_has_returned_from_exile,_seeking_refuge_with_{s6}_of_{s5}.
+qstr_{s4}_has_been_grante {s4}_has_been_granted_a_pardon_by_{s6}_of_{s5}_and_has_returned_from_exile.
+qstr_{!}DEBUG_:_failure_i {!}DEBUG_:_failure_in_dplmc_lord_return_from_exile((s5},_{s7})
+qstr_{!}_ERROR:_called_sc {!}_ERROR:_called_script_dplmc-store-troop-is-female-reg_with_bad_argument_{reg4}
+qstr_Given_the_way_things Given_the_way_things_stand_between_us_at_the_moment,_{playername},_I_would_not_consider_it_prudent_to_enter_into_such_an_arrangement.
+qstr_{playername}_I_am_g {playername},_I_am_grateful_to_you,_but_in_the_eyes_of_the_people_you_do_not_have_sufficient_legitimacy_as_a_potential_co-ruler.__Marrying_you_would_undermine_my_own_claim_to_the_throne.
+qstr_{!}DEBUG___player_re {!}DEBUG_-_player_renown_{reg0},_required_renown_{reg1}
+qstr_{playername}_I_know {playername},_I_know_that_if_it_were_not_for_you_I_would_not_sit_on_this_throne,_but_your_name_is_little_renowned_in_Calradia.__Marrying_you_would_be_perceived_as_an_uneven_match_and_would_call_into_question_my_own_claim_to_the_throne.
+qstr_{!}DEBUG___player_sc {!}DEBUG_-_player_score_{reg0}_out_of_a_required_{reg1}
+qstr_{playername}_I_am_gr {playername},_I_am_grateful_for_your_assistance_in_regaining_my_rightful_throne,_but_you_do_not_have_sufficient_personal_holdings_to_be_a_suitable_match_for_me.__It_would_be_an_uneven_partnership.
+qstr_{!}DEBUG___player_sco {!}DEBUG_-_player_score_{reg0},_competitor_score_{reg1}
+qstr_{playername}_I_am_gra {playername},_I_am_grateful_to_you,_but_if_I_were_to_accept_at_this_time_I_would_risk_offending_powerful_lords_such_as_{s15},_who_may_consider_themselves_to_have_honor_equal_to_or_greater_than_your_own.
+qstr_{playername}_I_am_grat {playername},_I_am_grateful_to_you,_but_if_I_were_to_accept_at_this_time_I_would_risk_offending_great_lords_such_as_{s15},_who_may_consider_themselves_to_have_honor_equal_to_or_greater_than_your_own.
+qstr_{!}DEBUG___player_rel {!}DEBUG_-_player_relation_{reg0},_rival_relation_{reg1}
+qstr_{playername}_while_ {playername},_while_I_am_grateful_to_you,_I_must_confess_I_am_fond_of_{s15}.
+qstr_{!}DEBUG___lords_in_ {!}DEBUG_-_lords_in_faction_{reg0},_required_lords_{reg1}
+qstr_Our_realm_has_too_fe Our_realm_has_too_few_vassals.__In_the_current_precarious_state_of_the_affairs_I_must_use_the_lure_of_a_potential_political_alliance_to_attract_new_vassals,_and_cannot_yet_be_seen_to_commit_to_any_single_{reg65?suitor:candidate}.
+qstr_{!}DEBUG___liege_has {!}DEBUG_-_liege_has_{reg0}_center_points,_needs_at_least_{reg1}
+qstr_Because_I_have_insuf Because_I_have_insufficient_personal_holdings_compared_to_{s15},_if_I_entered_into_such_an_arrangement_I_would_risk_appearing_to_be_a_puppet,_throwing_the_stability_of_the_realm_into_jeopardy.
+qstr_Because_my_personal_ Because_my_personal_holdings_are_insufficiently_large_compared_to_other_lords_of_the_{s14},_if_I_entered_into_such_an_arrangement_I_would_risk_appearing_to_be_a_puppet,_throwing_the_stability_of_the_realm_into_jeopardy.
+qstr_I_am_grateful_to_you I_am_grateful_to_you,_{playername},_but_you_have_too_many_enemies_among_the_lords_of_the_{s14}_for_your_proposal_to_be_politically_viable.__If_I_were_to_accept,_there_might_be_a_revolt.
+qstr_You_have_engendered_ You_have_engendered_too_much_controversy_recently,_{playername}_.__If_I_were_to_accept_at_this_time,_there_might_be_a_revolt_among_the_lords_of_the_{s14}.__Let_us_speak_of_this_later_when_the_furor_has_died_down.
+qstr_If_you_desire_to_lea If_you_desire_to_lead_the_{s14}_alongside_me,_gather_support_among_my_vassals_to_become_marshall,_and_demonstrate_to_them_your_abilities_as_a_war_leader.
+qstr_Our_realm_has_lost_t Our_realm_has_lost_too_much_territory.__We_once_held_{s1}_but_now_only_hold_{s0}.__In_the_current_precarious_state_of_affairs_I_must_retain_the_possibility_of_a_political_alliance_to_use_as_a_bargaining_chip_with_the_other_sovereigns,_so_I_yet_be_seen_to_commit_to_any_single_{reg65?suitor:candidate}.__Restore_the_{s14}_to_its_former_glory,_and_I_will_gladly_have_you_rule_beside_me_as_my_{husband/wife}.
+qstr_{s0}_{reg0?have:has} {s0}_{reg0?have:has}_been_lost_to_foreign_hands.__Restore_the_{s14}_to_its_rightful_boundaries,_and_I_will_gladly_have_you_rule_beside_me_as_my_{husband/wife}.
+qstr_You_have_only_been_m You_have_only_been_marshall_for_{reg0}_{reg1?days:day}.__Let_us_speak_of_this_after_you_have_held_the_post_for_at_least_two_weeks.
+qstr_If_not_for_you_I_wou If_not_for_you_I_would_not_sit_on_this_throne,_{playername}.__When_we_started_our_long_walk,_few_people_had_the_courage_to_support_me.__And_fewer_still_would_be_willing_to_put_their_lives_at_risk_for_my_cause.__But_you_didn't_hesitate_for_a_moment_in_throwing_yourself_at_my_enemies._We_have_gone_through_a_lot_together,_and_with_God's_help,_we_prevailed.__I_will_gladly_accept_you_as_both_my_{husband/wife}_and_co-ruler_of_the_{s14}.
+qstr_You_sold_{reg1}_{reg You_sold_{reg1}_{reg3?items:item}_to_{s0}_and_gained_{reg0}_{reg3?denars:denar}.
+qstr_You_sold_{reg1}_{reg3 You_sold_{reg1}_{reg3?items:item}_to_the_{s0}_and_gained_{reg0}_{reg3?denars:denar}.
+qstr_{!}_ERROR_FOR_AUTOSE {!}_ERROR_FOR_AUTOSELL_for_town_ID_{reg0}:_Bad_town_or_merchant_was_missing
+qstr_You_have_bought_{reg You_have_bought_{reg2}_{reg4?kinds:kind}_of_food_and_lost_{reg1}_{reg3?denars:denar}.
+qstr_You_sold_{reg2}_{reg You_sold_{reg2}_{reg4?kinds:kind}_of_rotten_food_and_gained_{reg1}_{reg3?denars:denar}.
+qstr_axe axe
+qstr_spear spear
+qstr_bow bow
+qstr_sword sword
+qstr_axes axes
+qstr_spears spears
+qstr_bows bows
+qstr_swords swords
+qstr_swing_my_axe swing_my_axe
+qstr_lift_my_spear lift_my_spear
+qstr_loose_my_arrows loose_my_arrows
+qstr_swing_my_sword swing_my_sword
+qstr_sultan sultan
+qstr_khans khans
+qstr_sultans sultans
+qstr_kings kings
+qstr_lord lord
+qstr_lords lords
+qstr_goatherd goatherd
+qstr_swineherd swineherd
+qstr_stable_{boy/girl} stable_{boy/girl}
+qstr_shepherd_{boy/girl} shepherd_{boy/girl}
+qstr_kvass kvass
+qstr_kumis kumis
+qstr_mead mead
+qstr_wine wine
+qstr_{!}ERROR___dplmc_pri {!}ERROR_-_dplmc_print_cultural_word_to_sreg_called_for_bad_context_{reg0}
+qstr_{reg6?M:m}y_poppet {reg6?M:m}y_poppet
+qstr_{!}Initializing_auto {!}Initializing_auto-loot.__This_message_should_not_appear_more_than_once.
+qstr_{!}_Checked_if_facti {!}_Checked_if_faction_{reg1}_is_prejudiced_against_{reg2?women:men}:_{reg0?true:false}
+qstr_{reg0?Y:y}ou {reg0?Y:y}ou
+qstr_{reg0?M:m}yself {reg0?M:m}yself
+qstr_{reg0?O:o}ur_{s1}_{s {reg0?O:o}ur_{s1}_{s0}
+qstr_{reg0?M:m}y_{s1}_{s0 {reg0?M:m}y_{s1}_{s0}
+qstr_{reg0?Y:y}our_{s1}_{ {reg0?Y:y}our_{s1}_{s0}
+qstr_{s2}:_{reg3}_{reg4} {s2}:_{reg3},_{reg4}_days
+qstr_{s4}:_{reg4} {s4}:_{reg4}
+qstr_{s1}_gathering_suppo {s1}(gathering_support)
+qstr_{s1}__intelligence_ {s1}_(intelligence)
+qstr_{s1}__ambassy_ {s1}_(ambassy)
+qstr_{s1}__minister {s1}_(minister
+qstr_{s1}__under_arms_ {s1}_(under_arms)
+qstr_{s1}__attempting_to_ {s1}_(attempting_to_rejoin)
+qstr_{s1}__separated_afte {s1}_(separated_after_battle)
+qstr__knows_of_you. _knows_of_you.
+qstr__has_no_opinion_abou _has_no_opinion_about_you.
+qstr_{s57}_and_{s50} {s57}_and_{s50}
+qstr_{!}{s57}_{s50} {!}{s57},_{s50}
+qstr_Calradia. Calradia.
+qstr_sworn_{man/woman} sworn_{man/woman}
+qstr_ruler ruler
+qstr_free_{man/woman} free_{man/woman}
+qstr_{s1}_Renown:_{reg40} {s1}_Renown:_{reg40},_Controversy:_{reg41}^Honor:_{reg42},_Right_to_rule:_{reg43}^You_are_a_{s44}_of_{s45}^{reg45?{reg46?Your_liege,_{s46},{s47}:You_are_the_ruler_of_{s45}}:}^^Friends:_^Enemies:_^^Fiefs:^__{reg50?{s50}:no_fief}
+qstr_{s1}{s2}_{reg46?Repu {s1}{s2}_{reg46?Reputed_to_be_{s42}:}^Renown:_{reg40},_Controversy:_{reg41}_{reg46?Impatience:_{reg43}:}^{s44}_noble_of_the_{s45}^{reg46?Liege:_{s46},_Relation:_{reg47}:Ruler_of_the_{s45}}^^{reg48?Currently_prisoner_of_the_{s48}:}^Days_since_last_meeting:_{reg49}^^Fiefs_{reg51?(was_promised_a_fief):}:^__{reg50?{s50}:no_fief}
+qstr_conventional conventional
+qstr_adventurous adventurous
+qstr_otherwordly otherwordly
+qstr_ambitious ambitious
+qstr_moralist moralist
+qstr_just_met just_met
+qstr_admirer admirer
+qstr_promised promised
+qstr_breakup breakup
+qstr_unknown unknown
+qstr_Heroic_{s50} Heroic_{s50}
+qstr_Allegoric_{s50} Allegoric_{s50}
+qstr_Comic_{s50} Comic_{s50}
+qstr_Mystic_{s50} Mystic_{s50}
+qstr_Tragic_{s50} Tragic_{s50}
+qstr_{s1}{s2}_Controversy {s1}{s2}_Controversy:_{reg41}^Reputation:_{s42},_Courtship_state:_{s43}^Belongs_to_the_{s45}^{reg46?Her_father,_{s46}:Her_guardian,_{s46}}{s47}^Allowed_to_visit:_{reg45?yes:no}_{reg48?Betrothed_to_{s48}:}^^Days_since_last_meeting:_{reg49}^^Poems:^__{reg50?{s50}:no_poem_heard}
+qstr_Gathering_support Gathering_support
+qstr_Gathering_intelligen Gathering_intelligence_in_the_{s66}
+qstr_Ambassy_to_{s66} Ambassy_to_{s66}
+qstr_Minister Minister
+qstr_{s1}_{s2}^Reputatio {s1},_{s2}^Reputation:_{s42}^Born_at_{s43}^Contact_in_{s44}_of_the_{s45}.^^{reg48?Currently_prisoner_of_the_{s48}:}^Days_since_last_talked_to:_{reg49}^^Current_mission:^__{s50}{reg50?,_back_in_{reg50}_days.:}
+qstr_{s1}^ {s1}^
+qstr_Added_money_for_your Added_money_for_your_old_horse
+qstr_A_{s0}_is_being_buil A_{s0}_is_being_built._It_will_finish_in_{reg6}_days
+qstr_{s20}{reg2?Our_gover {s20}{reg2?Our_government:The_goverment_of_the_{s5}}_is_{s0}.{reg3?^:_}
+qstr_{s20}The_upper_class {s20}The_upper_class_society_is_{s0}.{reg3?^:_}
+qstr_{s20}{reg2?Our:The}_ {s20}{reg2?Our:The}_people_are_{s0}.{reg3?^:_}
+qstr_{s20}{reg2?Our:The}_t {s20}{reg2?Our:The}_troops_have_{s0}.{reg3?^:_}
+qstr_{s20}{reg2?Our:The_g {s20}{reg2?Our:The_government's}_approach_to_trade_is_{s0}.{reg3?^:_}
+qstr_You_can_find_{s10}s_ You_can_find_{s10}s_at_{s11}.
+qstr_You_have_raised_{reg You_have_raised_{reg0/reg1}_denars_for_the_ransom
+qstr_You_have_been_knocke You_have_been_knocked_out_by_the_enemy._Watch_your_men_continue_the_fight_without_you_or_press_Tab_to_retreat.
+qstr_Selected_Troop:_{s1} Selected_Troop:_{s1}
+qstr_No_Troops_Left. No_Troops_Left.
+qstr_{s1}_troops {s1}_troops
+qstr_hero hero
+qstr_companion companion
+qstr_king king
+qstr_pretender pretender
+qstr_lady lady
+qstr_bandit bandit
+qstr_minstrel minstrel
+qstr_bookseller bookseller
+qstr_traveler traveler
+qstr_ransom_broker ransom_broker
+qstr_mercenary mercenary
+qstr_multiplayer_troop multiplayer_troop
+qstr_quick_battler quick_battler
+qstr_arena_master arena_master
+qstr_walker walker
+qstr_merchant merchant
+qstr_armor_merchant armor_merchant
+qstr_weapon_merchant weapon_merchant
+qstr_tavernkeeper tavernkeeper
+qstr_goods_merchant goods_merchant
+qstr_horse_merchant horse_merchant
+qstr_guildmaster guildmaster
+qstr_village_elder village_elder
+qstr_startup_merchant startup_merchant
+qstr_tournament_fighter tournament_fighter
+qstr_craftsman craftsman
+qstr_court_chests court_chests
+qstr_chest_or_array chest_or_array
+qstr_log_array log_array
+qstr_quest_troop quest_troop
+qstr_coop_troop coop_troop
+qstr_court_member court_member
+qstr_fighter fighter
+qstr_tutorial_fighter tutorial_fighter
+qstr_Acquired_{s0}_s_clot Acquired_{s0}'s_clothing
+qstr_adding_{s1}_to_entry adding_{s1}_to_entry
+qstr_{!}used_troop_no_is_ {!}used_troop_no_is_{reg0}
+qstr_{!}sending_message_t {!}sending_message_to_{reg0}_multiplayer_event_other_event_ccoop_count_down_invisible
+qstr_{!}spawn_required_is {!}spawn_required_is:_{reg0}
+qstr_{!}num_troops_for_wa {!}num_troops_for_wave_is_{reg0}
+qstr_{!}num_troops_for_wav {!}num_troops_for_wave_is_gt_spawn_required._reduced_spawn_amount_is_{reg0},_reduced_spawn_amount_mod_is_{reg1}
+qstr_{!}original_spawned_ {!}original_spawned_troop_count_is_{reg0}
+qstr_{!}reducing_spawn_am {!}reducing_spawn_amount_by_one
+qstr_{!}spawning_bot_grou {!}spawning_bot_group_{reg0}:_{reg2}_{s0}_from_entry_point_{reg1}
+qstr_{!}destroy_prison_ca {!}destroy_prison_cart
+qstr_{!}spawning_prison_c {!}spawning_prison_cart_at_point_{reg0}
+qstr_{!}prison_cart_spawn {!}prison_cart_spawn_at_point_{reg0}
+qstr_{!}multiplayer_upgra {!}multiplayer_upgrade_player_equipment:_{reg0}
+qstr_{!}_A_slot_had_an_un {!}_A_slot_had_an_unexpected_value:_{reg0}.__This_might_be_because_you_are_using_an_incompatible_troop_list,_or_are_using_a_non-native_strange_game.__This_message_will_repeat_daily.
+qstr_{!}_DEBUG___Detected {!}_DEBUG_-_Detected_a_new_version_of_diplomacy:_previous_version_was_{reg0},_and_current_version_is_{reg1}.__Performing_updates.
+qstr_{!}DEBUG___Fixed_slo {!}DEBUG_-_Fixed_slot_troop_mother_for_{s0}.
+qstr_{!}DEBUG___When_fixi {!}DEBUG_-_When_fixing_slot_troop_mother_for_{s0},_could_not_find_a_valid_mother.
+qstr_{!}DEBUG___Changed_o {!}DEBUG_-_Changed_occupation_of_{s0}_to_dplmc_slto_exile
+qstr_{!}FIXED_PROBLEM___C {!}FIXED_PROBLEM_-_Cancelled_erroneous_version_of_qst_wed_betrothed_female.__You_should_be_able_to_marry_normally_if_you_try_again.
+qstr_{!}_Bug_fix:_set_per {!}_Bug_fix:_set_personality_types_for_{reg0}_{reg1?lords:lord}
+qstr_{!}_Bug_fix:_set_pers {!}_Bug_fix:_set_personality_types_for_{reg0}_{reg1?ladies:lady}
+qstr_Performing_2017_upda Performing_2017_updates,_thank_you_for_your_patience!
+qstr_Performing_2019_upda Performing_2019_updates,_thank_you_for_your_patience!
+qstr_{s0}_will_be_under_y {s0}_will_be_under_your_command
+qstr_Returning Returning
+qstr_Recruit Recruit
+qstr_{reg10}_{s10}s_neede {reg10}_{s10}s_needed
+qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_promotion_changes:_{reg4}
+qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
+qstr_Checking_rejoin_of_{ Checking_rejoin_of_{s10}_days_on_mission:_{reg0}
+qstr_{!}DEBUG_:_chamberla {!}DEBUG_:_chamberlain:_{reg0}
+qstr_{!}DEBUG_:_constable {!}DEBUG_:_constable:_{reg0}
+qstr_{!}DEBUG_:_chancello {!}DEBUG_:_chancellor:_{reg0}
+qstr_Next_Page Next_Page
+qstr_Game_Rules:^ Game_Rules:^
+qstr_0 0
+qstr_Lv._{reg0} Lv._{reg0}
+qstr_Show_game_rules Show_game_rules
+qstr_Kingdom_of_{s7} Kingdom_of_{s7}
+qstr_Red: Red:
+qstr_Green: Green:
+qstr_Blue: Blue:
+qstr_Candidate_#1:_{s1} Candidate_#1:_{s1}
+qstr_Candidate_#2:_{s1} Candidate_#2:_{s1}
+qstr_{s3}_of_{s4}_wishes_ {s3}_of_{s4}_wishes_to_select_a_new_marshall_and_invites_his_vassals_for_a_counsel._{s1}_and_{s2}_are_the_likely_candidates.
+qstr_Who_do_you_wish_to_s Who_do_you_wish_to_support?
+qstr_{!}{s1} {!}{s1}
+qstr_{s1}_gives_his_suppo {s1}_gives_his_support_to_{s2}.
+qstr_Number_of_Supporters Number_of_Supporters:_{reg0}
+qstr_{s2}_has_heard_his_v {s2}_has_heard_his_vassals'_counsel._He_selects_{s1}_as_the_marshall_of_{s3}.
+qstr_Action Action
+qstr_Attack_Type Attack_Type
+qstr_Stand_Ground Stand_Ground
+qstr_Charge Charge
+qstr_Follow_Me Follow_Me
+qstr_Hold_This_Position Hold_This_Position
+qstr_Spread_Out Spread_Out
+qstr_Stand_Closer Stand_Closer
+qstr_Fall_Back Fall_Back
+qstr_Advance Advance
+qstr_Fire_At_Will Fire_At_Will
+qstr_Hold_Your_Fire Hold_Your_Fire
+qstr_Use_Blunt_Weapons Use_Blunt_Weapons
+qstr_Use_Any_Weapon Use_Any_Weapon
+qstr_Ready Ready
+qstr_Wounded Wounded
+qstr_Dead Dead
+qstr_Number_of_men_knocke Number_of_men_knocked_down:_{reg1}
+qstr_Number_of_men_left:_ Number_of_men_left:_{reg1}
+qstr_Opponents_Beaten:_{r Opponents_Beaten:_{reg1}
+qstr_Opponents_Remaining: Opponents_Remaining:_{reg1}
+qstr_Remain_in_retirement Remain_in_retirement.
+qstr_Go_back_to_the_adven Go_back_to_the_adventuring.
+qstr_You_have_retired_at_ You_have_retired_at_level_{reg4}_after_{reg5}_days_of_adventuring.
+qstr_Effect_on_Score Effect_on_Score
+qstr_Settlements_owned_by Settlements_owned_by_you:_{reg0}
+qstr_{!}{reg0?+:}{reg0} {!}{reg0?+:}{reg0}
+qstr_Friendly_Settlements Friendly_Settlements:_{reg0}
+qstr_Hostile_Settlements: Hostile_Settlements:_{reg0}
+qstr_Friendly_Lords:_{reg Friendly_Lords:_{reg0}
+qstr_Enemy_Lords:_{reg0} Enemy_Lords:_{reg0}
+qstr_Victories:_{reg0} Victories:_{reg0}
+qstr_Defeats:_{reg0} Defeats:_{reg0}
+qstr_Quests_Completed:_{r Quests_Completed:_{reg0}
+qstr_Companions_Found:_{r Companions_Found:_{reg0}
+qstr_Companions_Lost/Depa Companions_Lost/Departed:_{reg0}
+qstr_Wealth:_{reg0}_denar Wealth:_{reg0}_denars
+qstr_Inventory:_{reg0}_de Inventory:_{reg0}_denars
+qstr_Renown:_{reg0} Renown:_{reg0}
+qstr_Experience:_{reg0} Experience:_{reg0}
+qstr_Days_Passed:_{reg0} Days_Passed:_{reg0}
+qstr_Difficulty:_{reg0}% Difficulty:_{reg0}%
+qstr_{!}{reg3?+:}{reg0} {!}{reg3?+:}{reg0}
+qstr_TOTAL_SCORE:_{reg0} TOTAL_SCORE:_{reg0}
+qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
+qstr_{s0}__{s50}_ {s0}_({s50})
+qstr_{s55}__{reg0}%_ {s55}_({reg0}%)
+qstr_{s55} {s55}
+qstr_Staff: Staff:
+qstr_You_paid_{reg0}_dena You_paid_{reg0}_denars_in_cash_to_liquidate_a_debt
+qstr_Earlier_cash: Earlier_cash:
+qstr_New_cash: New_cash:
+qstr_Name:_{s1}^Level:_{r Name:_{s1}^Level:_{reg1}
+qstr_{s1} {s1}
+qstr_Weapon_upgrade_setti Weapon_upgrade_settings:
+qstr_cut cut
+qstr_pierce pierce
+qstr_blunt blunt
+qstr_Damage_preference Damage_preference
+qstr_Item_meta_type Item_meta-type
+qstr_Apply_to_everyone Apply_to_everyone
+qstr_Upgrade_armor Upgrade_armor
+qstr_Upgrade_horse Upgrade_horse
+qstr_Select_your_domestic Select_your_domestic_policy
+qstr_Centralization: Centralization:
+qstr_Aristocracy: Aristocracy:
+qstr_Serfdom: Serfdom:
+qstr_Troop_quality: Troop_quality:
+qstr_Mercantilism: Mercantilism:
+qstr_High_centralization_ High_centralization_reduces_tax_inefficiency_for_the_king_and_raises_it_for_vassals._This_will_interfere__the_relations_between_ruler_and_vassals.
+qstr_High_aristocracy_wil High_aristocracy_will_improve_the_relations_between_the_king_and_his_vassals_who_will_be_able_to_raise_bigger_armies_but_it_will_decreased_trade.
+qstr_High_serfdom_reduces High_serfdom_reduces_tax_inefficiency_for_the_king_and_his_vassals_and_vassals_can_maintain_bigger_armies_but_troops_lose_morale.
+qstr_High_troop_quality_i High_troop_quality_increases_the_combat_strength_of_troops_but_decreases_army_size.
+qstr_High_mercantilistic_ High_mercantilistic_policies_maximize_exports_while_minimizing_imports,_and_increase_government_regulation_of_industry.
+qstr_Cancel Cancel
+qstr_Dictate_the_peace_te Dictate_the_peace_terms
+qstr_Select_the_castle_an Select_the_castle_and_the_amount_of_money_and_check_the_boxes_to_activate_the_demand._The_demands_are_combined_if_both_boxes_are_checked.
+qstr_1000_denars 1000_denars
+qstr__Faction_Relations_R _Faction_Relations_Report_
+qstr__Return_to_menu_ _Return_to_menu_
+qstr_Your_kingdom Your_kingdom
+qstr_Player^Relation Player^Relation
+qstr_{!}DEBUG___Drawing_l {!}DEBUG_-_Drawing_line_{reg20}
+qstr_War War
+qstr_Casus_Belli Casus_Belli
+qstr_Peace Peace
+qstr_Truce Truce
+qstr_Alliance Alliance
+qstr_Defense Defense
+qstr_Trade Trade
+qstr_{reg59?{reg59}_days: {reg59?{reg59}_days:}
+qstr_{reg61} {reg61}
+qstr_{s9} {s9}
+qstr_{reg61}_{reg58?_{reg {reg61}_{reg58?({reg58}_U)_:}Centers
+qstr_{reg62}_Caravans {reg62}_Caravans
+qstr_{reg60}_{reg59?_{reg {reg60}_{reg59?({reg59}_P)_:}Lords
+qstr_How_will_your_male_v How_will_your_male_vassals_be_known?
+qstr_How_will_your_female How_will_your_female_vassals_be_known?
+qstr_Sell_items_automatic Sell_items_automaticly_when_leaving:
+qstr_Price_limit_for_auto Price_limit_for_auto-sell:
+qstr_Item_types_for_auto_ Item_types_for_auto-sell:
+qstr_Select_all Select_all
+qstr_Select_invert Select_invert
+qstr_Buy_food_automatical Buy_food_automatically_when_leaving:
+qstr_* *
+qstr__Courtships_in_progr _Courtships_in_progress_
+qstr__Known_Lords_by_Rela _Known_Lords_by_Relation_
+qstr__Character_&_Compani _Character_&_Companions_
+qstr__Done_ _Done_
+qstr_Your_supporters Your_supporters
+qstr_{s10}s {s10}s
+qstr_All_Factions All_Factions
+qstr_Default_camera_mode Default_camera_mode
+qstr_Keyboard Keyboard
+qstr_Mouse Mouse
+qstr_Follower Follower
+qstr_Raise_camera Raise_camera
+qstr_Lower_camera Lower_camera
+qstr_Lower_sensitivity Lower_sensitivity
+qstr_Tilt_left Tilt_left
+qstr_Prev_troop Prev_troop
+qstr_Raise_sensitivity Raise_sensitivity
+qstr_Tilt_right Tilt_right
+qstr_Next_troop Next_troop
+qstr_Zoom_in Zoom_in
+qstr_Rotate_up Rotate_up
+qstr_Zoom_out Zoom_out
+qstr_Rotate_down Rotate_down
+qstr_Rotate_left Rotate_left
+qstr_Rotate_right Rotate_right
+qstr_Press_a_key Press_a_key
+qstr_Export/Import Export/Import
+qstr_Reselect_Banner Reselect_Banner
+qstr__Renown:_{reg1}^_Hon _Renown:_{reg1}^_Honor:_{reg2}^_Right_to_rule:_{reg3}
+qstr_{s2}^{s8}^_{s5}_ {s2}^{s8}^({s5})
+qstr__Renown:_{reg2}^{s2} _Renown:_{reg2}^{s2}^{s1}of_{s0}
+qstr_Name:_{s4}^Level:_{r Name:_{s4}^Level:_{reg3}^HP:_{reg2}/{reg0}^^{s0}
+qstr_Arms Arms
+qstr_Outfit Outfit
+qstr_Horse Horse
+qstr_{s5}^^{s6}^^{s7} {s5}^^{s6}^^{s7}
+qstr_Attributes: Attributes:
+qstr_{s3}^STR:_{reg1}^AGI {s3}^STR:_{reg1}^AGI:_{reg2}^INT:_{reg3}^CHA:_{reg4}
+qstr_{s3}^^Proficiencies: {s3}^^Proficiencies:^{s11}:_{reg1}^{s12}:_{reg2}^{s13}:_{reg3}^{s14}:_{reg4}^{s15}:_{reg5}^{s16}:_{reg6}
+qstr_Skills: Skills:
+qstr_{s4}^{s1}_:_{reg1} {s4}^{s1}_:_{reg1}
+qstr_{reg1}^value {reg1}^value
+qstr_{reg2}^index {reg2}^index
+qstr_{reg6}^money_in_the_ {reg6}^money_in_the_chest
+qstr_{reg4}^money_in_your {reg4}^money_in_your_inventory
+qstr_Withdraw Withdraw
+qstr_Deposit Deposit
+qstr_Horse_Speed_Fix: Horse_Speed_Fix:
+qstr_Horse_Culling: Horse_Culling:
+qstr_Battle_Continuation: Battle_Continuation:
+qstr_Charge_When_Dead: Charge_When_Dead:
+qstr_Terrain_Advantages: Terrain_Advantages:
+qstr_Lords_Returning_From Lords_Returning_From_Exile:
+qstr_AI_Changes: AI_Changes:
+qstr_Economics_&_Behavior Economics_&_Behavioral:
+qstr_Prejudice_Level: Prejudice_Level:
+qstr_Disable_Companions_C Disable_Companions_Complaints:
+qstr_Disguise_System: Disguise_System:
+qstr_Cheat_Mode: Cheat_Mode:
+qstr_DIPLOMACY^4.3+_for_S DIPLOMACY^4.3+_for_Steam^Preferences
+qstr_Perhaps_you_have_for Perhaps_you_have_forgotten_the_face_of_your_father.
+qstr__Next_pay_day:_{s1} _Next_pay_day:_{s1}
+qstr_{s1}^^Affiliated_to_ {s1}^^Affiliated_to_{s5}
+qstr_{!}{s4}:_M{reg3}_2M {!}{s4}:_M{reg3},_2M{reg4},_PC{reg5},_2PC{reg6},_PM{reg7}
+qstr_Back_to_the_beginnin Back_to_the_beginning...
+qstr_View_next_segment... View_next_segment...
+qstr_{!}__ {!}_-
+qstr_{!}_+ {!}_+
+qstr_^No_food:___{reg7} ^No_food:__-{reg7}
+qstr_^Wage_debt:___{reg6} ^Wage_debt:__-{reg6}
+qstr_{!}{s1}^{s4}:_{reg4} {!}{s1}^{s4}:_{reg4}
+qstr_{!}DEBUG____{s1}^NPC {!}DEBUG_--_{s1}^NPC_in_rejoin_queue:_{s5}^
+qstr_{!}DEBUG:_{s4}_curre {!}DEBUG:_{s4}_current_mission:_{reg2},_days_on_mission:_{reg3},_prisoner:_{reg4},_pphistory:_{reg5}
+qstr_Appoint_next_marshal Appoint_next_marshal
+qstr_Award_{s12}_as_fief Award_{s12}_as_fief
+qstr_{!}Error__{reg3}_ {!}Error_({reg3})
+qstr_{!}{s10}^Faction_pol {!}{s10}^Faction_political_issue:_{s11}
+qstr_{!}{s10}__on_agenda_ {!}{s10}_(on_agenda_{reg4}_hours)
+qstr_{!}Defending {!}Defending
+qstr_{!}Gathering_army {!}Gathering_army
+qstr_{!}Besieging_{s11} {!}Besieging_{s11}
+qstr_{!}Raiding_{s11} {!}Raiding_{s11}
+qstr_{!}Attacking_enemies {!}Attacking_enemies_around_{s11}
+qstr_No_one No_one
+qstr_{!}{s12}__controvers {!}{s12}_(controversy:_{reg21})
+qstr_{!}{s12}^Screening_p {!}{s12}^Screening_party:_{s38}
+qstr_Selected_faction_is: Selected_faction_is:_{s10}^^{s9}
+qstr_You_are_currently_re You_are_currently_reading_{s8}.
+qstr_You_are_not_reading_ You_are_not_reading_any_books.
+qstr_{s5}_and_{s6} {s5}_and_{s6}
+qstr_{!}{s5}_{s6} {!}{s5},_{s6}
+qstr_Your_estates_are:_{s Your_estates_are:_{s8}.^{s9}
+qstr_Monarch:_+{reg6}^ Monarch:_+{reg6}^
+qstr_Marshal:_+{reg6}^ Marshal:_+{reg6}^
+qstr_Policy:_{reg6}%^ Policy:_{reg6}%^
+qstr_Castellan:_+{reg6}^ Castellan:_+{reg6}^
+qstr_Current_party_size_i Current_party_size_is_{reg10}/{reg5}.^Current_party_size_modifiers_are:^^Base_size:__+30^Leadership:_{s2}{reg1}^Charisma:_{s3}{reg2}^Renown:_{s4}{reg3}^^{s8}{s7}{s6}{s9}TOTAL:__{reg5}
+qstr_{!}{s2}^{s4}:_{reg1} {!}{s2}^{s4}:_{reg1}_({s3})
+qstr_Your_relation_with_t Your_relation_with_the_factions_are:^{s2}
+qstr_{!}WARNING:_Unexpect {!}WARNING:_Unexpected_version_value_in_slot_dplmc_slot_troop_affiliated_in_trp_dplmc_chamberlain:_{reg0}
+qstr_{!}DEBUG:_Internal_u {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170301.
+qstr_nowhere_in_particula nowhere_in_particular
+qstr_all all
+qstr_troop troop
+qstr_economic economic
+qstr_political political
+qstr_No_one_accepts_the_o No_one_accepts_the_offer.
+qstr_{reg1}_{s1}_{reg2?ac {reg1}_{s1}_{reg2?accept:accepts}_the_offer.
+qstr_You_start_reading_{s You_start_reading_{s2}._After_a_few_pages,_you_feel_you_could_learn_a_lot_from_this_book._You_decide_to_keep_it_close_by_and_read_whenever_you_have_the_time.
+qstr_You_flip_through_the You_flip_through_the_pages_of_{s2},_but_you_find_the_text_confusing_and_difficult_to_follow._Try_as_you_might,_it_soon_gives_you_a_headache,_and_you're_forced_to_give_up_the_attempt.
+qstr_Grazing Grazing
+qstr_Villagers Villagers
+qstr_You_have_encountered You_have_encountered_{s1}.
+qstr_You_have_engaged_{s1 You_have_engaged_{s1}_while_they_were_raiding_{s3}.
+qstr_You_were_caught_by_{ You_were_caught_by_{s1}_while_your_forces_were_raiding_{s3}.
+qstr_You_were_victorious! You_were_victorious!
+qstr_The_battle_was_lost. The_battle_was_lost._Your_forces_were_utterly_crushed.
+qstr_Your_companions_carr Your_companions_carry_you_away_from_the_fighting.
+qstr_You_have_defeated_th You_have_defeated_the_enemy.
+qstr_You_have_retreated_f You_have_retreated_from_the_fight.
+qstr_^^Ally_Casualties:{s ^^Ally_Casualties:{s0}
+qstr_{!}{s4}_skipped_in_p {!}{s4}_skipped_in_p_total_enemy_casualties_capture_queue_because_is_friendly
+qstr_{s1}_of_{s3}_managed {s1}_of_{s3}_managed_to_escape.
+qstr_{!}{s17} {!}{s17}
+qstr_{!}Victory_comment._ {!}Victory_comment._Player_was_alone
+qstr_{!}Ordinary_victory_ {!}Ordinary_victory_comment._The_player_provided_at_least_40_percent_forces.
+qstr_{!}Player_participat {!}Player_participation_comment._The_enemy_had_at_least_1k_starting_strength.
+qstr_{!}No_victory_commen {!}No_victory_comment._The_battle_was_small,_and_the_player_provided_less_than_40_percent_of_allied_strength
+qstr_Some_of_your_tendons Some_of_your_tendons_have_been_damaged_in_the_battle._You_lose_1_strength.
+qstr_You_took_a_nasty_wou You_took_a_nasty_wound_which_will_cause_you_to_limp_slightly_even_after_it_heals._You_lose_1_agility.
+qstr_You_have_trouble_thi You_have_trouble_thinking_straight_after_the_battle,_perhaps_from_a_particularly_hard_hit_to_your_head,_and_frequent_headaches_now_plague_your_existence._Your_intelligence_is_reduced_by_1.
+qstr_Perhaps_I_m_getting_ Perhaps_I'm_getting_unlucky...
+qstr_Retirement_is_starti Retirement_is_starting_to_sound_better_and_better.
+qstr_No_matter!_I_will_pe No_matter!_I_will_persevere!
+qstr_What_did_I_do_to_des What_did_I_do_to_deserve_this?
+qstr_I_suppose_it_ll_make I_suppose_it'll_make_for_a_good_story,_at_least...
+qstr_{s9}_wants_you_to_fol {s9}_wants_you_to_follow_{reg0?her:his}_army_until_further_notice.
+qstr_{s8}_of_{s9} {s8}_of_{s9}
+qstr_liege liege
+qstr_former_liege former_liege
+qstr_affiliate affiliate
+qstr_former_companion former_companion
+qstr_marshall marshall
+qstr_vassal vassal
+qstr__Your_own_banner_fli _Your_own_banner_flies_over_the_castle_gate.
+qstr__You_see_the_banner_ _You_see_the_banner_of_your_{s11}_{s7}_over_the_castle_gate.
+qstr__You_see_the_banner_o _You_see_the_banner_of_{s7}_over_the_castle_gate.
+qstr__Your_own_banner_flie _Your_own_banner_flies_over_the_town_gates.
+qstr__You_see_the_banner_of _You_see_the_banner_of_your_{s11}_{s7}_over_the_town_gates.
+qstr__You_see_the_banner_of_ _You_see_the_banner_of_{s7}_over_the_town_gates.
+qstr_The_{reg6?town_s:cas The_{reg6?town's:castle's}_food_stores_should_last_for_{reg3}_more_days.
+qstr_The_{reg6?town_s:cast The_{reg6?town's:castle's}_food_stores_have_run_out_and_the_defenders_are_starving.
+qstr_You_re_preparing_to_ You're_preparing_to_attack_the_walls,_the_work_should_finish_in_{reg9}_hours.
+qstr_Your_forces_are_buil Your_forces_are_building_a_siege_tower._They_estimate_another_{reg9}_hours_to_complete_the_build.
+qstr_You_are_ready_to_att You_are_ready_to_attack_the_walls_at_any_time.
+qstr_The_siege_tower_is_b The_siege_tower_is_built_and_ready_to_make_an_assault.
+qstr_You_ve_been_driven_a You've_been_driven_away_from_the_walls._Now_the_attackers_are_pouring_into_the_streets._IF_you_can_defeat_them,_you_can_perhaps_turn_the_tide_and_save_the_day.
+qstr_You_ve_breached_the_ You've_breached_the_town_walls,_but_the_stubborn_defenders_continue_to_resist_you_in_the_streets!_You'll_have_to_deal_with_them_before_you_can_attack_the_keep_at_the_heart_of_the_town.
+qstr_As_a_last_defensive_ As_a_last_defensive_effort,_you_retreat_to_the_main_hall_of_the_keep._You_and_your_remaining_soldiers_will_put_up_a_desperate_fight_here._If_you_are_defeated,_there's_no_other_place_to_fall_back_to.
+qstr_The_town_centre_is_y The_town_centre_is_yours,_but_the_remaining_defenders_have_retreated_to_the_castle._It_must_fall_before_you_can_complete_your_victory.
+qstr_The_remaining_defend The_remaining_defenders_have_retreated_to_the_castle_as_a_last_defense._You_must_go_in_and_crush_any_remaining_resistance.
+qstr_However_since_you_a However,_since_you_are_not_a_sworn_{man/follower}_of_{s9},_there_is_no_chance_{reg0?she:he}_would_recognize_you_as_the_{lord/lady}_of_this_{reg8?town:castle}.
+qstr_The_enemy_has_been_f The_enemy_has_been_forced_to_retreat._The_assault_is_over,_but_the_siege_continues.
+qstr_As_you_approach_you As_you_approach,_you_are_spotted_by_the_castle_guards,_who_welcome_you_and_open_the_gates_for_their_{s10}.
+qstr_As_you_approach_you_ As_you_approach,_you_are_spotted_by_the_castle_guards,_who_welcome_you_and_open_the_gates_for_their_{king/queen}.
+qstr_As_you_approach_you_a As_you_approach,_you_are_spotted_by_the_castle_guards,_who_welcome_you_and_open_the_gates_for_their_{lord/lady}.
+qstr_{!}Prosperity:_{reg4 {!}Prosperity:_{reg4}
+qstr__This_village_and_th _This_village_and_the_surrounding_lands_belong_to_you.
+qstr__You_remember_that_t _You_remember_that_this_village_and_the_surrounding_lands_belong_to_your_{s11}_{s7}.
+qstr__You_remember_that_th _You_remember_that_this_village_and_the_surrounding_lands_belong_to_{s7}.
+qstr__These_lands_belong_ _These_lands_belong_to_no_one.
+qstr_{!}_{s3}__{reg9}_. {!}_{s3}_({reg9}).
+qstr__The_village_is_infe _The_village_is_infested_by_{reg8}_{s35}.
+qstr__The_peasants_{reg8? _The_peasants_{reg8?hired_{reg8}_mercenaries_and_:}are_rebelling_against_you.
+qstr__The_village_has_bee _The_village_has_been_looted._A_handful_of_souls_scatter_as_you_pass_through_the_burnt_out_houses.
+qstr__The_village_is_bein _The_village_is_being_raided.
+qstr_No_one_here_seems_to No_one_here_seems_to_be_willing_to_join_your_party.
+qstr_One_{s3}_volunteers_ One_{s3}_volunteers_to_follow_you.
+qstr_{reg5}_{s3}_voluntee {reg5}_{s3}_volunteer_to_follow_you.
+qstr_Try_as_you_might_yo Try_as_you_might,_you_could_not_defeat_the_bandits._Infuriated,_they_raze_the_village_to_the_ground_to_punish_the_peasants,_and_then_leave_the_burning_wasteland_behind_to_find_greener_pastures_to_plunder.
+qstr_The_{s17}_has_the_fol The_{s17}_has_the_following_improvements:{s18}.
+qstr_The_assasins_beat_yo The_assasins_beat_you_down_and_leave_you_for_dead._.
+qstr_You_have_fallen._The You_have_fallen._The_bandits_quickly_search_your_body_for_every_coin_they_can_find,_then_vanish_into_the_night._They_have_left_you_alive,_if_only_barely.
+qstr_Luckily_some_of_your Luckily_some_of_your_companions_come_to_search_for_you_when_you_do_not_return,_and_find_you_lying_by_the_side_of_the_road._They_hurry_you_to_safety_and_dress_your_wounds.
+qstr_Luckily_some_passing Luckily_some_passing_townspeople_find_you_lying_by_the_side_of_the_road,_and_recognise_you_as_something_other_than_a_simple_beggar._They_carry_you_to_the_nearest_inn_and_dress_your_wounds.
+qstr_You_fail_to_steal_an You_fail_to_steal_any_cattle.
+qstr_You_drive_away_{reg1 You_drive_away_{reg17}_{reg12?heads:head}_of_cattle_from_the_village's_herd.
+qstr__From_your_vantage_p _From_your_vantage_point_you_see_a_man_matching_the_description_of_{s50}_arming_himself_with_a_sword_during_the_commotion._If_you_do_not_press_on_the_fugitive_will_slip_away!
+qstr_{!}DEBUG____Prosperi {!}DEBUG_--_Prosperity:_{reg4}
+qstr_You_are_at_{s2}. You_are_at_{s2}.
+qstr__This_castle_has_no_ _This_castle_has_no_garrison.
+qstr__The_banner_of_your_ _The_banner_of_your_{s11}_{s7}_flies_over_the_town_gates.
+qstr__This_town_has_no_ga _This_town_has_no_garrison.
+qstr__You_have_successful _You_have_successfully_sneaked_in.
+qstr__Your_{reg1?capital_ _Your_{reg1?capital_is:court_can_be_found}_here{reg0?_with_your_spouse,_{s0}_in_residence:}.
+qstr__Your_household_can_ _Your_household_can_be_found_here.
+qstr_{s13}_A_tournament_w {s13}_A_tournament_will_be_held_here_soon.
+qstr___{reg1}_denars_per_ _({reg1}_denars_per_night)
+qstr_You_are_within_the_w You_are_within_the_walls_of_an_affiliated_family_member_and_don't_have_to_pay_for_accommodation.
+qstr_Moreover_you_earn_{ Moreover,_you_earn_{reg8}_denars_from_the_clever_bets_you_placed_on_yourself...
+qstr_Victory_is_yours!_Yo Victory_is_yours!_You_have_won_this_melee,_but_now_you_must_prepare_yourself_for_the_next_round._
+qstr_You_have_been_bested You_have_been_bested_in_this_melee,_but_the_master_of_ceremonies_declares_a_recognition_of_your_skill_and_bravery,_allowing_you_to_take_part_in_the_next_round._
+qstr_{!}{s11}^{s12} {!}{s11}^{s12}
+qstr_You_were_beaten._The You_were_beaten._The_peasants_are_heartened_by_their_success,_but_the_lesson_you_wanted_to_teach_them_probably_didn't_get_through...
+qstr_After_beating_your_l After_beating_your_last_opponent,_you_explain_to_the_peasants_how_to_better_defend_themselves_against_such_an_attack._Hopefully_they'll_take_the_experience_on_board_and_will_be_prepared_next_time.
+qstr_The_bandits_are_brok The_bandits_are_broken!_Those_few_who_remain_alive_and_conscious_run_off_with_their_tails_between_their_legs,_terrified_of_the_peasants_and_their_new_champion.
+qstr_{s1}_s_Ship {s1}'s_Ship
+qstr_{!}DEBUG___{s1} {!}DEBUG_-_{s1}
+qstr_However_{reg3?You_a However,_{reg3?You_are:{s1}_is}_unable_to_find_any_trade_goods_that_would_bring_a_profit.
+qstr_^Buying_{s4}_here_an ^Buying_{s4}_here_and_selling_it_at_{s5}_would_bring_a_profit_of_{reg6}_denars_per_item.{s3}
+qstr_{reg3?You_find:{s1}_ {reg3?You_find:{s1}_finds}_out_the_following:^{s3}
+qstr_{s1}^{reg0}:_{s2} {s1}^{reg0}:_{s2}
+qstr_{s2}^{reg2?:{reg1}_} {s2}^{reg2?:{reg1}_}{s1}_earned_{reg0}_experience.
+qstr_{s2}^{s1}_earned_an_ {s2}^{s1}_earned_an_additional_{reg0}_experience.
+qstr_^You_earned_{reg0}_e ^You_earned_{reg0}_experience.{s2}
+qstr_The_training_didn_t_ The_training_didn't_go_well_at_all.
+qstr_The_training_didn_t_g The_training_didn't_go_very_well.
+qstr_The_training_went_qu The_training_went_quite_well.
+qstr_The_training_went_ve The_training_went_very_well.
+qstr_The_training_went_pe The_training_went_perfectly.
+qstr_{s13}_asked_you_to_r {s13}_asked_you_to_report_to_{reg4?her:him}_with_at_least_{reg13}_troops.
+qstr_{s13}_ordered_you_to {s13}_ordered_you_to_join_the_assault_against_{s14}.
+qstr_There_has_been_an_al There_has_been_an_alleged_border_incident:_{s9}
+qstr_{!}{s11}{s12} {!}{s11}{s12}
+qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
+qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
+qstr__Unfortunately_when _Unfortunately,_when_the_guards_inquired_about_the_tavern_brawl,_your_description_was_recognized_and_you_were_in_no_condition_to_fight_them_off.
+qstr_Try_as_you_might_you Try_as_you_might,_you_could_not_defeat_the_rebelling_village.
+qstr_{reg0} {reg0}
+qstr_positive positive
+qstr_negative negative
+qstr_{s11}^^_The_current_ {s11}^^_The_current_garrison_consists_of_{reg5}_men.^The_food_stock_lasts_for_{reg6}_days.
+qstr_^^Additional_the_fol ^^Additional_the_following_parties_are_currently_inside:^
+qstr_{s12}_{s3}_with_{reg {s12}_{s3}_with_{reg1}_troops.^
+qstr_{playername}_^^I_al {playername},_^^I_always_knew_you_were_a_bad_egg,_since_the_day_you_have_pledged_allegiance_to_my_clan._^Did_you_really_think_you_could_set_my_family_against_me?_You've_dropped_your_mask,_you_snake!_You_are_an_infliction,_and_I_will_not_bear_it_anymore._^Hereby,_I_disown_and_ban_you_from_my_house._I_have_urged_my_family_to_fight_you,_and_I_will_warn_Calradia_lords_about_your_infamy._^Tremble_with_fear,_you_have_a_deadly_enemy!_^^{s9}.
+qstr_{playername}^^_I_ve {playername},^^_I've_received_a_letter_from_{s9},_telling_me_about_your_disgraceful_jiggery-pokery._In_the_present_circumstances,_{s9}_could_not_provide_evidence._But_unlike_you,_{reg1?she:he}_is_a_distinguished_member_of_my_family;_and_since_all_these_years,_I_never_had_any_reason_to_distrust_{reg1?her:him}._I_take_{reg1?her:him}_charges_for_granted._^Hopefully,_you_failed_to_breakup_my_family_unit._Hereby_I_reject_your_pledge_:_you_are_no_longer_related_to_my_house._Each_membership_will_retaliate_against_you_in_all_conscience..._^I_would_be_ashamed_to_confess_how_you_maliciously_fooled_me,_so_I_will_not_challenge_you,_to_not_be_accountable_for_your_death_to_my_{s11}._However_I'm_not_used_to_telling_{reg0?her:him}_about_every_rat_I_crush_in_the_wilderness,_and_someday_I_may_find_you_there_!_^^{s10}
+qstr_{!}{s0}^^_WARNING:_U {!}{s0}^^_WARNING:_Unexpected_version_value_in_slot_dplmc_slot_troop_affiliated_in_trp_dplmc_chamberlain:_{reg0}
+qstr_{!}{s0}^^_DEBUG:_Int {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_160101.
+qstr_{playername} {playername}
+qstr_Troops:_{reg1} Troops:_{reg1}
+qstr_Prosperity_Report^ Prosperity_Report^
+qstr_Total Total
+qstr_{s0}^{s1}_Average_To {s0}^{s1}_Average_Town_Prosperity:_{reg0}
+qstr_{s0}^{s1}_towns_with {s0}^{s1}_towns_with_prosperity_80-100:_{reg0}
+qstr_{s0}^{s1}_towns_with_ {s0}^{s1}_towns_with_prosperity_60-79:_{reg0}
+qstr_{s0}^{s1}_towns_with_p {s0}^{s1}_towns_with_prosperity_40-59:_{reg0}
+qstr_{s0}^{s1}_towns_with_pr {s0}^{s1}_towns_with_prosperity_20-39:_{reg0}
+qstr_{s0}^{s1}_towns_with_pro {s0}^{s1}_towns_with_prosperity_0-19:_{reg0}
+qstr_{!}{s0}^ {!}{s0}^
+qstr_{s0}^{s1}_Average_Vi {s0}^{s1}_Average_Village_Prosperity:_{reg0}
+qstr_{s0}^{s1}_villages_w {s0}^{s1}_villages_with_prosperity_80-100:_{reg0}
+qstr_{s0}^{s1}_villages_wi {s0}^{s1}_villages_with_prosperity_60-79:_{reg0}
+qstr_{s0}^{s1}_villages_wit {s0}^{s1}_villages_with_prosperity_40-59:_{reg0}
+qstr_{s0}^{s1}_villages_with {s0}^{s1}_villages_with_prosperity_20-39:_{reg0}
+qstr_{s0}^{s1}_villages_with_ {s0}^{s1}_villages_with_prosperity_0-19:_{reg0}
+qstr_{reg1}/{reg2}:_{s1} {reg1}/{reg2}:_{s1}
+qstr_{s1}^{reg1}:_{reg0} {s1}^{reg1}:_{reg0}
+qstr_{reg1}:_{s1}_{s2}_c {reg1}:_{s1},_{s2}_classified_as_level_{reg2}_{s3}_{s4}
+qstr_{s1}^becomes_{s2} {s1}^becomes_{s2}
+qstr_{s1}_and_{s2} {s1}_and_{s2}
+qstr_{s1}^costs_{reg11}_t {s1}^costs_{reg11}_to_upgrade_with_{reg10}_xp
+qstr_{s1}^wage_of_{reg12} {s1}^wage_of_{reg12},_buy_costs_{reg13}_sell_costs_{reg14}
+qstr_{s1}_is_a_{s2} {s1}_is_a_{s2}
+qstr_{s1}_with_{reg1}_gol {s1}_with_{reg1}_gold
+qstr_{s2}^{reg1}:_{reg0} {s2}^{reg1}:_{reg0}
+qstr_Select_a_suitable_di Select_a_suitable_disguise_for_this_occasion.
+qstr_As_a_poor_pilgrim_wi As_a_poor_pilgrim_with_a_stout_stick_and_a_few_tricks_up_your_sleeve,_you_will_be_able_to_blend_in_with_the_crowds_but_not_bring_much_of_value_with_you.
+qstr_As_a_farmer_you_wil As_a_farmer,_you_will_be_able_to_a_wrangle_livestock_and_smuggle_articles_of_food_through.
+qstr_As_a_hunter_provisi As_a_hunter,_provisions_and_raw_goods_are_expected_as_well_as_horseflesh.
+qstr_As_a_caravan_guard_ As_a_caravan_guard,_you_will_be_able_to_bear_weapons_but_bring_only_a_few_personal_belongings.
+qstr_As_a_merchant_you_w As_a_merchant,_you_will_be_able_to_bring_any_assortment_of_goods.
+qstr_As_a_bard_you_will_ As_a_bard,_you_will_be_allowed_some_personal_possessions_and_your_instrument.
+<<<<<<< HEAD
+qstr_{s13}_has_been_taken_ {s13}_has_been_taken_by_the_enemy_and_your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_vanished_without_a_trace!
+qstr_{s6}_{reg3}_{reg1?ca {s6}_{reg3}_{reg1?castles:castle}.
+qstr_{s6}_In_addition_we_ha {s6}_In_addition_we_have_{reg2}_soldiers_in_the_field_{reg1?across_{reg3}_armies:in_a_single_army}.
+qstr_{s6}_In_addition_you_ {s6}_In_addition_you_have_{reg2}_soldiers_in_your_warband_and_{reg3}_soldiers_out_in_patrols.
+qstr_We_currently_have_an_ We_currently_have_an_income_of_{reg0}_denars_and_costs_of_{reg1}_denars_from_our_fiefs_and_garrisons.
+qstr_Dispatch_your_oppone Dispatch_your_opponents_first!
+qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
+qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
+qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
+qstr_{!}g_multiplayer_cco {!}g_multiplayer_ccoop_spawn_alive_player_squad:_{reg0}
+qstr_craftsman craftsman
+qstr_court_chests court_chests
+qstr_chest_or_array chest_or_array
+qstr_log_array log_array
+qstr_quest_troop quest_troop
+qstr_coop_troop coop_troop
+qstr_tutorial_fighter tutorial_fighter
+qstr_{!}used_troop_no_is_ {!}used_troop_no_is_{reg0}
+qstr_{!}sending_message_t {!}sending_message_to_{reg0}_multiplayer_event_other_event_ccoop_count_down_invisible
+qstr_{!}spawn_required_is {!}spawn_required_is:_{reg0}
+qstr_{!}num_troops_for_wa {!}num_troops_for_wave_is_{reg0}
+qstr_{!}num_troops_for_wav {!}num_troops_for_wave_is_gt_spawn_required._reduced_spawn_amount_is_{reg0},_reduced_spawn_amount_mod_is_{reg1}
+qstr_{!}original_spawned_ {!}original_spawned_troop_count_is_{reg0}
+qstr_{!}reducing_spawn_am {!}reducing_spawn_amount_by_one
+qstr_{!}spawning_bot_grou {!}spawning_bot_group_{reg0}:_{reg2}_{s0}_from_entry_point_{reg1}
+qstr_{!}destroy_prison_ca {!}destroy_prison_cart
+qstr_{!}spawning_prison_c {!}spawning_prison_cart_at_point_{reg0}
+qstr_{!}prison_cart_spawn {!}prison_cart_spawn_at_point_{reg0}
+qstr_{!}multiplayer_upgra {!}multiplayer_upgrade_player_equipment:_{reg0}
+qstr_{s0}_had_either_inva {s0}_had_either_invalid_messenger_or_recruiter_troops!
+qstr_Lv._{reg0} Lv._{reg0}
+qstr_Perhaps_you_have_for Perhaps_you_have_forgotten_the_face_of_your_father.
+qstr_{!}{s0}^^_DEBUG:_Intern {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170001.
+qstr_Your_recruiter_who_was Your_recruiter_who_was_commissioned_to_hire_{reg10}_recruits_for_{s13}_has_been_defeated!
+qstr_{s13}_has_been_taken_b {s13}_has_been_taken_by_the_enemy_and_your_commissioned_recruiter_has_vanished_without_a_trace!
+qstr_Morale_for_{s9}_troo Morale_for_{s9}_troops:_{reg6}
+qstr_{s10}_hires_{reg2}_{s {s10}_hires_{reg2}_{s12}_in_{s11}
+qstr_{s0}_will_{reg0}be_u {s0}_will_{reg0}be_under_your_command
+qstr_Performing_2017_upda Performing_2017_updates,_thank_you_for_your_patience!
+qstr_all all
+qstr_troop troop
+qstr_economic economic
+qstr_political political
+qstr_{s0}_will_be_under_y {s0}_will_be_under_your_command
+qstr_Current Current
+qstr_Court_Guard Court_Guard
+qstr_Prison_Guard Prison_Guard
+qstr_Castle_Guard Castle_Guard
+qstr_adding_{s1}_to_entry adding_{s1}_to_entry
+qstr_{!}{s0}^^_DEBUG:_Interna {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170301.
+qstr_lord_at_{reg0}_plyr lord_at_{reg0},_plyr{reg1}
+qstr_{s1}_has_been_accept {s1}_has_been_accepted_as_a_vassal_of_{s2}.
+qstr_Horse_speed_fix: Horse_speed_fix:
+qstr_Battle_Continuation: Battle_Continuation:
+qstr_Terrain_advantage: Terrain_advantage:
+qstr_Lords_returning_from Lords_returning_from_exile:
+qstr_AI_changes: AI_changes:
+qstr_Economics_&_behavior Economics_&_behavioral:
+qstr_Prejudice_level: Prejudice_level:
+qstr_Cheat_menu: Cheat_menu:
+qstr_DIPLOMACY4.3+_for_St DIPLOMACY4.3+_for_Steam^Preferences
+qstr_{reg1}_set_to_{reg2} {reg1}_set_to_{reg2}
+qstr_This_option_makes_ev This_option_makes_every_horse_in_battle_lose_movement_speed_directly_based_on_their_lost_Health_Points.
+qstr_This_option_let_your This_option_let_your_troops_continue_fighting_even_if_you_fall_in_battle.
+qstr_This_option_gives_ad This_option_gives_advantage_in_autocalculated_battles_to_those_units_who_are_better_in_the_current_terrain.^Horsemen_are_bad_in_forest_terrain,_while_archers_are_better.
+qstr_This_option_lets_exi This_option_lets_exiled_lords_return_in_order_to_serve_a_new_liege.
+qstr_This_option_lets_you This_option_lets_you_decide_the_AI_strength_level._The_higher_this_level_is,_the_higher_the_AI._High_level_is_experimental_and_may_brings_some_bugs_to_your_game.
+qstr_This_option_changes_ This_option_changes_the_economical_and_behavior_values_to_be_more_realistic._High_level_is_experimental_and_may_brings_some_bugs_to_your_game.
+qstr_This_option_lets_you_ This_option_lets_you_decide_the_level_of_sexism_in_the_game.
+qstr_This_option_enables_ This_option_enables_the_cheat_menu.
+qstr_DIPLOMACY^4.3+_for_S DIPLOMACY^4.3+_for_Steam^Preferences
+qstr_Charge_When_Dead: Charge_When_Dead:
+qstr_Allow_Companion_Comp Allow_Companion_Complaints:
+qstr_Disguise_System: Disguise_System:
+qstr_Deathcam_Mode: Deathcam_Mode:
+qstr_Horse_Speed_Fix: Horse_Speed_Fix:
+qstr_Terrain_Advantages: Terrain_Advantages:
+qstr_Lords_Returning_From Lords_Returning_From_Exile:
+qstr_AI_Changes: AI_Changes:
+qstr_Economics_&_Behavior Economics_&_Behavioral:
+qstr_Prejudice_Level: Prejudice_Level:
+qstr_Cheat_Menu: Cheat_Menu:
+qstr_Cheat_Mode: Cheat_Mode:
+qstr_Companion_Complaints Companion_Complaints:
+qstr_cheat cheat
+qstr_disguise disguise
+qstr_npc npc
+qstr_{!}WARNING:_Unexpect {!}WARNING:_Unexpected_version_value_in_slot_dplmc_slot_troop_affiliated_in_trp_dplmc_chamberlain:_{reg0}
+qstr_{!}DEBUG:_Internal_u {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170301.
+qstr_{!}DEBUG:_Internal_up {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}._Update_code_for_the_current_release_is_170301.
+qstr_{s1}_wielding_{s2} {s1}_wielding_{s2}
+qstr_Horse_Culling: Horse_Culling:
+qstr_Recruit Recruit
+qstr_{reg10}_{s10}s_neede {reg10}_{s10}s_needed
+qstr_Returning Returning
+qstr_{s11}_peasants {s11}_peasants
+qstr_our_undivided our_undivided
+qstr_my_immediate my_immediate
+qstr_{reg0?her:his} {reg0?her:his}
+qstr_Talking_with_{s1} Talking_with_{s1}
+qstr_Morale_for_{s9}_troop Morale_for_{s9}_troops:_{reg6}.{reg7}
+qstr_{playername}_^^I_alw {playername},_^^I_always_knew_you_were_a_bad_egg,_since_the_day_you_have_pledged_allegiance_to_my_clan._^Did_you_really_think_you_could_set_my_family_against_me?_You've_dropped_your_mask,_you_snake!_You_are_an_infliction,_and_I_will_not_bear_it_anymore._^Hereby,_I_disown_and_ban_you_from_my_house._I_have_urged_my_family_to_fight_you,_and_I_will_warn_all_Calradian_lords_of_your_infamy._^Tremble_with_fear,_for_now_you_have_a_deadly_enemy!_^^{s9}.
+qstr_{playername}^^_I_ve_ {playername},^^_I've_received_a_letter_from_{s9},_telling_me_about_your_disgraceful_jiggery-pokery._In_the_present_circumstances,_{s9}_could_not_provide_evidence._But_unlike_you,_{reg1?she:he}_is_a_distinguished_member_of_my_family;_and_in_all_these_years,_I've_never_had_any_reason_to_distrust_{reg1?her:him}._I_therefore_take_{reg1?her:his}_charges_for_granted._^Hopefully,_you_failed_to_break-up_my_family_unit._Hereby_I_reject_your_pledge_:_you_are_no_longer_related_to_my_house._Each_member_shall_retaliate_against_you_in_all_conscience..._^I_would_be_ashamed_to_confess_how_you_maliciously_deceived_me,_so_I_will_not_challenge_you,_so_as_to_not_be_held_accountable_for_your_death_by_my_{s11}._However_I've_no_need_to_tell_{reg0?her:him}_about_every_rat_I_crush_in_the_wilderness,_and_someday_I_may_find_you_there_!_^^{s10}
+qstr_{!}{s0}^^_DEBUG:_Internal {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.^Update_code_for_the_current_release_is_170301.
+qstr_We_ve_barely_gotten_ We've_barely_gotten_to_know_one_another_and_now_you're_sending_me_away!
+qstr_I_am_certainly_not_y I_am_certainly_not_your_errant_{reg65?girl:boy}...
+qstr_How_do_I_know_there_ How_do_I_know_there_will_still_be_a_place_for_me_when_I_return_from_this_journey?
+qstr_I_believe_I_would_be I_believe_I_would_be_of_more_use_by_staying_with_the_other_soldiers.
+qstr_things things
+qstr_You_have_assigned_th You_have_assigned_this_task_to_{s1}
+qstr_yet_to_be_determined yet_to_be_determined
+qstr_{!}DEBUG____Total_prod {!}DEBUG_--_Total_production_for_{s4}:_{reg3}:_+{reg4}_-_{reg5}
+qstr_{!}Debug___{s5}_vill {!}Debug_-_{s5}_villagers_attacked
+qstr_Since_we_are_close_t Since_we_are_close_to_{reg11?{reg10}_training_centers:a_training_center},_you_can_talk_to_the_trainers_to_get_a_bigger_batch_trained.
+qstr_Sorry_currently_I_ca Sorry,_currently_I_can't_provide_any_information_about_the_realm's_mood,_our_spies_haven't_reported_back_yet.
+qstr_Sorry_currently_I_can Sorry,_currently_I_can't_provide_any_information_about_the_realm's_mood,_since_our_spies_haven't_reported_back_yet.
+qstr_{s6}__{s50}_ {s6}_({s50})
+qstr_no_outstanding_amoun no_outstanding_amount
+qstr_Performing_2019_upda Performing_2019_updates,_thank_you_for_your_patience!
+qstr_{!}DEBUG:_Internal_upd {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}._Update_code_for_the_current_release_is_190101.
+qstr_{!}{s0}^^_DEBUG:_Internal_ {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.^Update_code_for_the_current_release_is_190101.
+qstr_{reg0}_was_{reg1} {reg0}_was_{reg1}
+qstr_prejudice_is_{reg1} prejudice_is_{reg1}
+qstr_option_{reg0}:_was_{ option_{reg0}:_was_{reg1}
+qstr_Bye_horses Bye_horses
+qstr_Ouch Ouch
+qstr_{s12} {s12}
+qstr_{s13} {s13}
+qstr_I_see._Perhaps_circu I_see._Perhaps_circumstances_will_change_a_few_days_from_now,_but_until_then_I_appreciate_your_generous_hospitality.
+qstr_Disable_Companions_C Disable_Companions_Complaints:
+qstr_{s1}_price_:_{reg2}_i {s1}_price_:_{reg2}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p{reg13}_c_{reg14}
+qstr_{s1}_price_:_{reg2}_o {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p{reg14}_c_{reg15}
+qstr_{s1}_price_:_{reg2}_or {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p{reg13}/{reg14}c{reg15}/{reg16}
+qstr_{s1}_price_:_{reg2}_or_ {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total
+qstr_{s1}_{reg1} {s1}_{reg1}
+qstr_{s1}_price_:_{reg2}_or_{ {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p:{reg13},{reg14}_c:_{reg15}{reg16}
+qstr_{s1}_{reg1}_{reg2} {s1}_{reg1},_{reg2}
+qstr_{reg2} {reg2}
+qstr_{s1}_price_:_{reg2}_or_{r {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p:{reg13},{reg14}_c:_{reg15},{reg16}
+qstr_{s1}_{reg0} {s1}_{reg0}
+qstr_{reg3}_state {reg3}_state
+qstr_{s1}_price_:_{reg2}_or_{re {s1}_price_:_{reg2}_or_{reg4}_at_probability:_{reg3};{reg1}
+qstr_{s1}_{reg1}/{reg3}_ {s1}_{reg1}/{reg3},_{reg2}_raw
+qstr_You_whistle_for_your You_whistle_for_your_horse.
+qstr__Taunt_launched._{re _Taunt_launched._{reg0}_is_the_taunt_range.
+qstr_End_the_sparring_mat End_the_sparring_match?
+qstr_Assigned_class_{reg0 Assigned_class_{reg0}_to_{s1}
+qstr_Hold_ground_when_ent Hold_ground_when_entering_battle:
+qstr_Group_for_lords: Group_for_lords:
+qstr_DEBUG:_party_{reg1}_ DEBUG:_party_{reg1}_has_reached_{reg0}
+qstr_DEBUG:_removing_part DEBUG:_removing_party_{reg1}_
+qstr_Debug:_Party_add_par Debug:_Party_add_party_{reg1}_-->_{reg0}
+qstr_Debug:_Adding_{reg3} Debug:_Adding_{reg3}_of_{reg2}_to_{reg0}
+<<<<<<< HEAD
+>>>>>>> 31542c4cd84aeac11de0f1ed1071e60a861f0d99
+qstr_Breaking_camp... Breaking_camp...
+qstr_{!}{s3}_commander_of {!}{s3}_commander_of_party_#{reg4}_which_is_not_his_troop_leaded_party_{reg5}
+qstr_{!}_Commanded_party_ {!}_Commanded_party_#{reg4}_is_{s3},_troop_leaded_party_#{reg5}_is_{s65}
+qstr_{!}DEBUG____Doing_po {!}DEBUG_--_Doing_political_calculations_for_{s9}
+qstr_{!}DEBUG___{s4}_fact {!}DEBUG_-_{s4}_faction_changed_in_defection
+qstr_{!}{s4} {!}{s4}
+qstr_{s5}_has_decided_to_ {s5}_has_decided_to_grant_{s4}_to_another_lord_of_the_{s7}.
+qstr_{!}DEBUG___{s4}_is_i {!}DEBUG_-_{s4}_is_in_{s5},_should_be_in_{s6},_disabling_political_cheat_mode
+qstr_A_livestock_epidemic A_livestock_epidemic_has_killed_{reg4}_cattle_in_{s4}.
+qstr_{!}DEBUG_:_tax_rate_ {!}DEBUG_:_tax_rate_in_{s6}:_{reg0}
+qstr_{!}DEBUG_:_accumulat {!}DEBUG_:_accumulated_rents__in_{s6}:_{reg0}
+qstr_{!}DEBUG_:_rent_chan {!}DEBUG_:_rent_change_in_{s6}:_{reg0}__in_{s6}
+qstr_{!}DEBUG_:_tax_rate_a {!}DEBUG_:_tax_rate_after_modi_in_{s6}:_{reg0}
+qstr_{!}DEBUG_:_center_re {!}DEBUG_:_center_relation:_{reg0}
+qstr_Riot_in_{s6}! Riot_in_{s6}!
+qstr_{!}New_tariffs_at_{s {!}New_tariffs_at_{s4}_=_{reg4},_total_=_{reg5}
+qstr_Your_party_is_spotte Your_party_is_spotted_by_{s1}.
+qstr_Party_has_nothing_to Party_has_nothing_to_eat!
+qstr_{reg1}_{s1}_{reg2?ha {reg1}_{s1}_{reg2?have:has}_escaped_from_your_party_during_the_night.
+qstr_{s1}_of_{s3}_has_bee {s1}_of_{s3}_has_been_released_from_captivity.
+qstr_Building_of_{s0}_in_ Building_of_{s0}_in_{s4}_has_been_completed.
+qstr_{s1}_has_won_the_tou {s1}_has_won_the_tournament_at_{s2}.
+qstr_{!}{s1}_is_infested_ {!}{s1}_is_infested_by_{s2}_(at_night).
+qstr_{s1}_is_no_longer_in {s1}_is_no_longer_infested_by_bandits_(at_night).
+qstr_{!}{s1}_is_holding_a {!}{s1}_is_holding_a_tournament.
+qstr_You_are_within_the_w You_are_within_the_walls_of_an_affiliated_family_member_and_don't_have_to_pay_for_accommodation.
+qstr_You_pay_for_accommod You_pay_for_accommodation.
+qstr_Betrothal_to_{s5}_ex Betrothal_to_{s5}_expires
+qstr__Your_tactics_skill_ _Your_tactics_skill_has_increased_by_1.
+qstr__Your_persuasion_ski _Your_persuasion_skill_has_increased_by_1.
+qstr__Your_leadership_ski _Your_leadership_skill_has_increased_by_1.
+qstr__Your_intelligence_h _Your_intelligence_has_increased_by_1.
+qstr__Your_trade_skill_ha _Your_trade_skill_has_increased_by_1.
+qstr__Your_weapon_master_ _Your_weapon_master_skill_has_increased_by_1.
+qstr__Your_engineer_skill _Your_engineer_skill_has_increased_by_1.
+qstr_You_have_finished_re You_have_finished_reading_{s1}.{s2}
+qstr_Book_Read Book_Read
+qstr_You_have_{reg0}_days You_have_{reg0}_days_to_finish_this_quest.
+qstr_{s1}_is_scouted. {s1}_is_scouted.
+qstr_{!}DEBUG___{s4}_facti {!}DEBUG_-_{s4}_faction_changed_from_slot_troop_change_to_faction
+qstr_{s1}_has_switched_fr {s1}_has_switched_from_{s2}_to_{s3}.
+qstr_{!}DEBUG_:_{s2}_is_b {!}DEBUG_:_{s2}_is_besieging_by_{s3}
+qstr_{!}DEBUG___Checking_ {!}DEBUG_-_Checking_fire_at_{s4}_for_{s5}_-_current_time_{reg3},_last_nearby_fire_{reg4}
+qstr_{!}_A_slot_had_an_un {!}_A_slot_had_an_unexpected_value:_{reg0}.__This_might_be_because_you_are_using_an_incompatible_troop_list,_or_are_using_a_non-native_strange_game.__This_message_will_repeat_daily.
+qstr_{!}_DEBUG___Detected {!}_DEBUG_-_Detected_a_new_version_of_diplomacy:_previous_version_was_{reg0},_and_current_version_is_{reg1}.__Performing_updates.
+qstr_{!}DEBUG___Fixed_slo {!}DEBUG_-_Fixed_slot_troop_mother_for_{s0}.
+qstr_{!}DEBUG___When_fixi {!}DEBUG_-_When_fixing_slot_troop_mother_for_{s0},_could_not_find_a_valid_mother.
+qstr_{!}DEBUG___Changed_o {!}DEBUG_-_Changed_occupation_of_{s0}_to_dplmc_slto_exile
+qstr_{!}FIXED_PROBLEM___C {!}FIXED_PROBLEM_-_Cancelled_erroneous_version_of_qst_wed_betrothed_female.__You_should_be_able_to_marry_normally_if_you_try_again.
+qstr_{!}_Bug_fix:_set_per {!}_Bug_fix:_set_personality_types_for_{reg0}_{reg1?lords:lord}
+qstr_{!}_Bug_fix:_set_pers {!}_Bug_fix:_set_personality_types_for_{reg0}_{reg1?ladies:lady}
+qstr_Your_recruiter_who_w Your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_to_{s13}_has_been_defeated!
+qstr_{s13}_has_been_taken {s13}_has_been_taken_by_the_enemy_and_your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_vanished__without_a_trace!
+qstr_ERROR_IN_THE_RECRUIT ERROR_IN_THE_RECRUITER_KIT_SIMPLE_TRIGGERS!
+qstr_A_recruiter_has_brou A_recruiter_has_brought_{reg10}_recruits_to_{s13}.
+qstr_Distance_between_{s1 Distance_between_{s14}_and_{s15}:_{reg0}
+qstr_Your_caravan_has_bro Your_caravan_has_brought_{s12}_to_{s13}.
+qstr_{!}_Gift_price_facto {!}_Gift_price_factor_{reg0}/100,_effective_value_{reg1}
+qstr_{s13}_is_unimpressed {s13}_is_unimpressed_by_your_paltry_gift.
+qstr_The_people_of_{s13}_ The_people_of_{s13}_are_unimpressed_by_your_paltry_gift.
+qstr_Your_caravan_has_los Your_caravan_has_lost_it's_way_and_gave_up_your_mission!
+qstr_Transfer_to_{s6} Transfer_to_{s6}
+qstr_{s6}_patrol {s6}_patrol
+qstr_Your_messenger_reach Your_messenger_reached_{s13}.
+qstr_{s14} {s14}
+qstr_Your_messenger_has_l Your_messenger_has_lost_it's_way_and_gave_up_your_mission!
+qstr_Not_enough_money_in_ Not_enough_money_in_treasury_to_upgrade_troops.
+qstr_Your_constable_upgra Your_constable_upgraded_{reg5}_{s6}_to_{s7}_in_{s8}
+qstr_Your_soldiers_patrol Your_soldiers_patrolling_{s6}_disbanded_because_you_can't_pay_the_wages!
+qstr_{!}DEBUG___Removed_{ {!}DEBUG_-_Removed_{s5}_because_{s4}_cannot_support_that_many_patrols
+qstr_It_is_rumoured_that_ It_is_rumoured_that_a_spy_has_been_caught_in_{s11}.
+qstr_{!}DEBUG___centraliz {!}DEBUG_-_centralization_{reg1}
+qstr_{!}DEBUG___aristocra {!}DEBUG_-_aristocracy_{reg1}
+qstr_{!}DEBUG___quality_{ {!}DEBUG_-_quality_{reg1}
+qstr_{!}DEBUG___serfdom_{ {!}DEBUG_-_serfdom_{reg1}
+qstr_{!}DEBUG___mercantil {!}DEBUG_-_mercantilism_{reg1}
+qstr_{!}DEBUG___changing_ {!}DEBUG_-_changing_{reg1}_of_{reg2}_for_{s12}
+qstr_{!}DEBUG___relation_ {!}DEBUG_-_relation_change_=__{reg1}_for_{s9}
+qstr_{!}DEBUG___no_eligib {!}DEBUG_-_no_eligible_lords_in_exile
+qstr_{!}DEBUG___{reg0}_lo {!}DEBUG_-_{reg0}_lords_found_in_exile;_randomly_decided_not_to_try_to_return_anyone.
+qstr_{!}DEBUG___{reg1}_lo {!}DEBUG_-_{reg1}_lords_found_in_exile;_{s4}_chosen_to_return,_score_was_{reg0}
+qstr_{!}DEBUG___{s4}_foun {!}DEBUG_-_{s4}_found_no_faction_to_return_to!
+qstr_{!}DEBUG___Not_retur {!}DEBUG_-_Not_returning_a_lord_to_the_player's_kingdom,_since_there_are_already_{reg0}_lords_waiting_for_their_petitions_to_be_heard.
+qstr_{s0}_is_grumbling_ag {s0}_is_grumbling_against_you.__Your_affiliation_could_be_jeopardized_if_this_continues.
+qstr_{s0}_is_grumbling_aga {s0}_is_grumbling_against_you,_but_with_{s1}'s_support_you_remain_affiliated_for_now.
+qstr_Your_last_fief_was_c Your_last_fief_was_captured_and_you_lost_{reg0}/{reg1}_of_your_treasury
+qstr_{reg65?my_Lady:my_Lo {reg65?my_Lady:my_Lord}
+qstr_{reg65?My_Lady:My_Lo {reg65?My_Lady:My_Lord}
+qstr_{reg65?madame:sir} {reg65?madame:sir}
+qstr_{reg65?Madame:Sir} {reg65?Madame:Sir}
+qstr_{!}DEBUG____Talk_con {!}DEBUG_--_Talk_context:_{reg4}
+qstr_{!}DEBUG____Time_sin {!}DEBUG_--_Time_since_last_talk:_{reg4}
+qstr__no_fiefs_ (no_fiefs)
+qstr__fiefs:_{s0}_ (fiefs:_{s0})
+qstr_{!}g_talk_troop_=_{r {!}g_talk_troop_=_{reg0}_,_g_encountered_party_=_{reg1}_,_slot_value_=_{reg2}
+qstr_{!}Persuasion_attemp {!}Persuasion_attempt:_skill_{reg1}_versus_random_roll_{reg0}_(-2_through_12)
+qstr_It_s_your_money_or_y It's_your_money_or_your_life,_{mate/girlie}._No_sudden_moves_or_we'll_run_you_through.
+qstr_Lucky_for_you_you_c Lucky_for_you,_you_caught_me_in_a_good_mood._Give_us_all_your_coin_and_I_might_just_let_you_live.
+qstr_This_a_robbery_eh?_ This_a_robbery,_eh?_I_givin'_you_one_chance_to_hand_over_everythin'_you_got,_or_me_and_my_mates'll_kill_you._Understand?
+qstr_we_have_made_very_li we_have_made_very_little_progress_so_far
+qstr_we_have_suceeded_in_ we_have_suceeded_in_gaining_some_ground,_but_we_still_have_a_long_way_to_go
+qstr_we_have_become_a_sig we_have_become_a_significant_force,_and_we_have_an_even_chance_of_victory
+qstr_we_are_winning_the_w we_are_winning_the_war,_but_our_enemies_are_still_holding_on.
+qstr_we_are_on_the_verge_ we_are_on_the_verge_of_victory._The_remaining_enemies_pose_no_threat,_but_we_still_need_to_hunt_them_down.
+qstr_{!}{playername} {!}{playername}
+qstr_{!}current_town_was_ {!}current_town_was_{reg1},_now_moved_to_{s7}
+qstr_{s5}_patrol {s5}_patrol
+qstr_Your_kingdom_has_no_ Your_kingdom_has_no_specified_culture
+qstr_Your_kingdom_culture Your_kingdom_culture_is:_{s11}
+qstr_Kingdom_culture:_Non Kingdom_culture:_None
+qstr_Kingdom_culture:_{s1 Kingdom_culture:_{s11}
+qstr_{s11} {s11}
+qstr_According__to_the_re According__to_the_report_of_our_spies
+qstr_{s10}_{reg3}_lords_s {s10}_{reg3}_lords_support_{s9}.
+qstr_Sorry_currently_I_c Sorry,_currently_I_can't_provide_any_information_about_the_lords_mood,_our_spies_haven't_reported_back_yet.
+qstr_{s11}_and_{s12} {s11}_and_{s12}
+qstr_{!}{s11}_{s12} {!}{s11},_{s12}
+qstr_We_are_not_at_war_wi We_are_not_at_war_with_anyone.
+qstr_We_are_at_war_with_{ We_are_at_war_with_{s12}.
+qstr_{!}DEBUG___prisoner_ {!}DEBUG_-_prisoner_of:_{s7}
+qstr_Our_kingdom_currentl Our_kingdom_currently_has_{reg2}_soldiers
+qstr_{s6}_garrisoned_in_{ {s6}_garrisoned_in_{reg2}_towns
+qstr_{s6}_and_{reg2}_cast {s6}_and_{reg2}_castles.
+qstr_{s6}_In_addition_we_ {s6}_In_addition_we_have_{reg2}_soldiers_in_the_field.
+qstr_We_currently_have_{r We_currently_have_{reg2}_soldiers
+qstr_{s6}_In_addition_you {s6}_In_addition_you_have_{reg2}_soldiers_in_your_convoy_and_{reg3}_soldiers_in_patrols.
+qstr_{!}{s52}_{reg2}_{s53 {!}{s52}_{reg2}_{s53}.
+qstr_{reg0?She:He}_fields {reg0?She:He}_fields_{reg2}_soldiers.
+qstr_We_currently_have_{re We_currently_have_{reg2}_soldiers_garrisoned_in_{s60}.
+qstr_You_are_preferring_m You_are_preferring_melee_units.
+qstr_You_are_preferring_r You_are_preferring_ranged_units.
+qstr__and_the_additional_ _and_the_additional_trainers
+qstr_{!}{reg2} {!}{reg2}
+qstr_We_currently_have_an We_currently_have_an_income_of_{reg0}_denars_and_costs_of_{reg1}_denars_from_fiefs_and_garrions.
+qstr_{s6}_We_are_losing_{ {s6}_We_are_losing_{reg0}_denars_due_to_tax_inefficiency._That_means_{reg1}_percent.
+qstr_{s6}_Overall_this_su {s6}_Overall_this_sums_up_to_{reg0}_denars.
+qstr_{!}{reg0} {!}{reg0}
+qstr_{reg0}_denars {reg0}_denars
+qstr_no no
+qstr_{s60}_is_currently_o {s60}_is_currently_occupied_by_outlaws_you_should_counter_them_as_soon_as_possible.
+qstr__We_are_expecting_{r _We_are_expecting_{reg0}_denars_for_rents
+qstr__The_troop_wages_for _The_troop_wages_for_{reg0}_troops_cost_us_{reg1}_denars.
+qstr_{s61}_and_{reg0}_den {s61}_and_{reg0}_denars_for_tariffs
+qstr_Well_{s60}. Well,_{s60}.
+qstr_{s4}_{s3}._The_tax_r {s4}_{s3}._The_tax_rate_is_{s50}.{s59}{s61}._Overall_this_sums_up_to_{s62}_denars.
+qstr_Tax_rate_for_{s6}:_{ Tax_rate_for_{s6}:_{s11}
+qstr_village village
+qstr_town town
+qstr_castle castle
+qstr_{!}{s0} {!}{s0}
+qstr_{!}{s18}_{s0} {!}{s18},_{s0}
+qstr_The_{s17}_has_no_imp The_{s17}_has_no_improvements.
+qstr_The_{s17}_has_the_fo The_{s17}_has_the_following_improvements:_{s18}.
+qstr_{!}DEBUG_:_sum:_{reg {!}DEBUG_:_sum:_{reg0}
+qstr_{!}DEBUG_:_diplomacy {!}DEBUG_:_diplomacy_var:_{reg0}
+qstr_{!}DEBUG_:_persuasio {!}DEBUG_:_persuasion:_{reg0}
+qstr_{!}DEBUG_:_pre_treat {!}DEBUG_:_pre-treaty_diplomacy_var:_{reg0}
+qstr_{!}DEBUG_:_random:_{ {!}DEBUG_:_random:_{reg0}
+qstr_{!}DEBUG_:_final_dip {!}DEBUG_:_final_diplomacy_var:_{reg0}
+qstr_You_have_shown_great You_have_shown_great_strength_on_the_battlefield._But_why_should_I_enlist_you_within_us?
+qstr_All_of_life_is_about All_of_life_is_about_pros_and_cons._Why_would_we_allow_you_to_be_our_fellow?
+qstr_I_know_people_do_fe I_know,_people_do_fear_your_harshness._Should_we_though?
+qstr_Indeed_I_have_heard Indeed,_I_have_heard_of_your_loyalty_and_valor._But_is_it_enough_to_join_us?
+qstr_I_m_glad_you_want_to I'm_glad_you_want_to_support_us._But,_would_it_be_wise_for_you,_to_affiliate_to_our_family?
+qstr_Beside_your_wealth_ Beside_your_wealth,_how_could_you_possibly_serve_me_and_my_family?
+qstr_My_friend_I_see_you My_friend,_I_see_your_reasoning._But_would_you_really_risk_straining_our_friendship_by_entering_into_a_formal_partnership?
+qstr_Agreed!_Your_words_c Agreed!_Your_words_convice_me_as_much_as_your_blade.
+qstr_I_trust_you_my_fami I_trust_you,_my_family_could_use_your_resourcefulness._Together_we_will_spread_our_influence_all_over_Calradia.
+qstr_May_God_have_mercy_o May_God_have_mercy_on_our_enemy_souls,_because_we_won't!
+qstr_So_be_it._We_are_hon So_be_it._We_are_honored_to_accept_you_into_our_family.
+qstr__I_will_appreciate_y _I_will_appreciate_you_as_much_as_a_son.
+qstr_I_accept_your_reques I_accept_your_request._We_will_support_you_if_you_support_my_family.
+qstr_Since_you_have_turne Since_you_have_turned_out_to_be_a_worthy_fellow,_you_should_be_worthy_for_our_entire_family.
+qstr_Your_leader_is_not_e Your_leader_is_not_even_a_king_and_I_shall_join_you?
+qstr_{s40}_I_would_never_ {s40}_I_would_never_join_someone_who_doesn't_own_a_town_or_castle.
+qstr_{s40}_I_know_too_lit {s40}_I_know_too_little_about_your_leader.
+qstr_{!}_Emissary_persuas {!}_Emissary_persuasion_attempt:_skill_factor_{reg1}_versus_random_number_{reg0}
+qstr_{s40}_I_found_your_m {s40}_I_found_your_messenger_unconvincing.
+qstr_{s40}_Next_time_I_wo {s40}_Next_time_I_would_prefer_to_talk_to_someone_who_doesn't_act_like_a_fool.
+qstr_{s40}_Next_time_I_wou {s40}_Next_time_I_would_prefer_to_talk_to_someone_more_versed_in_courtly_manners.
+qstr_{!}DEBUG___result_fo {!}DEBUG_-_result_for_security:_{reg2}_>_10
+qstr_{!}DEBUG___result_for {!}DEBUG_-_result_for_political:_{reg2}_>_0
+qstr_{!}DEBUG___change_pe {!}DEBUG_-_change_penalty:_{reg2}_<_20
+qstr_{!}DEBUG___random:_{ {!}DEBUG_-_random:_{reg2}
+qstr_{!}DEBUG___>_pledge_ {!}DEBUG_-_>_pledge_chance:_{reg2}
+qstr_{!}DEBUG___result_for_ {!}DEBUG_-_result_for_security_comparative:_{reg2}_>_0
+qstr_{!}DEBUG___result_for_p {!}DEBUG_-_result_for_political_comparative:_{reg2}_>_0
+qstr_{s40}_I_rather_stay_ {s40}_I_rather_stay_with_my_current_king.
+qstr_{s31}_{s32}_{s34} {s31}_{s32}_{s34}
+qstr_{!}DEBUG_:_emissary_ {!}DEBUG_:_emissary_spotting:_{reg0}
+qstr_{playername}_when_w {playername},_when_we_started_our_long_walk,_few_people_had_the_courage_to_support_me.And_fewer_still_would_be_willing_to_put_their_lives_at_risk_for_my_cause.But_you_didn't_hesitate_for_a_moment_in_throwing_yourself_at_my_enemies.We_have_gone_through_a_lot_together,_and_there_were_times_I_came_close_to_losing_all_hope.But_with_God's_help,_we_prevailed._It_is_now_time_for_me_to_leave_your_company_and_take_what's_rightfully_mine.From_now_on,_I_will_carry_out_the_great_responsibility_of_ruling_{s3}.There_still_lie_many_challanges_ahead_and_I_count_on_your_help_in_overcoming_those.And_of_course,_you_will_always_remain_as_my_foremost_vassal.
+qstr_{!}_DEBUG___Native_c {!}_DEBUG_-_Native_checklist-peace-or-war_result_{reg0},_because_{s14}
+qstr_{!}_Recognition_refu {!}_Recognition_refused_because_player_owns_no_fortresses_not_claimed_by_target_faction
+qstr_{!}_Military_strengt {!}_Military_strength_check:_Player_faction_score_{reg0},_target_faction_score_{reg1},_benchmark_score_{reg2}
+qstr_{!}_Player_faction_s {!}_Player_faction_score_for_recognition_is_{reg0},_needs_to_be_at_least_{reg1}
+qstr_Find_and_speak_with_ Find_and_speak_with_{s3}_of_{s4}_to_give_him_your_oath_of_homage.
+qstr__We_will_of_course_n _We_will_of_course_need_to_wait_until_the_realm_is_no_longer_on_campaign.
+qstr_{!}Party_at_address_ {!}Party_at_address_{reg0}_named_{s0}_has_slot_party_type_{reg1}_(not_castle_or_town)
+qstr__{s1}_has_been_accep _{s1}_has_been_accepted_as_a_vassal_of_{s2}.
+qstr_{s6}_has_joined_your {s6}_has_joined_your_party.
+qstr_{s1}_Rebels {s1}_Rebels
+qstr_I_am_{s4}_the_ruler I_am_{s4},_the_ruler_of_{s6}
+qstr_I_am_{s4}_{s8}_of_{ I_am_{s4},_{s8}_of_{s9}
+qstr_I_am_{s4}_a_vassal_ I_am_{s4},_a_vassal_of_{s6}
+qstr_{s7}_and_{s8} {s7}_and_{s8}
+qstr_{!}{s7}_{s8} {!}{s7},_{s8}
+qstr_{s9}{reg5?_and_the_l {s9}{reg5?_and_the_lord_of_{s8}.:.
+qstr_{s13}_asked_you_to_g {s13}_asked_you_to_gather_{reg3}_heads_of_cattle_and_deliver_them_back_to_him.
+qstr_{s9}_wants_you_to_fo {s9}_wants_you_to_follow_his_army_until_further_notice.
+qstr_{s9}_asked_you_to_sc {s9}_asked_you_to_scout_{s13},_{s14}_and_{s15},_then_report_back.
+qstr_pupil pupil
+qstr_{!}_DEBUG___current_ {!}_DEBUG_-_current_kingdom_score_{reg0}_vs_player_kingdom_score_{reg1}
+qstr_{!}DEBUG_support_che {!}DEBUG_support_check,_{s4}_{s0},_Threshold_{s1}
+qstr_{!}DEBUG_support_chec {!}DEBUG_support_check,_{s3}_{s0},_Threshold_{s1}
+qstr_{!}_DEBUG____affilia {!}_DEBUG_--_affiliated_family_member,_overriding_logic_to_continue
+qstr_{!}DEBUG___liege_sco {!}DEBUG_-_liege_score_{reg0}_vs_player_score_{reg1}
+qstr_{!}DEBUG_:_result_fo {!}DEBUG_:_result_for_political_is_{reg3}
+qstr_you you
+qstr_{!}DEBUG_:_result_for {!}DEBUG_:_result_for_new_liege_:_{reg31}
+qstr_{!}DEBUG_:_result_for_ {!}DEBUG_:_result_for_old_liege_:_{reg32}
+qstr_You_are_challenging_ You_are_challenging_me_to_a_duel?_How_droll!As_you_wish,_{playername},_it_will_be_good_sport_to_bash_your_head_in.
+qstr_{s16}_and_{s17} {s16}_and_{s17}
+qstr_{!}{s16}_{s17} {!}{s16},_{s17}
+qstr_Very_well_I_will_ac Very_well,_I_will_accept_you_back_into_my_ranks,_if_you're_ready_to_swear_your_solemn_oath_once_more.
+qstr_A_pardon_will_only_b A_pardon_will_only_be_possible_if_you_are_willing_to_cede_{s17}_to_me._Do_you_agree_my_terms?
+qstr_No._There_is_no_chan No._There_is_no_chance_of_peace_between_us,_I_am_not_interested.
+qstr_{!}DEBUG_:_Initiativ {!}DEBUG_:_Initiative_{reg4},_helpfulness_{reg5}
+qstr_{!}DEBUG____ai_behav {!}DEBUG_--_ai_behavior:_{reg0},_ai_object:_{reg1}
+qstr_{s1}_exchanged_{s2}_ {s1}_exchanged_{s2}_to_{s3}_for_{s4}.
+qstr_Our_marshal_{s1} Our_marshal,_{s1}
+qstr_Our_liege_{s1} Our_liege,_{s1}
+qstr_go_on_the_offensive_ go_on_the_offensive_now.
+qstr_act_to_defend_our_la act_to_defend_our_lands.
+qstr_take_more_time_to_ga take_more_time_to_gather_the_army.
+qstr_{!}ERROR:_Tried_to_o {!}ERROR:_Tried_to_offer_{reg1}_as_a_fief_to_the_player,_but_it_is_not_owned_by_the_leader's_faction.
+qstr_You_promised_to_help You_promised_to_help_{s13}_claim_the_throne_of_{s14}.
+qstr_What_do_you_say_to_e What_do_you_say_to_entering_the_service_of_{s9}_as_a_mercenary_captain?_I_have_no_doubt_that_you_would_be_up_to_the_task.
+qstr_{s9}_asked_you_to_ta {s9}_asked_you_to_take_a_message_to_{s13}._{s13}_was_believed_to_be_at_{s4}_when_you_were_given_this_quest.
+qstr_{s9}_asked_you_to_tak {s9}_asked_you_to_take_a_message_to_{s13}_of_{s15}._{s13}_was_believed_to_be_at_{s4}_when_you_were_given_this_quest.
+qstr_{s11}_asked_you_to_e {s11}_asked_you_to_escort_{reg65?her:his}_{s17}_{s13}_to_{s14}.
+qstr_{s13}_asked_you_to_d {s13}_asked_you_to_deal_with_the_bandits_who_are_occupying_the_village_of_{s15}_and_then_report_back_to_{reg65?her:him.
+qstr_{s9}_asked_you_to_ra {s9}_asked_you_to_raise_{reg1}_{s14}_and_bring_them_to_{reg65?her:him}.
+qstr_{s9}_asked_you_to_co {s9}_asked_you_to_collect_taxes_from_{s3}._{reg65?She:He}_offered_to_leave_you_one-fifth_of_all_the_money_you_collect_there.
+qstr_{s9}_asked_you_to_hu {s9}_asked_you_to_hunt_down_a_fugitive_named_{s4}._He_is_currently_believed_to_be_at_{s3}.
+qstr_{s9}_asked_you_to_as {s9}_asked_you_to_assassinate_a_local_merchant_at_{s3}.
+qstr_{s9}_has_asked_you_t {s9}_has_asked_you_to_meet_with_a_spy_in_{s13}.
+qstr_{s11}_asked_you_to_f {s11}_asked_you_to_follow_the_spy_that_will_leave_{s12}._Be_careful_not_to_let_the_spy_see_you_on_the_way,_or_he_may_get_suspicious_and_turn_back._Once_the_spy_meets_with_his_accomplice,_you_are_to_capture_them_and_bring_them_back_to_{s11}.
+qstr_{s11}_asked_you_to_c {s11}_asked_you_to_capture_a_lord_from_{s13},_any_lord,_and_then_drag_your_victim_back_to_{s11}_for_safekeeping.
+qstr_{s9}_asked_you_to_le {s9}_asked_you_to_lend_your_companion_{s3}_to_him_for_a_week.
+qstr_{s9}_asked_you_to_col {s9}_asked_you_to_collect_the_debt_of_{reg4}_denars_{s3}_owes_to_{reg65?her:him}._{s3}_was_at_{s4}_when_you_were_given_this_quest.
+qstr_{s11}_gave_you_a_fak {s11}_gave_you_a_fake_letter_to_fool_{s13}_into_banishing_his_vassal_{s16}._You_are_to_go_near_{s14},_give_the_letter_to_one_of_your_{s15}_and_send_him_into_the_town_as_a_messenger,_believing_his_orders_to_be_genuine.
+qstr_{s9}_has_requested_y {s9}_has_requested_you_to_bring_him_{reg1}_{s3}_as_prisoners.
+qstr_Lend_your_experience Lend_your_experienced_surgeon_{s3}_to_{s1}.
+qstr_{!}DEBUG____{reg4}_h {!}DEBUG_--_{reg4}_hours_since_last_feast_for_{s4}
+qstr_Then_take_it_with_m Then_take_it,_with_my_eternal_thanks._You_are_a_noble_{man/woman}._I_will_never_forget_that_you_helped_me_in_my_time_of_need.
+qstr_Forgive_me_{playern Forgive_me,_{playername},_but_I_must_insist_you_accept_it._The_money_means_little_to_me,_and_I_owe_you_so_much._Here,_take_it,_and_let_us_speak_no_more_of_this.
+qstr_{playername}_what_a {playername},_what_a_dear_{man/woman}_you_are,_but_I_will_not_allow_you_to_refuse_this._I_owe_you_far_more_than_I_can_say,_and_I_am_sure_you_can_put_this_money_to_far_better_use_than_I.
+qstr_{s11}_asked_you_to_r {s11}_asked_you_to_rescue_{reg65?her:his}_{s17},_{s13},_from_{s14}_by_switching_clothes_and_taking_{reg4?her:his}_place_in_prison.
+qstr_{s11}_asked_you_to_re {s11}_asked_you_to_rescue_{reg65?her:his}_{s17},_{s13},_from_{s14}.
+qstr_{s11}_asked_you_to_d {s11}_asked_you_to_deliver_a_message_to_{s13},_who_is_imprisoned_at_{s14}.
+qstr_You_agreed_to_challe You_agreed_to_challenge_{s13}_to_defend_{s11}'s_honour.
+qstr_{s5}__Persuasion_str {s5}_(Persuasion_strength:_{reg5})
+qstr_Persuasion_Attempt Persuasion_Attempt
+qstr_{s12}_and_{s11} {s12}_and_{s11}
+qstr_You_can_find_book_me You_can_find_book_merchants_at_{s11}.
+qstr_{s12}_{s11} {s12},_{s11}
+qstr_You_can_find_ransom_ You_can_find_ransom_brokers_at_{s11}.
+qstr_{!}DEBUG:_Gossip_for {!}DEBUG:_Gossip_for_troop_{reg3}
+qstr_{!}DEBUG:_{s3} {!}DEBUG:_{s3}
+qstr_A_villager_from_{s7} A_villager_from_{s7}_begged_you_to_save_their_village_from_the_bandits_that_took_refuge_there.
+qstr_You_chose_well_{s0} You_chose_well,_{s0}._My_{reg65?companions:lads}_know_how_to_keep_their_word_and_earn_their_pay.
+qstr_Well_done_{s0}._Kee Well_done,_{s0}._Keep_the_money_and_wine_coming_our_way,_and_there's_no_foe_in_Calradia_you_need_fear.
+qstr_We_are_at_your_servi We_are_at_your_service,_{s0}._Point_us_in_the_direction_of_those_who_need_hurting,_and_we'll_do_the_rest.
+qstr_{!}There_is_a_local_ {!}There_is_a_local_supply_of_{s6}.
+qstr_{!}{s6}_must_be_impo {!}{s6}_must_be_imported,_modifying_the_price_from_{reg0}_to_{reg1}.
+qstr_{!}There_is_a_local_s {!}There_is_a_local_supply_of_{s11}.
+qstr_{!}{s9}_must_be_impo {!}{s9}_must_be_imported,_modifying_the_price_from_{reg0}_to_{reg1}.
+qstr_yet_to_be_announced yet_to_be_announced
+qstr_The_Guildmaster_of_{ The_Guildmaster_of_{s13}_has_asked_you_to_deal_with_looters_in_the_surrounding_countryside.
+qstr_{s9}_of_{s3}_asked_y {s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_tavern_in_{s4}_in_7_days.
+qstr_Escort_the_merchant_ Escort_the_merchant_caravan_to_the_town_of_{s8}.
+qstr_Merchant_{s9}_of_{s4 Merchant_{s9}_of_{s4}_asked_you_to_hunt_down_the_troublesome_bandits_in_the_vicinity_of_the_town.
+qstr_Guildmaster_of_{s4}_ Guildmaster_of_{s4}_gave_you_{reg12}_denars_to_pay_the_ransom_of_a_girl_kidnapped_by_bandits._You_are_to_meet_the_bandits_near_{s3}_and_pay_them_the_ransom_fee._After_that_you_are_to_bring_the_girl_back_to_{s4}.
+qstr_Guildmaster_of_{s4}_p Guildmaster_of_{s4}_promised_you_{reg12}_denars_if_you_can_make_sure_that_{s12}_and_{s13}_no_longer_pose_a_threat_to_a_peace_settlement_between_{s15}_and_{s14}._In_order_to_do_that,_you_must_either_convince_them_or_make_sure_they_fall_captive_and_remain_so_until_a_peace_agreement_is_made.
+qstr_The_Guildmaster_of_{s The_Guildmaster_of_{s14}_has_asked_you_to_deal_with_a_group_of_bandits_terrorising_the_streets_of_{s14}._They_only_come_out_at_night,_and_only_attack_lone_travellers_on_the_streets.
+qstr_Guildmaster_of_{s10} Guildmaster_of_{s10}_asked_you_to_move_a_cattle_herd_to_{s13}._You_will_earn_{reg8}_denars_in_return.
+qstr_{reg4?She:He}_is_not {reg4?She:He}_is_not_commanding_any_men_at_the_moment.
+qstr_{reg4?She:He}_curren {reg4?She:He}_currently_commands_{reg0}_men{reg1?,_of_which_around_{reg1}_are_wounded:}.
+qstr_The_elder_of_the_vil The_elder_of_the_village_of_{s3}_asked_you_to_bring_them_{reg5}_packs_of_grain.
+qstr_The_elder_of_the_vill The_elder_of_the_village_of_{s13}_asked_you_to_train_{reg5}_peasants_to_fight_against_local_bandits.
+qstr_The_elder_of_the_villa The_elder_of_the_village_of_{s3}_asked_you_to_bring_them_{reg5}_heads_of_cattle.
+qstr_{s16}_and_{s15} {s16}_and_{s15}
+qstr_{!}{s16}_{s15} {!}{s16},_{s15}
+qstr_I_can_smell_a_fat_pu I_can_smell_a_fat_purse_a_mile_away._Methinks_yours_could_do_with_some_lightening,_eh?
+qstr_Why_it_be_another_t Why,_it_be_another_traveller,_chance_met_upon_the_road!_I_should_warn_you,_country_here's_a_mite_dangerous_for_a_good_{fellow/woman}_like_you._But_for_a_small_donation_my_boys_and_I'll_make_sure_you_get_rightways_to_your_destination,_eh?
+qstr_Well_well_look_at_t Well_well,_look_at_this!_You'd_best_start_coughing_up_some_silver,_friend,_or_me_and_my_boys'll_have_to_break_you.
+qstr_There_s_a_toll_for_p There's_a_toll_for_passin'_through_this_land,_payable_to_us,_so_if_you_don't_mind_we'll_just_be_collectin'_our_due_from_your_purse...
+qstr_Another_fool_come_to Another_fool_come_to_throw_{him/her}self_on_my_weapon,_eh?_Fine,_let's_fight!
+qstr_We_re_not_afraid_of_ We're_not_afraid_of_you,_{sirrah/wench}._Time_to_bust_some_heads!
+qstr_That_was_a_mistake._ That_was_a_mistake._Now_I'm_going_to_have_to_make_your_death_long_and_painful.
+qstr_Brave_words._Let_s_s Brave_words._Let's_see_you_back_them_up_with_deeds,_cur!
+qstr_your_lordship your_lordship
+qstr_A_{s5}?_Well..._Yes A_{s5}?_Well..._Yes,_I_suppose_it_is._What_a_strange_thing_to_ask.
+qstr_Eh?_No_it_most_cert Eh?_No,_it_most_certainly_is_not_a_{s5}._I'd_start_questioning_my_eyesight_if_I_were_you.
+qstr_This_is_the_{reg4?to This_is_the_{reg4?town:village}_of_{s5},_{s0}.
+qstr_{s6}_Our_{reg4?town: {s6}_Our_{reg4?town:village}_and_the_surrounding_lands_belong_to_you_of_course,_my_{lord/lady}.
+qstr_{s6}_Our_{reg4?town:v {s6}_Our_{reg4?town:village}_and_the_surrounding_lands_belong_to_{s7}_of_{s8}.
+qstr_{s3}_and_{s5} {s3}_and_{s5}
+qstr_{!}{s3}_{s5} {!}{s3},_{s5}
+qstr_{reg20?We_mostly_pro {reg20?We_mostly_produce_{s5}_here:We_don't_produce_much_here_these_days}._If_you_would_like_to_learn_more,_you_can_speak_with_our_{reg4?guildmaster:village_elder}._He_is_nearby,_right_over_there.
+qstr_{!}DEBUG____Total_pr {!}DEBUG_--_Total_production_for_{s4}:_{reg4}
+qstr_{!}DEBUG____Total_ru {!}DEBUG_--_Total_rural_production_for_{s4}_region:_{reg4}
+qstr_{!}DEBUG____Total_tr {!}DEBUG_--_Total_trade_for_{s4}:_{reg4}
+qstr_{!}DEBUG____Total_at {!}DEBUG_--_Total_attacks_for_{s4}:_{reg4}
+qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
+qstr_Sensitivity___25%__{ Sensitivity_-_25%_({reg8},_{reg9})
+qstr_Sensitivity_+_25%__{ Sensitivity_+_25%_({reg8},_{reg9})
+qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
+qstr_Tutorial Tutorial
+qstr_{!}DEBUG_:_Completed {!}DEBUG_:_Completed_faction_troop_assignments,_cheat_mode:_{reg3}
+qstr_{!}ERROR:_Not_enough {!}ERROR:_Not_enough_banners_for_heroes!
+qstr_{!}DEBUG____initial_ {!}DEBUG_--_initial_war/peace_check_begins
+qstr_{!}DEBUG_:_Completed_ {!}DEBUG_:_Completed_political_events,_cheat_mode:_{reg3}
+qstr_{!}DEBUG_:_Assigned_ {!}DEBUG_:_Assigned_love_interests._Attraction_seed:_{reg3}
+qstr_{!}DEBUG_:_Located_k {!}DEBUG_:_Located_kingdom_ladies,_cheat_mode:_{reg3}
+qstr_{!}DEBUG_:_SYSTEM_ER {!}DEBUG_:_SYSTEM_ERROR!
+qstr__near_{s10} _near_{s10}
+qstr_Your_recruiter_who_wa Your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_to_{s13}_has_been_defeated{s10}!
+qstr_Your_caravan_sending Your_caravan_sending_{s12}_to_{s13}_has_been_defeated{s10}!
+qstr_Your_messenger_on_th Your_messenger_on_the_way_to_{s13}_has_been_defeated{s10}!
+qstr_Your_soldiers_patroll Your_soldiers_patrolling_{s13}_have_been_defeated{s10}!
+qstr_A_scout_trying_to_ga A_scout_trying_to_gather_information_about_{s13}_has_been_slain{s10}!
+qstr_{!}DEBUG_:_Prisoner_ {!}DEBUG_:_Prisoner_granted_parole
+qstr_{!}DEBUG_:_Prisoner_n {!}DEBUG_:_Prisoner_not_offered_parole
+qstr_{s1}_of_{s3}_was_def {s1}_of_{s3}_was_defeated_in_battle_but_managed_to_escape.
+qstr_{!}DEBUG_:_Siege_att {!}DEBUG_:_Siege_attackers_are_running_away
+qstr_{!}DEBUG:_{s1}_no_lo {!}DEBUG:_{s1}_no_longer_leads_a_party.
+qstr_{!}DEBUG:_{s1}_is_no {!}DEBUG:_{s1}_is_no_longer_a_prisoner.
+qstr_{!}DEBUG:_{s1}_is_now {!}DEBUG:_{s1}_is_now_a_prisoner_of_player.
+qstr_{s1}_is_now_a_prison {s1}_is_now_a_prisoner_of_{s2}.
+qstr_{!}DEBUG:_{s1}_is_now_ {!}DEBUG:_{s1}_is_now_a_prisoner_of_{s2}.
+qstr_{s54}_is_a_claimant_ {s54}_is_a_claimant_to_the_throne_of_{s56}.
+qstr_nowhere nowhere
+qstr_{s57}_and_{s58} {s57}_and_{s58}
+qstr_{!}{s57}_{s58} {!}{s57},_{s58}
+qstr_{reg3?She:He} {reg3?She:He}
+qstr_{!}^{s59} {!}^{s59}
+qstr_The_town_of_{s50} The_town_of_{s50}
+qstr_The_village_of_{s50} The_village_of_{s50}_near_{s52}
+qstr_{!}{s50} {!}{s50}
+qstr_{s51}_belongs_to_{s1 {s51}_belongs_to_{s1}_of_{s2},_and_is_where_you_make_your_court.^
+qstr_{s51}_belongs_to_{s1} {s51}_belongs_to_{s1}_of_{s2},_and_is_where_{reg0?she:he}_makes_{reg0?her:his}_court.^
+qstr_{s51}_belongs_to_{s1}_ {s51}_belongs_to_{s1}_of_{s2},_and_is_where_{reg0?she:he}_makes_{reg0?her:his}_home.^
+qstr_{s51}_belongs_to_{s1}_o {s51}_belongs_to_{s1}_of_{s2}.^
+qstr_{s51}_belongs_to_{s2 {s51}_belongs_to_{s2}_but_has_not_yet_been_granted_to_a_lord.^
+qstr_{s51}_belongs_to_{s2} {s51}_belongs_to_{s2}.^
+qstr_{s2}Its_market_town_ {s2}Its_market_town_is_{s8}.^
+qstr_{s2}It_has_no_villag {s2}It_has_no_villages.^
+qstr_{s2}{reg0?Its_villag {s2}{reg0?Its_villages_are:Its_village_is}_{s8}.^
+qstr_{s2}Its_prosperity_i {s2}Its_prosperity_is:_{s50}
+qstr_noone noone
+qstr_{s9}_and_{s10} {s9}_and_{s10}
+qstr_{!}{s9}_{s10} {!}{s9},_{s10}
+qstr_Domestic_policy:_^^ Domestic_policy:_^^
+qstr_{!}DEBUG_:_{s21}.^CH {!}DEBUG_:_{s21}.^CHEAT_MODE_ASSESSMENT:_{s14}^
+qstr_{s5}_has_been_defeat {s5}_has_been_defeated!
+qstr_{!}DEBUG____Assigned {!}DEBUG_--_Assigned_lord_reputation_and_relations
+qstr_{s7}_opened_the_gate {s7}_opened_the_gate
+qstr_{s7}_closed_the_gate {s7}_closed_the_gate
+qstr_+{reg1}_to_party_mor +{reg1}_to_party_morale
+qstr_Requires_{reg1}_inte Requires_{reg1}_intelligence_to_read
+qstr_Reading_Progress:_{r Reading_Progress:_{reg1}%
+qstr_wound_treament wound_treament
+qstr_trainer trainer
+qstr_surgery surgery
+qstr_+1_to_{s1}_while_in_ +1_to_{s1}_while_in_inventory
+qstr_item_score:{reg0}_v item_score:{reg0},_value:{reg1}
+qstr_Move_here Move_here
+qstr_View_notes View_notes
+qstr_Accompany Accompany
+qstr_{!}_{s61} {!}_{s61}
+qstr_{!}DEBUG____ERROR:_M {!}DEBUG_--_ERROR:_More_than_15_trade_routes_are_given_for_{s1}.
+qstr_{!}DEBUG____Caravan_ {!}DEBUG_--_Caravan_trades_in_{s4},_originally_from_{s5}
+qstr_{!}_DEBUG_loot_playe {!}_DEBUG_loot_player_items:_g_player_surrenders_=_{reg0},_merciful_=_{reg1}
+qstr_{!}{s4}_is_sent_to_{ {!}{s4}_is_sent_to_{s5}_after_defeat
+qstr_{!}DEBUGS_:_enemy_lo {!}DEBUGS_:_enemy_loses_:_{reg0}
+qstr_{!}DEBUGS1_:_total_g {!}DEBUGS1_:_total_gain_:_{reg0}
+qstr_{!}DEBUGS2_:_total_g {!}DEBUGS2_:_total_gain_:_{reg0}
+qstr_{!}DEBUGS3_:_num_pla {!}DEBUGS3_:_num_player_party_shares:{reg0},_total_gain:{reg1}
+qstr_killed killed
+qstr_wounded wounded
+qstr_{!}{reg3?{reg3}:}_{s {!}{reg3?{reg3}:}_{s1}_({s2})
+qstr_{!}{s0}_{reg3?{reg3 {!}{s0},_{reg3?{reg3}:}_{s1}_({s2})
+qstr_{!}{s0}^{reg3?{reg3} {!}{s0}^{reg3?{reg3}:}_{s1}_({s2})
+qstr_{s0}^TOTAL:_{reg3}__ {s0}^TOTAL:_{reg3}_({s2})
+qstr_None None
+qstr_^None ^None
+qstr_nothing nothing
+qstr_{reg0}_village{reg1? {reg0}_village{reg1?s:}
+qstr_{reg0}_castle{reg1?s {reg0}_castle{reg1?s:}
+qstr_{reg0}_castle{reg1?s: {reg0}_castle{reg1?s:}_and_{s0}
+qstr_{reg0}_town{reg1?s:} {reg0}_town{reg1?s:}
+qstr_{reg0}_town{reg1?s:}_ {reg0}_town{reg1?s:}_and_{s0}
+qstr_{reg0}_town{reg1?s:}_{ {reg0}_town{reg1?s:},_{s0}
+qstr_Your_opponents_are_r Your_opponents_are_ready_for_the_fight.
+qstr_Try_to_destroy_as_ma Try_to_destroy_as_many_targets_as_you_can._You_have_two_and_a_half_minutes_to_clear_the_track.
+qstr_Stay_behind_the_line Stay_behind_the_line_on_the_ground_and_shoot_the_targets._Try_not_to_waste_any_shots.
+qstr_{!}DEBUG____Checking {!}DEBUG_--_Checking_for_denounce_lord,_eligible_in_{reg4}_days
+qstr_{!}DEBUG____Rival_fo {!}DEBUG_--_Rival_found_in_{s4}
+qstr_{!}DEBUG____{s4}_is_ {!}DEBUG_--_{s4}_is_not_close_friend_of_player
+qstr_{!}DEBUG____{s4}_has {!}DEBUG_--_{s4}_has_{reg3}_rivals
+qstr_{!}DEBUG____Checking_ {!}DEBUG_--_Checking_for_intrigue,_eligible_in_{reg4}_days
+qstr_{!}DEBUG____Trying_f {!}DEBUG_--_Trying_for_intrigue_against_lord
+qstr_{!}DEBUG____{s4}_has_ {!}DEBUG_--_{s4}_has_sufficiently_low_relation_with_liege
+qstr_{!}DEBUG____{s4}_has_s {!}DEBUG_--_{s4}_has_sufficiently_low_relation_with_giver_troop
+qstr_{!}DEBUG____{s4}_has_su {!}DEBUG_--_{s4}_has_sufficiently_low_relation_with_player
+qstr_{!}DEBUG____Checking_f {!}DEBUG_--_Checking_for_resolve_dispute,_eligible_in_{reg4}_days
+qstr_{!}DEBUG____Checking_fo {!}DEBUG_--_Checking_for_offer_gift,_eligible_in_{reg4}_days
+qstr_Battle_Advantage_=_{ Battle_Advantage_=_{reg0}.
+qstr_{s9}_wants_you_to_re {s9}_wants_you_to_resume_following_his_army_until_further_notice.
+qstr_{!}DEBUG___{s4}_factio {!}DEBUG_-_{s4}_faction_changed_in_normal_faction_change
+qstr_{!}DEBUG___{s4}_faction {!}DEBUG_-_{s4}_faction_changed_by_guardian_moving
+qstr_Tribune Tribune
+qstr_{s5}_of_the_{s7}_has {s5}_of_the_{s7}_has_taken_ownership_of_{s4}.
+qstr_{s4}_has_been_awarde {s4}_has_been_awarded_to_{s5}_of_the_{s7}.
+qstr_{!}DEBUG____{s4}_awa {!}DEBUG_--_{s4}_awarded_to_{s5}
+qstr_pt_in_{s11} pt_in_{s11}
+qstr__Being_Raided_ (Being_Raided)
+qstr__Looted_ (Looted)
+qstr__Under_Siege_ (Under_Siege)
+qstr_The_village_of_{s1}_ The_village_of_{s1}_has_been_looted_by_{s2}.
+qstr_{s3}_is_no_longer_un {s3}_is_no_longer_under_siege.
+qstr_{!}DEBUG_:_There_are {!}DEBUG_:_There_are_already_enemies_({s6})_inside_{s7}.
+qstr_{!}DEBUG____Calculat {!}DEBUG_--_Calculating_sortie_for_{s4}_strength_of_{reg3}_vs_{reg4}_enemies
+qstr_Small_bands_of_enemi Small_bands_of_enemies_spotted_near_{s1}.
+qstr_Enemy_patrols_spotte Enemy_patrols_spotted_near_{s1}.
+qstr_Medium_sized_group_o Medium-sized_group_of_enemies_spotted_near_{s1}.
+qstr_Significant_group_of Significant_group_of_enemies_spotted_near_{s1}.
+qstr_Army_of_enemies_spot Army_of_enemies_spotted_near_{s1}.
+qstr_Large_army_of_enemie Large_army_of_enemies_spotted_near_{s1}.
+qstr_Great_host_of_enemie Great_host_of_enemies_spotted_near_{s1}.
+qstr_{!}DEBUG_:_{s7}_is_h {!}DEBUG_:_{s7}_is_helping_his_commander_by_fighting_with_{s6}.
+qstr_{s10}_constructs_a_{ {s10}_constructs_a_{s0}_in_{s4}
+qstr_{s0}_collects_{reg0} {s0}_collects_{reg0}_denars_from_{s4},_current_wealth:_{reg1}_denars
+qstr__{s10}_of_{s13}_recr _{s10}_of_{s13}_recruits_{reg2}_{s12}_in_{s14}
+qstr_{s10}_hires_{reg2}_{ {s10}_hires_{reg2}_{s12}_in_{s4}
+qstr_{s10}_upgrades_{s11} {s10}_upgrades_{s11}_(costing_{s1})_in_{s4},_{reg0}_denars_remaining.
+qstr_{s1}_has_been_besieg {s1}_has_been_besieged_by_{s2}_of_{s3}.
+qstr__{s1}__{s11}:_{s14} ({s1})_{s11}:_{s14}
+qstr_{s14}__{s21}_ {s14}_({s21})
+qstr_{!}DEBUG____{s4}_dro {!}DEBUG_--_{s4}_drops_{s5}_as_issue_as_it_has_changed_hands
+qstr_{!}DEBUG____Issue_re {!}DEBUG_--_Issue_resolution_for_{s4}:_{reg4}_votes_for_a_quorum_of_{reg5},_{reg7}_hours_on_agenda
+qstr_{!}DEBUG____Faction_ {!}DEBUG_--_Faction_resolves_political_issue
+qstr_{s5}_has_the_greates {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_be_the_next_marshall.__{s0}_is_indisposed_and_cannot_overrule_their_choice.
+qstr_{s5}_has_the_greatest {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_receive_{s1}.__{s0}_is_indisposed_and_cannot_overrule_their_choice.
+qstr_{s5}_has_the_greatest_ {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_be_the_next_marshall,_but_{s0}_overrules_their_choice.
+qstr_{s5}_has_the_greatest_s {s5}_has_the_greatest_support_among_the_lords_of_the_{s4}_to_receive_{s1},_but_{s0}_overrules_their_choice.
+qstr_{!}DEBUG____{s4}_drop {!}DEBUG_--_{s4}_drops_{s5}_as_winner,_for_having_changed_sides
+qstr_{s1}_is_the_new_mars {s1}_is_the_new_marshal_of_{s2}.
+qstr_{!}DEBUG____{s4}_par {!}DEBUG_--_{s4}_participates_in_offensive
+qstr_{!}DEBUG____{s4}_cho {!}DEBUG_--_{s4}_chosen_as_screen
+qstr_You_gained_{reg12}_r You_gained_{reg12}_renown.
+qstr_You_lose_{reg12}_ren You_lose_{reg12}_renown.
+qstr_Your_relation_with_{ Your_relation_with_{s1}_has_improved.
+qstr_Your_relation_with_{s Your_relation_with_{s1}_has_deteriorated.
+qstr_{!}_There_is_widespr {!}_There_is_widespread_ill-will_towards_you_in_the_{s1}.
+qstr_You_gain_honour. You_gain_honour.
+qstr_You_lose_honour. You_lose_honour.
+qstr_{s1}_has_declared_wa {s1}_has_declared_war_against_{s2}.
+qstr_{!}DEbug___{s5}_cara {!}DEbug_-_{s5}_caravan_attacked
+qstr_{s0}_is_laying_siege {s0}_is_laying_siege_to_{s1}.
+qstr_{s0}_is_patrolling_a {s0}_is_patrolling_around_{s1}.
+qstr_{s0}_is_raiding_arou {s0}_is_raiding_around_{s1}.
+qstr_{s0}_is_engaging_{s1 {s0}_is_engaging_{s1}.
+qstr_{s0}_is_accompanying {s0}_is_accompanying_{s1}.
+qstr_{s0}_is_screening_th {s0}_is_screening_the_advance_of_{s1}.
+qstr_{s0}_is_trading_with {s0}_is_trading_with_{s1}.
+qstr_{s0}_is_retreating_t {s0}_is_retreating_to_{s1}.
+qstr_{s0}_is_visiting_{s1 {s0}_is_visiting_{s1}.
+qstr_{s1}_and_{s2}_have_m {s1}_and_{s2}_have_made_peace_with_each_other.
+qstr_{!}DEBUG:_{s5}_has_t {!}DEBUG:_{s5}_has_truce_with_{s6}._Pact_with_{s7}_is_harder!
+qstr_{!}DEBUG____Player_s {!}DEBUG_--_Player's_kingdom_has_had_{reg3}_days_of_peace
+qstr_{s2}_{reg3?was:is_cu {s2}_{reg3?was:is_currently}_at_{s3}.
+qstr_{s2}_{reg3?was:is}_t {s2}_{reg3?was:is}_travelling_to_{s3}_and_{reg4?she:he}_{reg3?was:should_be}_close_to_{s4}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_tr {s2}_{reg3?was:is}_travelling_to_{s3}_and_{reg4?she:he}_{reg3?was:should_be}_between_{s4}_and_{s1}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_i {s2}_{reg3?was:is}_in_the_field_and_{reg4?she:he}_{reg3?was:should_be}_close_to_{s3}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_in {s2}_{reg3?was:is}_in_the_field_and_{reg4?she:he}_{reg3?was:should_be}_between_{s3}_and_{s1}{reg3?:_at_the_moment}.
+qstr_{s2}_{reg3?was:is}_b {s2}_{reg3?was:is}_being_held_captive_at_{s3}.
+qstr_{s2}_{reg3?was:has_b {s2}_{reg3?was:has_been}_taken_captive_by_{reg4?her:his}_enemies.
+qstr_{reg3?{s2}_s_locatio {reg3?{s2}'s_location_was_unknown:I_don't_know_where_{s2}_is}.
+qstr_{!}DEBUG____{s4}_is_p {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_attending_the_feast
+qstr_{!}DEBUG____{s4}_is_pr {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_awaiting_the_player_in_private
+qstr_{!}DEBUG____{s4}_is_pre {!}DEBUG_--_{s4}_is_present_at_the_center_and_is_allowed_to_meet_the_player
+qstr_{!}DEBUG____{s4}is_p {!}DEBUG_--_{s4}is_present_at_the_center_and_is_not_allowed_to_meet_the_player
+qstr_You_now_owe_{reg2}_d You_now_owe_{reg2}_denars_to_{s1}.
+qstr_{!}DEBUG___Main_part {!}DEBUG_-_Main_party_raw_strength_{reg1},_terrain_code_{reg2},_modified_strength_{reg0}
+qstr_{!}_DEBUG___Enemy_pa {!}_DEBUG_-_Enemy_party_raw_strength_{reg1},_terrain_code_{reg2},_modified_strength_{reg0}
+qstr_Renown_value_for_thi Renown_value_for_this_battle_is_{reg8}.
+qstr_You_have_run_into_a_ You_have_run_into_a_trap!
+qstr_You_are_attacked_by_ You_are_attacked_by_a_group_of_bandits!
+qstr_Holding Holding
+qstr_Following Following
+qstr_Charging Charging
+qstr_Advancing Advancing
+qstr_Falling_Back Falling_Back
+qstr_Standing_Closer Standing_Closer
+qstr_Spreading_Out Spreading_Out
+qstr_Standing Standing
+qstr_N/A N/A
+qstr_Free Free
+qstr_Mount Mount
+qstr_Dismount Dismount
+qstr_Any_Weapon Any_Weapon
+qstr_Blunt_Weapons Blunt_Weapons
+qstr_{!}{reg10} {!}{reg10}
+qstr_{!}{reg11} {!}{reg11}
+qstr_{!}{reg12} {!}{reg12}
+qstr_{!}DEBUG____Trade_fr {!}DEBUG_--_Trade_from_{s3}_to_{s4}:_rolled_random_impact_of_{reg4}
+qstr_{!}DEBUG____Trade_of {!}DEBUG_--_Trade_of_{s5}_from_{s3}_to_{s4}_brings_price_from_{reg4}_to_{reg5}
+qstr_{!}DEBUG___{s4}_faction_ {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_1
+qstr_{!}_DEBUG___{s4}_cha {!}_DEBUG_-_{s4}_changed_by_player's_defection
+qstr_{!}DEBUG___{s4}_faction_c {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_3
+qstr_Your_soldiers_patrolli Your_soldiers_patrolling_{s6}_disbanded_because_you_left_the_faction!
+qstr_{!}DEBUG___{s4}_faction_ch {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_2
+qstr_Given_by:_{s62} Given_by:_{s62}
+qstr_Given_on:_{s60} Given_on:_{s60}
+qstr_This_quest_has_been_ This_quest_has_been_concluded._Talk_to_{s59}_to_finish_it.
+qstr_This_quest_has_been_s This_quest_has_been_successfully_completed._Talk_to_{s59}_to_claim_your_reward.
+qstr_This_quest_has_faile This_quest_has_failed._Talk_to_{s59}_to_explain_the_situation.
+qstr_At_the_time_quest_wa At_the_time_quest_was_given:^{s1}
+qstr_{!}{s4}_is_in_{s5} {!}{s4}_is_in_{s5}
+qstr_{!}DEBUG___{s1}_is_i {!}DEBUG_--{s1}_is_infested_by_bandits.
+qstr_{s5}_has_a_strength_ {s5}_has_a_strength_of_{reg1}_men_in_total.
+qstr_The_last_time_you_sa The_last_time_you_saw_{reg1?her:him},_{s1}
+qstr_The_last_time_you_he The_last_time_you_heard_about_{reg1?her:him},_{s1}
+qstr_Current_garrison_con Current_garrison_consists_of_{reg5}_men.^Has_food_stock_for_{reg6}_days.
+qstr_Very_Poor Very_Poor
+qstr_Poor Poor
+qstr_Average Average
+qstr_Rich Rich
+qstr_Very_Rich Very_Rich
+qstr_{!}DEBUG_:_Doing_spa {!}DEBUG_:_Doing_spawn_bandit_script
+qstr_Manor Manor
+qstr_A_manor_lets_you_res A_manor_lets_you_rest_at_the_village_and_pay_your_troops_half_wages_while_you_rest.
+qstr_Mill Mill
+qstr_A_mill_increases_vil A_mill_increases_village_prosperity_by_5%.
+qstr_Watch_Tower Watch_Tower
+qstr_A_watch_tower_lets_t A_watch_tower_lets_the_villagers_raise_alarm_earlier._The_time_it_takes_for_enemies_to_loot_the_village_increases_by_50%.
+qstr_School School
+qstr_A_shool_increases_th A_shool_increases_the_loyality_of_the_villagers_to_you_by_+1_every_month.
+qstr_Messenger_Post Messenger_Post
+qstr_A_messenger_post_let A_messenger_post_lets_the_inhabitants_send_you_a_message_whenever_enemies_are_nearby,_even_if_you_are_far_away_from_here.
+qstr_Prison_Tower Prison_Tower
+qstr_A_prison_tower_reduc A_prison_tower_reduces_the_chance_of_captives_held_here_running_away_successfully.
+qstr_Prosperity_of_{s2}_h Prosperity_of_{s2}_has_changed_from_{s3}_to_{s4}.
+qstr_{!}DEBUG:_Total_pros {!}DEBUG:_Total_prosperity_actual_losses:_{reg11}
+qstr_{!}DEBUG:_Total_prosp {!}DEBUG:_Total_prosperity_actual_gains:_{reg12}
+qstr_{!}DEBUG:_Prosperity {!}DEBUG:_Prosperity_changes_from_random_bandits:_{reg4}
+qstr_{!}DEBUG:_Prosperity_ {!}DEBUG:_Prosperity_changes_from_caravan_trades:_{reg5}
+qstr_{!}DEBUG:_Prosperity_c {!}DEBUG:_Prosperity_changes_from_farmer_trades:_{reg9}
+qstr_{!}DEBUG:_Prosperity_ch {!}DEBUG:_Prosperity_changes_from_looted_villages:_{reg7}
+qstr_{!}DEBUG:_Prosperity_cha {!}DEBUG:_Prosperity_changes_from_sieges:_{reg8}
+qstr_{!}DEBUG:_Theoretica {!}DEBUG:_Theoretical_prosperity_changes_from_convergence:_{reg10}
+qstr_{s4}_looks_upset. {s4}_looks_upset.
+qstr_your_party your_party
+qstr_{reg0?One_of_your_pr {reg0?One_of_your_prisoners,_:}{s1}_of_{s3}_has_escaped_from_captivity!
+qstr_You_brought_{reg3}_h You_brought_{reg3}_heads_of_cattle_to_{s1}.
+qstr_{!}Village_now_has_{ {!}Village_now_has_{reg4}
+qstr_I_heard_that_there_w I_heard_that_there_will_be_a_tournament_in_{s62}_soon.
+qstr_I_heard_some_people_ I_heard_some_people_say_they_don't_believe_{s6}_is_really_dead.
+qstr_I_heard_a_traveller_ I_heard_a_traveller_say_that_he_came_across_{s6}_while_journeying_outside_these_lands.
+qstr_I_heard_that_{s6}_in I_heard_that_{s6}_intends_to_raise_an_army_and_seize_the_throne_from_{s61}.
+qstr_I_heard_that_one_can I_heard_that_one_can_buy_{s62}_very_cheap_at_{s63}.
+qstr_I_heard_that_they_pa I_heard_that_they_pay_a_very_high_price_for_{s62}_at_{s63}.
+qstr_{!}_DEBUG___random_{ {!}_DEBUG_-_random_{reg0}_(0_to_20),_used_reputation_{reg2}_instead_of_{reg1}
+qstr_{!}_DEBUG___variable {!}_DEBUG_-_variable_responses_disabled,_kept_reputation_{reg2}
+qstr_{!}_DEBUG___random_{r {!}_DEBUG_-_random_{reg0}_(0_to_20),_kept_reputation_{reg2}
+qstr_{!}Log_entry_{reg3}: {!}Log_entry_{reg3}:_type_{reg4}
+qstr_{!}Center:_{s4} {!}Center:_{s4}
+qstr_{!}Troop:_{s4} {!}Troop:_{s4}
+qstr_{!}Lord:_{s4} {!}Lord:_{s4}
+qstr_{!}Ally_party_is_pre {!}Ally_party_is_present
+qstr_{!}{s4}_is_present_a {!}{s4}_is_present_at_event
+qstr_{!}Event_#{reg5}_ty {!}Event_#{reg5},_type_{reg6},_time_{reg8}:_player's_kingdom_relation_to_troop_object_=_{reg7}
+qstr_{!}Event_#{reg5}_typ {!}Event_#{reg5},_type_{reg6},_time_{reg8}:_player's_kingdom_relation_to_center_object_faction_=_{reg7}
+qstr_{!}Event_#{reg5}_type {!}Event_#{reg5},_type_{reg6},_time_{reg8}:_player's_kingdom_relation_to_faction_object_=_{reg7}
+qstr_{!}Event_#{reg5}_type_ {!}Event_#{reg5},_type_{reg6},_time_{reg8}._No_relevant_kingdom_relation
+qstr_{!}Event_#{reg5}_type_{ {!}Event_#{reg5},_type_{reg6},_time_{reg8}._Player_unaffiliated
+qstr_{!}Elapsed_hours:_{r {!}Elapsed_hours:_{reg7}
+qstr_{!}Reputation_type:_ {!}Reputation_type:_{s15}
+qstr_{!}Entries_up_to_#{r {!}Entries_up_to_#{reg5}_skipped
+qstr_two_days_ago two_days_ago
+qstr_{!}DEBUG___{s4}_faction_cha {!}DEBUG_-_{s4}_faction_changed_in_subornment
+qstr_{!}{s4}_inflicts_{re {!}{s4}_inflicts_{reg4}_damage_on_{s5},_raising_total_inflicted_to_{reg3}
+qstr_{!}War_damage_raises {!}War_damage_raises_{s4}'s_controversy_by_{reg4}_to_{reg5}
+qstr_{!}War_damage_lowers {!}War_damage_lowers_{s4}'s_controversy_by_{reg4}_to_{reg5}
+qstr_{!}G_talk_troop_{s20 {!}G_talk_troop_{s20}_evaluates_being_vassal_to_{s22}_of_{s21}
+qstr_{!}DEBUG____Analyzin {!}DEBUG_--_Analyzing_lord_allegiances,_combined_bonuses_and_penalties_=_{reg0}
+qstr_{!}DEBUG____Total_co {!}DEBUG_--_Total_courtship_quarrel_changes:_{reg4}
+qstr_{!}DEBUG____Total_ra {!}DEBUG_--_Total_random_quarrel_changes:_{reg4}
+qstr_{!}DEBUG____Total_ba {!}DEBUG_--_Total_battle_changes_for_allies:_{reg4}
+qstr_{!}DEBUG____Total_bat {!}DEBUG_--_Total_battle_changes_for_enemies:_{reg4}
+qstr_{!}DEBUG____Total_pro {!}DEBUG_--_Total_promotion_changes:_{reg4}
+qstr_{!}DEBUG____Total_fe {!}DEBUG_--_Total_feast_changes:_{reg4}
+qstr_{!}DEBUG____Total_po {!}DEBUG_--_Total_policy_dispute_changes:_{reg4}_from_{reg5}_decisions
+qstr_{!}DEBUG____Total_fa {!}DEBUG_--_Total_faction_switch_changes:_{reg4}
+qstr_{!}DEBUG____Total_no {!}DEBUG_--_Total_no_fief_changes:_{reg4}
+qstr_{!}DEBUG____Total_ch {!}DEBUG_--_Total_changes_through_convergence:_{reg4}
+qstr_{!}DEBUG____Total_va {!}DEBUG_--_Total_vassal_responses_to_campaign:_{reg4}
+qstr_{!}DEBUG____Total_vas {!}DEBUG_--_Total_vassal_campaign_days:_{reg4}
+qstr_{!}DEBUG____Vassal_r {!}DEBUG_--_Vassal_response_rate:_{reg4}
+qstr_{!}DEBUG___{s4}_s_fe {!}DEBUG_-_{s4}'s_feast_has_rating_of_{reg4}
+qstr_{!}_DEBUG___{s4}_fac {!}_DEBUG_-_{s4}_faction_change_in_marriage_case_5
+qstr_{!}DEBUG___{s4}_faction_chan {!}DEBUG_-_{s4}_faction_changed_by_marriage,_case_6
+qstr_{!}DEBUG___{s4}_stro {!}DEBUG_-_{s4}_strongest_kingdom_with_{reg3}_strength
+qstr_{!}DEBUG___including {!}DEBUG_-_including_offensive_and_defensive_alliances_{s4}_strongest_kingdom_with_{reg3}_strength
+qstr_{!}DEBUG___including_ {!}DEBUG_-_including_only_defensive_alliances_{s4}_strongest_kingdom_with_{reg3}_strength
+qstr_{!}Actor_centers_hel {!}Actor_centers_held_by_target_noted
+qstr_{!}War_damage_under_ {!}War_damage_under_minimum
+qstr_{!}Strength_ratio_co {!}Strength_ratio_correct
+qstr_{!}Third_party_wars {!}Third_party_wars
+qstr_{!}DEBUG____No_third {!}DEBUG_--_No_third_party_wars_for_{s15}
+qstr_{!}DEBUG____{s15}_is {!}DEBUG_--_{s15}_is_strongest_kingdom
+qstr_{!}DEBUG____{s15}_ha {!}DEBUG_--_{s15}_has_30_point_advantage_over_{s16}
+qstr_{!}DEBUG____{s15}_has {!}DEBUG_--_{s15}_has_proximity_to_{s16}
+qstr_{!}DEBUG____hardship {!}DEBUG_--_hardship_index_for_{s4}_=_{reg0}
+qstr_{!}Castle_taken_by_{ {!}Castle_taken_by_{s3}
+qstr_{!}Two_thirds_averag {!}Two-thirds_average_renown_=_{reg3}
+qstr_{!}DEBUG____Colleagu {!}DEBUG_--_Colleague_test:_score_for_{s10}_=_{reg3}
+qstr_{!}DEBUG____Open_tes {!}DEBUG_--_Open_test:_score_for_{s10}_=_{reg3}
+qstr_{!}DEBUG____{s8}_bac {!}DEBUG_--_{s8}_backs_{s9}:{s10}
+qstr_{!}DEBUG____{s4}_pro {!}DEBUG_--_{s4}_produces_a_faction_strategy_for_{s33}
+qstr_{!}Best_offensive_ta {!}Best_offensive_target_{s4}_has_value_level_of_{reg1}
+qstr_{!}No_center_found_t {!}No_center_found_to_attack
+qstr_{!}Best_threat_of_{s {!}Best_threat_of_{s4}_has_value_level_of_{reg1}
+qstr_{!}No_center_found_to {!}No_center_found_to_defend
+qstr_Best_threat_of_{s4}_ Best_threat_of_{s4}_has_value_level_of_{reg1}
+qstr_No_center_found_to_d No_center_found_to_defend
+qstr_You_gain_right_to_ru You_gain_right_to_rule.
+qstr_You_lose_right_to_ru You_lose_right_to_rule.
+qstr_{!}DEBUG___{s4}_faction_chang {!}DEBUG_-_{s4}_faction_changed_in_indictment
+qstr_{!}{s9} {!}{s9}
+qstr_{s0}^{s1} {s0}^{s1}
+qstr_finding_best_{reg0}_ finding_best_{reg0}_for_{s1}
+qstr_found_{s0}_best_valu found_{s0}_best_value_{reg0}_for_{s1}
+qstr_{reg0}_denars_added_ {reg0}_denars_added_to_treasury.
+qstr_{reg0}_denars_remove {reg0}_denars_removed_from_treasury.
+qstr_{!}DEBUG_:_removing_ {!}DEBUG_:_removing_player_troops:_{reg0}%
+qstr_{s1}_and_{s2}_have_e {s1}_and_{s2}_have_entered_into_an_alliance_with_each_other.
+qstr_{s1}_and_{s2}_have_c {s1}_and_{s2}_have_concluded_a_defensive_pact_with_each_other.
+qstr_{s1}_and_{s2}_have_co {s1}_and_{s2}_have_concluded_a_trade_agreement_with_each_other.
+qstr_{s1}_and_{s2}_have_con {s1}_and_{s2}_have_concluded_a_non_aggression_pact_with_each_other.
+qstr_{!}DEBUG_:_faction_n {!}DEBUG_:_faction_no_1_value:_{reg0}
+qstr_{!}DEBUG_:_faction_no {!}DEBUG_:_faction_no_2_value:_{reg0}
+qstr_{!}DEBUG_:_peace_war {!}DEBUG_:_peace_war_result:_{reg0}
+qstr_{!}DEBUG_:_prisoner_ {!}DEBUG_:_prisoner_value:_{reg0}
+qstr_{!}DEBUG_:_peace_war_ {!}DEBUG_:_peace_war_result_after_prisoners:_{reg0}
+qstr_{!}DEBUG_:_truce_pay {!}DEBUG_:_truce_pay_amount0:_{reg0}
+qstr_{!}DEBUG_:_truce_pay_ {!}DEBUG_:_truce_pay_amount1:_{reg1}
+qstr_{!}DEBUG___Send_mess {!}DEBUG_-_Send_message_to_{s13}
+qstr_{!}DEBUG___Bring_{s1 {!}DEBUG_-_Bring_{s12}_to_{s13}
+qstr_{!}_ERROR:_Bad_gift_ {!}_ERROR:_Bad_gift_amount_{reg0}.__(Tell_the_mod_writer_he_needs_to_update_his_code.)__Using_a_safe_default.
+qstr_{!}DEBUG___Added_{re {!}DEBUG_-_Added_{reg0}.template_of_faction_{s7}_to_patrol.
+qstr_{!}DEBUG___Send_{s14 {!}DEBUG_-_Send_{s14}_patrol_from_{s15}_to_{s13}
+qstr_Transfer_to_{s5} Transfer_to_{s5}
+qstr_{s5}_scout {s5}_scout
+qstr_{!}{s6}_of_the_{s5}_ {!}{s6}_of_the_{s5}_retains_the_remaining_{reg0}_denars_(dplmc_faction_leader_splits_gold)
+qstr_{s4}_has_returned_fr {s4}_has_returned_from_exile,_seeking_refuge_with_{s6}_of_{s5}.
+qstr_{s4}_has_been_grante {s4}_has_been_granted_a_pardon_by_{s6}_of_{s5}_and_has_returned_from_exile.
+qstr_{!}DEBUG_:_failure_i {!}DEBUG_:_failure_in_dplmc_lord_return_from_exile((s5},_{s7})
+qstr_{!}_ERROR:_called_sc {!}_ERROR:_called_script_dplmc-store-troop-is-female-reg_with_bad_argument_{reg4}
+qstr_Given_the_way_things Given_the_way_things_stand_between_us_at_the_moment,_{playername},_I_would_not_consider_it_prudent_to_enter_into_such_an_arrangement.
+qstr_{playername}_I_am_g {playername},_I_am_grateful_to_you,_but_in_the_eyes_of_the_people_you_do_not_have_sufficient_legitimacy_as_a_potential_co-ruler.__Marrying_you_would_undermine_my_own_claim_to_the_throne.
+qstr_{!}DEBUG___player_re {!}DEBUG_-_player_renown_{reg0},_required_renown_{reg1}
+qstr_{playername}_I_know {playername},_I_know_that_if_it_were_not_for_you_I_would_not_sit_on_this_throne,_but_your_name_is_little_renowned_in_Calradia.__Marrying_you_would_be_perceived_as_an_uneven_match_and_would_call_into_question_my_own_claim_to_the_throne.
+qstr_{!}DEBUG___player_sc {!}DEBUG_-_player_score_{reg0}_out_of_a_required_{reg1}
+qstr_{playername}_I_am_gr {playername},_I_am_grateful_for_your_assistance_in_regaining_my_rightful_throne,_but_you_do_not_have_sufficient_personal_holdings_to_be_a_suitable_match_for_me.__It_would_be_an_uneven_partnership.
+qstr_{!}DEBUG___player_sco {!}DEBUG_-_player_score_{reg0},_competitor_score_{reg1}
+qstr_{playername}_I_am_gra {playername},_I_am_grateful_to_you,_but_if_I_were_to_accept_at_this_time_I_would_risk_offending_powerful_lords_such_as_{s15},_who_may_consider_themselves_to_have_honor_equal_to_or_greater_than_your_own.
+qstr_{playername}_I_am_grat {playername},_I_am_grateful_to_you,_but_if_I_were_to_accept_at_this_time_I_would_risk_offending_great_lords_such_as_{s15},_who_may_consider_themselves_to_have_honor_equal_to_or_greater_than_your_own.
+qstr_{!}DEBUG___player_rel {!}DEBUG_-_player_relation_{reg0},_rival_relation_{reg1}
+qstr_{playername}_while_ {playername},_while_I_am_grateful_to_you,_I_must_confess_I_am_fond_of_{s15}.
+qstr_{!}DEBUG___lords_in_ {!}DEBUG_-_lords_in_faction_{reg0},_required_lords_{reg1}
+qstr_Our_realm_has_too_fe Our_realm_has_too_few_vassals.__In_the_current_precarious_state_of_the_affairs_I_must_use_the_lure_of_a_potential_political_alliance_to_attract_new_vassals,_and_cannot_yet_be_seen_to_commit_to_any_single_{reg65?suitor:candidate}.
+qstr_{!}DEBUG___liege_has {!}DEBUG_-_liege_has_{reg0}_center_points,_needs_at_least_{reg1}
+qstr_Because_I_have_insuf Because_I_have_insufficient_personal_holdings_compared_to_{s15},_if_I_entered_into_such_an_arrangement_I_would_risk_appearing_to_be_a_puppet,_throwing_the_stability_of_the_realm_into_jeopardy.
+qstr_Because_my_personal_ Because_my_personal_holdings_are_insufficiently_large_compared_to_other_lords_of_the_{s14},_if_I_entered_into_such_an_arrangement_I_would_risk_appearing_to_be_a_puppet,_throwing_the_stability_of_the_realm_into_jeopardy.
+qstr_I_am_grateful_to_you I_am_grateful_to_you,_{playername},_but_you_have_too_many_enemies_among_the_lords_of_the_{s14}_for_your_proposal_to_be_politically_viable.__If_I_were_to_accept,_there_might_be_a_revolt.
+qstr_You_have_engendered_ You_have_engendered_too_much_controversy_recently,_{playername}_.__If_I_were_to_accept_at_this_time,_there_might_be_a_revolt_among_the_lords_of_the_{s14}.__Let_us_speak_of_this_later_when_the_furor_has_died_down.
+qstr_If_you_desire_to_lea If_you_desire_to_lead_the_{s14}_alongside_me,_gather_support_among_my_vassals_to_become_marshall,_and_demonstrate_to_them_your_abilities_as_a_war_leader.
+qstr_Our_realm_has_lost_t Our_realm_has_lost_too_much_territory.__We_once_held_{s1}_but_now_only_hold_{s0}.__In_the_current_precarious_state_of_affairs_I_must_retain_the_possibility_of_a_political_alliance_to_use_as_a_bargaining_chip_with_the_other_sovereigns,_so_I_yet_be_seen_to_commit_to_any_single_{reg65?suitor:candidate}.__Restore_the_{s14}_to_its_former_glory,_and_I_will_gladly_have_you_rule_beside_me_as_my_{husband/wife}.
+qstr_{s0}_{reg0?have:has} {s0}_{reg0?have:has}_been_lost_to_foreign_hands.__Restore_the_{s14}_to_its_rightful_boundaries,_and_I_will_gladly_have_you_rule_beside_me_as_my_{husband/wife}.
+qstr_You_have_only_been_m You_have_only_been_marshall_for_{reg0}_{reg1?days:day}.__Let_us_speak_of_this_after_you_have_held_the_post_for_at_least_two_weeks.
+qstr_If_not_for_you_I_wou If_not_for_you_I_would_not_sit_on_this_throne,_{playername}.__When_we_started_our_long_walk,_few_people_had_the_courage_to_support_me.__And_fewer_still_would_be_willing_to_put_their_lives_at_risk_for_my_cause.__But_you_didn't_hesitate_for_a_moment_in_throwing_yourself_at_my_enemies._We_have_gone_through_a_lot_together,_and_with_God's_help,_we_prevailed.__I_will_gladly_accept_you_as_both_my_{husband/wife}_and_co-ruler_of_the_{s14}.
+qstr_Can{reg0?:_t}_sell_{ Can{reg0?:'t}_sell_{s1}_for_{reg1}
+qstr_You_sold_{reg1}_{reg You_sold_{reg1}_{reg3?items:item}_to_{s0}_and_gained_{reg0}_{reg3?denars:denar}.
+qstr_You_sold_{reg1}_{reg3 You_sold_{reg1}_{reg3?items:item}_to_the_{s0}_and_gained_{reg0}_{reg3?denars:denar}.
+qstr_{!}_ERROR_FOR_AUTOSE {!}_ERROR_FOR_AUTOSELL_for_town_ID_{reg0}:_Bad_town_or_merchant_was_missing
+qstr_You_have_bought_{reg You_have_bought_{reg2}_{reg4?kinds:kind}_of_food_and_lost_{reg1}_{reg3?denars:denar}.
+qstr_You_sold_{reg2}_{reg You_sold_{reg2}_{reg4?kinds:kind}_of_rotten_food_and_gained_{reg1}_{reg3?denars:denar}.
+qstr_axe axe
+qstr_spear spear
+qstr_bow bow
+qstr_sword sword
+qstr_axes axes
+qstr_spears spears
+qstr_bows bows
+qstr_swords swords
+qstr_swing_my_axe swing_my_axe
+qstr_lift_my_spear lift_my_spear
+qstr_loose_my_arrows loose_my_arrows
+qstr_swing_my_sword swing_my_sword
+qstr_sultan sultan
+qstr_khans khans
+qstr_sultans sultans
+qstr_kings kings
+qstr_lord lord
+qstr_lords lords
+qstr_goatherd goatherd
+qstr_swineherd swineherd
+qstr_stable_{boy/girl} stable_{boy/girl}
+qstr_shepherd_{boy/girl} shepherd_{boy/girl}
+qstr_kvass kvass
+qstr_kumis kumis
+qstr_mead mead
+qstr_wine wine
+qstr_{!}ERROR___dplmc_pri {!}ERROR_-_dplmc_print_cultural_word_to_sreg_called_for_bad_context_{reg0}
+qstr_{reg6?M:m}y_poppet {reg6?M:m}y_poppet
+qstr_{!}Initializing_auto {!}Initializing_auto-loot.__This_message_should_not_appear_more_than_once.
+qstr_{!}_Checked_if_facti {!}_Checked_if_faction_{reg1}_is_prejudiced_against_{reg2?women:men}:_{reg0?true:false}
+qstr_{reg0?Y:y}ou {reg0?Y:y}ou
+qstr_{reg0?M:m}yself {reg0?M:m}yself
+qstr_{reg0?O:o}ur_{s1}_{s {reg0?O:o}ur_{s1}_{s0}
+qstr_{reg0?M:m}y_{s1}_{s0 {reg0?M:m}y_{s1}_{s0}
+qstr_{reg0?Y:y}our_{s1}_{ {reg0?Y:y}our_{s1}_{s0}
+qstr_{s2}:_{reg3}_{reg4} {s2}:_{reg3},_{reg4}_days
+qstr_{s4}:_{reg4} {s4}:_{reg4}
+qstr_{s1}_gathering_suppo {s1}(gathering_support)
+qstr_{s1}__intelligence_ {s1}_(intelligence)
+qstr_{s1}__ambassy_ {s1}_(ambassy)
+qstr_{s1}__minister {s1}_(minister
+qstr_{s1}__under_arms_ {s1}_(under_arms)
+qstr_{s1}__attempting_to_ {s1}_(attempting_to_rejoin)
+qstr_{s1}__separated_afte {s1}_(separated_after_battle)
+qstr__knows_of_you. _knows_of_you.
+qstr__has_no_opinion_abou _has_no_opinion_about_you.
+qstr_{s57}_and_{s50} {s57}_and_{s50}
+qstr_{!}{s57}_{s50} {!}{s57},_{s50}
+qstr_Calradia. Calradia.
+qstr_sworn_man sworn_man
+qstr_ruler ruler
+qstr_free_man free_man
+qstr_{s1}_Renown:_{reg40} {s1}_Renown:_{reg40},_Controversy:_{reg41}^Honor:_{reg42},_Right_to_rule:_{reg43}^You_are_a_{s44}_of_{s45}^{reg45?{reg46?Your_liege,_{s46},{s47}:You_are_the_ruler_of_{s45}}:}^^Friends:_^Enemies:_^^Fiefs:^__{reg50?{s50}:no_fief}
+qstr_{s1}{s2}_{reg46?Repu {s1}{s2}_{reg46?Reputed_to_be_{s42}:}^Renown:_{reg40},_Controversy:_{reg41}_{reg46?Impatience:_{reg43}:}^{s44}_noble_of_the_{s45}^{reg46?Liege:_{s46},_Relation:_{reg47}:Ruler_of_the_{s45}}^^{reg48?Currently_prisoner_of_the_{s48}:}^Days_since_last_meeting:_{reg49}^^Fiefs_{reg51?(was_promised_a_fief):}:^__{reg50?{s50}:no_fief}
+qstr_conventional conventional
+qstr_adventurous adventurous
+qstr_otherwordly otherwordly
+qstr_ambitious ambitious
+qstr_moralist moralist
+qstr_just_met just_met
+qstr_admirer admirer
+qstr_promised promised
+qstr_breakup breakup
+qstr_unknown unknown
+qstr_Heroic_{s50} Heroic_{s50}
+qstr_Allegoric_{s50} Allegoric_{s50}
+qstr_Comic_{s50} Comic_{s50}
+qstr_Mystic_{s50} Mystic_{s50}
+qstr_Tragic_{s50} Tragic_{s50}
+qstr_{s1}{s2}_Controversy {s1}{s2}_Controversy:_{reg41}^Reputation:_{s42},_Courtship_state:_{s43}^Belongs_to_the_{s45}^{reg46?Her_father,_{s46}:Her_guardian,_{s46}}{s47}^Allowed_to_visit:_{reg45?yes:no}_{reg48?Betrothed_to_{s48}:}^^Days_since_last_meeting:_{reg49}^^Poems:^__{reg50?{s50}:no_poem_heard}
+qstr_Gathering_support Gathering_support
+qstr_Gathering_intelligen Gathering_intelligence_in_the_{s66}
+qstr_Ambassy_to_{s66} Ambassy_to_{s66}
+qstr_Minister Minister
+qstr_none none
+qstr_{s1}_{s2}^Reputatio {s1},_{s2}^Reputation:_{s42}^Born_at_{s43}^Contact_in_{s44}_of_the_{s45}.^^{reg48?Currently_prisoner_of_the_{s48}:}^Days_since_last_talked_to:_{reg49}^^Current_mission:^__{s50}{reg50?,_back_in_{reg50}_days.:}
+qstr_{s1}^ {s1}^
+qstr_Added_money_for_your Added_money_for_your_old_horse
+qstr_A_{s0}_is_being_buil A_{s0}_is_being_built._It_will_finish_in_{reg6}_days
+qstr_{s20}{reg2?Our_gover {s20}{reg2?Our_government:The_goverment_of_the_{s5}}_is_{s0}.{reg3?^:_}
+qstr_{s20}The_upper_class {s20}The_upper_class_society_is_{s0}.{reg3?^:_}
+qstr_{s20}{reg2?Our:The}_ {s20}{reg2?Our:The}_people_are_{s0}.{reg3?^:_}
+qstr_{s20}{reg2?Our:The}_t {s20}{reg2?Our:The}_troops_have_{s0}.{reg3?^:_}
+qstr_{s20}{reg2?Our:The_g {s20}{reg2?Our:The_government's}_approach_to_trade_is_{s0}.{reg3?^:_}
+qstr_You_have_been_knocke You_have_been_knocked_out_by_the_enemy._Watch_your_men_continue_the_fight_without_you_or_press_Tab_to_retreat.
+qstr_Selected_Troop:_{s1} Selected_Troop:_{s1}
+qstr_No_Troops_Left. No_Troops_Left.
+qstr_{!}DEBUG____Wanted_b {!}DEBUG_--_Wanted_bandits_spotted_by_{s4}
+qstr_Checking_rejoin_of_{ Checking_rejoin_of_{s10}_days_on_mission:_{reg0}
+qstr_{!}DEBUG_:_chamberla {!}DEBUG_:_chamberlain:_{reg0}
+qstr_{!}DEBUG_:_constable {!}DEBUG_:_constable:_{reg0}
+qstr_{!}DEBUG_:_chancello {!}DEBUG_:_chancellor:_{reg0}
+qstr_Next_Page Next_Page
+qstr_Game_Rules:^ Game_Rules:^
+qstr_0 0
+qstr_Show_game_rules Show_game_rules
+qstr_Continue... Continue...
+qstr_Candidate_#1:_{s1} Candidate_#1:_{s1}
+qstr_Candidate_#2:_{s1} Candidate_#2:_{s1}
+qstr_{s3}_of_{s4}_wishes_ {s3}_of_{s4}_wishes_to_select_a_new_marshall_and_invites_his_vassals_for_a_counsel._{s1}_and_{s2}_are_the_likely_candidates.
+qstr_Who_do_you_wish_to_s Who_do_you_wish_to_support?
+qstr_{!}{s1} {!}{s1}
+qstr_{s1}_gives_his_suppo {s1}_gives_his_support_to_{s2}.
+qstr_Number_of_Supporters Number_of_Supporters:_{reg0}
+qstr_{s2}_has_heard_his_v {s2}_has_heard_his_vassals'_counsel._He_selects_{s1}_as_the_marshall_of_{s3}.
+qstr_Action Action
+qstr_Attack_Type Attack_Type
+qstr_Stand_Ground Stand_Ground
+qstr_Charge Charge
+qstr_Follow_Me Follow_Me
+qstr_Hold_This_Position Hold_This_Position
+qstr_Spread_Out Spread_Out
+qstr_Stand_Closer Stand_Closer
+qstr_Fall_Back Fall_Back
+qstr_Advance Advance
+qstr_Fire_At_Will Fire_At_Will
+qstr_Hold_Your_Fire Hold_Your_Fire
+qstr_Use_Blunt_Weapons Use_Blunt_Weapons
+qstr_Use_Any_Weapon Use_Any_Weapon
+qstr_Ready Ready
+qstr_Wounded Wounded
+qstr_Dead Dead
+qstr_Number_of_men_knocke Number_of_men_knocked_down:_{reg1}
+qstr_Number_of_men_left:_ Number_of_men_left:_{reg1}
+qstr_Opponents_Beaten:_{r Opponents_Beaten:_{reg1}
+qstr_Opponents_Remaining: Opponents_Remaining:_{reg1}
+qstr_Remain_in_retirement Remain_in_retirement.
+qstr_Go_back_to_the_adven Go_back_to_the_adventuring.
+qstr_You_have_retired_at_ You_have_retired_at_level_{reg4}_after_{reg5}_days_of_adventuring.
+qstr_Effect_on_Score Effect_on_Score
+qstr_Settlements_owned_by Settlements_owned_by_you:_{reg0}
+qstr_{!}{reg0?+:}{reg0} {!}{reg0?+:}{reg0}
+qstr_Friendly_Settlements Friendly_Settlements:_{reg0}
+qstr_Hostile_Settlements: Hostile_Settlements:_{reg0}
+qstr_Friendly_Lords:_{reg Friendly_Lords:_{reg0}
+qstr_Enemy_Lords:_{reg0} Enemy_Lords:_{reg0}
+qstr_Victories:_{reg0} Victories:_{reg0}
+qstr_Defeats:_{reg0} Defeats:_{reg0}
+qstr_Quests_Completed:_{r Quests_Completed:_{reg0}
+qstr_Companions_Found:_{r Companions_Found:_{reg0}
+qstr_Companions_Lost/Depa Companions_Lost/Departed:_{reg0}
+qstr_Wealth:_{reg0}_denar Wealth:_{reg0}_denars
+qstr_Inventory:_{reg0}_de Inventory:_{reg0}_denars
+qstr_Renown:_{reg0} Renown:_{reg0}
+qstr_Experience:_{reg0} Experience:_{reg0}
+qstr_Days_Passed:_{reg0} Days_Passed:_{reg0}
+qstr_Difficulty:_{reg0}% Difficulty:_{reg0}%
+qstr_{!}{reg3?+:}{reg0} {!}{reg3?+:}{reg0}
+qstr_TOTAL_SCORE:_{reg0} TOTAL_SCORE:_{reg0}
+qstr_{!}DEBUG____Adding_{ {!}DEBUG_--_Adding_{reg3}_items_to_{s3}
+qstr_{s0}__{s50}_ {s0}_({s50})
+qstr_{s55}__{reg0}%_ {s55}_({reg0}%)
+qstr_{s55} {s55}
+qstr_Staff: Staff:
+qstr_You_paid_{reg0}_cash You_paid_{reg0}_cash_to_liquidate_a_debt
+qstr_Earlier_cash: Earlier_cash:
+qstr_New_cash: New_cash:
+qstr_Name:_{s1}^Level:_{r Name:_{s1}^Level:_{reg1}
+qstr_{s1}^HP:_{reg1}/{reg {s1}^HP:_{reg1}/{reg2}
+qstr_{s1} {s1}
+qstr_Weapon_upgrade_setti Weapon_upgrade_settings:
+qstr_Apply_to_everyone Apply_to_everyone
+qstr_Upgrade_armor_ Upgrade_armor_
+qstr_Upgrade_horse_ Upgrade_horse_
+qstr_Select_your_domestic Select_your_domestic_policy
+qstr_Centralization: Centralization:
+qstr_Aristocracy: Aristocracy:
+qstr_Serfdom: Serfdom:
+qstr_Troop_quality: Troop_quality:
+qstr_Mercantilism: Mercantilism:
+qstr_High_centralization_ High_centralization_reduces_tax_inefficiency_for_the_king_and_raises_it_for_vassals._This_will_interfere__the_relations_between_ruler_and_vassals.
+qstr_High_aristocracy_wil High_aristocracy_will_improve_the_relations_between_the_king_and_his_vassals_who_will_be_able_to_raise_bigger_armies_but_it_will_decreased_trade.
+qstr_High_serfdom_reduces High_serfdom_reduces_tax_inefficiency_for_the_king_and_his_vassals_and_vassals_can_maintain_bigger_armies_but_troops_lose_morale.
+qstr_High_troop_quality_i High_troop_quality_increases_the_combat_strength_of_troops_but_decreases_army_size.
+qstr_Mercantilistic_polic Mercantilistic_policies_maximize_exports_while_minimizing_imports,_and_increase_government_regulation_of_industry.
+qstr_Cancel Cancel
+qstr_Dictate_the_peace_te Dictate_the_peace_terms
+qstr_Select_the_castle_an Select_the_castle_and_the_amount_of_money_and_check_the_boxes_to_activate_the_demand._The_demands_are_combined_if_both_boxes_are_checked.
+qstr_1000_denars 1000_denars
+qstr__Faction_Relations_R _Faction_Relations_Report_
+qstr__Return_to_menu_ _Return_to_menu_
+qstr_Your_kingdom Your_kingdom
+qstr_Player^Relation Player^Relation
+qstr_{!}DEBUG___Drawing_l {!}DEBUG_-_Drawing_line_{reg20}
+qstr_War War
+qstr_Casus_Belli Casus_Belli
+qstr_Peace Peace
+qstr_Truce Truce
+qstr_Alliance Alliance
+qstr_Defense Defense
+qstr_Trade Trade
+qstr_{reg59?{reg59}_days: {reg59?{reg59}_days:}
+qstr_{reg61} {reg61}
+qstr_{s9} {s9}
+qstr_Loyal Loyal
+qstr_Devoted Devoted
+qstr_Fond Fond
+qstr_Gracious Gracious
+qstr_Friendly Friendly
+qstr_Supportive Supportive
+qstr_Favorable Favorable
+qstr_Cooperative Cooperative
+qstr_Accepting Accepting
+qstr_Indifferent Indifferent
+qstr_Suspicious Suspicious
+qstr_Grumbling Grumbling
+qstr_Hostile Hostile
+qstr_Resentful Resentful
+qstr_Angry Angry
+qstr_Hateful Hateful
+qstr_Revengeful Revengeful
+qstr_Vengeful Vengeful
+qstr_{reg1} {reg1}
+qstr_{s3} {s3}
+qstr_{reg61}_{reg58?_{reg {reg61}_{reg58?({reg58}_U)_:}Centers
+qstr_{reg62}_Caravans {reg62}_Caravans
+qstr_{reg60}_{reg59?_{reg {reg60}_{reg59?({reg59}_P)_:}Lords
+qstr_How_will_your_male_v How_will_your_male_vassals_be_known?
+qstr_How_will_your_female How_will_your_female_vassals_be_known?
+qstr_{!} {!}
+qstr_Use_the_Titles_Enter Use_the_Titles_Entered_Above.
+qstr_Use_Default_Titles__ Use_Default_Titles_(Lord/Lady).
+qstr_Sell_items_automatic Sell_items_automaticly_when_leaving:
+qstr_Price_limit_for_auto Price_limit_for_auto-sell:
+qstr_Item_types_for_auto_ Item_types_for_auto-sell:
+qstr_Select_all Select_all
+qstr_Select_invert Select_invert
+qstr_Buy_food_automatical Buy_food_automatically_when_leaving:
+qstr_* *
+qstr__Courtships_in_progr _Courtships_in_progress_
+qstr__Known_Lords_by_Rela _Known_Lords_by_Relation_
+qstr__Character_&_Compani _Character_&_Companions_
+qstr__Done_ _Done_
+qstr_Your_supporters Your_supporters
+qstr_Swadians Swadians
+qstr_Vaegirs Vaegirs
+qstr_Khergits Khergits
+qstr_Nords Nords
+qstr_Rhodoks Rhodoks
+qstr_Sarranids Sarranids
+qstr_All_Factions All_Factions
+qstr_Default_camera_mode Default_camera_mode
+qstr_Keyboard Keyboard
+qstr_Mouse Mouse
+qstr_Follower Follower
+qstr_Raise_camera Raise_camera
+qstr_Lower_camera Lower_camera
+qstr_Lower_sensitivity Lower_sensitivity
+qstr_Tilt_left Tilt_left
+qstr_Prev_troop Prev_troop
+qstr_Raise_sensitivity Raise_sensitivity
+qstr_Tilt_right Tilt_right
+qstr_Next_troop Next_troop
+qstr_Zoom_in Zoom_in
+qstr_Rotate_up Rotate_up
+qstr_Zoom_out Zoom_out
+qstr_Rotate_down Rotate_down
+qstr_Rotate_left Rotate_left
+qstr_Rotate_right Rotate_right
+qstr_Press_a_key Press_a_key
+qstr__Next_pay_day:_{s1} _Next_pay_day:_{s1}
+qstr_{s1}^^Affiliated_to_ {s1}^^Affiliated_to_{s5}
+qstr_{!}{s4}:_M{reg3}_2M {!}{s4}:_M{reg3},_2M{reg4},_PC{reg5},_2PC{reg6},_PM{reg7}
+qstr_You_came_into_the_wo You_came_into_the_world_a_{reg3?daughter:son}_of_declining_nobility,_owning_only_the_house_in_which_they_lived._However,_despite_your_family's_hardships,_they_afforded_you_a_good_education_and_trained_you_from_childhood_for_the_rigors_of_aristocracy_and_life_at_court.
+qstr_You_were_born_the_{r You_were_born_the_{reg3?daughter:son}_of_travelling_merchants,_always_moving_from_place_to_place_in_search_of_a_profit._Although_your_parents_were_wealthier_than_most_and_educated_you_as_well_as_they_could,_you_found_little_opportunity_to_make_friends_on_the_road,_living_mostly_for_the_moments_when_you_could_sell_something_to_somebody.
+qstr_As_a_child_your_fam As_a_child,_your_family_scrabbled_out_a_meagre_living_from_your_father's_wages_as_a_guardsman_to_the_local_lord._It_was_not_an_easy_existence,_and_you_were_too_poor_to_get_much_of_an_education._You_learned_mainly_how_to_defend_yourself_on_the_streets,_with_or_without_a_weapon_in_hand.
+qstr_{reg3?daughter:son} {reg3?daughter:son}
+qstr_You_were_the_{reg3?d You_were_the_{reg3?daughter:son}_of_a_family_who_lived_off_the_woods,_doing_whatever_they_needed_to_make_ends_meet._Hunting,_woodcutting,_making_arrows,_even_a_spot_of_poaching_whenever_things_got_tight._Winter_was_never_a_good_time_for_your_family_as_the_cold_took_animals_and_people_alike,_but_you_always_lived_to_see_another_dawn,_though_your_brothers_and_sisters_might_not_be_so_fortunate.
+qstr_You_were_a_child_of_ You_were_a_child_of_the_steppe,_born_to_a_tribe_of_wandering_nomads_who_lived_in_great_camps_throughout_the_arid_grasslands._Like_the_other_tribesmen,_your_family_revered_horses_above_almost_everything_else,_and_they_taught_you_how_to_ride_almost_before_you_learned_how_to_walk._
+qstr_As_the_{reg3?daughte As_the_{reg3?daughter:son}_of_a_thief,_you_had_very_little_'formal'_education._Instead_you_were_out_on_the_street,_begging_until_you_learned_how_to_cut_purses,_cutting_purses_until_you_learned_how_to_pick_locks,_all_the_way_through_your_childhood._Still,_these_long_years_made_you_streetwise_and_sharp_to_the_secrets_of_cities_and_shadowy_backways.
+qstr_As_a_{reg3?girl:boy} As_a_{reg3?girl:boy}_growing_out_of_childhood,_you_were_sent_to_live_in_the_court_of_one_of_the_nobles_of_the_land._There,_your_first_lessons_were_in_humility,_as_you_waited_upon_the_lords_and_ladies_of_the_household._But_from_their_chess_games,_their_gossip,_even_the_poetry_of_great_deeds_and_courtly_love,_you_quickly_began_to_learn_about_the_adult_world_of_conflict_and_competition._You_also_learned_from_the_rough_games_of_the_other_children,_who_battered_at_each_other_with_sticks_in_imitation_of_their_elders'_swords.
+qstr_As_a_{reg3?girl:boy}_ As_a_{reg3?girl:boy}_growing_out_of_childhood,_you_apprenticed_with_a_local_craftsman_to_learn_a_trade._After_years_of_hard_work_and_study_under_your_new_master,_he_promoted_you_to_journeyman_and_employed_you_as_a_fully_paid_craftsman_for_as_long_as_you_wished_to_stay.
+qstr_As_a_{reg3?girl:boy}_g As_a_{reg3?girl:boy}_growing_out_of_childhood,_you_apprenticed_to_a_wealthy_merchant,_picking_up_the_trade_over_years_of_working_shops_and_driving_caravans._You_soon_became_adept_at_the_art_of_buying_low,_selling_high,_and_leaving_the_customer_thinking_they'd_got_the_better_deal.
+qstr_As_a_{reg3?girl:boy}_gr As_a_{reg3?girl:boy}_growing_out_of_childhood,_you_took_to_the_streets,_doing_whatever_you_must_to_survive._Begging,_thieving_and_working_for_gangs_to_earn_your_bread,_you_lived_from_day_to_day_in_this_violent_world,_always_one_step_ahead_of_the_law_and_those_who_wished_you_ill.
+qstr_As_a_{reg3?girl:boy}_gro As_a_{reg3?girl:boy}_growing_out_of_childhood,_you_rode_the_great_steppes_on_a_horse_of_your_own,_learning_the_ways_of_the_grass_and_the_desert._Although_you_sometimes_went_hungry,_you_became_a_skillful_hunter_and_pathfinder_in_this_trackless_country._Your_body_too_started_to_harden_with_muscle_as_you_grew_into_the_life_of_a_nomad_{reg3?woman:man}.
+qstr_{reg3?daughter:man} {reg3?daughter:man}
+qstr_Though_the_distincti Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{reg3?woman:man},_and_the_whole_world_seemed_to_change_around_you._When_you_were_named_squire_to_a_noble_at_court,_you_practiced_long_hours_with_weapons,_learning_how_to_deal_out_hard_knocks_and_how_to_take_them,_too._You_were_instructed_in_your_obligations_to_your_lord,_and_of_your_duties_to_those_who_might_one_day_be_your_vassals._But_in_addition_to_learning_the_chivalric_ideal,_you_also_learned_about_the_less_uplifting_side_--_old_warriors'_stories_of_ruthless_power_politics,_of_betrayals_and_usurpations,_of_men_who_used_guile_as_well_as_valor_to_achieve_their_aims.
+qstr_{reg3?woman:man} {reg3?woman:man}
+qstr_Though_the_distinctio Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{s13},_and_the_whole_world_seemed_to_change_around_you._You_joined_the_tightly-knit_circle_of_women_at_court,_ladies_who_all_did_proper_ladylike_things,_the_wives_and_mistresses_of_noble_men_as_well_as_maidens_who_had_yet_to_find_a_husband._However,_even_here_you_found_politics_at_work_as_the_ladies_schemed_for_prominence_and_fought_each_other_bitterly_to_catch_the_eye_of_whatever_unmarried_man_was_in_fashion_at_court._You_soon_learned_ways_of_turning_these_situations_and_goings-on_to_your_advantage._With_it_came_the_realisation_that_you_yourself_could_wield_great_influence_in_the_world,_if_only_you_applied_yourself_with_a_little_bit_of_subtlety.
+qstr_Though_the_distinction Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{s13},_and_the_whole_world_seemed_to_change_around_you._You_set_out_on_your_own_with_nothing_except_the_instrument_slung_over_your_back_and_your_own_voice._It_was_a_poor_existence,_with_many_a_hungry_night_when_people_failed_to_appreciate_your_play,_but_you_managed_to_survive_on_your_music_alone._As_the_years_went_by_you_became_adept_at_playing_the_drunken_crowds_in_your_taverns,_and_even_better_at_talking_anyone_out_of_anything_you_wanted.
+qstr_Though_the_distinction_ Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{reg3?woman:man},_and_the_whole_world_seemed_to_change_around_you._You_found_yourself_as_a_student_in_the_university_of_one_of_the_great_cities,_where_you_studied_theology,_philosophy,_and_medicine._But_not_all_your_lessons_were_learned_in_the_lecture_halls._You_may_or_may_not_have_joined_in_with_your_fellows_as_they_roamed_the_alleys_in_search_of_wine,_women,_and_a_good_fight._However,_you_certainly_were_able_to_observe_how_a_broken_jaw_is_set,_or_how_an_angry_townsman_can_be_persuaded_to_set_down_his_club_and_accept_cash_compensation_for_the_destruction_of_his_shop.
+qstr_Though_the_distinction_f Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{s13},_and_the_whole_world_seemed_to_change_around_you._Heeding_the_call_of_the_open_road,_you_travelled_from_village_to_village_buying_and_selling_what_you_could._It_was_not_a_rich_existence,_but_you_became_a_master_at_haggling_even_the_most_miserly_elders_into_giving_you_a_good_price._Soon,_you_knew,_you_would_be_well-placed_to_start_your_own_trading_empire...
+qstr_Though_the_distinction_fe Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{s13},_and_the_whole_world_seemed_to_change_around_you._You_pursued_a_career_as_a_smith,_crafting_items_of_function_and_beauty_out_of_simple_metal._As_time_wore_on_you_became_a_master_of_your_trade,_and_fine_work_started_to_fetch_fine_prices._With_food_in_your_belly_and_logs_on_your_fire,_you_could_take_pride_in_your_work_and_your_growing_reputation.
+qstr_Though_the_distinction_fel Though_the_distinction_felt_sudden_to_you,_somewhere_along_the_way_you_had_become_a_{s13},_and_the_whole_world_seemed_to_change_around_you._Dissatisfied_with_common_men's_desperate_scrabble_for_coin,_you_took_to_your_local_lord's_own_forests_and_decided_to_help_yourself_to_its_bounty,_laws_be_damned._You_hunted_stags,_boars_and_geese_and_sold_the_precious_meat_under_the_table._You_cut_down_trees_right_under_the_watchmen's_noses_and_turned_them_into_firewood_that_warmed_many_freezing_homes_during_winter._All_for_a_few_silvers,_of_course.
+qstr_Only_you_know_exactl Only_you_know_exactly_what_caused_you_to_give_up_your_old_life_and_become_an_adventurer._Still,_it_was_not_a_difficult_choice_to_leave,_with_the_rage_burning_brightly_in_your_heart._You_want_vengeance._You_want_justice._What_was_done_to_you_cannot_be_undone,_and_these_debts_can_only_be_paid_in_blood...
+qstr_Only_you_know_exactly Only_you_know_exactly_what_caused_you_to_give_up_your_old_life_and_become_an_adventurer._All_you_can_say_is_that_you_couldn't_bear_to_stay,_not_with_the_memories_of_those_you_loved_so_close_and_so_painful._Perhaps_your_new_life_will_let_you_forget,_or_honour_the_name_that_you_can_no_longer_bear_to_speak...
+qstr_Only_you_know_exactly_ Only_you_know_exactly_what_caused_you_to_give_up_your_old_life_and_become_an_adventurer._You're_not_even_sure_when_your_home_became_a_prison,_when_the_familiar_became_mundane,_but_your_dreams_of_wandering_have_taken_over_your_life._Whether_you_yearn_for_some_faraway_place_or_merely_for_the_open_road_and_the_freedom_to_travel,_you_could_no_longer_bear_to_stay_in_the_same_place._You_simply_went_and_never_looked_back...
+qstr_Only_you_know_exactly_w Only_you_know_exactly_what_caused_you_to_give_up_your_old_life_and_become_an_adventurer._However,_you_know_you_cannot_go_back._There's_nothing_to_go_back_to._Whatever_home_you_may_have_had_is_gone_now,_and_you_must_face_the_fact_that_you're_out_in_the_wide_wide_world._Alone_to_sink_or_swim...
+qstr_Only_you_know_exactly_wh Only_you_know_exactly_what_caused_you_to_give_up_your_old_life_and_become_an_adventurer._To_everyone_else,_it's_clear_that_you're_now_motivated_solely_by_personal_gain._You_want_to_be_rich,_powerful,_respected,_feared._You_want_to_be_the_one_whom_others_hurry_to_obey._You_want_people_to_know_your_name,_and_tremble_whenever_it_is_spoken._You_want_everything,_and_you_won't_let_anyone_stop_you_from_having_it...
+qstr_Back_to_the_beginnin Back_to_the_beginning...
+qstr_View_next_segment... View_next_segment...
+qstr_{!}__ {!}_-
+qstr_{!}_+ {!}_+
+qstr_^No_food:___{reg7} ^No_food:__-{reg7}
+qstr_^Wage_debt:___{reg6} ^Wage_debt:__-{reg6}
+qstr_{!}{s1}^{s4}:_{reg4} {!}{s1}^{s4}:_{reg4}
+qstr_{!}DEBUG____{s1}^NPC {!}DEBUG_--_{s1}^NPC_in_rejoin_queue:_{s5}^
+qstr_On_loan On_loan,
+qstr_{!}DEBUG:_{s4}_curre {!}DEBUG:_{s4}_current_mission:_{reg2},_days_on_mission:_{reg3},_prisoner:_{reg4},_pphistory:_{reg5}
+qstr_Appoint_next_marshal Appoint_next_marshal
+qstr_Award_{s12}_as_fief Award_{s12}_as_fief
+qstr_{!}Error__{reg3}_ {!}Error_({reg3})
+qstr_{!}{s10}^Faction_pol {!}{s10}^Faction_political_issue:_{s11}
+qstr_{!}{s10}__on_agenda_ {!}{s10}_(on_agenda_{reg4}_hours)
+qstr_{!}Defending {!}Defending
+qstr_{!}Gathering_army {!}Gathering_army
+qstr_{!}Besieging_{s11} {!}Besieging_{s11}
+qstr_{!}Raiding_{s11} {!}Raiding_{s11}
+qstr_{!}Attacking_enemies {!}Attacking_enemies_around_{s11}
+qstr_No_one No_one
+qstr_{!}{s12}__controvers {!}{s12}_(controversy:_{reg21})
+qstr_{!}{s12}^Screening_p {!}{s12}^Screening_party:_{s38}
+qstr_Selected_faction_is: Selected_faction_is:_{s10}^^{s9}
+qstr_You_are_currently_re You_are_currently_reading_{s8}.
+qstr_You_are_not_reading_ You_are_not_reading_any_books.
+qstr_{s5}_and_{s6} {s5}_and_{s6}
+qstr_{!}{s5}_{s6} {!}{s5},_{s6}
+qstr_Your_estates_are:_{s Your_estates_are:_{s8}.^{s9}
+qstr_Current_party_size_l Current_party_size_limit_is_{reg5}.^Current_party_size_modifiers_are:^^Base_size:__+30^Leadership:_{s2}{reg1}^Charisma:_{s3}{reg2}^Renown:_{s4}{reg3}^TOTAL:__{reg5}
+qstr_{!}{s2}^{s4}:_{reg1} {!}{s2}^{s4}:_{reg1}_({s3})
+qstr_Your_relation_with_t Your_relation_with_the_factions_are:^{s2}
+qstr_Player_renown_is_inc Player_renown_is_increased_by_100._
+qstr_Player_honor_is_incr Player_honor_is_increased_by_1_and_it_is_now_{reg7}.
+qstr_{reg1}_{s1}_{reg2?ac {reg1}_{s1}_{reg2?accept:accepts}_the_offer.
+qstr_No_one_accepts_the_o No_one_accepts_the_offer.
+qstr_You_start_reading_{s You_start_reading_{s2}._After_a_few_pages,_you_feel_you_could_learn_a_lot_from_this_book._You_decide_to_keep_it_close_by_and_read_whenever_you_have_the_time.
+qstr_You_flip_through_the You_flip_through_the_pages_of_{s2},_but_you_find_the_text_confusing_and_difficult_to_follow._Try_as_you_might,_it_soon_gives_you_a_headache,_and_you're_forced_to_give_up_the_attempt.
+qstr_Being_Driven Being_Driven
+qstr_Grazing Grazing
+qstr_Villagers Villagers
+qstr_You_have_encountered You_have_encountered_{s1}.
+qstr_You_have_engaged_{s1 You_have_engaged_{s1}_while_they_were_raiding_{s3}.
+qstr_You_were_caught_by_{ You_were_caught_by_{s1}_while_your_forces_were_raiding_{s3}.
+qstr_You_were_victorious! You_were_victorious!
+qstr_Battle_was_lost._You Battle_was_lost._Your_forces_were_utterly_crushed.
+qstr_Your_companions_carr Your_companions_carry_you_away_from_the_fighting.
+qstr_You_have_defeated_th You_have_defeated_the_enemy.
+qstr_You_have_retreated_f You_have_retreated_from_the_fight.
+qstr_^^Ally_Casualties:{s ^^Ally_Casualties:{s0}
+qstr_{!}{s4}_skipped_in_p {!}{s4}_skipped_in_p_total_enemy_casualties_capture_queue_because_is_friendly
+qstr_{s1}_of_{s3}_managed {s1}_of_{s3}_managed_to_escape.
+qstr_{!}{s17} {!}{s17}
+qstr_{!}Victory_comment._ {!}Victory_comment._Player_was_alone
+qstr_{!}Ordinary_victory_ {!}Ordinary_victory_comment._The_player_provided_at_least_40_percent_forces.
+qstr_{!}Player_participat {!}Player_participation_comment._The_enemy_had_at_least_1k_starting_strength.
+qstr_{!}No_victory_commen {!}No_victory_comment._The_battle_was_small,_and_the_player_provided_less_than_40_percent_of_allied_strength
+qstr_Some_of_your_tendons Some_of_your_tendons_have_been_damaged_in_the_battle._You_lose_1_strength.
+qstr_You_took_a_nasty_wou You_took_a_nasty_wound_which_will_cause_you_to_limp_slightly_even_after_it_heals._You_lose_1_agility.
+qstr_You_have_trouble_thi You_have_trouble_thinking_straight_after_the_battle,_perhaps_from_a_particularly_hard_hit_to_your_head,_and_frequent_headaches_now_plague_your_existence._Your_intelligence_is_reduced_by_1.
+qstr_Perhaps_I_m_getting_ Perhaps_I'm_getting_unlucky...
+qstr_Retirement_is_starti Retirement_is_starting_to_sound_better_and_better.
+qstr_No_matter!_I_will_pe No_matter!_I_will_persevere!
+qstr_What_did_I_do_to_des What_did_I_do_to_deserve_this?
+qstr_I_suppose_it_ll_make I_suppose_it'll_make_for_a_good_story,_at_least...
+qstr_{s9}_wants_you_to_fol {s9}_wants_you_to_follow_{reg0?her:his}_army_until_further_notice.
+qstr_{s8}_of_{s9} {s8}_of_{s9}
+qstr_liege liege
+qstr_former_liege former_liege
+qstr_affiliate affiliate
+qstr_former_companion former_companion
+qstr_marshall marshall
+qstr_vassal vassal
+qstr__Your_own_banner_fli _Your_own_banner_flies_over_the_castle_gate.
+qstr__You_see_the_banner_ _You_see_the_banner_of_your_{s11}_{s7}_over_the_castle_gate.
+qstr__You_see_the_banner_o _You_see_the_banner_of_{s7}_over_the_castle_gate.
+qstr__Your_own_banner_flie _Your_own_banner_flies_over_the_town_gates.
+qstr__You_see_the_banner_of _You_see_the_banner_of_your_{s11}_{s7}_over_the_town_gates.
+qstr__You_see_the_banner_of_ _You_see_the_banner_of_{s7}_over_the_town_gates.
+qstr_The_{reg6?town_s:cas The_{reg6?town's:castle's}_food_stores_should_last_for_{reg3}_more_days.
+qstr_The_{reg6?town_s:cast The_{reg6?town's:castle's}_food_stores_have_run_out_and_the_defenders_are_starving.
+qstr_You_re_preparing_to_ You're_preparing_to_attack_the_walls,_the_work_should_finish_in_{reg9}_hours.
+qstr_Your_forces_are_buil Your_forces_are_building_a_siege_tower._They_estimate_another_{reg9}_hours_to_complete_the_build.
+qstr_You_are_ready_to_att You_are_ready_to_attack_the_walls_at_any_time.
+qstr_The_siege_tower_is_b The_siege_tower_is_built_and_ready_to_make_an_assault.
+qstr_As_a_last_defensive_ As_a_last_defensive_effort,_you_retreat_to_the_main_hall_of_the_keep._You_and_your_remaining_soldiers_will_put_up_a_desperate_fight_here._If_you_are_defeated,_there's_no_other_place_to_fall_back_to.
+qstr_You_ve_been_driven_a You've_been_driven_away_from_the_walls._Now_the_attackers_are_pouring_into_the_streets._IF_you_can_defeat_them,_you_can_perhaps_turn_the_tide_and_save_the_day.
+qstr_You_ve_breached_the_ You've_breached_the_town_walls,_but_the_stubborn_defenders_continue_to_resist_you_in_the_streets!_You'll_have_to_deal_with_them_before_you_can_attack_the_keep_at_the_heart_of_the_town.
+qstr_The_town_centre_is_y The_town_centre_is_yours,_but_the_remaining_defenders_have_retreated_to_the_castle._It_must_fall_before_you_can_complete_your_victory.
+qstr_The_remaining_defend The_remaining_defenders_have_retreated_to_the_castle_as_a_last_defense._You_must_go_in_and_crush_any_remaining_resistance.
+qstr_However_since_you_a However,_since_you_are_not_a_sworn_{man/follower}_of_{s9},_there_is_no_chance_{reg0?she:he}_would_recognize_you_as_the_{lord/lady}_of_this_{reg8?town:castle}.
+qstr_The_enemy_has_been_f The_enemy_has_been_forced_to_retreat._The_assault_is_over,_but_the_siege_continues.
+qstr_As_you_approach_you As_you_approach,_you_are_spotted_by_the_castle_guards,_who_welcome_you_and_open_the_gates_for_their_{s10}.
+qstr_As_you_approach_you_ As_you_approach,_you_are_spotted_by_the_castle_guards,_who_welcome_you_and_open_the_gates_for_their_{king/queen}.
+qstr_As_you_approach_you_a As_you_approach,_you_are_spotted_by_the_castle_guards,_who_welcome_you_and_open_the_gates_for_their_{lord/lady}.
+qstr_{!}Prosperity:_{reg4 {!}Prosperity:_{reg4}
+qstr__This_village_and_th _This_village_and_the_surrounding_lands_belong_to_you.
+qstr__You_remember_that_t _You_remember_that_this_village_and_the_surrounding_lands_belong_to_your_{s11}_{s7}.
+qstr__You_remember_that_th _You_remember_that_this_village_and_the_surrounding_lands_belong_to_{s7}.
+qstr__These_lands_belong_ _These_lands_belong_to_no_one.
+qstr_{!}_{s3}__{reg9}_. {!}_{s3}_({reg9}).
+qstr__The_village_is_infe _The_village_is_infested_by_{reg8}_{s35}.
+qstr__The_peasants_hired_ _The_peasants_hired_mercenaries_and_are_rebelling_against_you.
+qstr__The_village_has_bee _The_village_has_been_looted._A_handful_of_souls_scatter_as_you_pass_through_the_burnt_out_houses.
+qstr__The_village_is_bein _The_village_is_being_raided.
+qstr_No_one_here_seems_to No_one_here_seems_to_be_willing_to_join_your_party.
+qstr_One_{s3}_volunteers_ One_{s3}_volunteers_to_follow_you.
+qstr_{reg5}_{s3}_voluntee {reg5}_{s3}_volunteer_to_follow_you.
+qstr_Try_as_you_might_yo Try_as_you_might,_you_could_not_defeat_the_bandits._Infuriated,_they_raze_the_village_to_the_ground_to_punish_the_peasants,_and_then_leave_the_burning_wasteland_behind_to_find_greener_pastures_to_plunder.
+qstr_The_{s17}_has_the_fol The_{s17}_has_the_following_improvements:{s18}.
+qstr_The_assasins_beat_yo The_assasins_beat_you_down_and_leave_you_for_dead._.
+qstr_You_have_fallen._The You_have_fallen._The_bandits_quickly_search_your_body_for_every_coin_they_can_find,_then_vanish_into_the_night._They_have_left_you_alive,_if_only_barely.
+qstr_Luckily_some_of_your Luckily_some_of_your_companions_come_to_search_for_you_when_you_do_not_return,_and_find_you_lying_by_the_side_of_the_road._They_hurry_you_to_safety_and_dress_your_wounds.
+qstr_Luckily_some_passing Luckily_some_passing_townspeople_find_you_lying_by_the_side_of_the_road,_and_recognise_you_as_something_other_than_a_simple_beggar._They_carry_you_to_the_nearest_inn_and_dress_your_wounds.
+qstr_You_fail_to_steal_an You_fail_to_steal_any_cattle.
+qstr_You_drive_away_{reg1 You_drive_away_{reg17}_{reg12?heads:head}_of_cattle_from_the_village's_herd.
+qstr_{!}DEBUG____Prosperi {!}DEBUG_--_Prosperity:_{reg4}
+qstr_You_are_at_{s2}. You_are_at_{s2}.
+qstr__This_castle_has_no_ _This_castle_has_no_garrison.
+qstr__The_banner_of_your_ _The_banner_of_your_{s11}_{s7}_flies_over_the_town_gates.
+qstr__This_town_has_no_ga _This_town_has_no_garrison.
+qstr__You_have_successful _You_have_successfully_sneaked_in.
+qstr_{s13}_A_tournament_w {s13}_A_tournament_will_be_held_here_soon.
+qstr_{!}DEBUG___Current_t {!}DEBUG_-_Current_town_is_{s3},_but_also_checking_{s4}
+qstr___{reg1}_denars_per_ _({reg1}_denars_per_night)
+qstr_Moreover_you_earn_{ Moreover,_you_earn_{reg8}_denars_from_the_clever_bets_you_placed_on_yourself...
+qstr_Victory_is_yours!_Yo Victory_is_yours!_You_have_won_this_melee,_but_now_you_must_prepare_yourself_for_the_next_round._
+qstr_You_have_been_bested You_have_been_bested_in_this_melee,_but_the_master_of_ceremonies_declares_a_recognition_of_your_skill_and_bravery,_allowing_you_to_take_part_in_the_next_round._
+qstr_{!}{s11}^{s12} {!}{s11}^{s12}
+qstr_You_were_beaten._The You_were_beaten._The_peasants_are_heartened_by_their_success,_but_the_lesson_you_wanted_to_teach_them_probably_didn't_get_through...
+qstr_After_beating_your_l After_beating_your_last_opponent,_you_explain_to_the_peasants_how_to_better_defend_themselves_against_such_an_attack._Hopefully_they'll_take_the_experience_on_board_and_will_be_prepared_next_time.
+qstr_The_bandits_are_brok The_bandits_are_broken!_Those_few_who_remain_alive_and_conscious_run_off_with_their_tails_between_their_legs,_terrified_of_the_peasants_and_their_new_champion.
+qstr_{s1}_s_Ship {s1}'s_Ship
+qstr_{!}DEBUG___{s1} {!}DEBUG_-_{s1}
+qstr_However_{reg3?You_a However,_{reg3?You_are:{s1}_is}_unable_to_find_any_trade_goods_that_would_bring_a_profit.
+qstr_^Buying_{s4}_here_an ^Buying_{s4}_here_and_selling_it_at_{s5}_would_bring_a_profit_of_{reg6}_denars_per_item.{s3}
+qstr_{reg3?You_find:{s1}_ {reg3?You_find:{s1}_finds}_out_the_following:^{s3}
+qstr_{s2}^{reg1}_{s1}_ear {s2}^{reg1}_{s1}_earned_{reg0}_experience.
+qstr_{s2}^{s1}_earned_an_ {s2}^{s1}_earned_an_additional_{reg0}_experience.
+qstr_^You_earned_{reg0}_e ^You_earned_{reg0}_experience.{s2}
+qstr_The_training_didn_t_ The_training_didn't_go_well_at_all.
+qstr_The_training_didn_t_g The_training_didn't_go_very_well.
+qstr_The_training_went_qu The_training_went_quite_well.
+qstr_The_training_went_ve The_training_went_very_well.
+qstr_The_training_went_pe The_training_went_perfectly.
+qstr_{s13}_asked_you_to_r {s13}_asked_you_to_report_to_{reg4?her:him}_with_at_least_{reg13}_troops.
+qstr_{s13}_ordered_you_to {s13}_ordered_you_to_join_the_assault_against_{s14}.
+qstr_Find_and_speak_with_{ Find_and_speak_with_{s3}_of_{s4}_to_give_{reg4?her:him}_your_oath_of_homage.
+qstr_There_has_been_an_al There_has_been_an_alleged_border_incident:_{s9}
+qstr_{!}{s11}{s12} {!}{s11}{s12}
+qstr_{!}DEBUG____Hours_si {!}DEBUG_--_Hours_since_last_feast_started:_{reg4}
+qstr_^^Note_that_so_long_ ^^Note_that_so_long_as_you_remain_marshal,_the_lords_of_the_realm_will_be_expecting_you_to_lead_them_on_campaign._So,_if_you_are_awaiting_a_feast,_either_for_a_wedding_or_for_other_purposes,_you_may_wish_to_resign_the_marshalship_by_speaking_to_your_liege.
+qstr_Try_as_you_might_you Try_as_you_might,_you_could_not_defeat_the_rebelling_village.
+qstr_{reg0} {reg0}
+qstr_positive positive
+qstr_negative negative
+qstr_{s11}^^_The_current_ {s11}^^_The_current_garrison_consists_of_{reg5}_men.^The_food_stock_lasts_for_{reg6}_days.
+qstr_^^Additional_the_fol ^^Additional_the_following_parties_are_currently_inside:^
+qstr_{s12}_{s3}_with_{reg {s12}_{s3}_with_{reg1}_troops.^
+qstr_{playername}_^^I_al {playername},_^^I_always_knew_you_were_a_bad_egg,_since_the_day_you_have_pledged_allegiance_to_my_clan._^Did_you_really_think_you_could_set_my_family_against_me?_You've_dropped_your_mask,_you_snake!_You_are_an_infliction,_and_I_will_not_bear_it_anymore._^Hereby,_I_disown_and_ban_you_from_my_house._I_have_urged_my_family_to_fight_you,_and_I_will_warn_Calradia_lords_about_your_infamy._^Tremble_with_fear,_you_have_a_deadly_enemy!_^^{s9}.
+qstr_{playername}^^_I_ve {playername},^^_I've_received_a_letter_from_{s9},_telling_me_about_your_disgraceful_jiggery-pokery._In_the_present_circumstances,_{s9}_could_not_provide_evidence._But_unlike_you,_{reg1?she:he}_is_a_distinguished_member_of_my_family;_and_since_all_these_years,_I_never_had_any_reason_to_distrust_{reg1?her:him}._I_take_{reg1?her:him}_charges_for_granted._^Hopefully,_you_failed_to_breakup_my_family_unit._Hereby_I_reject_your_pledge_:_you_are_no_longer_related_to_my_house._Each_membership_will_retaliate_against_you_in_all_conscience..._^I_would_be_ashamed_to_confess_how_you_maliciously_fooled_me,_so_I_will_not_challenge_you,_to_not_be_accountable_for_your_death_to_my_{s11}._However_I'm_not_used_to_telling_{reg0?her:him}_about_every_rat_I_crush_in_the_wilderness,_and_someday_I_may_find_you_there_!_^^{s10}
+qstr_{!}{s0}^^_WARNING:_U {!}{s0}^^_WARNING:_Unexpected_version_value_in_slot_dplmc_slot_troop_affiliated_in_trp_dplmc_chamberlain:_{reg0}
+qstr_{!}{s0}^^_DEBUG:_Int {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_160101.
+qstr_{playername} {playername}
+qstr_Troops:_{reg1} Troops:_{reg1}
+qstr_Prosperity_Report^ Prosperity_Report^
+qstr_Total Total
+qstr_{s0}^{s1}_Average_To {s0}^{s1}_Average_Town_Prosperity:_{reg0}
+qstr_{s0}^{s1}_towns_with {s0}^{s1}_towns_with_prosperity_80-100:_{reg0}
+qstr_{s0}^{s1}_towns_with_ {s0}^{s1}_towns_with_prosperity_60-79:_{reg0}
+qstr_{s0}^{s1}_towns_with_p {s0}^{s1}_towns_with_prosperity_40-59:_{reg0}
+qstr_{s0}^{s1}_towns_with_pr {s0}^{s1}_towns_with_prosperity_20-39:_{reg0}
+qstr_{s0}^{s1}_towns_with_pro {s0}^{s1}_towns_with_prosperity_0-19:_{reg0}
+qstr_{!}{s0}^ {!}{s0}^
+qstr_{s0}^{s1}_Average_Vi {s0}^{s1}_Average_Village_Prosperity:_{reg0}
+qstr_{s0}^{s1}_villages_w {s0}^{s1}_villages_with_prosperity_80-100:_{reg0}
+qstr_{s0}^{s1}_villages_wi {s0}^{s1}_villages_with_prosperity_60-79:_{reg0}
+qstr_{s0}^{s1}_villages_wit {s0}^{s1}_villages_with_prosperity_40-59:_{reg0}
+qstr_{s0}^{s1}_villages_with {s0}^{s1}_villages_with_prosperity_20-39:_{reg0}
+qstr_{s0}^{s1}_villages_with_ {s0}^{s1}_villages_with_prosperity_0-19:_{reg0}
+qstr_cut cut
+qstr_pierce pierce
+qstr_blunt blunt
+qstr_Damage_preference Damage_preference
+qstr_Item_meta_type Item_meta-type
+qstr_Upgrade_armor Upgrade_armor
+qstr_Upgrade_horse Upgrade_horse
+qstr_damage_type_changed_ damage_type_changed_from_{reg3},_slot_{reg2}_now_{reg1}
+qstr_damage_type_changed_f damage_type_changed_from_{reg1},_slot_{reg2}_now_{reg3}
+qstr_meta_type_changed_fr meta_type_changed_from_{reg1},_slot_{reg2}_now_{reg3}
+qstr_finding_best_{reg2} finding_best_{reg2},{reg1},{reg0}_for_{s1}
+qstr_found_{s0}_better_va found_{s0}_better_value_{reg0}_for_{s1}
+qstr_upgrading_slot_{reg2 upgrading_slot_{reg2}_with_{reg0},_cur_score_{reg1}
+qstr_upgrading_slot_{reg2} upgrading_slot_{reg2}_with_{reg0},_cur_score_for_{s1}:_{reg1}
+qstr_{s1}_better_than_{s2 {s1}_better_than_{s2},_score_of_{reg1}
+qstr_sworn_{man/woman} sworn_{man/woman}
+qstr_free_{man/woman} free_{man/woman}
+qstr_{s1}{s2}_{reg46?Reput {s1}{s2}_{reg46?Reputed_to_be_{s42}:}^Renown:_{reg40},_Controversy:_{reg41}_{reg46?Impatience:_{reg43}:}^{reg44?{s44}_n:N}oble_of_the_{s45}^{reg46?Liege:_{s46},_Relation:_{reg47}:Ruler_of_the_{s45}}^^{reg48?Currently_prisoner_of_the_{s48}:}^Days_since_last_meeting:_{reg49}^^Fiefs_{reg51?(was_promised_a_fief):}:^__{reg50?{s50}:no_fief}
+qstr_High_centralization_r High_centralization_reduces_tax_inefficiency_for_the_king_and_raises_it_for_vassals._This_will_interfere_with_relations_between_ruler_and_vassals.
+qstr_{s10}s {s10}s
+qstr_{s1}{s2}_{reg46?Repute {s1}{s2}_{reg46?Reputed_to_be_{s42}:}^Renown:_{reg40},_Controversy:_{reg41}_{reg46?Impatience:_{reg43}:}^{reg46?{reg44?{s44}_noble:Noble}_of_the_{s45}^Liege:_{s46},_Relation:_{reg47}:Ruler_of_the_{s45}}^^{reg48?Currently_prisoner_of_the_{s48}:}^Days_since_last_meeting:_{reg49}^^Fiefs_{reg51?(was_promised_a_fief):}:^__{reg50?{s50}:no_fief}
+qstr_next_weapons next_weapons
+qstr_swapping_weapons swapping_weapons
+qstr_to_{s1} to_{s1}
+qstr_our_realm our_realm
+qstr_Agreed!_Your_words_co Agreed!_Your_words_convince_me_as_much_as_your_{s10}.
+qstr_May_God_have_mercy_on May_God_have_mercy_on_the_souls_of_our_enemies,_because_we_won't!
+qstr__I_will_appreciate_yo _I_will_appreciate_you_as_much_as_a_{son/daughter}.
+qstr_I_accept_your_request I_accept_your_request._We_will_back_you_if_you_in_turn_support_my_family.
+qstr_Since_you_are_worthy Since_you_are_worthy_of_our_esteem,_you_are_welcome_to_our_family.
+qstr_Your_leader_is_not_ev Your_leader_is_not_even_a_{reg0?queen:king}_and_I_shall_join_you?
+qstr_{!}DEBUG_:_emissary_s {!}DEBUG_:_emissary_spotting:_{reg0}_random_{reg1}
+qstr_You_have_raised_{reg You_have_raised_{reg0/reg1}_denars_for_the_ransom
+qstr_{s1}_at_the_behest_o {s1}_at_the_behest_of_{s2}
+qstr_Your_caravan_sending_ Your_caravan_sending_{s12}_to_{s13}_has_been_looted{s10}!
+qstr_Your_messenger_on_the Your_messenger_on_the_way_to_{s13}_has_been_ambushed{s10}!
+qstr_Reinforcements_from_ Reinforcements_from_{s12}_intended_for_{s13}_have_been_intercepted_{s10}!
+qstr_You_can_find_{s10}s_ You_can_find_{s10}s_at_{s11}.
+qstr_Sell_items_automatica Sell_items_automatically_when_leaving:
+qstr_You_have_raised_{reg0 You_have_raised_{reg0}_denars_for_the_ransom
+qstr_You_are_unable_to_pa You_are_unable_to_pay_for_accommodation!
+qstr_High_mercantilistic_ High_mercantilistic_policies_maximize_exports_while_minimizing_imports,_and_increase_government_regulation_of_industry.
+qstr_Our_kingdom_currently Our_kingdom_currently_has_{reg2}_soldiers_garrisoned_in
+qstr_{s6}_{reg2}_{reg1?to {s6}_{reg2}_{reg1?towns:town}{reg3?_and:.}
+qstr_{s6}_{reg3}_castles. {s6}_{reg3}_castles.
+qstr_{s6}_garrisoned_in_{r {s6}_garrisoned_in_{reg2?{reg2}_towns:}{reg2?{reg3?:_and_}:}{reg3?{reg3}_castles:}.
+qstr_Your_messenger_has_lo Your_messenger_has_lost_its_way_and_gave_up_your_mission!
+qstr_{s1}_at_{s2} {s1}_at_{s2}
+qstr_{s9}{reg5?_and_the_lo {s9}{reg5?_and_the_lord_of_{s8}:}.
+qstr_{s13}_asked_you_to_de {s13}_asked_you_to_deal_with_the_{s12}_who_are_occupying_the_village_of_{s15}_and_then_report_back_to_{reg65?her:him}.
+qstr_Attach Attach
+qstr_Reinforce Reinforce
+qstr_Encounter Encounter
+qstr_Exchange Exchange
+qstr_Detach_{s1}_at_{reg1 Detach_{s1}_at_{reg1},{reg2}
+qstr_Detach_All Detach_All
+qstr_Win_Battle Win_Battle
+qstr_Lose_Battle Lose_Battle
+qstr_Wound_All Wound_All
+qstr_Heal_All Heal_All
+qstr_Spawn_Bandits Spawn_Bandits
+qstr_You_have_raised_{reg0} You_have_raised_{reg0}/{reg1}_denars_for_the_ransom
+qstr_Name:_{s1}^Level:_{re Name:_{s1}^Level:_{reg2}^HP:_{reg1}/{reg0}
+qstr_Please_select_a_comp Please_select_a_companion.
+qstr_Export/Import Export/Import
+qstr_Reselect_Banner Reselect_Banner
+qstr_{s2}^{s8}^_{s5}_ {s2}^{s8}^({s5})
+qstr_{s2}^{s1}of_{s0} {s2}^{s1}of_{s0}
+qstr_Name:_{s4}^Level:_{r Name:_{s4}^Level:_{reg3}^HP:_{reg2}/{reg0}^^{s0}
+qstr_Arms Arms
+qstr_Outfit Outfit
+qstr_Horse Horse
+qstr_Attributes: Attributes:
+qstr_{s3}^STR:_{reg1}^INT {s3}^STR:_{reg1}^INT:_{reg2}^^Skills:
+qstr_{s3}^Power_Strike:_{ {s3}^Power_Strike:_{reg1}^Power_Draw:_{reg2}^Power_Throw:_{reg3}^Horse_Archery:_{reg4}^^Proficiencies:
+qstr_{s3}^1_Hand_Wpns:_{r {s3}^1_Hand_Wpns:_{reg1}^2_Hand_Wpns:_{reg2}^Polearms:_{reg3}
+qstr_{s4}^^AGI:_{reg1}^CH {s4}^^AGI:_{reg1}^CHA:_{reg2}^^
+qstr_{s4}^Ironflesh:_{reg {s4}^Ironflesh:_{reg1}^Athletics:_{reg2}^Shield:_{reg3}^Riding:_{reg4}^^
+qstr_{s4}^Archery:_{reg1} {s4}^Archery:_{reg1}^Crossbows:_{reg2}^Throwing:_{reg3}
+qstr_Not_enough_money_in_t Not_enough_money_in_treasury_to_upgrade_{s6}.
+qstr_You_are_preferring_{ You_are_preferring_{s12}_units.
+qstr__and_the_additional_t _and_the_additional_trainers_of_{s13},_allowing_level_{reg13}_troops_to_be_promoted
+qstr_Please_select_a_hero Please_select_a_hero.
+qstr_{s7}^{s6}^{s5} {s7}^{s6}^{s5}
+qstr_{s3}^STR:_{reg1}^AGI {s3}^STR:_{reg1}^AGI:_{reg2}^INT:_{reg3}^CHA:_{reg4}
+qstr_{s3}^^Proficiencies: {s3}^^Proficiencies:^{s11}:_{reg1}^{s12}:_{reg2}^{s13}:_{reg3}^{s14}:_{reg4}^{s15}:_{reg5}^{s16}:_{reg6}
+qstr_Skills: Skills:
+qstr_{s4}^{s1}_:_{reg1} {s4}^{s1}_:_{reg1}
+qstr_Renown:_{reg1}^^Hono Renown:_{reg1}^^Honor:_{reg2}^^Right_to_rule:_{reg3}
+qstr_{s5}^{s6}^{s7} {s5}^{s6}^{s7}
+qstr_Renown:_{reg1}^Honor Renown:_{reg1}^Honor:_{reg2}^Right_to_rule:_{reg3}
+qstr_{s5}^^{s6}^^{s7} {s5}^^{s6}^^{s7}
+qstr__Renown:_{reg1}^_Hon _Renown:_{reg1}^_Honor:_{reg2}^_Right_to_rule:_{reg3}
+qstr__Renown:_{reg2}^{s2} _Renown:_{reg2}^{s2}^{s1}of_{s0}
+qstr_{s3}^^Proficiencies:^ {s3}^^Proficiencies:^1H_Weapons:_{reg1}^2h_Weapons:_{reg2}^{s13}:_{reg3}^{s14}:_{reg4}^{s15}:_{reg5}^Throwing:_{reg6}
+qstr_{s2}^{reg2?:{reg1}_} {s2}^{reg2?:{reg1}_}{s1}_earned_{reg0}_experience.
+qstr_{s3}^^Proficiencies:^1 {s3}^^Proficiencies:^1H_Weapons:_{reg1}^2H_Weapons:_{reg2}^{s13}:_{reg3}^{s14}:_{reg4}^{s15}:_{reg5}^Throwing:_{reg6}
+qstr_{s1}_at_{reg1} {s1}_at_{reg1}
+qstr_You_are_attacked_by_a You_are_attacked_by_a_group_of_{s1}!
+qstr_{s1}^{reg1}:_{reg0} {s1}^{reg1}:_{reg0}
+qstr_Inspect Inspect
+qstr_There_has_been_a_rio There_has_been_a_riot_in_{s6}!
+qstr__The_peasants_hired_{ _The_peasants_hired_{reg8}_mercenaries_and_are_rebelling_against_you.
+qstr__The_peasants_{reg8? _The_peasants_{reg8?hired_{reg8}_mercenaries_and_:}are_rebelling_against_you.
+qstr_{s1}_price_:_{reg2}_ {s1}_price_:_{reg2}_in_slot_{reg4},_probability:_{reg3};{reg1}_total
+qstr_{s11}_asked_you_to_fo {s11}_asked_you_to_follow_the_spy_that_will_leave_{s12}._Be_careful_not_to_let_the_spy_see_you_on_the_way,_or_{reg3?she:he}_may_get_suspicious_and_turn_back._Once_the_spy_meets_with_{reg3?her:his}_accomplice,_you_are_to_capture_them_and_bring_them_back_to_{s11}.
+qstr_{reg4?She:He}_is_not_ {reg4?She:He}_is_not_commanding_any_soldiers_at_the_moment.
+qstr_Captured_{reg1}_vill Captured_{reg1}_villagers.
+qstr_The_village_of_{s1}_h The_village_of_{s1}_has_been_sacked_by_{s2}.
+qstr_{s0}_will_{reg0?:not {s0}_will_{reg0?:not_}be_under_your_command
+qstr_{s51} {s51}
+qstr__Deserted_ (Deserted)
+qstr_nowhere_in_particula nowhere_in_particular
+qstr_{reg1}_:_{s1} {reg1}_:_{s1}
+qstr_{s1}_troops {s1}_troops
+qstr_The_battle_was_lost. The_battle_was_lost._Your_forces_were_utterly_crushed.
+qstr_Your_forces_are_build Your_forces_are_building_a_siege_tower._They_estimate_another_{reg9}_hours_to_complete_construction.
+qstr_{!}Debug___{s5}_cara {!}Debug_-_{s5}_caravan_attacked
+qstr_{s51}_belongs_to_{s1}_of {s51}_belongs_to_{s1}_of_{s2},_and_is_{reg1?your_capital:where_you_make_your_court}.^
+qstr_Kngdom_of_{s7} Kngdom_of_{s7}
+qstr__Your_{reg1?capital_ _Your_{reg1?capital_is:court_can_be_found}_here{reg0?_with_your_spouse,_{s0}_in_residence:}.
+qstr__Your_household_can_ _Your_household_can_be_found_here.
+qstr_{reg6}^value {reg6}^value
+qstr_{reg4}^index {reg4}^index
+qstr_{reg6}^money_in_the_ {reg6}^money_in_the_chest
+qstr_{reg4}^money_in_your {reg4}^money_in_your_inventory
+qstr_Withdraw Withdraw
+qstr_Deposit Deposit
+qstr_{reg1}^value {reg1}^value
+qstr_{reg2}^index {reg2}^index
+qstr_{s11}_gave_you_a_fake {s11}_gave_you_a_fake_letter_to_fool_{s13}_into_banishing_{reg3?her:his}_vassal_{s16}._You_are_to_go_near_{s14},_give_the_letter_to_one_of_your_{s15}_and_send_{reg4?her:him}_into_the_town_as_a_messenger,_believing_{reg4?her:his}_orders_to_be_genuine.
+qstr_{s9}_has_requested_yo {s9}_has_requested_you_to_bring_{reg65?her:him}_{reg1}_{s3}_as_prisoners.
+qstr_{reg1}_parties_befor {reg1}_parties_before,_{reg2}_parties_after
+qstr_{reg1}_parties_before {reg1}_parties_before,_{reg2}_parties_after,_last_party_{reg3}
+qstr_{reg1}:{s1} {reg1}:{s1}
+qstr_{reg2}:{s2} {reg2}:{s2}
+qstr_before_{reg2}:{s2} before_{reg2}:{s2}
+qstr_after_{reg2}:{s2} after_{reg2}:{s2}
+qstr_{reg1}_parties_before_ {reg1}_parties_before,_{reg2}_parties_after_last_{reg3}
+qstr_hero hero
+qstr_companion companion
+qstr_king king
+qstr_pretender pretender
+qstr_lady lady
+qstr_bandit bandit
+qstr_minstrel minstrel
+qstr_bookseller bookseller
+qstr_traveler traveler
+qstr_ransom_broker ransom_broker
+qstr_mercenary mercenary
+qstr_multiplayer_troop multiplayer_troop
+qstr_quick_battler quick_battler
+qstr_arena_master arena_master
+qstr_walker walker
+qstr_merchant merchant
+qstr_armor_merchant armor_merchant
+qstr_weapon_merchant weapon_merchant
+qstr_tavernkeeper tavernkeeper
+qstr_goods_merchant goods_merchant
+qstr_horse_merchant horse_merchant
+qstr_guildmaster guildmaster
+qstr_village_elder village_elder
+qstr_startup_merchant startup_merchant
+qstr_tournament_fighter tournament_fighter
+qstr_court_member court_member
+qstr_fighter fighter
+qstr_{reg1}_/{reg2}:_{s1} {reg1}_/{reg2}:_{s1}
+qstr_{reg1}:_{s1}_{s2} {reg1}:_{s1},_{s2}
+qstr_{s1}^becomes_to_{s2} {s1}^becomes_to_{s2}
+qstr_{s1}_and_{s2} {s1}_and_{s2}
+qstr_{s1}^costs_{reg11}_t {s1}^costs_{reg11}_to_upgrade_with_{reg10}_xp
+qstr_{s1}^wage_of_{reg12} {s1}^wage_of_{reg12},_buy_costs_{reg13}_sell_costs_{reg14}
+qstr_{s1}_is_a_{s2} {s1}_is_a_{s2}
+qstr_{s2}^{reg1}:_{reg0} {s2}^{reg1}:_{reg0}
+qstr_{reg1}/{reg2}:_{s1} {reg1}/{reg2}:_{s1}
+qstr_{s1}^becomes_{s2} {s1}^becomes_{s2}
+qstr_{s1}^{reg0}:_{s2} {s1}^{reg0}:_{s2}
+qstr_{s1}^{reg0}: {s1}^{reg0}:
+qstr_got_here got_here
+qstr_1sword 1sword
+qstr_2sword 2sword
+qstr_staff staff
+qstr_player_spawned_at_{r player_spawned_at_{reg1}
+qstr_got_here_at_{reg1} got_here_at_{reg1}
+qstr_got_here_with_{s1}_{ got_here_with_{s1}_{s2}
+qstr_player_at_{reg1} player_at_{reg1}
+qstr_loadout_for_team_{re loadout_for_team_{reg1}:_{s1},_{s2},_{s3}
+qstr_bow_{reg1}_xbow_{reg bow_{reg1}_xbow_{reg2}_throw_{reg3}
+qstr_1h_{reg1}_2h_{reg2}_ 1h_{reg1}_2h_{reg2}_pol_{reg3}
+qstr_final_type_{reg1}_at final_type_{reg1}_at_prof_{reg2}
+qstr_{reg1}:_{s1} {reg1}:_{s1}
+qstr__Unfortunately_when _Unfortunately,_when_the_guards_inquired_about_the_tavern_brawl,_your_description_was_recognized_and_you_were_in_no_condition_to_fight_them_off.
+qstr_{reg1}:_{s1}_{s2}_i {reg1}:_{s1},_{s2}_is_level_{reg2}_{s3}_{s4}
+qstr_{s1}_with_{reg1}_gol {s1}_with_{reg1}_gold
+qstr_{s1}_tasking_you_wit {s1}_tasking_you_with_{s2}
+qstr_{reg1}:_{s1}_{s2}_c {reg1}:_{s1},_{s2}_classified_as_level_{reg2}_{s3}_{s4}
+qstr_{s4}_is_present_at_t {s4}_is_present_at_the_center_as_a_prisoner
+qstr_Your_soldiers_patrollin Your_soldiers_patrolling_{s51}_{reg6?returned:disbanded}_because_you_left_the_faction!
+qstr_Monarch:_+{reg6}^ Monarch:_+{reg6}^
+qstr_Marshal:_+{reg6}^ Marshal:_+{reg6}^
+qstr_Policy:_{reg6}%^ Policy:_{reg6}%^
+qstr_Castellan:_+{reg6}^ Castellan:_+{reg6}^
+qstr_Current_party_size_i Current_party_size_is_{reg10}/{reg5}.^Current_party_size_modifiers_are:^^Base_size:__+30^Leadership:_{s2}{reg1}^Charisma:_{s3}{reg2}^Renown:_{s4}{reg3}^^{s8}{s7}{s6}{s9}TOTAL:__{reg5}
+qstr_{s40}_I__d_rather_st {s40}_I_'d_rather_stay_with_my_current_liege.
+qstr_equipped_{s10}{s20} equipped_{s10}{s20}
+qstr_discarded_{s10}{s20} discarded_{s10}{s20}
+qstr_{s10}{s20} {s10}{s20}
+qstr_{s10}_upgrades_{s3}{ {s10}_upgrades_{s3}{s11}_(costing_{s1})_in_{s4},_{reg0}_denars_remaining.
+qstr_old:{s10}{s20} old:{s10}{s20}
+qstr_new:{s10}{s20} new:{s10}{s20}
+qstr_started_1_at_{reg1} started_1_at_{reg1}
+qstr_ended_1_at_{reg1}_s ended_1_at_{reg1},_started_2_at_{reg2}
+qstr_ended_2_at_{reg2} ended_2_at_{reg2}
+qstr_{!}{s0}^^_DEBUG:_Inte {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_160301.
+qstr_Removing_disguise... Removing_disguise...
+qstr_{s17}_has_{reg17}_de {s17}_has_{reg17}_denars
+qstr_{s1}_of_{s3}_has_been {s1}_of_{s3}_has_been_released_from_captivity_by_{s2}.
+qstr_{s6}_In_addition_we_h {s6}_In_addition_we_have_{reg2}_soldiers_in_the_field._across_{reg3}_armies
+qstr__preferring_{s12}_u ,_preferring_{s12}_units.
+qstr_{s4}_{s3}._The_tax_ra {s4}_{s3}._The_tax_rate_is_{s50}.{s59}{s61}._Overall_this_sums_up_to_{s1}.
+qstr_{s13}_asked_you_to_ga {s13}_asked_you_to_gather_{reg3}_heads_of_cattle_and_deliver_them_back_to_{reg65?her:him}.
+qstr_{s9}_asked_you_to_len {s9}_asked_you_to_lend_your_companion_{s3}_to_{reg65?him:her}_for_a_week.
+qstr_{s9}_of_{s3}_asked_yo {s9}_of_{s3}_asked_you_to_deliver_{reg5}_units_of_{s6}_to_the_merchant's_store_in_{s4}_in_7_days.
+qstr_You_got_keys_to_the_ You_got_keys_to_the_dungeon.
+qstr_You_got_the_keys_to_ You_got_the_keys_to_the_dungeon.
+qstr_Reinforcements_from_{ Reinforcements_from_{s12}_intended_for_{s13}_have_been_intercepted{s10}!
+qstr_Deliver_{reg5}_units Deliver_{reg5}_units_to_{s5}
+qstr_{s2}_now_has_{reg2}_ {s2}_now_has_{reg2}_denars_from_raiding
+qstr_{s2}_now_has_{reg2}_d {s2}_now_has_{reg2}_denars_from_being_raided
+qstr_{s1}_spends_time_in_ {s1}_spends_time_in_{s2},_{reg1}_->_{reg2}_denars
+qstr_Acquired_{s0}_s_clot Acquired_{s0}'s_clothing
+qstr_Kingdom_of_{s7} Kingdom_of_{s7}
+qstr_Red: Red:
+qstr_Green: Green:
+qstr_Blue: Blue:
+qstr_You_paid_{reg0}_dena You_paid_{reg0}_denars_in_cash_to_liquidate_a_debt
+qstr_{reg6}^money_in_the_{ {reg6}^money_in_the_{reg5?treasury:chest}
+qstr_You_ve_been_driven_aw You've_been_driven_away_from_the_walls._Now_the_attackers_are_pouring_into_the_streets._If_you_can_defeat_them,_you_can_perhaps_turn_the_tide_and_save_the_day.
+qstr__From_your_vantage_p _From_your_vantage_point_you_see_a_man_matching_the_description_of_{s50}_arming_himself_with_a_sword_during_the_commotion._If_you_do_not_press_on_the_fugitive_will_slip_away!
+qstr_{!}{s0}^^_DEBUG:_Inter {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_160501.
+qstr_Select_a_suitable_di Select_a_suitable_disguise_for_this_occasion.
+qstr_As_a_poor_pilgrim_wi As_a_poor_pilgrim_with_a_stout_stick_and_a_few_tricks_up_your_sleeve,_you_will_be_able_to_blend_in_with_the_crowds_but_not_bring_much_of_value_with_you.
+qstr_As_a_farmer_you_wil As_a_farmer,_you_will_be_able_to_a_wrangle_livestock_and_smuggle_articles_of_food_through.
+qstr_As_a_hunter_provisi As_a_hunter,_provisions_and_raw_goods_are_expected_as_well_as_horseflesh.
+qstr_As_a_caravan_guard_ As_a_caravan_guard,_you_will_be_able_to_bear_weapons_but_bring_only_a_few_personal_belongings.
+qstr_As_a_merchant_you_w As_a_merchant,_you_will_be_able_to_bring_any_assortment_of_goods.
+qstr_As_a_bard_you_will_ As_a_bard,_you_will_be_allowed_some_personal_possessions_and_your_instrument.
+qstr_{s13}_has_been_taken_ {s13}_has_been_taken_by_the_enemy_and_your_recruiter_who_was_commissioned_to_recruit_{reg10}_recruits_vanished_without_a_trace!
+qstr_{s6}_{reg3}_{reg1?ca {s6}_{reg3}_{reg1?castles:castle}.
+qstr_{s6}_In_addition_we_ha {s6}_In_addition_we_have_{reg2}_soldiers_in_the_field_{reg1?across_{reg3}_armies:in_a_single_army}.
+qstr_{s6}_In_addition_you_ {s6}_In_addition_you_have_{reg2}_soldiers_in_your_warband_and_{reg3}_soldiers_out_in_patrols.
+qstr_We_currently_have_an_ We_currently_have_an_income_of_{reg0}_denars_and_costs_of_{reg1}_denars_from_our_fiefs_and_garrisons.
+qstr_Dispatch_your_oppone Dispatch_your_opponents_first!
+qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
+qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
+qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
+qstr_{!}g_multiplayer_cco {!}g_multiplayer_ccoop_spawn_alive_player_squad:_{reg0}
+qstr_craftsman craftsman
+qstr_court_chests court_chests
+qstr_chest_or_array chest_or_array
+qstr_log_array log_array
+qstr_quest_troop quest_troop
+qstr_coop_troop coop_troop
+qstr_tutorial_fighter tutorial_fighter
+qstr_{!}used_troop_no_is_ {!}used_troop_no_is_{reg0}
+qstr_{!}sending_message_t {!}sending_message_to_{reg0}_multiplayer_event_other_event_ccoop_count_down_invisible
+qstr_{!}spawn_required_is {!}spawn_required_is:_{reg0}
+qstr_{!}num_troops_for_wa {!}num_troops_for_wave_is_{reg0}
+qstr_{!}num_troops_for_wav {!}num_troops_for_wave_is_gt_spawn_required._reduced_spawn_amount_is_{reg0},_reduced_spawn_amount_mod_is_{reg1}
+qstr_{!}original_spawned_ {!}original_spawned_troop_count_is_{reg0}
+qstr_{!}reducing_spawn_am {!}reducing_spawn_amount_by_one
+qstr_{!}spawning_bot_grou {!}spawning_bot_group_{reg0}:_{reg2}_{s0}_from_entry_point_{reg1}
+qstr_{!}destroy_prison_ca {!}destroy_prison_cart
+qstr_{!}spawning_prison_c {!}spawning_prison_cart_at_point_{reg0}
+qstr_{!}prison_cart_spawn {!}prison_cart_spawn_at_point_{reg0}
+qstr_{!}multiplayer_upgra {!}multiplayer_upgrade_player_equipment:_{reg0}
+qstr_{s0}_had_either_inva {s0}_had_either_invalid_messenger_or_recruiter_troops!
+qstr_Lv._{reg0} Lv._{reg0}
+qstr_Perhaps_you_have_for Perhaps_you_have_forgotten_the_face_of_your_father.
+qstr_{!}{s0}^^_DEBUG:_Intern {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170001.
+qstr_Your_recruiter_who_was Your_recruiter_who_was_commissioned_to_hire_{reg10}_recruits_for_{s13}_has_been_defeated!
+qstr_{s13}_has_been_taken_b {s13}_has_been_taken_by_the_enemy_and_your_commissioned_recruiter_has_vanished_without_a_trace!
+qstr_Morale_for_{s9}_troo Morale_for_{s9}_troops:_{reg6}
+qstr_{s10}_hires_{reg2}_{s {s10}_hires_{reg2}_{s12}_in_{s11}
+qstr_{s0}_will_{reg0}be_u {s0}_will_{reg0}be_under_your_command
+qstr_Performing_2017_upda Performing_2017_updates,_thank_you_for_your_patience!
+qstr_all all
+qstr_troop troop
+qstr_economic economic
+qstr_political political
+qstr_{s0}_will_be_under_y {s0}_will_be_under_your_command
+qstr_Current Current
+qstr_Court_Guard Court_Guard
+qstr_Prison_Guard Prison_Guard
+qstr_Castle_Guard Castle_Guard
+qstr_adding_{s1}_to_entry adding_{s1}_to_entry
+qstr_{!}{s0}^^_DEBUG:_Interna {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170301.
+qstr_lord_at_{reg0}_plyr lord_at_{reg0},_plyr{reg1}
+qstr_{s1}_has_been_accept {s1}_has_been_accepted_as_a_vassal_of_{s2}.
+qstr_Horse_speed_fix: Horse_speed_fix:
+qstr_Battle_Continuation: Battle_Continuation:
+qstr_Terrain_advantage: Terrain_advantage:
+qstr_Lords_returning_from Lords_returning_from_exile:
+qstr_AI_changes: AI_changes:
+qstr_Economics_&_behavior Economics_&_behavioral:
+qstr_Prejudice_level: Prejudice_level:
+qstr_Cheat_menu: Cheat_menu:
+qstr_DIPLOMACY4.3+_for_St DIPLOMACY4.3+_for_Steam^Preferences
+qstr_{reg1}_set_to_{reg2} {reg1}_set_to_{reg2}
+qstr_This_option_makes_ev This_option_makes_every_horse_in_battle_lose_movement_speed_directly_based_on_their_lost_Health_Points.
+qstr_This_option_let_your This_option_let_your_troops_continue_fighting_even_if_you_fall_in_battle.
+qstr_This_option_gives_ad This_option_gives_advantage_in_autocalculated_battles_to_those_units_who_are_better_in_the_current_terrain.^Horsemen_are_bad_in_forest_terrain,_while_archers_are_better.
+qstr_This_option_lets_exi This_option_lets_exiled_lords_return_in_order_to_serve_a_new_liege.
+qstr_This_option_lets_you This_option_lets_you_decide_the_AI_strength_level._The_higher_this_level_is,_the_higher_the_AI._High_level_is_experimental_and_may_brings_some_bugs_to_your_game.
+qstr_This_option_changes_ This_option_changes_the_economical_and_behavior_values_to_be_more_realistic._High_level_is_experimental_and_may_brings_some_bugs_to_your_game.
+qstr_This_option_lets_you_ This_option_lets_you_decide_the_level_of_sexism_in_the_game.
+qstr_This_option_enables_ This_option_enables_the_cheat_menu.
+qstr_DIPLOMACY^4.3+_for_S DIPLOMACY^4.3+_for_Steam^Preferences
+qstr_Charge_When_Dead: Charge_When_Dead:
+qstr_Allow_Companion_Comp Allow_Companion_Complaints:
+qstr_Disguise_System: Disguise_System:
+qstr_Deathcam_Mode: Deathcam_Mode:
+qstr_Horse_Speed_Fix: Horse_Speed_Fix:
+qstr_Terrain_Advantages: Terrain_Advantages:
+qstr_Lords_Returning_From Lords_Returning_From_Exile:
+qstr_AI_Changes: AI_Changes:
+qstr_Economics_&_Behavior Economics_&_Behavioral:
+qstr_Prejudice_Level: Prejudice_Level:
+qstr_Cheat_Menu: Cheat_Menu:
+qstr_Cheat_Mode: Cheat_Mode:
+qstr_Companion_Complaints Companion_Complaints:
+qstr_cheat cheat
+qstr_disguise disguise
+qstr_npc npc
+qstr_{!}WARNING:_Unexpect {!}WARNING:_Unexpected_version_value_in_slot_dplmc_slot_troop_affiliated_in_trp_dplmc_chamberlain:_{reg0}
+qstr_{!}DEBUG:_Internal_u {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.__Update_code_for_the_current_release_is_170301.
+qstr_{!}DEBUG:_Internal_up {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}._Update_code_for_the_current_release_is_170301.
+qstr_{s1}_wielding_{s2} {s1}_wielding_{s2}
+qstr_Horse_Culling: Horse_Culling:
+qstr_Recruit Recruit
+qstr_{reg10}_{s10}s_neede {reg10}_{s10}s_needed
+qstr_Returning Returning
+qstr_{s11}_peasants {s11}_peasants
+qstr_our_undivided our_undivided
+qstr_my_immediate my_immediate
+qstr_{reg0?her:his} {reg0?her:his}
+qstr_Talking_with_{s1} Talking_with_{s1}
+qstr_Morale_for_{s9}_troop Morale_for_{s9}_troops:_{reg6}.{reg7}
+qstr_{playername}_^^I_alw {playername},_^^I_always_knew_you_were_a_bad_egg,_since_the_day_you_have_pledged_allegiance_to_my_clan._^Did_you_really_think_you_could_set_my_family_against_me?_You've_dropped_your_mask,_you_snake!_You_are_an_infliction,_and_I_will_not_bear_it_anymore._^Hereby,_I_disown_and_ban_you_from_my_house._I_have_urged_my_family_to_fight_you,_and_I_will_warn_all_Calradian_lords_of_your_infamy._^Tremble_with_fear,_for_now_you_have_a_deadly_enemy!_^^{s9}.
+qstr_{playername}^^_I_ve_ {playername},^^_I've_received_a_letter_from_{s9},_telling_me_about_your_disgraceful_jiggery-pokery._In_the_present_circumstances,_{s9}_could_not_provide_evidence._But_unlike_you,_{reg1?she:he}_is_a_distinguished_member_of_my_family;_and_in_all_these_years,_I've_never_had_any_reason_to_distrust_{reg1?her:him}._I_therefore_take_{reg1?her:his}_charges_for_granted._^Hopefully,_you_failed_to_break-up_my_family_unit._Hereby_I_reject_your_pledge_:_you_are_no_longer_related_to_my_house._Each_member_shall_retaliate_against_you_in_all_conscience..._^I_would_be_ashamed_to_confess_how_you_maliciously_deceived_me,_so_I_will_not_challenge_you,_so_as_to_not_be_held_accountable_for_your_death_by_my_{s11}._However_I've_no_need_to_tell_{reg0?her:him}_about_every_rat_I_crush_in_the_wilderness,_and_someday_I_may_find_you_there_!_^^{s10}
+qstr_{!}{s0}^^_DEBUG:_Internal {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.^Update_code_for_the_current_release_is_170301.
+qstr_We_ve_barely_gotten_ We've_barely_gotten_to_know_one_another_and_now_you're_sending_me_away!
+qstr_I_am_certainly_not_y I_am_certainly_not_your_errant_{reg65?girl:boy}...
+qstr_How_do_I_know_there_ How_do_I_know_there_will_still_be_a_place_for_me_when_I_return_from_this_journey?
+qstr_I_believe_I_would_be I_believe_I_would_be_of_more_use_by_staying_with_the_other_soldiers.
+qstr_things things
+qstr_You_have_assigned_th You_have_assigned_this_task_to_{s1}
+qstr_yet_to_be_determined yet_to_be_determined
+qstr_{!}DEBUG____Total_prod {!}DEBUG_--_Total_production_for_{s4}:_{reg3}:_+{reg4}_-_{reg5}
+qstr_{!}Debug___{s5}_vill {!}Debug_-_{s5}_villagers_attacked
+qstr_Since_we_are_close_t Since_we_are_close_to_{reg11?{reg10}_training_centers:a_training_center},_you_can_talk_to_the_trainers_to_get_a_bigger_batch_trained.
+qstr_Sorry_currently_I_ca Sorry,_currently_I_can't_provide_any_information_about_the_realm's_mood,_our_spies_haven't_reported_back_yet.
+qstr_Sorry_currently_I_can Sorry,_currently_I_can't_provide_any_information_about_the_realm's_mood,_since_our_spies_haven't_reported_back_yet.
+qstr_{s6}__{s50}_ {s6}_({s50})
+qstr_no_outstanding_amoun no_outstanding_amount
+qstr_Performing_2019_upda Performing_2019_updates,_thank_you_for_your_patience!
+qstr_{!}DEBUG:_Internal_upd {!}DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}._Update_code_for_the_current_release_is_190101.
+qstr_{!}{s0}^^_DEBUG:_Internal_ {!}{s0}^^_DEBUG:_Internal_update_code_for_current_saved_game_is_{reg0}.^Update_code_for_the_current_release_is_190101.
+qstr_{reg0}_was_{reg1} {reg0}_was_{reg1}
+qstr_prejudice_is_{reg1} prejudice_is_{reg1}
+qstr_option_{reg0}:_was_{ option_{reg0}:_was_{reg1}
+qstr_Bye_horses Bye_horses
+qstr_Ouch Ouch
+qstr_{s12} {s12}
+qstr_{s13} {s13}
+qstr_I_see._Perhaps_circu I_see._Perhaps_circumstances_will_change_a_few_days_from_now,_but_until_then_I_appreciate_your_generous_hospitality.
+qstr_Disable_Companions_C Disable_Companions_Complaints:
+qstr_{s1}_price_:_{reg2}_i {s1}_price_:_{reg2}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p{reg13}_c_{reg14}
+qstr_{s1}_price_:_{reg2}_o {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p{reg14}_c_{reg15}
+qstr_{s1}_price_:_{reg2}_or {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p{reg13}/{reg14}c{reg15}/{reg16}
+qstr_{s1}_price_:_{reg2}_or_ {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total
+qstr_{s1}_{reg1} {s1}_{reg1}
+qstr_{s1}_price_:_{reg2}_or_{ {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p:{reg13},{reg14}_c:_{reg15}{reg16}
+qstr_{s1}_{reg1}_{reg2} {s1}_{reg1},_{reg2}
+qstr_{reg2} {reg2}
+qstr_{s1}_price_:_{reg2}_or_{r {s1}_price_:_{reg2}_or_{reg5}_in_slot_{reg4},_probability:_{reg3};{reg1}_total_p:{reg13},{reg14}_c:_{reg15},{reg16}
+qstr_{s1}_{reg0} {s1}_{reg0}
+qstr_{reg3}_state {reg3}_state
+qstr_{s1}_price_:_{reg2}_or_{re {s1}_price_:_{reg2}_or_{reg4}_at_probability:_{reg3};{reg1}
+qstr_{s1}_{reg1}/{reg3}_ {s1}_{reg1}/{reg3},_{reg2}_raw
+qstr_realm realm
+qstr_DEBUG:_{reg20}_:_{s1 DEBUG:_{reg20}_:_{s17}
+qstr_{s4}_is_in_the_town {s4}_is_in_the_town
+qstr_{reg1}_kills {reg1}_kills
+qstr_Show_mini_map: Show_mini_map:
+qstr_{s9}_of_{s3}_asked_you {s9}_of_{s3}_asked_you_to_deliver_{reg5}_/_{reg6}_units_of_{s6}_to_the_tavern_in_{s4}_in_7_days.
+qstr_get_quest get_quest
+qstr___{reg0?{reg0}:No}_N _({reg0?{reg0}:No}_Nobles)
+

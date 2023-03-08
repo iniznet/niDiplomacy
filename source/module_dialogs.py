@@ -3154,9 +3154,22 @@ Still I am sorry that I'll leave you soon. You must promise me, you'll come visi
   (store_item_kind_count, ":item_count", "$diplomacy_var"),
   (item_get_max_ammo, ":item_size", "$diplomacy_var"),
   ],
-"Of course, take care with these.", "member_delegate_quest_assess_for_items", [
-  
+"Of course, take care with these.", "member_delegate_quest_confirm", [
+  # remove items from inventory
+  (store_item_kind_count, ":item_count", "$diplomacy_var"),
+  (item_get_max_ammo, ":item_size", "$diplomacy_var"),
+  (val_mul, ":item_size", "$diplomacy_var2"),
+  (try_begin),
+    (gt, ":item_count", ":item_size"),
+    (troop_remove_items, "trp_player", "$diplomacy_var", ":item_size"),
+  (else_try),
+    (troop_remove_items, "trp_player", "$diplomacy_var", ":item_count"),
+  (try_end),
+  (quest_set_slot, "$random_merchant_quest_no", slot_quest_temp_slot, ":item_size"),
+  (assign, "$diplomacy_var", 0),
+  (assign, "$diplomacy_var2", 0),
 ]],
+
 [anyone|plyr, "member_delegate_quest_ask_for_items", [ (gt, "$diplomacy_var", 0),],
 "You'll have to pick up some more along the way. I can't be bothered to gather more at the moment.", "member_delegate_quest_confirm", [
 ]],
@@ -24535,7 +24548,7 @@ I will use this to make amends to those you have wronged, and I will let it be k
 ]],
 
 [anyone,"lord_give_troops", [
-	#Same behavior as normal, but print a different message.
+	#Same behavior as normal, but print(a different message.)
 	(call_script, "script_party_get_ideal_size", "$g_talk_troop_party"),
 	(assign, ":ideal_size", reg0),
 	(store_party_size_wo_prisoners, ":party_size", "$g_talk_troop_party"),
@@ -40484,7 +40497,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
 
     (item_get_slot, ":primary_raw_material", "$enterprise_production", slot_item_primary_raw_material),
     (str_store_item_name, s6, ":primary_raw_material"),
-	##diplomacy start+ For testing, print some additional diagnostics
+	##diplomacy start+ For testing, print(some additional diagnostics)
 	(assign, ":save_reg0", reg0),
 	(assign, ":save_reg1", reg1),
 	(try_begin),

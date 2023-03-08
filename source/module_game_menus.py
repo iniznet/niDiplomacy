@@ -3457,14 +3457,14 @@ TOTAL:  {reg5}"),
     (call_script, "script_dplmc_version_checker"),
     (str_clear, s0),
     (try_begin),
-        #Print a warning message for bad version numbers
+        #print(a warning message for bad version numbers)
         (neq, reg0, 0),
         (store_mod, ":verify", reg0, 128),
         (this_or_next|lt, reg0, 0),
             (neq, ":verify", DPLMC_VERSION_LOW_7_BITS),
         (display_message, "@{!}WARNING: Unexpected version value in slot dplmc_slot_troop_affiliated in trp_dplmc_chamberlain: {reg0}"),
     (else_try),
-        #In cheat mode, print the diplomacy+ version
+        #In cheat mode, print(the diplomacy+ version)
         (ge, "$cheat_mode", 1),
         (val_div, reg0, 128),
         (display_message, "@{!}DEBUG: Internal update code for current saved game is {reg0}. Update code for the current release is "+str(DPLMC_CURRENT_VERSION_CODE)+"."),
@@ -3525,7 +3525,7 @@ TOTAL:  {reg5}"),
 #Alternate display: make it clear why autoloot isn't appearing
 	("dplmc_camp_manage_inventory_disabled",
 		[
-	  #Print this when the player has companions but doesn't meet
+	  #print(this when the player has companions but doesn't meet)
 	  #the minimum skill levels.
 		(try_begin),
 			(call_script, "script_cf_dplmc_player_party_meets_autoloot_conditions"),
@@ -7030,7 +7030,7 @@ TOTAL:  {reg5}"),
 			(try_end),
 			(assign, ":relation", 1),
 		(else_try),
-			#don't print "friend" if you might fight them
+			#don't print("friend" if you might fight them)
 			(lt, "$g_encountered_party_relation", 0),
 			(assign, ":relation", 0),
 		(else_try),
@@ -9688,7 +9688,7 @@ TOTAL:  {reg5}"),
 			(try_end),
 			(assign, reg0, 1),
 		(else_try),
-			#don't print "friend" if you might fight them
+			#don't print("friend" if you might fight them)
 			(lt, "$g_encountered_party_relation", 0),
 			(assign, reg0, 0),
 		(else_try), #SB : local instead of reg
@@ -11634,7 +11634,7 @@ TOTAL:  {reg5}"),
             (try_end),
             (assign, reg0, 1),
         (else_try),
-            #don't print "friend" if you might fight them
+            #don't print("friend" if you might fight them)
             (lt, "$g_encountered_party_relation", 0),
             (assign, reg0, 0),
         (else_try),
@@ -20048,14 +20048,14 @@ goods, and books will never be sold. ^^You can change some settings here freely.
     (call_script, "script_dplmc_version_checker"),
 	(str_clear, s0),
 	(try_begin),
-		#Print a warning message for bad version numbers
+		#print(a warning message for bad version numbers)
 		(neq, reg0, 0),
 		(store_mod, ":verify", reg0, 128),
 		(this_or_next|lt, reg0, 0),
 			(neq, ":verify", DPLMC_VERSION_LOW_7_BITS),
 		(str_store_string, s0, "@{!}{s0}^^ WARNING: Unexpected version value in slot dplmc_slot_troop_affiliated in trp_dplmc_chamberlain: {reg0}"),
 	(else_try),
-		#In cheat mode, print the diplomacy+ version
+		#In cheat mode, print(the diplomacy+ version)
 		(ge, "$cheat_mode", 1),
 		(val_div, reg0, 128),
 		(str_store_string, s0, "@{!}{s0}^^ DEBUG: Internal update code for current saved game is {reg0}.^Update code for the current release is "+str(DPLMC_CURRENT_VERSION_CODE)+"."),

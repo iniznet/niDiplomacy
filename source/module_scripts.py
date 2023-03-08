@@ -29,13 +29,13 @@ from module_items import *
 
 # def set_item_difficulty():
   # item_difficulty = []
-  # for i_item in xrange(len(items)):
+  # for i_item in range(len(items)):
     # item_difficulty.append((item_set_slot, i_item, dplmc_slot_item_difficulty, get_difficulty(items[i_item][6])))
   # return item_difficulty[:]
 
 # def set_item_base_score():
   # item_base_score = []
-  # for i_item in xrange(len(items)):
+  # for i_item in range(len(items)):
     # if items[i_item][3] & ibf_item_type_mask == itp_type_two_handed_wpn and items[i_item][3] & itp_two_handed == 0:
       # item_base_score.append((item_set_slot, i_item, dplmc_slot_two_handed_one_handed, 1))
     # type = items[i_item][3] & ibf_item_type_mask
@@ -66,7 +66,7 @@ from module_items import *
 
 def keys_array():
   keys_list = []
-  for key_no in xrange(len(keys)):
+  for key_no in range(len(keys)):
     keys_list.append((troop_set_slot, "trp_temp_array_a", key_no, keys[key_no]))
     keys_list.append((troop_set_slot, "trp_temp_array_b", key_no, str_key_0+key_no))
   return keys_list[:]
@@ -16708,7 +16708,7 @@ scripts = [
 		#now we have the final value of origin_tariffs_generated
 		(val_add, ":origin_accumulated_tariffs", ":origin_tariffs_generated"),
 		(party_set_slot, ":origin", slot_center_accumulated_tariffs, ":origin_accumulated_tariffs"),
-		#print economic debug message if enabled
+		#print(economic debug message if enabled)
 		(ge, "$cheat_mode", 3),
 		(assign, reg4, ":origin_tariffs_generated"),
 		(str_store_party_name, s4, ":origin"),
@@ -27044,7 +27044,7 @@ scripts = [
         (assign, reg1, ":troop_wealth"),
         (str_store_party_name_link, s4, ":center_no"),
         (add_troop_note_from_sreg, ":troop_no", 1, "str_current_wealth_reg1_taxes_last_collected_from_s4", 0),
-        #New section, print a message for affiliates:
+        #New section, print(a message for affiliates:)
         (ge, ":is_affiliated", 1),
         (store_add, reg0, ":accumulated_rents", ":accumulated_tariffs"),
         (str_store_troop_name_link, s0, ":troop_no"),
@@ -28217,7 +28217,7 @@ scripts = [
 			(try_end),
 			(try_begin),
 			    #The leader would have overruled the choice, but cannot because he is a prisoner.
-            		#Print a message letting people know when this happens.
+            		#print(a message letting people know when this happens.)
 				(eq, reg0, 1),
 				(gt, ":popular_favorite", -1),
             		(this_or_next|eq, "$players_kingdom", ":faction_no"),
@@ -28237,7 +28237,7 @@ scripts = [
 			(eq, reg0, 0),
 			(assign, ":winning_candidate", ":liege_choice"),
 			(try_begin),
-				#Print a message letting people know when this happens.
+				#print(a message letting people know when this happens.)
 				(gt, ":popular_favorite", -1),
 				(this_or_next|eq, "$players_kingdom", ":faction_no"),
 					(ge, "$cheat_mode", 1),
@@ -33950,7 +33950,7 @@ scripts = [
 		 (call_script, "script_dplmc_party_calculate_strength_in_terrain", "p_main_party", ":terrain_code", 0, 1),
 		 (assign, "$g_starting_strength_main_party", reg0),
 		 (try_begin),
-			#Print debug Message
+			#print(debug Message)
 		    (ge, "$cheat_mode", 1),
 		    (assign, reg2, ":terrain_code"),
 			(display_message, "@{!}DEBUG - Main party raw strength {reg1}, terrain code {reg2}, modified strength {reg0}"),
@@ -39245,7 +39245,7 @@ scripts = [
        (assign, ":camera_distance", 360),
        (assign, ":camera_yaw", -15),
        (assign, ":camera_pitch", -18),
-       (assign, ":animation", anim_stand_man),
+       (assign, ":animation", "anim_stand_man"),
 
        (position_set_z, pos5, ":cam_height"),
 
@@ -39348,7 +39348,7 @@ scripts = [
        (assign, ":camera_distance", 380),
        (assign, ":camera_yaw", -15),
        (assign, ":camera_pitch", -18),
-       (assign, ":animation", anim_stand_man),
+       (assign, ":animation", "anim_stand_man"),
 
        (position_set_z, pos5, ":cam_height"),
 
@@ -39399,7 +39399,7 @@ scripts = [
        (assign, ":camera_distance", 380),
        (assign, ":camera_yaw", -15),
        (assign, ":camera_pitch", -18),
-       (assign, ":animation", anim_stand_man),
+       (assign, ":animation", "anim_stand_man"),
 
        (position_set_z, pos5, ":cam_height"),
 
@@ -39659,7 +39659,7 @@ scripts = [
        (assign, ":camera_distance", 450),
        (assign, ":camera_yaw", 15),
        (assign, ":camera_pitch", -18),
-       (assign, ":animation", anim_stand_man),
+       (assign, ":animation", "anim_stand_man"),
 
        (troop_get_inventory_slot, ":horse_item", ":troop_no", ek_horse),
        (try_begin),
@@ -44940,7 +44940,7 @@ scripts = [
 
      (try_begin),
        (gt, ":best_comment_so_far", 0),
-       (assign, ":comment_found", 1), #comment found print it to s61 now.
+       (assign, ":comment_found", 1), #comment found print(it to s61 now.)
        (troop_get_slot, ":actor",                 "trp_log_array_actor",                 ":best_log_entry"),
        (troop_get_slot, ":center_object",         "trp_log_array_center_object",         ":best_log_entry"),
        (troop_get_slot, ":center_object_lord",    "trp_log_array_center_object_lord",    ":best_log_entry"),
@@ -63982,7 +63982,7 @@ scripts = [
   #    arg3 :auto_sell_price_limit (only sell stuff less expensive than this)
   #    arg4 :valid_items_begin (use this to only sell a limited range of things)
   #    arg5 :valid_items_end   (use this to only sell a limited range of things)
-  #    arg6 :actually_sell_items (set to 0 for a "dry run"; set to 2 to print a descriptive message)
+  #    arg6 :actually_sell_items (set to 0 for a "dry run"; set to 2 to print(a descriptive message))
   #
   # OUTPUTS:
   #    reg0 amount of gold gained by customer (not actually gained if this was a dry run)
@@ -64186,7 +64186,7 @@ scripts = [
 	(set_show_messages, 1),#<- dplmc+ added
 
 	#dplmc+ added section begin
-	#Print a message if appropriate
+	#print(a message if appropriate)
 	(try_begin),
 		(is_between, ":actually_sell_items", 2, 4),#2 or 3
 		(this_or_next|ge, ":items_sold", 1),
@@ -64953,7 +64953,7 @@ scripts = [
 		(this_or_next|eq, ":force_to_run", 1),
 			(neq, "$g_autoloot", 2),
       (try_begin),
-		   #Print a message to make it obvious when this is happening more than it should.
+		   #print(a message to make it obvious when this is happening more than it should.)
 		   (ge, "$cheat_mode", 1),
 		   (store_current_hours, ":hours"),
 		   (gt, ":hours", 0),
@@ -70773,7 +70773,7 @@ Born at {s43}^Contact in {s44} of the {s45}.^\
        (assign, ":camera_distance", 1000),
        (assign, ":camera_yaw", -15),
        (assign, ":camera_pitch", -18),
-       (assign, ":animation", anim_stand_man),
+       (assign, ":animation", "anim_stand_man"),
 
        (troop_get_inventory_slot, ":horse_item", ":troop_no", ek_horse),
        (try_begin),
@@ -72285,14 +72285,14 @@ Born at {s43}^Contact in {s44} of the {s45}.^\
 				(troop_get_slot, ":mother", ":father", slot_troop_spouse),
 				(troop_set_slot, ":troop_no", slot_troop_mother, ":mother"),
 				(try_begin),
-					#Print a message if desired
+					#print(a message if desired)
 					(ge, "$cheat_mode", 1),
 					(str_store_troop_name, s0, ":troop_no"),
 					(display_message, "@{!}DEBUG - Fixed slot_troop_mother for {s0}."),
 				(try_end),
 			(else_try),
 				(troop_set_slot, ":troop_no", slot_troop_mother, -1),#better than being set to herself
-				#Print a message if desired
+				#print(a message if desired)
 				(ge, "$cheat_mode", 1),
 				(str_store_troop_name, s0, ":troop_no"),
 				(display_message, "@{!}DEBUG - When fixing slot_troop_mother for {s0}, could not find a valid mother."),

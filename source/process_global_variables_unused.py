@@ -19,7 +19,7 @@ except:
 suppressed_imported_variables = []
 ##diplomacy end+
 
-print "Checking global variable usages..."
+print("Checking global variable usages...")
 variable_uses = []
 variables = load_variables(export_dir,variable_uses)
 i = 0
@@ -27,7 +27,7 @@ while (i < len(variables)):
   if (variable_uses[i] == 0):
 	##diplomacy start+
 	##OLD:
-	#print "WARNING: Global variable never used: " + variables[i]
+	#print("WARNING: Global variable never used: " + variables[i])
 	#
 	##NEW:
 	#For "reserved" names
@@ -36,10 +36,10 @@ while (i < len(variables)):
 			assert variables[i] == imported_variables[i]
 			suppressed_imported_variables.append(variables[i])
 		else:
-			print "WARNING: Global variable never used: " + variables[i]
+			print("WARNING: Global variable never used: " + variables[i])
 	##diplomacy end+
   i = i + 1
 ##diplomacy start+
 if len(suppressed_imported_variables) > 0:
-	print "Imported %d global variables for saved-game compatability that are not used." % (len(suppressed_imported_variables),)
+	print("Imported %d global variables for saved-game compatability that are not used." % (len(suppressed_imported_variables),))
 ##diplomacy end+
